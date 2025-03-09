@@ -1,13 +1,13 @@
 name: pull-DM-catalogue
 on:
   schedule:
-    - cron: "0 */24 * * *"
+    - cron: "0 20 * * *"
   push:
     branches:
       - main
     paths:
-      - science/blacklist.json
-      - science/api.js
+      - blacklist.json
+      - api.js
   workflow_dispatch:
 jobs:
   update-data:
