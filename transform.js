@@ -15,6 +15,43 @@ function roundTo(num, decimals) {
   return Math.round(num * Math.pow(10, decimals)) / Math.pow(10, decimals);
 }
 
+/**
+ * Helper to clean the product name and extract vessel type.
+ *
+ * This function removes a trailing pattern from the name that refers
+ * to vessel type, quantity, and size (e.g., "Cans 6X500mL", "Bottle6X375mL",
+ * "330mL", etc.). It uses a regex to remove such trailing text.
+ *
+ * It also checks for the presence of keywords "bottle", "can", or "longneck"
+ * (in any case and singular/plural) anywhere in the name and, if found,
+ * returns the canonical vessel value.
+ */
+function cleanNameAndVessel(name) {
+  // Regex explanation:
+  // This pattern looks for a trailing block at the end of the name which may consist of:
+  // - Optional whitespace
+  // - Either a vessel keyword (bottle, bottles, can, cans, longneck, longnecks)
+  //   possibly followed by some numbers and/or "x" characters,
+  //   OR just a number (for cases like "330mL")
+  // - Followed by optional whitespace and the literal "mL" (case-insensitive)
+  // - Optionally followed by text in parentheses (like "(Block)")
+  // The pattern is applied case-insensitively.
+  const pattern = /(\s*((?:(?:bottles?|cans?|longnecks?)\s*)?\d+(?:\s*[Xx]\s*\d+)*(?:\s*mL)(?:\s*(?:bottles?|cans?|longnecks?))?(?:\s*\(.*\))?))$/i;
+  const name_clean = name.replace(pattern, '').trim();
+
+  let vessel;
+  if (/bottles?/i.test(name)) {
+    vessel = 'bottle';
+  } else if (/cans?/i.test(name)) {
+    vessel = 'can';
+  } else if (/longnecks?/i.test(name)) {
+    vessel = 'longneck';
+  }
+
+  return { name_clean, vessel };
+}
+
+
 // Read the input JSON (assumed to be in the root of the repo)
 let rawData;
 try {
@@ -205,13 +242,19 @@ corrected.forEach(row => {
   }
 });
 
-// Step 6: Clean the results (CTE "cleaned") with online_only enhancement
+// Step 6: Clean the results (CTE "cleaned")
+// Also add the online_only, name_clean, and vessel enhancements.
 let cleaned = raw_options.map(option => {
   const total_price = roundTo(option.total_price, 2);
   const unit_price = option.package_size !== 0 ? roundTo(total_price / option.package_size, 2) : 0;
   const cost_per_standard = option.standard_drinks_corrected !== 0 ? roundTo(unit_price / option.standard_drinks_corrected, 2) : 0;
+  
+  // Get cleaned name and vessel information
+  const { name_clean, vessel } = cleanNameAndVessel(option.name);
+  
   return {
     name: option.name,
+    name_clean, // cleaned name with trailing vessel/size info removed
     stockcode: option.stockcode,
     percentage: option.percentage,
     size: option.size,
@@ -222,8 +265,10 @@ let cleaned = raw_options.map(option => {
     total_price,
     unit_price,
     cost_per_standard,
-    // Add online_only attribute if stockcode starts with "ER"
-    ...(option.stockcode.startsWith("ER") ? { online_only: true } : {})
+    // Add online_only if stockcode starts with "ER"
+    ...(option.stockcode.startsWith("ER") ? { online_only: true } : {}),
+    // Only include vessel if it was detected
+    ...(vessel ? { vessel } : {})
   };
 }).filter(option =>
   option.total_price > 0 &&
