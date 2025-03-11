@@ -274,7 +274,8 @@ return {
   option.total_price > 0 &&
   option.package_size > 0 &&
   option.standard_drinks > 0 &&
-  option.cost_per_standard > 0.5
+  option.cost_per_standard > 0.5 &&
+  !/cider/i.test(option.name)
 );
 
 // Final sort: by stockcode, then package_size, then special (true before false)
