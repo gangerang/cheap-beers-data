@@ -205,7 +205,7 @@ corrected.forEach(row => {
   }
 });
 
-// Step 6: Clean the results (CTE "cleaned")
+// Step 6: Clean the results (CTE "cleaned") with online_only enhancement
 let cleaned = raw_options.map(option => {
   const total_price = roundTo(option.total_price, 2);
   const unit_price = option.package_size !== 0 ? roundTo(total_price / option.package_size, 2) : 0;
@@ -221,7 +221,9 @@ let cleaned = raw_options.map(option => {
     package_size: option.package_size,
     total_price,
     unit_price,
-    cost_per_standard
+    cost_per_standard,
+    // Add online_only attribute if stockcode starts with "ER"
+    ...(option.stockcode.startsWith("ER") ? { online_only: true } : {})
   };
 }).filter(option =>
   option.total_price > 0 &&
