@@ -35,6 +35,7 @@ function cleanNameAndVessel(name) {
   //   OR just a number (for cases like "330mL")
   // - Followed by optional whitespace and the literal "mL" (case-insensitive)
   // - Optionally followed by text in parentheses (like "(Block)")
+  // - also when vessel is before size
   // The pattern is applied case-insensitively.
   const pattern = /(\s*((?:(?:bottles?|cans?|longnecks?)\s*)?\d+(?:\s*[Xx]\s*\d+)*(?:\s*mL)(?:\s*(?:bottles?|cans?|longnecks?))?(?:\s*\(.*\))?))$/i;
   const name_clean = name.replace(pattern, '').trim();
