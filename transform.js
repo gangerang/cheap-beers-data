@@ -253,7 +253,8 @@ let cleaned = raw_options.map(option => {
   // Get cleaned name and vessel information
   const { name_clean, vessel } = cleanNameAndVessel(option.name);
   
-  return {
+// In the mapping for the final cleaned record:
+return {
     name: option.name,
     name_clean, // cleaned name with trailing vessel/size info removed
     stockcode: option.stockcode,
@@ -261,16 +262,14 @@ let cleaned = raw_options.map(option => {
     size: option.size,
     standard_drinks: option.standard_drinks_corrected,
     special: option.special,
-    package: option.package,
+    package: option.package === 'bottle' ? 'single' : option.package, // updated here
     package_size: option.package_size,
     total_price,
     unit_price,
     cost_per_standard,
-    // Add online_only if stockcode starts with "ER"
     ...(option.stockcode.startsWith("ER") ? { online_only: true } : {}),
-    // Only include vessel if it was detected
     ...(vessel ? { vessel } : {})
-  };
+  };  
 }).filter(option =>
   option.total_price > 0 &&
   option.package_size > 0 &&
