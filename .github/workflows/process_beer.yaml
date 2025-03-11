@@ -4,6 +4,7 @@ on:
     push:
       paths:
         - 'beer.json'
+        - 'transform.js'
     workflow_dispatch:
     workflow_run:
       workflows: ["pull-DM-catalogue"]
