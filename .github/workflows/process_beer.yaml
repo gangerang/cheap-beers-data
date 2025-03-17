@@ -24,7 +24,7 @@ jobs:
           node-version: '16'
 
       - name: Run beer processing script
-        run: node transform.js
+        run: node scripts/transform.js
 
       - name: Commit and push changes
         run: |
