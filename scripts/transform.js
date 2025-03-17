@@ -70,6 +70,15 @@ try {
   process.exit(1);
 }
 
+// Add filter for records with blank names
+const validBeers = beers.filter(beer => {
+  if (!beer.name) {
+    console.log(`Skipping record with missing name, stockcode: ${beer.stockcode}`);
+    return false;
+  }
+  return true;
+});
+
 // Step 1: Transform raw records (similar to CTE "beer_2")
 const beer2 = beers.map(beer => ({
   stockcode: beer.stockcode,
