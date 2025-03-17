@@ -5,9 +5,9 @@ const fs = require("fs");
 const nresults = +process.argv[2] || 50;
 
 function saveJSON(name, data) {
-  console.log(`Saving ${data.length} items to ${name}.json`);
+  console.log(`Saving ${data.length} items to datasets_raw/${name}.json`);
   data = data.filter((d) => !!d);
-  fs.writeFile(`${name}.json`, JSON.stringify(data), (err) => {
+  fs.writeFile(`datasets_raw/${name}.json`, JSON.stringify(data), (err) => {
     if (err) console.log(err);
   });
 }
@@ -147,17 +147,18 @@ let allDrinks = {
 // Stores status of each API call
 let allQueriesStatus = {};
 
-// for Dan Murphy's fuck ups, uses product stock code
+// for errors, uses product stock code
 let blacklist = [];
-fetch("https://alculator.zachmanson.com/api/blacklist")
-  .then((response) => response.json())
-  .then((jsonData) => {
-    blacklist = jsonData;
-    saveDrinks("beer", "beer", undefined, 1);
-    saveDrinks("cider", "cider", undefined, 1);
-    saveDrinks("premix", "spirits", "premix drinks", 1);
-    saveDrinks("spirits", "spirits", undefined, 1);
-    saveDrinks("spirits", "whisky", undefined, 1);
-    saveDrinks("redwine", "red wine", undefined, 1);
-    saveDrinks("whitewine", "white wine", undefined, 1);
-  });
+try {
+  blacklist = JSON.parse(fs.readFileSync('datasets_raw/blacklist.json', 'utf8'));
+  saveDrinks("beer", "beer", undefined, 1);
+  saveDrinks("cider", "cider", undefined, 1);
+  saveDrinks("premix", "spirits", "premix drinks", 1);
+  saveDrinks("spirits", "spirits", undefined, 1);
+  saveDrinks("spirits", "whisky", undefined, 1);
+  saveDrinks("redwine", "red wine", undefined, 1);
+  saveDrinks("whitewine", "white wine", undefined, 1);
+} catch (err) {
+  console.error("Error reading blacklist:", err);
+  process.exit(1);
+}

@@ -3,8 +3,8 @@ name: clean-beer-data
 on:
     push:
       paths:
-        - 'beer.json'
-        - 'transform.js'
+        - datasets_raw/beer.json
+        - scripts/transform.js
     workflow_dispatch:
     workflow_run:
       workflows: ["get-catalogue"]
