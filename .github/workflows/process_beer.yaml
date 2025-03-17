@@ -7,7 +7,7 @@ on:
         - 'transform.js'
     workflow_dispatch:
     workflow_run:
-      workflows: ["pull-DM-catalogue"]
+      workflows: ["get-catalogue"]
       types:
         - completed
 
@@ -22,8 +22,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '16'
-
-      # Removed npm install since there is no package.json
 
       - name: Run beer processing script
         run: node transform.js

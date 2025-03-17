@@ -13,13 +13,13 @@ jobs:
   update-data:
     runs-on: ubuntu-latest
     steps:
-      - name: 🍽️ Get working copy
+      - name: Get working copy
         uses: actions/checkout@master
         with:
           fetch-depth: 1
-      - name: Gets latest DM catalogue
+      - name: Gets latest catalogue
         run: node api.js
-      - name: 🚀 Commit and push if it changed
+      - name: Commit and push if it changed
         run: |
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
