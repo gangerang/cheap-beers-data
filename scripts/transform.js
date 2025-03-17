@@ -80,7 +80,7 @@ const validBeers = beers.filter(beer => {
 });
 
 // Step 1: Transform raw records (similar to CTE "beer_2")
-const beer2 = beers.map(beer => ({
+const beer2 = validBeers.map(beer => ({
   stockcode: beer.stockcode,
   name: beer.name,
   units_pack: beer.units ? beer.units.pack : null,
