@@ -53,7 +53,7 @@ function cleanNameAndVessel(name) {
 }
 
 
-// Read the input JSON (assumed to be in the root of the repo)
+// Read the input JSON
 let rawData;
 try {
   rawData = fs.readFileSync('datasets_raw/beer.json', 'utf8');
@@ -291,7 +291,7 @@ cleaned.sort((a, b) => {
 
 // Write the output to beer_cleaned.json
 try {
-  fs.writeFileSync('datasets_raw/beer_cleaned.json', JSON.stringify(cleaned, null, 2));
+  fs.writeFileSync('datasets_cleaned/beer_cleaned.json', JSON.stringify(cleaned, null, 2));
   console.log('beer_cleaned.json has been created successfully.');
 } catch (err) {
   console.error("Error writing beer_cleaned.json:", err);
