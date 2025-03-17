@@ -109,12 +109,15 @@ function saveDrinks(name, department, subdepartment, page = 1) {
         let bundles = JSON.parse(data).Bundles;
         console.log(`Received ${bundles.length} bundles (${queryID})`);
         if (bundles.length + 20 > nresults) {
-          // recursive call, save more drinks if more drinks exist
-          saveDrinks(name, department, subdepartment, page + 1);
+            // recursive call, save more drinks if more drinks exist
+            saveDrinks(name, department, subdepartment, page + 1);
         }
-        let cans = bundles.map(processBundle);
-
-        allDrinks[name].push(...cans);
+        
+        // Store both raw and processed data
+        allDrinks[`${name}_raw`].push(...bundles);
+        let processed = bundles.map(processBundle);
+        allDrinks[name].push(...processed);
+        
         allQueriesStatus[queryID] = true;
         checkIfAllComplete();
       });
@@ -137,11 +140,17 @@ function checkIfAllComplete() {
 // Stores actual values
 let allDrinks = {
   beer: [],
+  beer_raw: [],
   cider: [],
+  cider_raw: [],
   premix: [],
+  premix_raw: [],
   spirits: [],
+  spirits_raw: [],
   redwine: [],
+  redwine_raw: [],
   whitewine: [],
+  whitewine_raw: [],
 };
 
 // Stores status of each API call
