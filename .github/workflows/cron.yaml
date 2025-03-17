@@ -1,4 +1,4 @@
-name: pull-DM-catalogue
+name: get-catalogue
 on:
   schedule:
     - cron: "0 20 * * *"
