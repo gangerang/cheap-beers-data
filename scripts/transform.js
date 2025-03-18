@@ -253,7 +253,7 @@ corrected.forEach(row => {
 });
 
 // Step 6: Clean the results (CTE "cleaned")
-// Also add the online_only, name_clean, and vessel enhancements.
+// Also add the online_only, name_clean, vessel enhancements, and alcohol tax fields.
 let cleaned = raw_options.map(option => {
   const total_price = roundTo(option.total_price, 2);
   const unit_price = option.package_size !== 0 ? roundTo(total_price / option.package_size, 2) : 0;
@@ -262,8 +262,24 @@ let cleaned = raw_options.map(option => {
   // Get cleaned name and vessel information
   const { name_clean, vessel } = cleanNameAndVessel(option.name);
   
-// In the mapping for the final cleaned record:
-return {
+  // Calculate alcohol tax cost and percent.
+  // Convert percentage to fraction (e.g. 5% becomes 0.05)
+  const alcohol_fraction = option.percentage / 100;
+  // Standard drinks using the provided formula: (alcohol_fraction * size_in_ml) / 12.67
+  const calc_std_drinks = (alcohol_fraction * option.size) / 12.67;
+  // The free allowance is the first 1.15% so only alcohol above that is taxable.
+  const taxable_alcohol_fraction = Math.max(alcohol_fraction - 0.0115, 0);
+  // Convert beverage size to litres and calculate the taxable volume
+  const taxable_volume = (option.size / 1000) * taxable_alcohol_fraction;
+  // Select tax rate: if alcohol_fraction <= 0.03 then $52.66 per L, else $61.32 per L.
+  const tax_rate = (alcohol_fraction <= 0.03) ? 52.66 : 61.32;
+  const total_tax = taxable_volume * tax_rate;
+  // Calculate the tax per standard drink (if there are any standard drinks)
+  const alcohol_tax_cost = (calc_std_drinks > 0) ? roundTo(total_tax / calc_std_drinks, 2) : 0;
+  // Calculate the alcohol tax as a percentage of the cost per standard drink
+  const alcohol_tax_percent = (cost_per_standard > 0) ? roundTo((alcohol_tax_cost / cost_per_standard) * 100, 0) : 0;
+  
+  return {
     name: option.name,
     name_clean, // cleaned name with trailing vessel/size info removed
     stockcode: option.stockcode,
@@ -271,14 +287,16 @@ return {
     size: option.size,
     standard_drinks: option.standard_drinks_corrected,
     special: option.special,
-    package: option.package === 'bottle' ? 'single' : option.package, // updated here
+    package: option.package === 'bottle' ? 'single' : option.package,
     package_size: option.package_size,
     total_price,
     unit_price,
     cost_per_standard,
     ...(option.stockcode.startsWith("ER") ? { online_only: true } : {}),
-    ...(vessel ? { vessel } : {})
-  };  
+    ...(vessel ? { vessel } : {}),
+    alcohol_tax_cost,
+    alcohol_tax_percent
+  };
 }).filter(option =>
   option.total_price > 0 &&
   option.package_size > 0 &&
