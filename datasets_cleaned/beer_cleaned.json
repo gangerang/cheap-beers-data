@@ -1838,12 +1838,12 @@
     "special": true,
     "package": "pack",
     "package_size": 6,
-    "total_price": 19,
-    "unit_price": 3.17,
-    "cost_per_standard": 2.64,
+    "total_price": 15,
+    "unit_price": 2.5,
+    "cost_per_standard": 2.08,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.57,
-    "alcohol_tax_percent": 22
+    "alcohol_tax_percent": 27
   },
   {
     "name": "Calaverita Cerveza Lager Bottles 355mL",
@@ -3497,8 +3497,8 @@
     "alcohol_tax_percent": 25
   },
   {
-    "name": "Stone's Alcoholic Ginger Beer 330mL",
-    "name_clean": "Stone's Alcoholic Ginger Beer",
+    "name": "Stones Ginger Beer Btl 6X4X330ml",
+    "name_clean": "Stones Ginger Beer Btl",
     "stockcode": "203977",
     "percentage": 4,
     "size": 330,
@@ -3513,8 +3513,8 @@
     "alcohol_tax_percent": 8
   },
   {
-    "name": "Stone's Alcoholic Ginger Beer 330mL",
-    "name_clean": "Stone's Alcoholic Ginger Beer",
+    "name": "Stones Ginger Beer Btl 6X4X330ml",
+    "name_clean": "Stones Ginger Beer Btl",
     "stockcode": "203977",
     "percentage": 4,
     "size": 330,
@@ -3529,8 +3529,8 @@
     "alcohol_tax_percent": 9
   },
   {
-    "name": "Stone's Alcoholic Ginger Beer 330mL",
-    "name_clean": "Stone's Alcoholic Ginger Beer",
+    "name": "Stones Ginger Beer Btl 6X4X330ml",
+    "name_clean": "Stones Ginger Beer Btl",
     "stockcode": "203977",
     "percentage": 4,
     "size": 330,
@@ -3772,12 +3772,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 55,
-    "unit_price": 2.29,
-    "cost_per_standard": 1.76,
+    "total_price": 57.9,
+    "unit_price": 2.41,
+    "cost_per_standard": 1.85,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.6,
-    "alcohol_tax_percent": 34
+    "alcohol_tax_percent": 32
   },
   {
     "name": "Kirin Ichiban Bottle 330mL",
@@ -5957,12 +5957,12 @@
     "special": true,
     "package": "pack",
     "package_size": 6,
-    "total_price": 18,
-    "unit_price": 3,
-    "cost_per_standard": 2.5,
+    "total_price": 19,
+    "unit_price": 3.17,
+    "cost_per_standard": 2.64,
     "vessel": "can",
     "alcohol_tax_cost": 0.56,
-    "alcohol_tax_percent": 22
+    "alcohol_tax_percent": 21
   },
   {
     "name": "Largo Clean Lager Cans 6x375mL",
@@ -6025,12 +6025,12 @@
     "special": true,
     "package": "pack",
     "package_size": 6,
-    "total_price": 18,
-    "unit_price": 3,
-    "cost_per_standard": 2.73,
+    "total_price": 19,
+    "unit_price": 3.17,
+    "cost_per_standard": 2.88,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.56,
-    "alcohol_tax_percent": 21
+    "alcohol_tax_percent": 19
   },
   {
     "name": "Hahn Ultra Zero Carb Bottles 6x330mL",
@@ -7301,9 +7301,9 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 87.9,
-    "unit_price": 3.66,
-    "cost_per_standard": 3.66,
+    "total_price": 86,
+    "unit_price": 3.58,
+    "cost_per_standard": 3.58,
     "vessel": "can",
     "alcohol_tax_cost": 0.55,
     "alcohol_tax_percent": 15
@@ -9287,12 +9287,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 53.9,
-    "unit_price": 2.25,
-    "cost_per_standard": 2.05,
+    "total_price": 52.9,
+    "unit_price": 2.2,
+    "cost_per_standard": 2,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.56,
-    "alcohol_tax_percent": 27
+    "alcohol_tax_percent": 28
   },
   {
     "name": "Great Northern Brewing Company Original Lager Bottles 330mL",
@@ -11296,12 +11296,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 54,
-    "unit_price": 2.25,
-    "cost_per_standard": 1.5,
+    "total_price": 55.9,
+    "unit_price": 2.33,
+    "cost_per_standard": 1.55,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.59,
-    "alcohol_tax_percent": 39
+    "alcohol_tax_percent": 38
   },
   {
     "name": "Victoria Bitter Low Carb Bottle6X375mL",
@@ -11818,12 +11818,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 93.95,
-    "unit_price": 3.91,
-    "cost_per_standard": 3.76,
+    "total_price": 79.85,
+    "unit_price": 3.33,
+    "cost_per_standard": 3.2,
     "vessel": "can",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 15
+    "alcohol_tax_percent": 17
   },
   {
     "name": "Brookvale Union Ginger Beer Cans 330mL",
@@ -12825,6 +12825,57 @@
     "alcohol_tax_percent": 22
   },
   {
+    "name": "Calaverita Cerveza Lager Bottle 330mL",
+    "name_clean": "Calaverita Cerveza Lager",
+    "stockcode": "6004780",
+    "percentage": 4.4,
+    "size": 330,
+    "standard_drinks": 1.2,
+    "special": false,
+    "package": "single",
+    "package_size": 1,
+    "total_price": 4.49,
+    "unit_price": 4.49,
+    "cost_per_standard": 3.74,
+    "vessel": "bottle",
+    "alcohol_tax_cost": 0.57,
+    "alcohol_tax_percent": 15
+  },
+  {
+    "name": "Calaverita Cerveza Lager Bottle 330mL",
+    "name_clean": "Calaverita Cerveza Lager",
+    "stockcode": "6004780",
+    "percentage": 4.4,
+    "size": 330,
+    "standard_drinks": 1.2,
+    "special": false,
+    "package": "pack",
+    "package_size": 6,
+    "total_price": 19.99,
+    "unit_price": 3.33,
+    "cost_per_standard": 2.78,
+    "vessel": "bottle",
+    "alcohol_tax_cost": 0.57,
+    "alcohol_tax_percent": 21
+  },
+  {
+    "name": "Calaverita Cerveza Lager Bottle 330mL",
+    "name_clean": "Calaverita Cerveza Lager",
+    "stockcode": "6004780",
+    "percentage": 4.4,
+    "size": 330,
+    "standard_drinks": 1.2,
+    "special": false,
+    "package": "case",
+    "package_size": 24,
+    "total_price": 57.99,
+    "unit_price": 2.42,
+    "cost_per_standard": 2.02,
+    "vessel": "bottle",
+    "alcohol_tax_cost": 0.57,
+    "alcohol_tax_percent": 28
+  },
+  {
     "name": "Birra Moretti Lager Bottles 6x330mL",
     "name_clean": "Birra Moretti Lager",
     "stockcode": "6005426",
@@ -13217,7 +13268,7 @@
     "percentage": 3,
     "size": 375,
     "standard_drinks": 0.9,
-    "special": false,
+    "special": true,
     "package": "case",
     "package_size": 30,
     "total_price": 50,
@@ -13226,6 +13277,23 @@
     "vessel": "can",
     "alcohol_tax_cost": 0.41,
     "alcohol_tax_percent": 22
+  },
+  {
+    "name": "Carlton Mid Cans 375mL",
+    "name_clean": "Carlton Mid",
+    "stockcode": "62785",
+    "percentage": 3,
+    "size": 375,
+    "standard_drinks": 0.9,
+    "special": false,
+    "package": "case",
+    "package_size": 30,
+    "total_price": 54.99,
+    "unit_price": 1.83,
+    "cost_per_standard": 2.03,
+    "vessel": "can",
+    "alcohol_tax_cost": 0.41,
+    "alcohol_tax_percent": 20
   },
   {
     "name": "Buderim Ginger Alcoholic Ginger Beer 330mL",
@@ -14751,11 +14819,11 @@
     "special": true,
     "package": "single",
     "package_size": 1,
-    "total_price": 18,
-    "unit_price": 18,
-    "cost_per_standard": 7.5,
+    "total_price": 16,
+    "unit_price": 16,
+    "cost_per_standard": 6.67,
     "alcohol_tax_cost": 0.59,
-    "alcohol_tax_percent": 8
+    "alcohol_tax_percent": 9
   },
   {
     "name": "Hollandia Beer 650mL",
@@ -17056,12 +17124,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 54,
-    "unit_price": 2.25,
-    "cost_per_standard": 1.88,
+    "total_price": 54.95,
+    "unit_price": 2.29,
+    "cost_per_standard": 1.91,
     "vessel": "can",
     "alcohol_tax_cost": 0.56,
-    "alcohol_tax_percent": 30
+    "alcohol_tax_percent": 29
   },
   {
     "name": "Mountain Goat Very Enjoyable Beer Cans 375mL",
@@ -19788,12 +19856,12 @@
     "special": true,
     "package": "pack",
     "package_size": 6,
-    "total_price": 16,
-    "unit_price": 2.67,
-    "cost_per_standard": 2.05,
+    "total_price": 17,
+    "unit_price": 2.83,
+    "cost_per_standard": 2.18,
     "vessel": "can",
     "alcohol_tax_cost": 0.6,
-    "alcohol_tax_percent": 29
+    "alcohol_tax_percent": 28
   },
   {
     "name": "Wakachangi Premium Lager Cans 330mL",
@@ -22219,9 +22287,9 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 53,
-    "unit_price": 2.21,
-    "cost_per_standard": 1.7,
+    "total_price": 54,
+    "unit_price": 2.25,
+    "cost_per_standard": 1.73,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.6,
     "alcohol_tax_percent": 35
@@ -30917,40 +30985,6 @@
     "alcohol_tax_percent": 15
   },
   {
-    "name": "Raspberry Beret Fruit Flavoured Ale",
-    "name_clean": "Raspberry Beret Fruit Flavoured Ale",
-    "stockcode": "ER_2000004003_0031B",
-    "percentage": 5.2,
-    "size": 361,
-    "standard_drinks": 1.48,
-    "special": false,
-    "package": "single",
-    "package_size": 1,
-    "total_price": 89,
-    "unit_price": 89,
-    "cost_per_standard": 60.14,
-    "online_only": true,
-    "alcohol_tax_cost": 0.61,
-    "alcohol_tax_percent": 1
-  },
-  {
-    "name": "Raspberry Beret Fruit Flavoured Ale",
-    "name_clean": "Raspberry Beret Fruit Flavoured Ale",
-    "stockcode": "ER_2000004003_0031B",
-    "percentage": 5.2,
-    "size": 361,
-    "standard_drinks": 1.48,
-    "special": false,
-    "package": "case",
-    "package_size": 16,
-    "total_price": 89,
-    "unit_price": 5.56,
-    "cost_per_standard": 3.76,
-    "online_only": true,
-    "alcohol_tax_cost": 0.61,
-    "alcohol_tax_percent": 16
-  },
-  {
     "name": "Green Gully Brewing Island Beer 375mL",
     "name_clean": "Green Gully Brewing Island Beer",
     "stockcode": "ER_2000004003_0037",
@@ -31034,6 +31068,40 @@
     "online_only": true,
     "alcohol_tax_cost": 0.59,
     "alcohol_tax_percent": 15
+  },
+  {
+    "name": "Dark Daze Norwegian Farmhouse Ale",
+    "name_clean": "Dark Daze Norwegian Farmhouse Ale",
+    "stockcode": "ER_2000004003_IB0037",
+    "percentage": 5.3,
+    "size": 382,
+    "standard_drinks": 1.6,
+    "special": false,
+    "package": "single",
+    "package_size": 1,
+    "total_price": 89,
+    "unit_price": 89,
+    "cost_per_standard": 55.63,
+    "online_only": true,
+    "alcohol_tax_cost": 0.61,
+    "alcohol_tax_percent": 1
+  },
+  {
+    "name": "Dark Daze Norwegian Farmhouse Ale",
+    "name_clean": "Dark Daze Norwegian Farmhouse Ale",
+    "stockcode": "ER_2000004003_IB0037",
+    "percentage": 5.3,
+    "size": 382,
+    "standard_drinks": 1.6,
+    "special": false,
+    "package": "case",
+    "package_size": 16,
+    "total_price": 89,
+    "unit_price": 5.56,
+    "cost_per_standard": 3.47,
+    "online_only": true,
+    "alcohol_tax_cost": 0.61,
+    "alcohol_tax_percent": 18
   },
   {
     "name": "Farmhose Red IPA",
@@ -35245,57 +35313,6 @@
     "cost_per_standard": 4.01,
     "online_only": true,
     "alcohol_tax_cost": 0.61,
-    "alcohol_tax_percent": 15
-  },
-  {
-    "name": "'High Hive' Honey Ale 330 mL • 5.1% ABV",
-    "name_clean": "'High Hive' Honey Ale 330 mL • 5.1% ABV",
-    "stockcode": "ER_2000005194_610210",
-    "percentage": 5.1,
-    "size": 330,
-    "standard_drinks": 1.3,
-    "special": false,
-    "package": "single",
-    "package_size": 1,
-    "total_price": 5.21,
-    "unit_price": 5.21,
-    "cost_per_standard": 4.01,
-    "online_only": true,
-    "alcohol_tax_cost": 0.6,
-    "alcohol_tax_percent": 15
-  },
-  {
-    "name": "'High Hive' Honey Ale 330 mL • 5.1% ABV",
-    "name_clean": "'High Hive' Honey Ale 330 mL • 5.1% ABV",
-    "stockcode": "ER_2000005194_610210",
-    "percentage": 5.1,
-    "size": 330,
-    "standard_drinks": 1.3,
-    "special": true,
-    "package": "case",
-    "package_size": 24,
-    "total_price": 89.99,
-    "unit_price": 3.75,
-    "cost_per_standard": 2.88,
-    "online_only": true,
-    "alcohol_tax_cost": 0.6,
-    "alcohol_tax_percent": 21
-  },
-  {
-    "name": "'High Hive' Honey Ale 330 mL • 5.1% ABV",
-    "name_clean": "'High Hive' Honey Ale 330 mL • 5.1% ABV",
-    "stockcode": "ER_2000005194_610210",
-    "percentage": 5.1,
-    "size": 330,
-    "standard_drinks": 1.3,
-    "special": false,
-    "package": "case",
-    "package_size": 24,
-    "total_price": 124.99,
-    "unit_price": 5.21,
-    "cost_per_standard": 4.01,
-    "online_only": true,
-    "alcohol_tax_cost": 0.6,
     "alcohol_tax_percent": 15
   },
   {
