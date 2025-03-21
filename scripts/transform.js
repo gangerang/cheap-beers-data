@@ -27,19 +27,8 @@ function roundTo(num, decimals) {
  * returns the canonical vessel value.
  */
 function cleanNameAndVessel(name) {
-  // Regex explanation:
-  // This pattern looks for a trailing block at the end of the name which may consist of:
-  // - Optional whitespace
-  // - Either a vessel keyword (bottle, bottles, can, cans, longneck, longnecks)
-  //   possibly followed by some numbers and/or "x" characters,
-  //   OR just a number (for cases like "330mL")
-  // - Followed by optional whitespace and the literal "mL" (case-insensitive)
-  // - Optionally followed by text in parentheses (like "(Block)")
-  // - also when vessel is before size
-  // The pattern is applied case-insensitively.
   const pattern = /(\s*((?:(?:bottles?|cans?|longnecks?)\s*)?\d+(?:\s*[Xx]\s*\d+)*(?:\s*mL)(?:\s*(?:bottles?|cans?|longnecks?))?(?:\s*\(.*\))?))$/i;
   const name_clean = name.replace(pattern, '').trim();
-
   let vessel;
   if (/bottles?/i.test(name)) {
     vessel = 'bottle';
@@ -48,12 +37,10 @@ function cleanNameAndVessel(name) {
   } else if (/longnecks?/i.test(name)) {
     vessel = 'longneck';
   }
-
   return { name_clean, vessel };
 }
 
-
-// Read the input JSON
+// Read and parse the input JSON file
 let rawData;
 try {
   rawData = fs.readFileSync('datasets_raw/beer.json', 'utf8');
@@ -70,255 +57,132 @@ try {
   process.exit(1);
 }
 
-// Add filter for records with blank names
-const validBeers = beers.filter(beer => {
+/**
+ * Process a single beer record into an array of cleaned options.
+ * Returns an empty array if the record is invalid.
+ */
+function processBeerRecord(beer) {
   if (!beer.name) {
     console.log(`Skipping record with missing name, stockcode: ${beer.stockcode}`);
-    return false;
+    return [];
   }
-  return true;
-});
 
-// Step 1: Transform raw records (similar to CTE "beer_2")
-const beer2 = validBeers.map(beer => ({
-  stockcode: beer.stockcode,
-  name: beer.name,
-  units_pack: beer.units ? beer.units.pack : null,
-  units_case: beer.units ? beer.units.case : null,
-  prices_bottle: beer.prices ? beer.prices.bottle : null,
-  prices_pack: beer.prices ? beer.prices.pack : null,
-  prices_case: beer.prices ? beer.prices.case : null,
-  prices_promo_bottle: beer.prices ? beer.prices.promobottle : null,
-  prices_promo_pack: beer.prices ? beer.prices.promopack : null,
-  prices_promo_case: beer.prices ? beer.prices.promocase : null,
-  standardDrinks: beer.standardDrinks,
-  percentage: beer.percentage
-}));
+  // Extract and parse values
+  const stockcode = beer.stockcode;
+  const name = beer.name;
+  const units_pack = beer.units ? tryParseInt(beer.units.pack) : 0;
+  const units_case = beer.units ? tryParseInt(beer.units.case) : 0;
+  const prices_bottle = beer.prices ? tryParseFloat(beer.prices.bottle) : 0;
+  const prices_pack = beer.prices ? tryParseFloat(beer.prices.pack) : 0;
+  const prices_case = beer.prices ? tryParseFloat(beer.prices.case) : 0;
+  const prices_promo_bottle = beer.prices ? tryParseFloat(beer.prices.promobottle) : 0;
+  const prices_promo_pack = beer.prices ? tryParseFloat(beer.prices.promopack) : 0;
+  const prices_promo_case = beer.prices ? tryParseFloat(beer.prices.promocase) : 0;
+  const standardDrinks = tryParseFloat(beer.standardDrinks);
+  let percentage_numeric = tryParseFloat((beer.percentage || "").substring(0, 4).replace('%', ''));
 
-// Step 2: Base transformation (casting & extracting values)
-const base = beer2.map(row => {
-  // Convert strings to numbers
-  const standard_drinks = tryParseFloat(row.standardDrinks);
-  const percentage_str = (row.percentage || "").substring(0, 4).replace('%', '');
-  const percentage_numeric = tryParseFloat(percentage_str);
-  const prices_bottle = tryParseFloat(row.prices_bottle);
-  const prices_pack = tryParseFloat(row.prices_pack);
-  const prices_case = tryParseFloat(row.prices_case);
-  const prices_promo_bottle = tryParseFloat(row.prices_promo_bottle);
-  const prices_promo_pack = tryParseFloat(row.prices_promo_pack);
-  const prices_promo_case = tryParseFloat(row.prices_promo_case);
-  const units_pack = tryParseInt(row.units_pack);
-  const units_case = tryParseInt(row.units_case);
+  // Adjust percentage if likely mis-parsed
+  if (percentage_numeric < 0.1 && standardDrinks !== 0) {
+    percentage_numeric *= 100;
+  }
+  // Ensure valid record based on drinks and percentage
+  if (standardDrinks <= 0 || percentage_numeric <= 0) return [];
 
-  // Extract size_from_name using regex (e.g. "375ml" or "50 m")
+  // Try to extract size from name (e.g., "375mL")
   let size_from_name = null;
-  const sizeMatch = row.name.match(/([0-9]{2,4})\s?m/i);
+  const sizeMatch = name.match(/([0-9]{2,4})\s?m/i);
   if (sizeMatch) {
     size_from_name = tryParseInt(sizeMatch[1]);
   }
+  // Determine size: use extracted size or compute it if missing
+  const size = (size_from_name !== null) ? size_from_name : Math.round(standardDrinks * 1267 / percentage_numeric);
+  // Recompute standard drinks and adjust if significantly different
+  const computedStandard = roundTo(percentage_numeric * size / 1267, 1);
+  const standard_drinks_corrected = (Math.abs(standardDrinks - computedStandard) > 0.1) ? computedStandard : standardDrinks;
 
-  return {
-    name: row.name,
-    stockcode: row.stockcode,
-    standard_drinks,
-    percentage_numeric,
-    prices_bottle,
-    prices_pack,
-    prices_case,
-    prices_promo_bottle,
-    prices_promo_pack,
-    prices_promo_case,
-    units_pack,
-    units_case,
-    size_from_name
-  };
-});
+  // Build option objects from available pricing info
+  const options = [];
+  function addOption(price, special, pkg, pkgSize) {
+    if (price > 0 && pkgSize > 0) {
+      options.push({
+        name,
+        stockcode,
+        percentage: percentage_numeric,
+        size,
+        standard_drinks_corrected,
+        special,
+        package: pkg,
+        package_size: pkgSize,
+        total_price: price
+      });
+    }
+  }
+  addOption(prices_bottle, false, 'bottle', 1);
+  addOption(prices_promo_bottle, true, 'bottle', 1);
+  addOption(prices_pack, false, 'pack', units_pack);
+  addOption(prices_promo_pack, true, 'pack', units_pack);
+  addOption(prices_case, false, 'case', units_case);
+  addOption(prices_promo_case, true, 'case', units_case);
 
-// Step 3: Adjust percentage (CTE "adjusted")
-const adjusted = base.map(row => {
-  let adjusted_percentage = row.percentage_numeric;
-  if (row.percentage_numeric < 0.1 && row.standard_drinks !== 0) {
-    adjusted_percentage = row.percentage_numeric * 100;
-  }
-  return { ...row, adjusted_percentage };
-}).filter(row => row.standard_drinks > 0 && row.adjusted_percentage > 0);
+  // Clean and enhance each option
+  return options.map(option => {
+    const total_price = roundTo(option.total_price, 2);
+    const unit_price = option.package_size ? roundTo(total_price / option.package_size, 2) : 0;
+    const cost_per_standard = option.standard_drinks_corrected ? roundTo(unit_price / option.standard_drinks_corrected, 2) : 0;
+    const { name_clean, vessel } = cleanNameAndVessel(option.name);
 
-// Step 4: Correct values (CTE "corrected")
-const corrected = adjusted.map(row => {
-  // Determine size: if size_from_name exists, use it. Otherwise compute as: round(standard_drinks * 1267 / adjusted_percentage)
-  const size = (row.size_from_name !== null) ? row.size_from_name : Math.round(row.standard_drinks * 1267 / row.adjusted_percentage);
-  
-  // Compute the candidate standard drinks: round(adjusted_percentage * size / 1267, 1)
-  const computedStandard = roundTo(row.adjusted_percentage * size / 1267, 1);
-  const standard_drinks_corrected = (Math.abs(row.standard_drinks - computedStandard) > 0.1) ? computedStandard : row.standard_drinks;
-  
-  return {
-    name: row.name,
-    stockcode: row.stockcode,
-    percentage: row.adjusted_percentage,
-    size,
-    standard_drinks_corrected,
-    prices_bottle: row.prices_bottle,
-    prices_pack: row.prices_pack,
-    prices_case: row.prices_case,
-    prices_promo_bottle: row.prices_promo_bottle,
-    prices_promo_pack: row.prices_promo_pack,
-    prices_promo_case: row.prices_promo_case,
-    units_pack: row.units_pack,
-    units_case: row.units_case
-  };
-});
+    // Alcohol tax calculations
+    const alcohol_fraction = option.percentage / 100;
+    const calc_std_drinks = (alcohol_fraction * option.size) / 12.67;
+    const taxable_alcohol_fraction = Math.max(alcohol_fraction - 0.0115, 0);
+    const taxable_volume = (option.size / 1000) * taxable_alcohol_fraction;
+    const tax_rate = (alcohol_fraction <= 0.03) ? 52.66 : 61.32;
+    const total_tax = taxable_volume * tax_rate;
+    const alcohol_tax_cost = calc_std_drinks > 0 ? roundTo(total_tax / calc_std_drinks, 2) : 0;
+    const alcohol_tax_percent = cost_per_standard > 0 ? roundTo((alcohol_tax_cost / cost_per_standard) * 100, 0) : 0;
 
-// Step 5: Build raw options (CTE "raw_options")
-let raw_options = [];
-corrected.forEach(row => {
-  if (row.prices_bottle > 0) {
-    raw_options.push({
-      name: row.name,
-      stockcode: row.stockcode,
-      percentage: row.percentage,
-      size: row.size,
-      standard_drinks_corrected: row.standard_drinks_corrected,
-      special: false,
-      package: 'bottle',
-      package_size: 1,
-      total_price: row.prices_bottle
-    });
-  }
-  if (row.prices_promo_bottle > 0) {
-    raw_options.push({
-      name: row.name,
-      stockcode: row.stockcode,
-      percentage: row.percentage,
-      size: row.size,
-      standard_drinks_corrected: row.standard_drinks_corrected,
-      special: true,
-      package: 'bottle',
-      package_size: 1,
-      total_price: row.prices_promo_bottle
-    });
-  }
-  if (row.prices_pack > 0 && row.units_pack > 0) {
-    raw_options.push({
-      name: row.name,
-      stockcode: row.stockcode,
-      percentage: row.percentage,
-      size: row.size,
-      standard_drinks_corrected: row.standard_drinks_corrected,
-      special: false,
-      package: 'pack',
-      package_size: row.units_pack,
-      total_price: row.prices_pack
-    });
-  }
-  if (row.prices_promo_pack > 0 && row.units_pack > 0) {
-    raw_options.push({
-      name: row.name,
-      stockcode: row.stockcode,
-      percentage: row.percentage,
-      size: row.size,
-      standard_drinks_corrected: row.standard_drinks_corrected,
-      special: true,
-      package: 'pack',
-      package_size: row.units_pack,
-      total_price: row.prices_promo_pack
-    });
-  }
-  if (row.prices_case > 0 && row.units_case > 0) {
-    raw_options.push({
-      name: row.name,
-      stockcode: row.stockcode,
-      percentage: row.percentage,
-      size: row.size,
-      standard_drinks_corrected: row.standard_drinks_corrected,
-      special: false,
-      package: 'case',
-      package_size: row.units_case,
-      total_price: row.prices_case
-    });
-  }
-  if (row.prices_promo_case > 0 && row.units_case > 0) {
-    raw_options.push({
-      name: row.name,
-      stockcode: row.stockcode,
-      percentage: row.percentage,
-      size: row.size,
-      standard_drinks_corrected: row.standard_drinks_corrected,
-      special: true,
-      package: 'case',
-      package_size: row.units_case,
-      total_price: row.prices_promo_case
-    });
-  }
-});
+    return {
+      name: option.name,
+      name_clean,
+      stockcode: option.stockcode,
+      percentage: option.percentage,
+      size: option.size,
+      standard_drinks: option.standard_drinks_corrected,
+      special: option.special,
+      package: option.package === 'bottle' ? 'single' : option.package,
+      package_size: option.package_size,
+      total_price,
+      unit_price,
+      cost_per_standard,
+      ...(option.stockcode.startsWith("ER") ? { online_only: true } : {}),
+      ...(vessel ? { vessel } : {}),
+      alcohol_tax_cost,
+      alcohol_tax_percent
+    };
+  }).filter(option =>
+    option.total_price > 0 &&
+    option.package_size > 0 &&
+    option.standard_drinks > 0 &&
+    option.cost_per_standard > 0.5 &&
+    !/cider/i.test(option.name)
+  );
+}
 
-// Step 6: Clean the results (CTE "cleaned")
-// Also add the online_only, name_clean, vessel enhancements, and alcohol tax fields.
-let cleaned = raw_options.map(option => {
-  const total_price = roundTo(option.total_price, 2);
-  const unit_price = option.package_size !== 0 ? roundTo(total_price / option.package_size, 2) : 0;
-  const cost_per_standard = option.standard_drinks_corrected !== 0 ? roundTo(unit_price / option.standard_drinks_corrected, 2) : 0;
-  
-  // Get cleaned name and vessel information
-  const { name_clean, vessel } = cleanNameAndVessel(option.name);
-  
-  // Calculate alcohol tax cost and percent.
-  // Convert percentage to fraction (e.g. 5% becomes 0.05)
-  const alcohol_fraction = option.percentage / 100;
-  // Standard drinks using the provided formula: (alcohol_fraction * size_in_ml) / 12.67
-  const calc_std_drinks = (alcohol_fraction * option.size) / 12.67;
-  // The free allowance is the first 1.15% so only alcohol above that is taxable.
-  const taxable_alcohol_fraction = Math.max(alcohol_fraction - 0.0115, 0);
-  // Convert beverage size to litres and calculate the taxable volume
-  const taxable_volume = (option.size / 1000) * taxable_alcohol_fraction;
-  // Select tax rate: if alcohol_fraction <= 0.03 then $52.66 per L, else $61.32 per L.
-  const tax_rate = (alcohol_fraction <= 0.03) ? 52.66 : 61.32;
-  const total_tax = taxable_volume * tax_rate;
-  // Calculate the tax per standard drink (if there are any standard drinks)
-  const alcohol_tax_cost = (calc_std_drinks > 0) ? roundTo(total_tax / calc_std_drinks, 2) : 0;
-  // Calculate the alcohol tax as a percentage of the cost per standard drink
-  const alcohol_tax_percent = (cost_per_standard > 0) ? roundTo((alcohol_tax_cost / cost_per_standard) * 100, 0) : 0;
-  
-  return {
-    name: option.name,
-    name_clean, // cleaned name with trailing vessel/size info removed
-    stockcode: option.stockcode,
-    percentage: option.percentage,
-    size: option.size,
-    standard_drinks: option.standard_drinks_corrected,
-    special: option.special,
-    package: option.package === 'bottle' ? 'single' : option.package,
-    package_size: option.package_size,
-    total_price,
-    unit_price,
-    cost_per_standard,
-    ...(option.stockcode.startsWith("ER") ? { online_only: true } : {}),
-    ...(vessel ? { vessel } : {}),
-    alcohol_tax_cost,
-    alcohol_tax_percent
-  };
-}).filter(option =>
-  option.total_price > 0 &&
-  option.package_size > 0 &&
-  option.standard_drinks > 0 &&
-  option.cost_per_standard > 0.5 &&
-  !/cider/i.test(option.name)
-);
+// Process all beer records and flatten the results into a single array
+const cleanedOptions = beers.reduce((acc, beer) => acc.concat(processBeerRecord(beer)), []);
 
-// Final sort: by stockcode, then package_size, then special (true before false)
-cleaned.sort((a, b) => {
+// Final sort: by stockcode, then package_size, then with special options first
+cleanedOptions.sort((a, b) => {
   if (a.stockcode < b.stockcode) return -1;
   if (a.stockcode > b.stockcode) return 1;
   if (a.package_size < b.package_size) return -1;
   if (a.package_size > b.package_size) return 1;
-  // special: true comes before false
-  if (a.special === b.special) return 0;
-  return a.special ? -1 : 1;
+  return a.special === b.special ? 0 : (a.special ? -1 : 1);
 });
 
 // Write the output to beer_cleaned.json
 try {
-  fs.writeFileSync('datasets_cleaned/beer_cleaned.json', JSON.stringify(cleaned, null, 2));
+  fs.writeFileSync('datasets_cleaned/beer_cleaned.json', JSON.stringify(cleanedOptions, null, 2));
   console.log('beer_cleaned.json has been created successfully.');
 } catch (err) {
   console.error("Error writing beer_cleaned.json:", err);
