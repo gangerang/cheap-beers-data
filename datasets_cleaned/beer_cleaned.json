@@ -7692,12 +7692,12 @@
     "special": false,
     "package": "single",
     "package_size": 1,
-    "total_price": 2.6,
-    "unit_price": 2.6,
-    "cost_per_standard": 2.6,
+    "total_price": 5.09,
+    "unit_price": 5.09,
+    "cost_per_standard": 5.09,
     "vessel": "can",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 21
+    "alcohol_tax_percent": 11
   },
   {
     "name": "Garage Project Golden Path Hazy IPA Cans 6x4x330mL",
@@ -7709,12 +7709,12 @@
     "special": true,
     "package": "pack",
     "package_size": 4,
-    "total_price": 13,
-    "unit_price": 3.25,
-    "cost_per_standard": 3.25,
+    "total_price": 18,
+    "unit_price": 4.5,
+    "cost_per_standard": 4.5,
     "vessel": "can",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 17
+    "alcohol_tax_percent": 12
   },
   {
     "name": "Garage Project Golden Path Hazy IPA Cans 6x4x330mL",
@@ -7726,12 +7726,29 @@
     "special": false,
     "package": "pack",
     "package_size": 4,
-    "total_price": 14.7,
-    "unit_price": 3.68,
-    "cost_per_standard": 3.68,
+    "total_price": 20.99,
+    "unit_price": 5.25,
+    "cost_per_standard": 5.25,
     "vessel": "can",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 15
+    "alcohol_tax_percent": 10
+  },
+  {
+    "name": "Garage Project Golden Path Hazy IPA Cans 6x4x330mL",
+    "name_clean": "Garage Project Golden Path Hazy IPA",
+    "stockcode": "315448",
+    "percentage": 4,
+    "size": 330,
+    "standard_drinks": 1,
+    "special": true,
+    "package": "case",
+    "package_size": 24,
+    "total_price": 75,
+    "unit_price": 3.13,
+    "cost_per_standard": 3.13,
+    "vessel": "can",
+    "alcohol_tax_cost": 0.55,
+    "alcohol_tax_percent": 18
   },
   {
     "name": "Garage Project Golden Path Hazy IPA Cans 6x4x330mL",
@@ -7743,12 +7760,12 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 69,
-    "unit_price": 2.88,
-    "cost_per_standard": 2.88,
+    "total_price": 91.99,
+    "unit_price": 3.83,
+    "cost_per_standard": 3.83,
     "vessel": "can",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 19
+    "alcohol_tax_percent": 14
   },
   {
     "name": "James Squire Spiced Rum Ginger Beer Cans 6x4x330mL",
@@ -8066,12 +8083,12 @@
     "special": false,
     "package": "single",
     "package_size": 1,
-    "total_price": 4.89,
-    "unit_price": 4.89,
-    "cost_per_standard": 3.76,
+    "total_price": 5.79,
+    "unit_price": 5.79,
+    "cost_per_standard": 4.45,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.6,
-    "alcohol_tax_percent": 16
+    "alcohol_tax_percent": 13
   },
   {
     "name": "Steinlager Pure Beer Bottles 330mL",
@@ -8083,12 +8100,12 @@
     "special": false,
     "package": "pack",
     "package_size": 6,
-    "total_price": 21.49,
-    "unit_price": 3.58,
-    "cost_per_standard": 2.75,
+    "total_price": 25.99,
+    "unit_price": 4.33,
+    "cost_per_standard": 3.33,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.6,
-    "alcohol_tax_percent": 22
+    "alcohol_tax_percent": 18
   },
   {
     "name": "Steinlager Pure Beer Bottles 330mL",
@@ -8100,12 +8117,12 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 59.99,
-    "unit_price": 2.5,
-    "cost_per_standard": 1.92,
+    "total_price": 69.99,
+    "unit_price": 2.92,
+    "cost_per_standard": 2.25,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.6,
-    "alcohol_tax_percent": 31
+    "alcohol_tax_percent": 27
   },
   {
     "name": "Hahn Super Dry 3.5 Bottle 330mL",
@@ -12874,6 +12891,40 @@
     "vessel": "bottle",
     "alcohol_tax_cost": 0.57,
     "alcohol_tax_percent": 28
+  },
+  {
+    "name": "Stone & Wood Easy Pale Ale Cans 4x4x375mL",
+    "name_clean": "Stone & Wood Easy Pale Ale",
+    "stockcode": "6004873",
+    "percentage": 3.5,
+    "size": 375,
+    "standard_drinks": 1,
+    "special": false,
+    "package": "single",
+    "package_size": 1,
+    "total_price": 17.99,
+    "unit_price": 17.99,
+    "cost_per_standard": 17.99,
+    "vessel": "can",
+    "alcohol_tax_cost": 0.52,
+    "alcohol_tax_percent": 3
+  },
+  {
+    "name": "Stone & Wood Easy Pale Ale Cans 4x4x375mL",
+    "name_clean": "Stone & Wood Easy Pale Ale",
+    "stockcode": "6004873",
+    "percentage": 3.5,
+    "size": 375,
+    "standard_drinks": 1,
+    "special": false,
+    "package": "case",
+    "package_size": 16,
+    "total_price": 55.99,
+    "unit_price": 3.5,
+    "cost_per_standard": 3.5,
+    "vessel": "can",
+    "alcohol_tax_cost": 0.52,
+    "alcohol_tax_percent": 15
   },
   {
     "name": "Birra Moretti Lager Bottles 6x330mL",
@@ -19638,11 +19689,11 @@
     "special": false,
     "package": "single",
     "package_size": 1,
-    "total_price": 2.05,
-    "unit_price": 2.05,
-    "cost_per_standard": 2.05,
+    "total_price": 4.09,
+    "unit_price": 4.09,
+    "cost_per_standard": 4.09,
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 27
+    "alcohol_tax_percent": 13
   },
   {
     "name": "Tui East India Pale Ale 330mL",
@@ -19654,11 +19705,11 @@
     "special": false,
     "package": "pack",
     "package_size": 6,
-    "total_price": 13.3,
-    "unit_price": 2.22,
-    "cost_per_standard": 2.22,
+    "total_price": 18.99,
+    "unit_price": 3.16,
+    "cost_per_standard": 3.16,
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 25
+    "alcohol_tax_percent": 17
   },
   {
     "name": "Tui East India Pale Ale 330mL",
@@ -19670,11 +19721,11 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 43.5,
-    "unit_price": 1.81,
-    "cost_per_standard": 1.81,
+    "total_price": 57.99,
+    "unit_price": 2.42,
+    "cost_per_standard": 2.42,
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 30
+    "alcohol_tax_percent": 23
   },
   {
     "name": "Menabrea Birra Bottle 330mL",
