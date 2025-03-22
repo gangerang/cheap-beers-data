@@ -1348,6 +1348,58 @@
     }
   },
   {
+    "stockcode": "315448",
+    "properties": {
+      "name": "Garage Project Golden Path Hazy IPA Cans 6x4x330mL",
+      "name_clean": "Garage Project Golden Path Hazy IPA",
+      "brand": "Garage Project",
+      "size_ml": 330,
+      "size_clean": 330,
+      "percentage_raw": 4,
+      "standard_drinks_raw": 1,
+      "standard_drinks_clean": 1,
+      "vessel": "can",
+      "image_url": "315448-1.png",
+      "rating": 4.5,
+      "ibu": 37,
+      "beer_style": null
+    },
+    "pricing": {
+      "case": {
+        "total_price": 69,
+        "units": 24,
+        "unit_price": 2.88,
+        "cost_per_standard": 2.88,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 20
+      },
+      "pack": {
+        "total_price": 14.7,
+        "units": 4,
+        "unit_price": 3.68,
+        "cost_per_standard": 3.68,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 16
+      },
+      "pack_special": {
+        "total_price": 13,
+        "units": 4,
+        "unit_price": 3.25,
+        "cost_per_standard": 3.25,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 18
+      },
+      "single": {
+        "total_price": 2.6,
+        "units": 1,
+        "unit_price": 2.6,
+        "cost_per_standard": 2.6,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 22
+      }
+    }
+  },
+  {
     "stockcode": "883666",
     "properties": {
       "name": "Tiger Asian Lager  with Soju Cans 320mL",
@@ -2973,12 +3025,12 @@
         "alcohol_tax_percent": 21
       },
       "pack_special": {
-        "total_price": 19,
+        "total_price": 18,
         "units": 6,
-        "unit_price": 3.17,
-        "cost_per_standard": 2.64,
+        "unit_price": 3,
+        "cost_per_standard": 2.5,
         "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 22
+        "alcohol_tax_percent": 23
       },
       "single": {
         "total_price": 3.99,
@@ -3749,12 +3801,12 @@
         "alcohol_tax_percent": 16
       },
       "pack_special": {
-        "total_price": 17,
+        "total_price": 18,
         "units": 6,
-        "unit_price": 2.83,
-        "cost_per_standard": 2.83,
+        "unit_price": 3,
+        "cost_per_standard": 3,
         "alcohol_tax_cost": 0.54,
-        "alcohol_tax_percent": 19
+        "alcohol_tax_percent": 18
       },
       "single": {
         "total_price": 4.49,
@@ -4305,12 +4357,12 @@
         "alcohol_tax_percent": 14
       },
       "pack_special": {
-        "total_price": 17,
+        "total_price": 18,
         "units": 6,
-        "unit_price": 2.83,
-        "cost_per_standard": 3.14,
+        "unit_price": 3,
+        "cost_per_standard": 3.33,
         "alcohol_tax_cost": 0.53,
-        "alcohol_tax_percent": 17
+        "alcohol_tax_percent": 16
       },
       "single": {
         "total_price": 4.49,
@@ -4401,12 +4453,12 @@
         "alcohol_tax_percent": 18
       },
       "pack_special": {
-        "total_price": 18,
+        "total_price": 19,
         "units": 6,
-        "unit_price": 3,
-        "cost_per_standard": 2.73,
+        "unit_price": 3.17,
+        "cost_per_standard": 2.88,
         "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 21
+        "alcohol_tax_percent": 19
       },
       "single": {
         "total_price": 4.99,
@@ -4555,66 +4607,6 @@
         "cost_per_standard": 3.66,
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 16
-      }
-    }
-  },
-  {
-    "stockcode": "315448",
-    "properties": {
-      "name": "Garage Project Golden Path Hazy IPA Cans 6x4x330mL",
-      "name_clean": "Garage Project Golden Path Hazy IPA",
-      "brand": "Garage Project",
-      "size_ml": 330,
-      "size_clean": 330,
-      "percentage_raw": 4,
-      "standard_drinks_raw": 1,
-      "standard_drinks_clean": 1,
-      "vessel": "can",
-      "image_url": "315448-1.png",
-      "rating": 4.5,
-      "ibu": 37,
-      "beer_style": null
-    },
-    "pricing": {
-      "case": {
-        "total_price": 91.99,
-        "units": 24,
-        "unit_price": 3.83,
-        "cost_per_standard": 3.83,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 15
-      },
-      "case_special": {
-        "total_price": 75,
-        "units": 24,
-        "unit_price": 3.13,
-        "cost_per_standard": 3.13,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 19
-      },
-      "pack": {
-        "total_price": 20.99,
-        "units": 4,
-        "unit_price": 5.25,
-        "cost_per_standard": 5.25,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 11
-      },
-      "pack_special": {
-        "total_price": 18,
-        "units": 4,
-        "unit_price": 4.5,
-        "cost_per_standard": 4.5,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 13
-      },
-      "single": {
-        "total_price": 5.09,
-        "units": 1,
-        "unit_price": 5.09,
-        "cost_per_standard": 5.09,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 11
       }
     }
   },
@@ -5936,12 +5928,12 @@
         "alcohol_tax_percent": 18
       },
       "pack_special": {
-        "total_price": 21,
+        "total_price": 20,
         "units": 4,
-        "unit_price": 5.25,
-        "cost_per_standard": 2.92,
+        "unit_price": 5,
+        "cost_per_standard": 2.78,
         "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 20
+        "alcohol_tax_percent": 21
       },
       "single": {
         "total_price": 6.99,
@@ -6576,12 +6568,12 @@
         "alcohol_tax_percent": 18
       },
       "pack_special": {
-        "total_price": 15,
+        "total_price": 19,
         "units": 6,
-        "unit_price": 2.5,
-        "cost_per_standard": 2.08,
+        "unit_price": 3.17,
+        "cost_per_standard": 2.64,
         "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 28
+        "alcohol_tax_percent": 22
       },
       "single": {
         "total_price": 5.49,
@@ -9428,28 +9420,28 @@
     },
     "pricing": {
       "case": {
-        "total_price": 57.99,
+        "total_price": 43.5,
         "units": 24,
-        "unit_price": 2.42,
-        "cost_per_standard": 2.42,
+        "unit_price": 1.81,
+        "cost_per_standard": 1.81,
         "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 24
+        "alcohol_tax_percent": 32
       },
       "pack": {
-        "total_price": 18.99,
+        "total_price": 13.3,
         "units": 6,
-        "unit_price": 3.16,
-        "cost_per_standard": 3.16,
+        "unit_price": 2.22,
+        "cost_per_standard": 2.22,
         "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 18
+        "alcohol_tax_percent": 26
       },
       "single": {
-        "total_price": 4.09,
+        "total_price": 2.05,
         "units": 1,
-        "unit_price": 4.09,
-        "cost_per_standard": 4.09,
+        "unit_price": 2.05,
+        "cost_per_standard": 2.05,
         "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 14
+        "alcohol_tax_percent": 28
       }
     }
   },
@@ -10728,12 +10720,12 @@
         "alcohol_tax_percent": 27
       },
       "case_special": {
-        "total_price": 49,
+        "total_price": 54,
         "units": 24,
-        "unit_price": 2.04,
-        "cost_per_standard": 1.7,
+        "unit_price": 2.25,
+        "cost_per_standard": 1.88,
         "alcohol_tax_cost": 0.55,
-        "alcohol_tax_percent": 32
+        "alcohol_tax_percent": 29
       },
       "pack": {
         "total_price": 19.99,
@@ -11388,12 +11380,12 @@
         "alcohol_tax_percent": 26
       },
       "case_special": {
-        "total_price": 52.9,
+        "total_price": 53.9,
         "units": 24,
-        "unit_price": 2.2,
-        "cost_per_standard": 2,
+        "unit_price": 2.25,
+        "cost_per_standard": 2.05,
         "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 28
+        "alcohol_tax_percent": 27
       },
       "pack": {
         "total_price": 21.99,
@@ -12052,10 +12044,10 @@
         "alcohol_tax_percent": 32
       },
       "case_special": {
-        "total_price": 54,
+        "total_price": 53,
         "units": 24,
-        "unit_price": 2.25,
-        "cost_per_standard": 1.73,
+        "unit_price": 2.21,
+        "cost_per_standard": 1.7,
         "alcohol_tax_cost": 0.6,
         "alcohol_tax_percent": 35
       },
@@ -12200,12 +12192,12 @@
         "alcohol_tax_percent": 19
       },
       "single_special": {
-        "total_price": 16,
+        "total_price": 18,
         "units": 3,
-        "unit_price": 5.33,
-        "cost_per_standard": 2.22,
+        "unit_price": 6,
+        "cost_per_standard": 2.5,
         "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 27
+        "alcohol_tax_percent": 24
       }
     }
   },
@@ -12308,28 +12300,28 @@
     },
     "pricing": {
       "case": {
-        "total_price": 69.99,
+        "total_price": 59.99,
         "units": 24,
-        "unit_price": 2.92,
-        "cost_per_standard": 2.25,
+        "unit_price": 2.5,
+        "cost_per_standard": 1.92,
         "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 27
+        "alcohol_tax_percent": 31
       },
       "pack": {
-        "total_price": 25.99,
+        "total_price": 21.49,
         "units": 6,
-        "unit_price": 4.33,
-        "cost_per_standard": 3.33,
+        "unit_price": 3.58,
+        "cost_per_standard": 2.75,
         "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 18
+        "alcohol_tax_percent": 22
       },
       "single": {
-        "total_price": 5.79,
+        "total_price": 4.89,
         "units": 1,
-        "unit_price": 5.79,
-        "cost_per_standard": 4.45,
+        "unit_price": 4.89,
+        "cost_per_standard": 3.76,
         "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 13
+        "alcohol_tax_percent": 16
       }
     }
   },
@@ -13120,28 +13112,28 @@
     },
     "pricing": {
       "case": {
-        "total_price": 58.99,
+        "total_price": 52.99,
         "units": 24,
-        "unit_price": 2.46,
-        "cost_per_standard": 1.76,
+        "unit_price": 2.21,
+        "cost_per_standard": 1.58,
         "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 32
+        "alcohol_tax_percent": 36
       },
       "pack": {
-        "total_price": 20.99,
+        "total_price": 18.99,
         "units": 6,
-        "unit_price": 3.5,
-        "cost_per_standard": 2.5,
+        "unit_price": 3.16,
+        "cost_per_standard": 2.26,
         "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 23
+        "alcohol_tax_percent": 25
       },
       "single": {
-        "total_price": 5.29,
+        "total_price": 4.89,
         "units": 1,
-        "unit_price": 5.29,
-        "cost_per_standard": 3.78,
+        "unit_price": 4.89,
+        "cost_per_standard": 3.49,
         "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 15
+        "alcohol_tax_percent": 16
       }
     }
   },
@@ -13900,12 +13892,12 @@
         "alcohol_tax_percent": 34
       },
       "case_special": {
-        "total_price": 54,
+        "total_price": 60.95,
         "units": 24,
-        "unit_price": 2.25,
-        "cost_per_standard": 1.61,
+        "unit_price": 2.54,
+        "cost_per_standard": 1.81,
         "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 39
+        "alcohol_tax_percent": 34
       },
       "pack": {
         "total_price": 24.99,
