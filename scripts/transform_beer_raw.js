@@ -6,8 +6,7 @@ function roundTo(value, decimals) {
   return Math.round(value * Math.pow(10, decimals)) / Math.pow(10, decimals);
 }
 
-// Helper function: safely convert a value to a number.
-// Logs an error with stockcode, field name, and attempted value if conversion fails.
+// Safely convert a value to a number. Logs error if conversion fails.
 function safeConvertNumber(value, fieldName, stockcode) {
   const num = Number(value);
   if (isNaN(num)) {
@@ -17,7 +16,7 @@ function safeConvertNumber(value, fieldName, stockcode) {
   return num;
 }
 
-// Helper function: extract the first numeric value from a string.
+// Extract the first numeric value from a string.
 function extractNumberFromString(str, fieldName, stockcode) {
   const match = str.match(/[\d.]+/);
   if (!match) {
@@ -34,22 +33,22 @@ function extractNumberFromString(str, fieldName, stockcode) {
 
 async function processBeer() {
   try {
-    // Read raw beer data from datasets_raw/beer_raw.json
+    // Step 1: Read raw beer data from datasets_raw/beer_raw.json.
     const rawPath = path.join(__dirname, '..', 'datasets_raw', 'beer_raw.json');
     const rawContent = await fs.readFile(rawPath, 'utf8');
     const rawBeers = JSON.parse(rawContent);
     const combinedRecords = [];
 
-    // For each raw record, extract pricing and detail fields from Products and AdditionalDetails.
+    // For each raw record, extract pricing and detail fields.
     for (const record of rawBeers) {
       if (!record.Products || record.Products.length === 0) continue;
       
-      // Use the first product (0-indexed in JS)
+      // Use the first product (0-indexed)
       const product = record.Products[0];
       if (!product.Stockcode) continue;
       const prices = product.Prices || {};
 
-      // Extract price data using lowercase keys.
+      // Extract price data (using lowercase keys as in JSON)
       const priceData = {
         stockcode: product.Stockcode,
         case_type: prices.caseprice?.Message,
@@ -66,7 +65,7 @@ async function processBeer() {
         promo_price: prices.promoprice?.AfterPromotion
       };
 
-      // Initialize detail fields with null defaults.
+      // Initialize detail fields with defaults.
       const detailData = {
         name: null,
         brand: null,
@@ -81,7 +80,7 @@ async function processBeer() {
         case_size: null
       };
 
-      // Loop through each product and its AdditionalDetails.
+      // Loop through AdditionalDetails to extract desired fields.
       for (const prod of record.Products) {
         if (Array.isArray(prod.AdditionalDetails)) {
           for (const detail of prod.AdditionalDetails) {
@@ -128,18 +127,21 @@ async function processBeer() {
           }
         }
       }
-      // Combine price and detail data.
+      // Merge price and detail data.
       const combined = { ...priceData, ...detailData };
       
-      // Filter out records:
-      // Exclude if stockcode starts with "ER" or if percent is missing or equals "0%"
-      if (combined.stockcode && !combined.stockcode.startsWith('ER') && combined.percent && combined.percent !== '0%') {
+      // Filter: Exclude if stockcode starts with "ER" or percent is missing/zero.
+      if (
+        combined.stockcode &&
+        !combined.stockcode.startsWith('ER') &&
+        combined.percent &&
+        combined.percent !== '0%'
+      ) {
         combinedRecords.push(combined);
       }
     }
 
-    // --- TRANSFORMATION STEP ---
-    // This section converts combined records to final output with properties and pricing.
+    // Step 2: Transform combined records to final output.
     const output = [];
     // Regex to remove trailing size info from name.
     const nameCleanPattern = /(\s*((?:(?:bottles?|cans?|longnecks?)\s*)?\d+(?:\s*[Xx]\s*\d+)*(?:\s*mL)(?:\s*(?:bottles?|cans?|longnecks?))?(?:\s*\(.*\))?))$/i;
@@ -152,7 +154,7 @@ async function processBeer() {
       const name_clean = name.replace(nameCleanPattern, '').trim();
       const brand = rec.brand || null;
       
-      // size_ml: extract number from rec.size; if less than 5, assume it's in liters.
+      // size_ml: extract number from rec.size; if less than 5, assume liters.
       let size_ml = null;
       if (rec.size) {
         const extracted = extractNumberFromString(rec.size, "size", stockcode);
@@ -164,14 +166,14 @@ async function processBeer() {
         }
       }
       
-      // raw_percent: use first 4 characters of rec.percent (remove '%') and convert.
+      // raw_percent: take first 4 characters of rec.percent (remove '%') and convert.
       let raw_percent = null;
       if (rec.percent) {
         const percentStr = rec.percent.substring(0, 4).replace('%', '');
         raw_percent = safeConvertNumber(percentStr, "percent", stockcode);
       }
       
-      // raw_standard_drinks from rec.standard_drinks.
+      // raw_standard_drinks: convert rec.standard_drinks to number.
       let raw_standard_drinks = null;
       if (rec.standard_drinks) {
         raw_standard_drinks = safeConvertNumber(rec.standard_drinks, "standard_drinks", stockcode);
@@ -194,7 +196,7 @@ async function processBeer() {
       }
       const beer_style = rec.beer_style || null;
       
-      // vessel: determine if bottle, can, or longneck based on name.
+      // vessel: determine from name if bottle, can, or longneck.
       let vessel = null;
       if (/bottles?/i.test(name)) {
         vessel = 'bottle';
@@ -204,20 +206,25 @@ async function processBeer() {
         vessel = 'longneck';
       }
       
-      // size_clean: extract an exact 3-digit number from name; if not, check size_ml.
+      // size_clean: determine in three steps:
+      // 1. Try extracting a 3-digit number from name.
+      // 2. Else, if size_ml is between 100 and 999, use that.
+      // 3. Else, calculate as (standard_drinks_raw * 1267) / raw_percent.
       let size_clean = null;
-      const nameSizeMatch = name.match(/\b(\d{3})\b/);
-      if (nameSizeMatch) {
-        size_clean = parseInt(nameSizeMatch[1], 10);
-      } else if (size_ml !== null && String(size_ml).length === 3) {
+      const nameSizeMatches = name.match(/(?<!\d)\d{3}(?!\d)/g);
+      if (nameSizeMatches && nameSizeMatches.length > 0) {
+        size_clean = parseInt(nameSizeMatches[nameSizeMatches.length - 1], 10);
+      } else if (size_ml !== null && size_ml >= 100 && size_ml < 1000) {
         size_clean = size_ml;
+      } else if (raw_standard_drinks !== null && raw_percent !== null && raw_percent !== 0) {
+        size_clean = roundTo((raw_standard_drinks * 1267) / raw_percent, 0);
       }
       
       // Rename raw fields.
       const percentage_raw = raw_percent;
       const standard_drinks_raw = raw_standard_drinks;
       
-      // standard_drinks_clean: calculated as (percentage_raw * size_clean) / 1267 (rounded to 1dp).
+      // standard_drinks_clean: calculate as (percentage_raw * size_clean)/1267 rounded to 1dp.
       let standard_drinks_clean = null;
       if (size_clean !== null && percentage_raw !== null) {
         const calc = Number(((percentage_raw * size_clean) / 1267).toFixed(1));
@@ -226,6 +233,10 @@ async function processBeer() {
         } else {
           standard_drinks_clean = calc;
         }
+      }
+      // If calculation failed, use raw value.
+      if (standard_drinks_clean === null) {
+        standard_drinks_clean = standard_drinks_raw;
       }
       
       const properties = {
@@ -244,18 +255,17 @@ async function processBeer() {
         beer_style
       };
       
-      // Global Alcohol Tax Calculation
+      // Global Alcohol Tax Calculation.
       const alcohol_fraction = properties.percentage_raw ? properties.percentage_raw / 100 : 0;
       const taxable_alcohol_fraction = Math.max(alcohol_fraction - 0.0115, 0);
-      const taxable_volume = properties.size_ml ? (properties.size_ml / 1000) * taxable_alcohol_fraction : 0;
+      const taxable_volume = properties.size_clean ? (properties.size_clean / 1000) * taxable_alcohol_fraction : 0;
       const tax_rate = (alcohol_fraction <= 0.03) ? 52.66 : 61.32;
       const total_tax = taxable_volume * tax_rate;
       const global_alcohol_tax_cost = (properties.standard_drinks_clean && properties.standard_drinks_clean > 0)
         ? roundTo(total_tax / properties.standard_drinks_clean, 2)
         : 0;
       
-      // PRICING TRANSFORMATIONS
-      
+      // PRICING TRANSFORMATIONS.
       let promo_type_clean = null;
       let promo_multiplier_clean = null;
       const promo_type = rec.promo_type;
@@ -330,7 +340,7 @@ async function processBeer() {
       let packScenarioDetermined = false;
       
       if (pack_type && (pack_type.includes("each") || pack_type.includes("bottle"))) {
-        // Special edge: if promo_type_clean is "single", then use pack fields for singles.
+        // Special handling: if promo_type_clean is "single", then use pack fields for singles.
         if (promo_type_clean === 'single') {
           single_price_clean = rec.pack_price;
           single_promo_clean = rec.pack_promo;
@@ -399,7 +409,7 @@ async function processBeer() {
         single_exists = true;
       }
       
-      // --- NEW PRICING STRUCTURE ---
+      // NEW PRICING STRUCTURE: split into separate groups.
       function calcPricing(total_price, units, global_alcohol_tax_cost) {
         if (total_price === null) return null;
         let unit_price = null;
@@ -434,9 +444,16 @@ async function processBeer() {
       
       const outRecord = {
         stockcode,
-        properties,
+        properties: {
+          ...properties,
+          // Update property field names per requirements.
+          percentage_raw,
+          standard_drinks_raw,
+          standard_drinks_clean: properties.standard_drinks_clean || standard_drinks_raw
+        },
         pricing: finalPricing
       };
+      
       output.push(outRecord);
     }
     
