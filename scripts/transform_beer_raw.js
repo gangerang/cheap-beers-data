@@ -437,7 +437,7 @@ async function processBeer() {
       
       const finalPricing = {};
       for (const [key, group] of Object.entries(pricingGroups)) {
-        if (group !== null && group.total_price !== null) {
+        if (group !== null && group.cost_per_standard !== null) {
           finalPricing[key] = group;
         }
       }

@@ -5855,32 +5855,7 @@
       "ibu": null,
       "beer_style": null
     },
-    "pricing": {
-      "case": {
-        "total_price": 44.99,
-        "units": null,
-        "unit_price": null,
-        "cost_per_standard": null,
-        "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 0
-      },
-      "pack": {
-        "total_price": 22.99,
-        "units": null,
-        "unit_price": null,
-        "cost_per_standard": null,
-        "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 0
-      },
-      "pack_special": {
-        "total_price": 18,
-        "units": null,
-        "unit_price": null,
-        "cost_per_standard": null,
-        "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 0
-      }
-    }
+    "pricing": {}
   },
   {
     "stockcode": "411193",
@@ -6555,22 +6530,6 @@
         "cost_per_standard": 13.33,
         "alcohol_tax_cost": 0.63,
         "alcohol_tax_percent": 5
-      },
-      "pack": {
-        "total_price": 23.99,
-        "units": null,
-        "unit_price": null,
-        "cost_per_standard": null,
-        "alcohol_tax_cost": 0.63,
-        "alcohol_tax_percent": 0
-      },
-      "pack_special": {
-        "total_price": 12,
-        "units": null,
-        "unit_price": null,
-        "cost_per_standard": null,
-        "alcohol_tax_cost": 0.63,
-        "alcohol_tax_percent": 0
       }
     }
   },
@@ -12268,14 +12227,6 @@
       "beer_style": "Lager"
     },
     "pricing": {
-      "case": {
-        "total_price": 0,
-        "units": null,
-        "unit_price": null,
-        "cost_per_standard": null,
-        "alcohol_tax_cost": 0.54,
-        "alcohol_tax_percent": 0
-      },
       "pack": {
         "total_price": 57.99,
         "units": 30,
@@ -13992,14 +13943,6 @@
       "beer_style": "Lager"
     },
     "pricing": {
-      "case": {
-        "total_price": 0,
-        "units": null,
-        "unit_price": null,
-        "cost_per_standard": null,
-        "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 0
-      },
       "pack": {
         "total_price": 59.95,
         "units": 30,
