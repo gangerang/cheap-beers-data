@@ -228,7 +228,7 @@ async function processBeer() {
       let standard_drinks_clean = null;
       if (size_clean !== null && percentage_raw !== null) {
         const calc = Number(((percentage_raw * size_clean) / 1267).toFixed(1));
-        if (standard_drinks_raw !== null && Math.abs(calc - standard_drinks_raw) < 0.1) {
+        if (standard_drinks_raw !== null && Math.abs(calc - standard_drinks_raw) <= 0.15) {
           standard_drinks_clean = standard_drinks_raw;
         } else {
           standard_drinks_clean = calc;
