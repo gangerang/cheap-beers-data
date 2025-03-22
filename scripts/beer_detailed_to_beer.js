@@ -44,16 +44,10 @@ async function processBeer2() {
       const stockcode = record.stockcode;
 
       // --- PROPERTIES TRANSFORMATIONS ---
-
-      // name: unchanged
       const name = record.name || "";
-      // name_clean: remove trailing size info using the regex pattern
       const name_clean = name.replace(nameCleanPattern, '').trim();
-      // brand: unchanged
       const brand = record.brand || null;
 
-      // size_ml: extract numbers from record.size and convert to number.
-      // If less than 5, assume it's in liters and multiply by 1000.
       let size_ml = null;
       if (record.size) {
         const extracted = extractNumberFromString(record.size, "size", stockcode);
@@ -65,28 +59,22 @@ async function processBeer2() {
         }
       }
 
-      // raw_percent: take first 4 characters from record.percent, remove '%' and convert to number.
       let raw_percent = null;
       if (record.percent) {
         const percentStr = record.percent.substring(0, 4).replace('%', '');
         raw_percent = safeConvertNumber(percentStr, "percent", stockcode);
       }
 
-      // raw_standard_drinks: convert standard_drinks to a number.
       let raw_standard_drinks = null;
       if (record.standard_drinks) {
         raw_standard_drinks = safeConvertNumber(record.standard_drinks, "standard_drinks", stockcode);
       }
-
-      // If raw_percent < 0.1 and standard drinks is nonzero, multiply by 100.
       if (raw_percent !== null && raw_percent < 0.1 && raw_standard_drinks && raw_standard_drinks !== 0) {
         raw_percent = raw_percent * 100;
       }
 
-      // image_url: unchanged
       const image_url = record.image_url || null;
 
-      // rating: convert to number and round to 1 decimal.
       let rating = null;
       if (record.rating !== undefined && record.rating !== null) {
         rating = safeConvertNumber(record.rating, "rating", stockcode);
@@ -95,16 +83,12 @@ async function processBeer2() {
         }
       }
 
-      // ibu: convert to number.
       let ibu = null;
       if (record.ibu) {
         ibu = safeConvertNumber(record.ibu, "ibu", stockcode);
       }
-
-      // beer_style: unchanged
       const beer_style = record.beer_style || null;
 
-      // Build the properties object.
       const properties = {
         name,
         name_clean,
@@ -119,8 +103,6 @@ async function processBeer2() {
       };
 
       // --- PRICING TRANSFORMATIONS ---
-
-      // Shared Promo Fields
       let promo_type_clean = null;
       let promo_multiplier_clean = null;
       const promo_type = record.promo_type;
@@ -154,16 +136,9 @@ async function processBeer2() {
         }
       }
 
-      // Case Pricing
       const case_price_clean = (record.case_price !== undefined) ? record.case_price : null;
-      let case_promo_clean = null;
-      if (record.case_promo === null || record.case_promo === 0) {
-        case_promo_clean = null;
-      } else {
-        case_promo_clean = record.case_promo;
-      }
+      let case_promo_clean = (record.case_promo === null || record.case_promo === 0) ? null : record.case_promo;
 
-      // Compute case_size_clean:
       let case_size_clean = null;
       if (record.case_type && typeof record.case_type === "string") {
         const numMatch = record.case_type.match(/\d+/);
@@ -182,7 +157,6 @@ async function processBeer2() {
         }
       }
 
-      // Compute case_size_promo_clean:
       let case_size_promo_clean = null;
       if (record.promo_price === record.case_promo && case_size_clean !== null && promo_multiplier_clean !== null) {
         case_size_promo_clean = case_size_clean * promo_multiplier_clean;
@@ -199,44 +173,47 @@ async function processBeer2() {
       let single_price_clean = null;
       let single_promo_clean = null;
       let single_exists = false;
+      // New field for single promo size
+      let single_promo_size_clean = null;
       const pack_type = record.pack_type ? record.pack_type.toLowerCase() : null;
-      let packScenarioDetermined = false; // flag to indicate if scenario 2 occurred
+      let packScenarioDetermined = false;
 
-      if (pack_type) {
-        // Scenario 1: Block/Case scenario
-        if (pack_type.includes("block") || pack_type.includes("case")) {
+      if (pack_type && (pack_type.includes("each") || pack_type.includes("bottle"))) {
+        // Edge case: if promo_type_clean equals "single", use pack fields for single pricing.
+        if (promo_type_clean === 'single') {
+          single_price_clean = record.pack_price;
+          single_promo_clean = record.pack_promo;
+          single_promo_size_clean = promo_multiplier_clean;
+          // Clear pack pricing fields.
           pack_price_clean = null;
           pack_promo_clean = null;
           pack_size_clean = null;
           pack_size_promo_clean = null;
-        }
-        // Scenario 2: Each scenario - Standard Pricing
-        else if (pack_type.includes("each") || pack_type.includes("bottle")) {
-          // Compare pack_price and pack_promo
+          packScenarioDetermined = true;
+        } else {
+          // Normal "each" scenario
           const packPrice = safeConvertNumber(record.pack_price, "pack_price", stockcode);
           const packPromo = safeConvertNumber(record.pack_promo, "pack_promo", stockcode);
           if (packPrice !== null && packPromo !== null && packPrice > packPromo) {
-            // Single price comes from pack data in this scenario
-            single_price_clean = record.single_price;
-            single_promo_clean = record.single_promo;
-            packScenarioDetermined = true;
-          }
-          // Scenario 3: Each scenario - Promo More Expensive
-          else if (packPrice !== null && packPromo !== null && packPromo > packPrice && packPromo !== 0) {
-            pack_promo_clean = record.pack_promo;
-            if (promo_multiplier_clean !== null) {
-              pack_size_promo_clean = 1 * promo_multiplier_clean;
+            if (record.single_price && safeConvertNumber(record.single_price, "single_price", stockcode) !== 0) {
+              single_price_clean = record.single_price;
+              single_promo_clean = record.single_promo;
             } else {
-              pack_size_promo_clean = null;
+              single_price_clean = record.pack_price;
+              single_promo_clean = record.pack_promo;
             }
+            packScenarioDetermined = true;
+          } else if (packPrice !== null && packPromo !== null && packPromo > packPrice && packPromo !== 0) {
+            pack_promo_clean = record.pack_promo;
             pack_size_clean = null;
             pack_price_clean = null;
           }
-          // Otherwise, fall to default.
         }
       }
-      // Default Pack Scenario: if not handled above.
-      if (!packScenarioDetermined && (!pack_type || (!pack_type.includes("each") && !pack_type.includes("bottle")))) {
+      // Default Pack Scenario: for pack types that are not "each" or "bottle"
+      if (!packScenarioDetermined) {
+        pack_price_clean = record.pack_price;
+        pack_promo_clean = record.pack_promo;
         if (pack_type) {
           const numMatch = pack_type.match(/\d+/);
           if (numMatch) {
@@ -255,9 +232,16 @@ async function processBeer2() {
         }
       }
 
-      // Determine singles pricing:
-      // If scenario 2 was triggered, single_price_clean has been set.
-      // Otherwise, use record.single_price if available and nonzero.
+      // Now, if pack_promo_clean exists, compute pack_size_promo_clean.
+      if (pack_promo_clean !== null) {
+        if (promo_type_clean === 'pack' && pack_size_clean !== null && promo_multiplier_clean !== null) {
+          pack_size_promo_clean = pack_size_clean * promo_multiplier_clean;
+        } else {
+          pack_size_promo_clean = pack_size_clean;
+        }
+      }
+
+      // Determine singles pricing if not already set from pack scenario.
       if (!packScenarioDetermined) {
         if (record.single_price && safeConvertNumber(record.single_price, "single_price", stockcode) !== 0) {
           single_price_clean = record.single_price;
@@ -269,7 +253,6 @@ async function processBeer2() {
         single_exists = true;
       }
 
-      // Build pricing object.
       const pricing = {
         promo_type_clean,
         promo_multiplier_clean,
@@ -284,10 +267,10 @@ async function processBeer2() {
         pack_size_promo_clean,
         single_price_clean,
         single_promo_clean,
-        single_exists
+        single_exists,
+        single_promo_size_clean
       };
 
-      // Build final output record.
       const outRecord = {
         stockcode,
         properties,
