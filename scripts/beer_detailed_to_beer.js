@@ -32,11 +32,11 @@ function extractNumberFromString(str, fieldName, stockcode) {
   return num;
 }
 
-async function processBeer2() {
+async function processBeer() {
   try {
     // Input and output paths (assumed to be in ../datasets_cleaned/)
     const inputPath = path.join(__dirname, '..', 'datasets_cleaned', 'beer_detailed.json');
-    const outputPath = path.join(__dirname, '..', 'datasets_cleaned', 'beer_2.json');
+    const outputPath = path.join(__dirname, '..', 'datasets_cleaned', 'beer.json');
     const dataContent = await fs.readFile(inputPath, 'utf8');
     const beers = JSON.parse(dataContent);
     const output = [];
@@ -353,8 +353,8 @@ async function processBeer2() {
     await fs.writeFile(outputPath, JSON.stringify(output, null, 2), 'utf8');
     console.log(`Output written to ${outputPath}`);
   } catch (err) {
-    console.error("Error processing beer_2:", err);
+    console.error("Error processing beer:", err);
   }
 }
 
-processBeer2();
+processBeer();
