@@ -1,4 +1,4 @@
-# Beer Data Transformation Project
+# Cheap Beers Data
 
 This repository contains code to transform raw beer data into a cleaned and enriched dataset. The raw data is provided in JSON format and is processed to extract, merge, and calculate various properties and pricing details for each beer product.
 
@@ -12,10 +12,8 @@ The project is designed to extract price and product details on alcohol items in
 - **Computing derived properties:**  
   Additional properties such as a "clean" name, vessel type (bottle, can, or longneck), and size (in milliliters) are computed.  
   The script also calculates a standardized measure of standard drinks using the formula:  
-  \[
-  \text{standard\_drinks\_clean} = \frac{\text{percentage\_raw} \times \text{size\_clean}}{1267}
-  \]
-  with fallbacks to the raw values when appropriate.
+  standard_drinks_clean = (percentage * size) / 1267
+  Fallbacks to the raw values when appropriate.
 
 - **Restructuring pricing information:**  
   The pricing data is split into different groups (case, pack, single, and their special promotional variants). For each group, unit prices, cost per standard drink, and alcohol tax costs are calculated.
@@ -29,19 +27,15 @@ The project is designed to extract price and product details on alcohol items in
 
 ### Current
 
-- **`datasets_raw/beer_raw.json`:**  
-  Produced by `scripts/api.js` and contains the raw beer data in JSON format. This file is used by `scripts/transform_beer_raw.js` to produce `datasets_cleaned/beer.json`.
+- `datasets_raw/beer_raw.json`: Produced by `scripts/api.js` and contains the raw beer data in JSON format. This file is used by `scripts/transform_beer_raw.js` to produce `datasets_cleaned/beer.json`.
 
-- **`datasets_cleaned/beer.json`:**  
-  The final output file from the raw data. It includes enriched properties and structured pricing data for each beer product. Used as source for website.
+- `datasets_cleaned/beer.json`: The final output file from the raw data. It includes enriched properties and structured pricing data for each beer product. Used as source for website.
 
 ### Superseded
   
-- **`datasets_raw/beer.json`:**  
-  Produced by `scripts/api.js` and contains semi-refined beer in JSON format. This file is used by `scripts/transform.js` to produce `datasets_cleaned/beer_cleaned.json`.
+- `datasets_raw/beer.json`: Produced by `scripts/api.js` and contains semi-refined beer in JSON format. This file is used by `scripts/transform.js` to produce `datasets_cleaned/beer_cleaned.json`.
 
-- **`datasets_cleaned/beer_cleaned.json`:**  
-  Previous cleaned file in JSON format. No longer used in website.
+- `datasets_cleaned/beer_cleaned.json`: Previous cleaned file in JSON format. No longer used in website.
 
 
 
