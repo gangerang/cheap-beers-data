@@ -1,6 +1,26 @@
 const fs = require('fs/promises');
 const path = require('path');
 
+// Create a main async function to wrap the file operations
+async function init() {
+  try {
+    // Read corrections file
+    const corrections = JSON.parse(
+      await fs.readFile('datasets_corrections/beer.json', 'utf8')
+    );
+
+    // Create a map of corrections by stockcode for easier lookup
+    const correctionsMap = new Map(
+      corrections.map(item => [item.stockcode, item.name_clean_fixed])
+    );
+
+    return correctionsMap;
+  } catch (err) {
+    console.error("Error reading corrections file:", err);
+    process.exit(1);
+  }
+}
+
 // Helper function to round to a given number of decimals.
 function roundTo(value, decimals) {
   return Math.round(value * Math.pow(10, decimals)) / Math.pow(10, decimals);
@@ -32,6 +52,9 @@ function extractNumberFromString(str, fieldName, stockcode) {
 }
 
 async function processBeer() {
+  // Get the corrections map first
+  const correctionsMap = await init();
+  
   try {
     // Step 1: Read raw beer data from datasets_raw/beer_raw.json.
     const rawPath = path.join(__dirname, '..', 'datasets_raw', 'beer_raw.json');
@@ -151,7 +174,7 @@ async function processBeer() {
 
       // PROPERTIES:
       const name = rec.name || "";
-      const name_clean = name.replace(nameCleanPattern, '').trim();
+      const name_clean = correctionsMap.get(stockcode) || name.replace(nameCleanPattern, '').trim();
       const brand = rec.brand || null;
       
       // size_ml: extract number from rec.size; if less than 5, assume liters.
@@ -466,4 +489,8 @@ async function processBeer() {
   }
 }
 
-processBeer();
+// Call the main function
+processBeer().catch(err => {
+  console.error("Error:", err);
+  process.exit(1);
+});
