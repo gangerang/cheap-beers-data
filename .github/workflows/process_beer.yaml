@@ -4,6 +4,7 @@ on:
     push:
       paths:
         - datasets_raw/beer.json
+        - datasets_corrections/beer.json
         - scripts/transform.js
         - scripts/transform_beer_raw.js
     workflow_dispatch:
