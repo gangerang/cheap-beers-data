@@ -1,7 +1,7 @@
 const fs = require('fs/promises');
 const path = require('path');
 
-// Create a main async function to wrap the file operations
+// Update the init function to create a more flexible corrections map
 async function init() {
   try {
     // Read corrections file
@@ -9,9 +9,14 @@ async function init() {
       await fs.readFile('datasets_corrections/beer.json', 'utf8')
     );
 
-    // Create a map of corrections by stockcode for easier lookup
+    // Create a map of corrections by stockcode with all their correction fields
     const correctionsMap = new Map(
-      corrections.map(item => [item.stockcode, item.name_clean_fixed])
+      corrections.map(item => [
+        item.stockcode,
+        Object.fromEntries(
+          Object.entries(item).filter(([key]) => key !== 'stockcode')
+        )
+      ])
     );
 
     return correctionsMap;
@@ -171,10 +176,11 @@ async function processBeer() {
 
     for (const rec of combinedRecords) {
       const stockcode = rec.stockcode;
+      const corrections = correctionsMap.get(stockcode) || {};
 
       // PROPERTIES:
       const name = rec.name || "";
-      const name_clean = correctionsMap.get(stockcode) || name.replace(nameCleanPattern, '').trim();
+      const name_clean = corrections.name_clean || name.replace(nameCleanPattern, '').trim();
       const brand = rec.brand || null;
       
       // size_ml: extract number from rec.size; if less than 5, assume liters.
@@ -220,13 +226,15 @@ async function processBeer() {
       const beer_style = rec.beer_style || null;
       
       // vessel: determine from name if bottle, can, or longneck.
-      let vessel = null;
-      if (/bottles?/i.test(name)) {
-        vessel = 'bottle';
-      } else if (/cans?/i.test(name)) {
-        vessel = 'can';
-      } else if (/longnecks?/i.test(name)) {
-        vessel = 'longneck';
+      let vessel = corrections.vessel || null;
+      if (!vessel) {
+        if (/bottles?/i.test(name)) {
+          vessel = 'bottle';
+        } else if (/cans?/i.test(name)) {
+          vessel = 'can';
+        } else if (/longnecks?/i.test(name)) {
+          vessel = 'longneck';
+        }
       }
       
       // size_clean: determine in three steps:
