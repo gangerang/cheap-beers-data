@@ -9066,12 +9066,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 57,
-    "unit_price": 2.38,
-    "cost_per_standard": 1.59,
+    "total_price": 60.95,
+    "unit_price": 2.54,
+    "cost_per_standard": 1.69,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.59,
-    "alcohol_tax_percent": 37
+    "alcohol_tax_percent": 35
   },
   {
     "name": "Crown Lager Bottles 375mL",
@@ -10349,12 +10349,12 @@
     "special": true,
     "package": "single",
     "package_size": 1,
-    "total_price": 159,
-    "unit_price": 159,
-    "cost_per_standard": 152.88,
+    "total_price": 106,
+    "unit_price": 106,
+    "cost_per_standard": 101.92,
     "vessel": "can",
     "alcohol_tax_cost": 0.52,
-    "alcohol_tax_percent": 0
+    "alcohol_tax_percent": 1
   },
   {
     "name": "Great Northern Brewing Co. Super Crisp 3.5% Lager 30Pack Cans 375mL",
@@ -13388,9 +13388,9 @@
     "special": true,
     "package": "single",
     "package_size": 1,
-    "total_price": 159.85,
-    "unit_price": 159.85,
-    "cost_per_standard": 114.18,
+    "total_price": 159,
+    "unit_price": 159,
+    "cost_per_standard": 113.57,
     "vessel": "can",
     "alcohol_tax_cost": 0.58,
     "alcohol_tax_percent": 1
@@ -14953,11 +14953,11 @@
     "special": true,
     "package": "single",
     "package_size": 1,
-    "total_price": 18,
-    "unit_price": 18,
-    "cost_per_standard": 7.5,
+    "total_price": 16,
+    "unit_price": 16,
+    "cost_per_standard": 6.67,
     "alcohol_tax_cost": 0.59,
-    "alcohol_tax_percent": 8
+    "alcohol_tax_percent": 9
   },
   {
     "name": "Hollandia Beer 650mL",
@@ -15267,11 +15267,11 @@
     "special": true,
     "package": "single",
     "package_size": 1,
-    "total_price": 18,
-    "unit_price": 18,
-    "cost_per_standard": 10,
+    "total_price": 16,
+    "unit_price": 16,
+    "cost_per_standard": 8.89,
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 6
+    "alcohol_tax_percent": 7
   },
   {
     "name": "Hook Norton Old Hooky Ale 500mL",
@@ -17492,9 +17492,9 @@
     "special": true,
     "package": "single",
     "package_size": 1,
-    "total_price": 159,
-    "unit_price": 159,
-    "cost_per_standard": 106,
+    "total_price": 61.9,
+    "unit_price": 61.9,
+    "cost_per_standard": 41.27,
     "vessel": "can",
     "alcohol_tax_cost": 0.59,
     "alcohol_tax_percent": 1
@@ -18063,6 +18063,23 @@
     "vessel": "can",
     "alcohol_tax_cost": 0.59,
     "alcohol_tax_percent": 15
+  },
+  {
+    "name": "Victoria Malaga Lager Cans 6X330mL",
+    "name_clean": "Victoria Malaga Lager",
+    "stockcode": "885481",
+    "percentage": 4.8,
+    "size": 330,
+    "standard_drinks": 1.3,
+    "special": true,
+    "package": "pack",
+    "package_size": 6,
+    "total_price": 17,
+    "unit_price": 2.83,
+    "cost_per_standard": 2.18,
+    "vessel": "can",
+    "alcohol_tax_cost": 0.59,
+    "alcohol_tax_percent": 27
   },
   {
     "name": "Victoria Malaga Lager Cans 6X330mL",
@@ -35866,42 +35883,6 @@
     "vessel": "bottle",
     "alcohol_tax_cost": 0.61,
     "alcohol_tax_percent": 24
-  },
-  {
-    "name": "Hofbrau Hefe Weizen 5.1% Bottle 330mL",
-    "name_clean": "Hofbrau Hefe Weizen 5.1%",
-    "stockcode": "ER_2000005210_4005686004232",
-    "percentage": 5.1,
-    "size": 330,
-    "standard_drinks": 1.3,
-    "special": false,
-    "package": "single",
-    "package_size": 1,
-    "total_price": 3.5,
-    "unit_price": 3.5,
-    "cost_per_standard": 2.69,
-    "online_only": true,
-    "vessel": "bottle",
-    "alcohol_tax_cost": 0.6,
-    "alcohol_tax_percent": 22
-  },
-  {
-    "name": "Hofbrau Hefe Weizen 5.1% Bottle 330mL",
-    "name_clean": "Hofbrau Hefe Weizen 5.1%",
-    "stockcode": "ER_2000005210_4005686004232",
-    "percentage": 5.1,
-    "size": 330,
-    "standard_drinks": 1.3,
-    "special": false,
-    "package": "case",
-    "package_size": 24,
-    "total_price": 84,
-    "unit_price": 3.5,
-    "cost_per_standard": 2.69,
-    "online_only": true,
-    "vessel": "bottle",
-    "alcohol_tax_cost": 0.6,
-    "alcohol_tax_percent": 22
   },
   {
     "name": "XB Ruby English Ale 4.5% Alc./Vol. 500mL Bottles",
