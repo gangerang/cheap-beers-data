@@ -9249,12 +9249,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 47,
-    "unit_price": 1.96,
-    "cost_per_standard": 1.78,
+    "total_price": 53.9,
+    "unit_price": 2.25,
+    "cost_per_standard": 2.05,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.56,
-    "alcohol_tax_percent": 31
+    "alcohol_tax_percent": 27
   },
   {
     "name": "Great Northern Brewing Company Original Lager Bottles 330mL",
@@ -11814,12 +11814,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 90.95,
-    "unit_price": 3.79,
-    "cost_per_standard": 3.64,
+    "total_price": 74.95,
+    "unit_price": 3.12,
+    "cost_per_standard": 3,
     "vessel": "can",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 15
+    "alcohol_tax_percent": 18
   },
   {
     "name": "Brookvale Union Ginger Beer Cans 330mL",
@@ -15939,12 +15939,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 47.95,
-    "unit_price": 2,
-    "cost_per_standard": 1.54,
+    "total_price": 49.95,
+    "unit_price": 2.08,
+    "cost_per_standard": 1.6,
     "vessel": "can",
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 38
+    "alcohol_tax_percent": 36
   },
   {
     "name": "Carlton Dry Cans 6X375mL",
@@ -16780,12 +16780,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 47.95,
-    "unit_price": 2,
-    "cost_per_standard": 1.67,
+    "total_price": 48.95,
+    "unit_price": 2.04,
+    "cost_per_standard": 1.7,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 35
+    "alcohol_tax_percent": 34
   },
   {
     "name": "Carlton Dry Twist Top Bottle 330mL",
@@ -18687,9 +18687,9 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 54,
-    "unit_price": 2.25,
-    "cost_per_standard": 2.25,
+    "total_price": 55,
+    "unit_price": 2.29,
+    "cost_per_standard": 2.29,
     "vessel": "can",
     "alcohol_tax_cost": 0.52,
     "alcohol_tax_percent": 23
@@ -24410,40 +24410,6 @@
     "alcohol_tax_percent": 12
   },
   {
-    "name": "Coedo Shikkoku",
-    "name_clean": "Coedo Shikkoku",
-    "stockcode": "ER_1000004846_COEDOSHK",
-    "percentage": 5,
-    "size": 329,
-    "standard_drinks": 1.3,
-    "special": false,
-    "package": "single",
-    "package_size": 1,
-    "total_price": 155,
-    "unit_price": 155,
-    "cost_per_standard": 119.23,
-    "online_only": true,
-    "alcohol_tax_cost": 0.6,
-    "alcohol_tax_percent": 1
-  },
-  {
-    "name": "Coedo Shikkoku",
-    "name_clean": "Coedo Shikkoku",
-    "stockcode": "ER_1000004846_COEDOSHK",
-    "percentage": 5,
-    "size": 329,
-    "standard_drinks": 1.3,
-    "special": false,
-    "package": "case",
-    "package_size": 12,
-    "total_price": 79.99,
-    "unit_price": 6.67,
-    "cost_per_standard": 5.13,
-    "online_only": true,
-    "alcohol_tax_cost": 0.6,
-    "alcohol_tax_percent": 12
-  },
-  {
     "name": "Coedo Shiro Japanese Beer 333mL",
     "name_clean": "Coedo Shiro Japanese Beer",
     "stockcode": "ER_1000004846_COEDOSHR",
@@ -29321,40 +29287,6 @@
     "online_only": true,
     "alcohol_tax_cost": 0.58,
     "alcohol_tax_percent": 16
-  },
-  {
-    "name": "Roman A Brouwer Oaked 330mL",
-    "name_clean": "Roman A Brouwer Oaked",
-    "stockcode": "ER_2000003445_ABOA330X24",
-    "percentage": 10,
-    "size": 330,
-    "standard_drinks": 2.6,
-    "special": false,
-    "package": "pack",
-    "package_size": 6,
-    "total_price": 120,
-    "unit_price": 20,
-    "cost_per_standard": 7.69,
-    "online_only": true,
-    "alcohol_tax_cost": 0.69,
-    "alcohol_tax_percent": 9
-  },
-  {
-    "name": "Roman A Brouwer Oaked 330mL",
-    "name_clean": "Roman A Brouwer Oaked",
-    "stockcode": "ER_2000003445_ABOA330X24",
-    "percentage": 10,
-    "size": 330,
-    "standard_drinks": 2.6,
-    "special": false,
-    "package": "case",
-    "package_size": 24,
-    "total_price": 210,
-    "unit_price": 8.75,
-    "cost_per_standard": 3.37,
-    "online_only": true,
-    "alcohol_tax_cost": 0.69,
-    "alcohol_tax_percent": 20
   },
   {
     "name": "Roman A Brouwer Tripel 330mL",
