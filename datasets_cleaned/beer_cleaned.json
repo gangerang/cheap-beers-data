@@ -747,12 +747,12 @@
     "special": true,
     "package": "pack",
     "package_size": 4,
-    "total_price": 15.99,
-    "unit_price": 4,
-    "cost_per_standard": 3.33,
+    "total_price": 14,
+    "unit_price": 3.5,
+    "cost_per_standard": 2.92,
     "vessel": "can",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 17
+    "alcohol_tax_percent": 19
   },
   {
     "name": "Hawkesbury Ginger Yowie Can 6X4X375ml",
@@ -9179,12 +9179,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 52.9,
-    "unit_price": 2.2,
-    "cost_per_standard": 2,
+    "total_price": 53.9,
+    "unit_price": 2.25,
+    "cost_per_standard": 2.05,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.56,
-    "alcohol_tax_percent": 28
+    "alcohol_tax_percent": 27
   },
   {
     "name": "Great Northern Brewing Company Original Lager Bottles 330mL",
@@ -14861,11 +14861,11 @@
     "special": true,
     "package": "single",
     "package_size": 1,
-    "total_price": 18,
-    "unit_price": 18,
-    "cost_per_standard": 7.5,
+    "total_price": 16,
+    "unit_price": 16,
+    "cost_per_standard": 6.67,
     "alcohol_tax_cost": 0.59,
-    "alcohol_tax_percent": 8
+    "alcohol_tax_percent": 9
   },
   {
     "name": "Hollandia Beer 650mL",
@@ -15175,11 +15175,11 @@
     "special": true,
     "package": "single",
     "package_size": 1,
-    "total_price": 18,
-    "unit_price": 18,
-    "cost_per_standard": 10,
+    "total_price": 16,
+    "unit_price": 16,
+    "cost_per_standard": 8.89,
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 6
+    "alcohol_tax_percent": 7
   },
   {
     "name": "Hook Norton Old Hooky Ale 500mL",
@@ -16425,12 +16425,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 49,
-    "unit_price": 2.04,
-    "cost_per_standard": 1.7,
+    "total_price": 54,
+    "unit_price": 2.25,
+    "cost_per_standard": 1.88,
     "vessel": "can",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 32
+    "alcohol_tax_percent": 29
   },
   {
     "name": "Foster's Classic Lager Cans 375mL",
@@ -17131,12 +17131,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 54.95,
-    "unit_price": 2.29,
-    "cost_per_standard": 1.91,
+    "total_price": 56.95,
+    "unit_price": 2.37,
+    "cost_per_standard": 1.98,
     "vessel": "can",
     "alcohol_tax_cost": 0.56,
-    "alcohol_tax_percent": 29
+    "alcohol_tax_percent": 28
   },
   {
     "name": "Mountain Goat Very Enjoyable Beer Cans 375mL",
@@ -23979,40 +23979,6 @@
     "name": "Peroni Gran Riserva Puro Malto",
     "name_clean": "Peroni Gran Riserva Puro Malto",
     "stockcode": "ER_1000004677_PGR-PM",
-    "percentage": 5.2,
-    "size": 536,
-    "standard_drinks": 2.2,
-    "special": false,
-    "package": "case",
-    "package_size": 12,
-    "total_price": 87.95,
-    "unit_price": 7.33,
-    "cost_per_standard": 3.33,
-    "online_only": true,
-    "alcohol_tax_cost": 0.61,
-    "alcohol_tax_percent": 18
-  },
-  {
-    "name": "Peroni Gran Riserva Rossa",
-    "name_clean": "Peroni Gran Riserva Rossa",
-    "stockcode": "ER_1000004677_PGR-RS",
-    "percentage": 5.2,
-    "size": 536,
-    "standard_drinks": 2.2,
-    "special": false,
-    "package": "single",
-    "package_size": 1,
-    "total_price": 7.33,
-    "unit_price": 7.33,
-    "cost_per_standard": 3.33,
-    "online_only": true,
-    "alcohol_tax_cost": 0.61,
-    "alcohol_tax_percent": 18
-  },
-  {
-    "name": "Peroni Gran Riserva Rossa",
-    "name_clean": "Peroni Gran Riserva Rossa",
-    "stockcode": "ER_1000004677_PGR-RS",
     "percentage": 5.2,
     "size": 536,
     "standard_drinks": 2.2,
