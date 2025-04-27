@@ -747,12 +747,12 @@
     "special": true,
     "package": "pack",
     "package_size": 4,
-    "total_price": 15.99,
-    "unit_price": 4,
-    "cost_per_standard": 3.33,
+    "total_price": 14,
+    "unit_price": 3.5,
+    "cost_per_standard": 2.92,
     "vessel": "can",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 17
+    "alcohol_tax_percent": 19
   },
   {
     "name": "Hawkesbury Ginger Yowie Can 6X4X375ml",
@@ -2179,12 +2179,12 @@
     "special": true,
     "package": "pack",
     "package_size": 4,
-    "total_price": 19,
-    "unit_price": 4.75,
-    "cost_per_standard": 2.38,
+    "total_price": 24,
+    "unit_price": 6,
+    "cost_per_standard": 3,
     "vessel": "can",
     "alcohol_tax_cost": 0.65,
-    "alcohol_tax_percent": 27
+    "alcohol_tax_percent": 22
   },
   {
     "name": "Amplys Hard Ginger Beer Can 375mL",
@@ -2313,12 +2313,12 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 58.95,
-    "unit_price": 2.46,
-    "cost_per_standard": 2.05,
+    "total_price": 61.99,
+    "unit_price": 2.58,
+    "cost_per_standard": 2.15,
     "vessel": "can",
     "alcohol_tax_cost": 0.56,
-    "alcohol_tax_percent": 27
+    "alcohol_tax_percent": 26
   },
   {
     "name": "Gage Roads Single Fin Summer Ale Cans 330mL",
@@ -3938,23 +3938,6 @@
     "percentage": 4,
     "size": 330,
     "standard_drinks": 1,
-    "special": true,
-    "package": "pack",
-    "package_size": 6,
-    "total_price": 27.95,
-    "unit_price": 4.66,
-    "cost_per_standard": 4.66,
-    "vessel": "can",
-    "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 12
-  },
-  {
-    "name": "Brookvale Union Ginger Beer Low Sugar Cans 6x330mL",
-    "name_clean": "Brookvale Union Ginger Beer Low Sugar",
-    "stockcode": "226439",
-    "percentage": 4,
-    "size": 330,
-    "standard_drinks": 1,
     "special": false,
     "package": "pack",
     "package_size": 6,
@@ -4507,12 +4490,12 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 53.95,
-    "unit_price": 2.25,
-    "cost_per_standard": 1.88,
+    "total_price": 60.99,
+    "unit_price": 2.54,
+    "cost_per_standard": 2.12,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 31
+    "alcohol_tax_percent": 27
   },
   {
     "name": "James Squire Lashes Pale Ale Btl 330ml",
@@ -4545,22 +4528,6 @@
     "cost_per_standard": 3.71,
     "alcohol_tax_cost": 0.56,
     "alcohol_tax_percent": 15
-  },
-  {
-    "name": "James Squire Lashes Pale Ale Btl 330ml",
-    "name_clean": "James Squire Lashes Pale Ale Btl",
-    "stockcode": "238530",
-    "percentage": 4.2,
-    "size": 330,
-    "standard_drinks": 1.1,
-    "special": true,
-    "package": "case",
-    "package_size": 24,
-    "total_price": 53.95,
-    "unit_price": 2.25,
-    "cost_per_standard": 2.05,
-    "alcohol_tax_cost": 0.56,
-    "alcohol_tax_percent": 27
   },
   {
     "name": "James Squire Lashes Pale Ale Btl 330ml",
@@ -4628,23 +4595,6 @@
     "vessel": "longneck",
     "alcohol_tax_cost": 0.58,
     "alcohol_tax_percent": 26
-  },
-  {
-    "name": "XXXX Gold Cans 30 Block 375mL",
-    "name_clean": "XXXX Gold Cans 30 Block",
-    "stockcode": "24405",
-    "percentage": 3.5,
-    "size": 375,
-    "standard_drinks": 1,
-    "special": true,
-    "package": "single",
-    "package_size": 1,
-    "total_price": 97,
-    "unit_price": 97,
-    "cost_per_standard": 97,
-    "vessel": "can",
-    "alcohol_tax_cost": 0.52,
-    "alcohol_tax_percent": 1
   },
   {
     "name": "XXXX Gold Cans 30 Block 375mL",
@@ -5646,12 +5596,12 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 57.95,
-    "unit_price": 2.41,
-    "cost_per_standard": 1.85,
+    "total_price": 60.95,
+    "unit_price": 2.54,
+    "cost_per_standard": 1.95,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 31
+    "alcohol_tax_percent": 30
   },
   {
     "name": "4 Pines Pale Ale Can 6X375ml",
@@ -7278,12 +7228,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 58.95,
-    "unit_price": 2.46,
-    "cost_per_standard": 2.24,
+    "total_price": 165,
+    "unit_price": 6.88,
+    "cost_per_standard": 6.25,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 25
+    "alcohol_tax_percent": 9
   },
   {
     "name": "Balter Cerveza Bottles 355mL",
@@ -8761,23 +8711,6 @@
     "percentage": 4.5,
     "size": 355,
     "standard_drinks": 1.3,
-    "special": true,
-    "package": "case",
-    "package_size": 24,
-    "total_price": 117.9,
-    "unit_price": 4.91,
-    "cost_per_standard": 3.78,
-    "vessel": "bottle",
-    "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 15
-  },
-  {
-    "name": "Corona Extra Beer Bottles 6x355mL",
-    "name_clean": "Corona Extra Beer",
-    "stockcode": "357480",
-    "percentage": 4.5,
-    "size": 355,
-    "standard_drinks": 1.3,
     "special": false,
     "package": "case",
     "package_size": 24,
@@ -8995,12 +8928,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 57,
-    "unit_price": 2.38,
-    "cost_per_standard": 1.59,
+    "total_price": 60.95,
+    "unit_price": 2.54,
+    "cost_per_standard": 1.69,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.59,
-    "alcohol_tax_percent": 37
+    "alcohol_tax_percent": 35
   },
   {
     "name": "Crown Lager Bottles 375mL",
@@ -9196,12 +9129,12 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 53.95,
-    "unit_price": 2.25,
-    "cost_per_standard": 2.05,
+    "total_price": 56.95,
+    "unit_price": 2.37,
+    "cost_per_standard": 2.15,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.56,
-    "alcohol_tax_percent": 27
+    "alcohol_tax_percent": 26
   },
   {
     "name": "Hollandia Hollandia Lager 6x330mL",
@@ -9515,12 +9448,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 56.9,
-    "unit_price": 2.37,
-    "cost_per_standard": 1.58,
+    "total_price": 160,
+    "unit_price": 6.67,
+    "cost_per_standard": 4.45,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.59,
-    "alcohol_tax_percent": 37
+    "alcohol_tax_percent": 13
   },
   {
     "name": "Victoria Bitter Lager Bottles 4X6X375mL",
@@ -11863,9 +11796,9 @@
     "special": false,
     "package": "pack",
     "package_size": 4,
-    "total_price": 21.95,
-    "unit_price": 5.49,
-    "cost_per_standard": 3.23,
+    "total_price": 22.49,
+    "unit_price": 5.62,
+    "cost_per_standard": 3.31,
     "vessel": "can",
     "alcohol_tax_cost": 0.62,
     "alcohol_tax_percent": 19
@@ -13313,9 +13246,9 @@
     "special": true,
     "package": "single",
     "package_size": 1,
-    "total_price": 57,
-    "unit_price": 57,
-    "cost_per_standard": 40.71,
+    "total_price": 59.95,
+    "unit_price": 59.95,
+    "cost_per_standard": 42.82,
     "vessel": "can",
     "alcohol_tax_cost": 0.58,
     "alcohol_tax_percent": 1
@@ -13700,12 +13633,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 50.95,
-    "unit_price": 2.12,
-    "cost_per_standard": 1.51,
+    "total_price": 52.95,
+    "unit_price": 2.21,
+    "cost_per_standard": 1.58,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 38
+    "alcohol_tax_percent": 37
   },
   {
     "name": "Tooheys New Bottles 375mL",
@@ -14861,11 +14794,11 @@
     "special": true,
     "package": "single",
     "package_size": 1,
-    "total_price": 18,
-    "unit_price": 18,
-    "cost_per_standard": 7.5,
+    "total_price": 16,
+    "unit_price": 16,
+    "cost_per_standard": 6.67,
     "alcohol_tax_cost": 0.59,
-    "alcohol_tax_percent": 8
+    "alcohol_tax_percent": 9
   },
   {
     "name": "Hollandia Beer 650mL",
@@ -15175,11 +15108,11 @@
     "special": true,
     "package": "single",
     "package_size": 1,
-    "total_price": 18,
-    "unit_price": 18,
-    "cost_per_standard": 10,
+    "total_price": 16,
+    "unit_price": 16,
+    "cost_per_standard": 8.89,
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 6
+    "alcohol_tax_percent": 7
   },
   {
     "name": "Hook Norton Old Hooky Ale 500mL",
@@ -15702,12 +15635,12 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 56.95,
-    "unit_price": 2.37,
-    "cost_per_standard": 1.82,
+    "total_price": 60.95,
+    "unit_price": 2.54,
+    "cost_per_standard": 1.95,
     "vessel": "can",
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 32
+    "alcohol_tax_percent": 30
   },
   {
     "name": "Coopers Original Pale Ale Longneck 750mL",
@@ -16425,12 +16358,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 49,
-    "unit_price": 2.04,
-    "cost_per_standard": 1.7,
+    "total_price": 54,
+    "unit_price": 2.25,
+    "cost_per_standard": 1.88,
     "vessel": "can",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 32
+    "alcohol_tax_percent": 29
   },
   {
     "name": "Foster's Classic Lager Cans 375mL",
@@ -17365,12 +17298,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 45,
-    "unit_price": 1.88,
-    "cost_per_standard": 1.88,
+    "total_price": 49,
+    "unit_price": 2.04,
+    "cost_per_standard": 2.04,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.52,
-    "alcohol_tax_percent": 28
+    "alcohol_tax_percent": 25
   },
   {
     "name": "Great Northern Brewing Company Super Crisp Lager Bottles 330mL",
@@ -18364,12 +18297,12 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 64.95,
-    "unit_price": 2.71,
-    "cost_per_standard": 2.01,
+    "total_price": 66.9,
+    "unit_price": 2.79,
+    "cost_per_standard": 2.07,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.61,
-    "alcohol_tax_percent": 30
+    "alcohol_tax_percent": 29
   },
   {
     "name": "Singha Lager Beer 330mL",
@@ -19388,54 +19321,6 @@
     "cost_per_standard": 4.03,
     "alcohol_tax_cost": 0.62,
     "alcohol_tax_percent": 15
-  },
-  {
-    "name": "La Chouffe Ale 750mL",
-    "name_clean": "La Chouffe Ale",
-    "stockcode": "907085",
-    "percentage": 8,
-    "size": 750,
-    "standard_drinks": 4.7,
-    "special": true,
-    "package": "single",
-    "package_size": 1,
-    "total_price": 25,
-    "unit_price": 25,
-    "cost_per_standard": 5.32,
-    "alcohol_tax_cost": 0.67,
-    "alcohol_tax_percent": 13
-  },
-  {
-    "name": "La Chouffe Ale 750mL",
-    "name_clean": "La Chouffe Ale",
-    "stockcode": "907085",
-    "percentage": 8,
-    "size": 750,
-    "standard_drinks": 4.7,
-    "special": false,
-    "package": "single",
-    "package_size": 1,
-    "total_price": 17.99,
-    "unit_price": 17.99,
-    "cost_per_standard": 3.83,
-    "alcohol_tax_cost": 0.67,
-    "alcohol_tax_percent": 17
-  },
-  {
-    "name": "La Chouffe Ale 750mL",
-    "name_clean": "La Chouffe Ale",
-    "stockcode": "907085",
-    "percentage": 8,
-    "size": 750,
-    "standard_drinks": 4.7,
-    "special": false,
-    "package": "case",
-    "package_size": 12,
-    "total_price": 142.99,
-    "unit_price": 11.92,
-    "cost_per_standard": 2.54,
-    "alcohol_tax_cost": 0.67,
-    "alcohol_tax_percent": 26
   },
   {
     "name": "Tsingtao Premium Lager Bottles 330mL",
@@ -20586,9 +20471,9 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 53.95,
-    "unit_price": 2.25,
-    "cost_per_standard": 2.05,
+    "total_price": 54.9,
+    "unit_price": 2.29,
+    "cost_per_standard": 2.08,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.56,
     "alcohol_tax_percent": 27
@@ -21711,12 +21596,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 48.9,
-    "unit_price": 2.04,
-    "cost_per_standard": 2.27,
+    "total_price": 140,
+    "unit_price": 5.83,
+    "cost_per_standard": 6.48,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.52,
-    "alcohol_tax_percent": 23
+    "alcohol_tax_percent": 8
   },
   {
     "name": "Carlton Dry Mid 3.5 Bottles 6x330mL",
@@ -30374,42 +30259,6 @@
     "vessel": "can",
     "alcohol_tax_cost": 0.59,
     "alcohol_tax_percent": 23
-  },
-  {
-    "name": "Lion Stout Beer Bottles 330mL",
-    "name_clean": "Lion Stout Beer",
-    "stockcode": "ER_2000003933_LSTO330",
-    "percentage": 8.8,
-    "size": 330,
-    "standard_drinks": 2.3,
-    "special": false,
-    "package": "single",
-    "package_size": 1,
-    "total_price": 143,
-    "unit_price": 143,
-    "cost_per_standard": 62.17,
-    "online_only": true,
-    "vessel": "bottle",
-    "alcohol_tax_cost": 0.68,
-    "alcohol_tax_percent": 1
-  },
-  {
-    "name": "Lion Stout Beer Bottles 330mL",
-    "name_clean": "Lion Stout Beer",
-    "stockcode": "ER_2000003933_LSTO330",
-    "percentage": 8.8,
-    "size": 330,
-    "standard_drinks": 2.3,
-    "special": false,
-    "package": "case",
-    "package_size": 24,
-    "total_price": 143,
-    "unit_price": 5.96,
-    "cost_per_standard": 2.59,
-    "online_only": true,
-    "vessel": "bottle",
-    "alcohol_tax_cost": 0.68,
-    "alcohol_tax_percent": 26
   },
   {
     "name": "Lion Stout Beer Bottles 625mL",
