@@ -744,23 +744,6 @@
     "percentage": 4,
     "size": 375,
     "standard_drinks": 1.2,
-    "special": true,
-    "package": "pack",
-    "package_size": 4,
-    "total_price": 14,
-    "unit_price": 3.5,
-    "cost_per_standard": 2.92,
-    "vessel": "can",
-    "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 19
-  },
-  {
-    "name": "Hawkesbury Ginger Yowie Can 6X4X375ml",
-    "name_clean": "Hawkesbury Ginger Yowie",
-    "stockcode": "133917",
-    "percentage": 4,
-    "size": 375,
-    "standard_drinks": 1.2,
     "special": false,
     "package": "pack",
     "package_size": 4,
@@ -2162,12 +2145,12 @@
     "special": true,
     "package": "pack",
     "package_size": 4,
-    "total_price": 24,
-    "unit_price": 6,
-    "cost_per_standard": 3,
+    "total_price": 19,
+    "unit_price": 4.75,
+    "cost_per_standard": 2.38,
     "vessel": "can",
     "alcohol_tax_cost": 0.65,
-    "alcohol_tax_percent": 22
+    "alcohol_tax_percent": 27
   },
   {
     "name": "Amplys Hard Ginger Beer Can 375mL",
@@ -2219,6 +2202,22 @@
     "vessel": "can",
     "alcohol_tax_cost": 0.65,
     "alcohol_tax_percent": 25
+  },
+  {
+    "name": "Old Fart Ale 500mL",
+    "name_clean": "Old Fart Ale",
+    "stockcode": "178142",
+    "percentage": 5,
+    "size": 500,
+    "standard_drinks": 2,
+    "special": true,
+    "package": "single",
+    "package_size": 1,
+    "total_price": 24,
+    "unit_price": 24,
+    "cost_per_standard": 12,
+    "alcohol_tax_cost": 0.6,
+    "alcohol_tax_percent": 5
   },
   {
     "name": "Old Fart Ale 500mL",
@@ -3336,11 +3335,11 @@
     "special": true,
     "package": "pack",
     "package_size": 4,
-    "total_price": 19,
-    "unit_price": 4.75,
-    "cost_per_standard": 4.75,
+    "total_price": 20,
+    "unit_price": 5,
+    "cost_per_standard": 5,
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 12
+    "alcohol_tax_percent": 11
   },
   {
     "name": "Stones Ginger Beer Btl 6X4X330ml",
@@ -3683,32 +3682,15 @@
     "percentage": 4.5,
     "size": 500,
     "standard_drinks": 1.8,
-    "special": true,
-    "package": "pack",
-    "package_size": 4,
-    "total_price": 12,
-    "unit_price": 3,
-    "cost_per_standard": 1.67,
-    "vessel": "can",
-    "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 35
-  },
-  {
-    "name": "Nam Nam Alley Lager Can 500ml",
-    "name_clean": "Nam Nam Alley Lager",
-    "stockcode": "215860",
-    "percentage": 4.5,
-    "size": 500,
-    "standard_drinks": 1.8,
     "special": false,
     "package": "pack",
     "package_size": 4,
-    "total_price": 19.49,
-    "unit_price": 4.87,
-    "cost_per_standard": 2.71,
+    "total_price": 10,
+    "unit_price": 2.5,
+    "cost_per_standard": 1.39,
     "vessel": "can",
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 21
+    "alcohol_tax_percent": 42
   },
   {
     "name": "Nam Nam Alley Lager Can 500ml",
@@ -5262,22 +5244,6 @@
     "percentage": 6.3,
     "size": 375,
     "standard_drinks": 1.83,
-    "special": true,
-    "package": "pack",
-    "package_size": 4,
-    "total_price": 20,
-    "unit_price": 5,
-    "cost_per_standard": 2.73,
-    "alcohol_tax_cost": 0.64,
-    "alcohol_tax_percent": 23
-  },
-  {
-    "name": "Hawkesbury Brewing Co IPA6x4x375ml",
-    "name_clean": "Hawkesbury Brewing Co IPA",
-    "stockcode": "252261",
-    "percentage": 6.3,
-    "size": 375,
-    "standard_drinks": 1.83,
     "special": false,
     "package": "pack",
     "package_size": 4,
@@ -5486,22 +5452,6 @@
     "cost_per_standard": 5.19,
     "alcohol_tax_cost": 0.52,
     "alcohol_tax_percent": 10
-  },
-  {
-    "name": "Hawkesbury Brewing Pacific Ale6x4x375ml",
-    "name_clean": "Hawkesbury Brewing Pacific Ale",
-    "stockcode": "255832",
-    "percentage": 3.5,
-    "size": 375,
-    "standard_drinks": 1,
-    "special": true,
-    "package": "pack",
-    "package_size": 4,
-    "total_price": 15,
-    "unit_price": 3.75,
-    "cost_per_standard": 3.75,
-    "alcohol_tax_cost": 0.52,
-    "alcohol_tax_percent": 14
   },
   {
     "name": "Hawkesbury Brewing Pacific Ale6x4x375ml",
@@ -8062,7 +8012,7 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 139.85,
+    "total_price": 139.9,
     "unit_price": 5.83,
     "cost_per_standard": 6.48,
     "vessel": "bottle",
@@ -9196,11 +9146,11 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 48,
-    "unit_price": 2,
-    "cost_per_standard": 1.67,
+    "total_price": 47,
+    "unit_price": 1.96,
+    "cost_per_standard": 1.63,
     "alcohol_tax_cost": 0.59,
-    "alcohol_tax_percent": 35
+    "alcohol_tax_percent": 36
   },
   {
     "name": "Hollandia Hollandia Lager 6x330mL",
@@ -10237,8 +10187,8 @@
     "alcohol_tax_percent": 1
   },
   {
-    "name": "Steersman Blonde Low Carb Beer 330mL",
-    "name_clean": "Steersman Blonde Low Carb Beer",
+    "name": "Steersman Blonde Lw Carb Btl 4X6X330ml",
+    "name_clean": "Steersman Blonde Lw Carb Btl",
     "stockcode": "447309",
     "percentage": 4.2,
     "size": 330,
@@ -10253,8 +10203,8 @@
     "alcohol_tax_percent": 14
   },
   {
-    "name": "Steersman Blonde Low Carb Beer 330mL",
-    "name_clean": "Steersman Blonde Low Carb Beer",
+    "name": "Steersman Blonde Lw Carb Btl 4X6X330ml",
+    "name_clean": "Steersman Blonde Lw Carb Btl",
     "stockcode": "447309",
     "percentage": 4.2,
     "size": 330,
@@ -10269,8 +10219,8 @@
     "alcohol_tax_percent": 26
   },
   {
-    "name": "Steersman Blonde Low Carb Beer 330mL",
-    "name_clean": "Steersman Blonde Low Carb Beer",
+    "name": "Steersman Blonde Lw Carb Btl 4X6X330ml",
+    "name_clean": "Steersman Blonde Lw Carb Btl",
     "stockcode": "447309",
     "percentage": 4.2,
     "size": 330,
@@ -10285,8 +10235,8 @@
     "alcohol_tax_percent": 21
   },
   {
-    "name": "Steersman Blonde Low Carb Beer 330mL",
-    "name_clean": "Steersman Blonde Low Carb Beer",
+    "name": "Steersman Blonde Lw Carb Btl 4X6X330ml",
+    "name_clean": "Steersman Blonde Lw Carb Btl",
     "stockcode": "447309",
     "percentage": 4.2,
     "size": 330,
@@ -10671,7 +10621,7 @@
     "alcohol_tax_percent": 37
   },
   {
-    "name": "TUN Blue Light Cans 330mL",
+    "name": "TUN Blue Light Cans 5x6x330mL",
     "name_clean": "TUN Blue Light",
     "stockcode": "460725",
     "percentage": 2.7,
@@ -10688,7 +10638,7 @@
     "alcohol_tax_percent": 2
   },
   {
-    "name": "TUN Blue Light Cans 330mL",
+    "name": "TUN Blue Light Cans 5x6x330mL",
     "name_clean": "TUN Blue Light",
     "stockcode": "460725",
     "percentage": 2.7,
@@ -15922,12 +15872,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 49.95,
-    "unit_price": 2.08,
-    "cost_per_standard": 1.6,
+    "total_price": 47,
+    "unit_price": 1.96,
+    "cost_per_standard": 1.51,
     "vessel": "can",
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 36
+    "alcohol_tax_percent": 38
   },
   {
     "name": "Carlton Dry Cans 6X375mL",
@@ -19537,12 +19487,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 53.95,
-    "unit_price": 2.25,
-    "cost_per_standard": 1.88,
+    "total_price": 52,
+    "unit_price": 2.17,
+    "cost_per_standard": 1.81,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 31
+    "alcohol_tax_percent": 32
   },
   {
     "name": "Hahn Super Dry Lager Bottle 330mL",
@@ -31334,40 +31284,6 @@
     "alcohol_tax_percent": 23
   },
   {
-    "name": "Buttons Brewing Clocktown Brown Ale",
-    "name_clean": "Buttons Brewing Clocktown Brown Ale",
-    "stockcode": "ER_2000004122_9369998221974",
-    "percentage": 5.5,
-    "size": 369,
-    "standard_drinks": 1.6,
-    "special": false,
-    "package": "single",
-    "package_size": 1,
-    "total_price": 67.5,
-    "unit_price": 67.5,
-    "cost_per_standard": 42.19,
-    "online_only": true,
-    "alcohol_tax_cost": 0.61,
-    "alcohol_tax_percent": 1
-  },
-  {
-    "name": "Buttons Brewing Clocktown Brown Ale",
-    "name_clean": "Buttons Brewing Clocktown Brown Ale",
-    "stockcode": "ER_2000004122_9369998221974",
-    "percentage": 5.5,
-    "size": 369,
-    "standard_drinks": 1.6,
-    "special": false,
-    "package": "case",
-    "package_size": 16,
-    "total_price": 67.5,
-    "unit_price": 4.22,
-    "cost_per_standard": 2.64,
-    "online_only": true,
-    "alcohol_tax_cost": 0.61,
-    "alcohol_tax_percent": 23
-  },
-  {
     "name": "Innis & Gunn 'The Original' Barrel Aged Ale Bottle 330mL",
     "name_clean": "Innis & Gunn 'The Original' Barrel Aged Ale",
     "stockcode": "ER_2000004146_INNISGUNNOG",
@@ -32041,40 +31957,6 @@
     "online_only": true,
     "alcohol_tax_cost": 0.56,
     "alcohol_tax_percent": 7
-  },
-  {
-    "name": "Wilson Brewing Co. Draught",
-    "name_clean": "Wilson Brewing Co. Draught",
-    "stockcode": "ER_2000004582_165666",
-    "percentage": 4.2,
-    "size": 362,
-    "standard_drinks": 1.2,
-    "special": false,
-    "package": "single",
-    "package_size": 1,
-    "total_price": 19.99,
-    "unit_price": 19.99,
-    "cost_per_standard": 16.66,
-    "online_only": true,
-    "alcohol_tax_cost": 0.56,
-    "alcohol_tax_percent": 3
-  },
-  {
-    "name": "Wilson Brewing Co. Draught",
-    "name_clean": "Wilson Brewing Co. Draught",
-    "stockcode": "ER_2000004582_165666",
-    "percentage": 4.2,
-    "size": 362,
-    "standard_drinks": 1.2,
-    "special": false,
-    "package": "case",
-    "package_size": 24,
-    "total_price": 61.99,
-    "unit_price": 2.58,
-    "cost_per_standard": 2.15,
-    "online_only": true,
-    "alcohol_tax_cost": 0.56,
-    "alcohol_tax_percent": 26
   },
   {
     "name": "Wilson Brewing Co Rough Seas Pale Ale",
