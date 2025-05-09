@@ -3423,11 +3423,11 @@
     "special": true,
     "package": "pack",
     "package_size": 4,
-    "total_price": 20,
-    "unit_price": 5,
-    "cost_per_standard": 5,
+    "total_price": 19,
+    "unit_price": 4.75,
+    "cost_per_standard": 4.75,
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 11
+    "alcohol_tax_percent": 12
   },
   {
     "name": "Stones Ginger Beer Btl 6X4X330ml",
@@ -11499,12 +11499,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 51.95,
-    "unit_price": 2.16,
-    "cost_per_standard": 1.66,
+    "total_price": 50,
+    "unit_price": 2.08,
+    "cost_per_standard": 1.6,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.6,
-    "alcohol_tax_percent": 36
+    "alcohol_tax_percent": 37
   },
   {
     "name": "Heineken Lager Bottles 330mL",
@@ -12714,9 +12714,9 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 55,
-    "unit_price": 2.29,
-    "cost_per_standard": 2.08,
+    "total_price": 56,
+    "unit_price": 2.33,
+    "cost_per_standard": 2.12,
     "vessel": "can",
     "alcohol_tax_cost": 0.55,
     "alcohol_tax_percent": 26
@@ -13300,7 +13300,7 @@
     "alcohol_tax_percent": 26
   },
   {
-    "name": "Young Henrys Newtowner Pale Ale 3.5 Cans 4X4X375mL",
+    "name": "Young Henrys Newtowner Pale Ale 3.5 Cans 4x4x375mL",
     "name_clean": "Young Henrys Newtowner Pale Ale 3.5",
     "stockcode": "6006123",
     "percentage": 3.5,
@@ -13317,7 +13317,7 @@
     "alcohol_tax_percent": 9
   },
   {
-    "name": "Young Henrys Newtowner Pale Ale 3.5 Cans 4X4X375mL",
+    "name": "Young Henrys Newtowner Pale Ale 3.5 Cans 4x4x375mL",
     "name_clean": "Young Henrys Newtowner Pale Ale 3.5",
     "stockcode": "6006123",
     "percentage": 3.5,
@@ -13334,7 +13334,7 @@
     "alcohol_tax_percent": 10
   },
   {
-    "name": "Young Henrys Newtowner Pale Ale 3.5 Cans 4X4X375mL",
+    "name": "Young Henrys Newtowner Pale Ale 3.5 Cans 4x4x375mL",
     "name_clean": "Young Henrys Newtowner Pale Ale 3.5",
     "stockcode": "6006123",
     "percentage": 3.5,
@@ -14138,7 +14138,7 @@
     "alcohol_tax_percent": 26
   },
   {
-    "name": "Tooheys Extra Dry Bottles 345mL",
+    "name": "Tooheys Extra Dry Bottles 6x345mL",
     "name_clean": "Tooheys Extra Dry",
     "stockcode": "64868",
     "percentage": 4.3,
@@ -14155,7 +14155,7 @@
     "alcohol_tax_percent": 12
   },
   {
-    "name": "Tooheys Extra Dry Bottles 345mL",
+    "name": "Tooheys Extra Dry Bottles 6x345mL",
     "name_clean": "Tooheys Extra Dry",
     "stockcode": "64868",
     "percentage": 4.3,
@@ -14172,7 +14172,7 @@
     "alcohol_tax_percent": 18
   },
   {
-    "name": "Tooheys Extra Dry Bottles 345mL",
+    "name": "Tooheys Extra Dry Bottles 6x345mL",
     "name_clean": "Tooheys Extra Dry",
     "stockcode": "64868",
     "percentage": 4.3,
@@ -14189,7 +14189,7 @@
     "alcohol_tax_percent": 34
   },
   {
-    "name": "Tooheys Extra Dry Bottles 345mL",
+    "name": "Tooheys Extra Dry Bottles 6x345mL",
     "name_clean": "Tooheys Extra Dry",
     "stockcode": "64868",
     "percentage": 4.3,
@@ -20707,7 +20707,7 @@
     "alcohol_tax_percent": 19
   },
   {
-    "name": "Wrexham Lager 4.0 Bottles 6X330mL",
+    "name": "Wrexham Lager 4.0 Bottles 6x330mL",
     "name_clean": "Wrexham Lager 4.0",
     "stockcode": "911640",
     "percentage": 4,
@@ -20724,7 +20724,7 @@
     "alcohol_tax_percent": 11
   },
   {
-    "name": "Wrexham Lager 4.0 Bottles 6X330mL",
+    "name": "Wrexham Lager 4.0 Bottles 6x330mL",
     "name_clean": "Wrexham Lager 4.0",
     "stockcode": "911640",
     "percentage": 4,
@@ -20741,7 +20741,7 @@
     "alcohol_tax_percent": 14
   },
   {
-    "name": "Wrexham Lager 4.0 Bottles 6X330mL",
+    "name": "Wrexham Lager 4.0 Bottles 6x330mL",
     "name_clean": "Wrexham Lager 4.0",
     "stockcode": "911640",
     "percentage": 4,
@@ -23086,40 +23086,6 @@
     "online_only": true,
     "alcohol_tax_cost": 0.63,
     "alcohol_tax_percent": 9
-  },
-  {
-    "name": "Beer Koshihikari Rice Lager 500mL",
-    "name_clean": "Beer Koshihikari Rice Lager",
-    "stockcode": "ER_1000004096_LBEE018EA",
-    "percentage": 5,
-    "size": 500,
-    "standard_drinks": 1.98,
-    "special": false,
-    "package": "single",
-    "package_size": 1,
-    "total_price": 11,
-    "unit_price": 11,
-    "cost_per_standard": 5.56,
-    "online_only": true,
-    "alcohol_tax_cost": 0.6,
-    "alcohol_tax_percent": 11
-  },
-  {
-    "name": "Beer Koshihikari Rice Lager 500mL",
-    "name_clean": "Beer Koshihikari Rice Lager",
-    "stockcode": "ER_1000004096_LBEE018EA",
-    "percentage": 5,
-    "size": 500,
-    "standard_drinks": 1.98,
-    "special": false,
-    "package": "case",
-    "package_size": 15,
-    "total_price": 122,
-    "unit_price": 8.13,
-    "cost_per_standard": 4.11,
-    "online_only": true,
-    "alcohol_tax_cost": 0.6,
-    "alcohol_tax_percent": 15
   },
   {
     "name": "Kizakura Kyoto Beer Matcha IPA 330mL",
@@ -26554,6 +26520,42 @@
     "online_only": true,
     "alcohol_tax_cost": 0.59,
     "alcohol_tax_percent": 26
+  },
+  {
+    "name": "Saigon Beer Special Lager In Cans 330mL",
+    "name_clean": "Saigon Beer Special Lager In",
+    "stockcode": "ER_1000007142_SGN-222",
+    "percentage": 4.9,
+    "size": 330,
+    "standard_drinks": 1.3,
+    "special": false,
+    "package": "single",
+    "package_size": 1,
+    "total_price": 2.62,
+    "unit_price": 2.62,
+    "cost_per_standard": 2.02,
+    "online_only": true,
+    "vessel": "can",
+    "alcohol_tax_cost": 0.59,
+    "alcohol_tax_percent": 29
+  },
+  {
+    "name": "Saigon Beer Special Lager In Cans 330mL",
+    "name_clean": "Saigon Beer Special Lager In",
+    "stockcode": "ER_1000007142_SGN-222",
+    "percentage": 4.9,
+    "size": 330,
+    "standard_drinks": 1.3,
+    "special": false,
+    "package": "case",
+    "package_size": 24,
+    "total_price": 62.88,
+    "unit_price": 2.62,
+    "cost_per_standard": 2.02,
+    "online_only": true,
+    "vessel": "can",
+    "alcohol_tax_cost": 0.59,
+    "alcohol_tax_percent": 29
   },
   {
     "name": "Yoyogi Beer Yoyogi Pale Ale 375ml",
@@ -32243,37 +32245,37 @@
     "alcohol_tax_percent": 23
   },
   {
-    "name": "Buttons Brewing North-West Draught",
-    "name_clean": "Buttons Brewing North-West Draught",
-    "stockcode": "ER_2000004122_9369998129447",
-    "percentage": 4.7,
-    "size": 377,
-    "standard_drinks": 1.4,
+    "name": "Buttons Brewing Clocktown Brown Ale",
+    "name_clean": "Buttons Brewing Clocktown Brown Ale",
+    "stockcode": "ER_2000004122_9369998221974",
+    "percentage": 5.5,
+    "size": 369,
+    "standard_drinks": 1.6,
     "special": false,
     "package": "single",
     "package_size": 1,
-    "total_price": 58.75,
-    "unit_price": 58.75,
-    "cost_per_standard": 41.96,
+    "total_price": 67.5,
+    "unit_price": 67.5,
+    "cost_per_standard": 42.19,
     "online_only": true,
-    "alcohol_tax_cost": 0.59,
+    "alcohol_tax_cost": 0.61,
     "alcohol_tax_percent": 1
   },
   {
-    "name": "Buttons Brewing North-West Draught",
-    "name_clean": "Buttons Brewing North-West Draught",
-    "stockcode": "ER_2000004122_9369998129447",
-    "percentage": 4.7,
-    "size": 377,
-    "standard_drinks": 1.4,
+    "name": "Buttons Brewing Clocktown Brown Ale",
+    "name_clean": "Buttons Brewing Clocktown Brown Ale",
+    "stockcode": "ER_2000004122_9369998221974",
+    "percentage": 5.5,
+    "size": 369,
+    "standard_drinks": 1.6,
     "special": false,
     "package": "case",
     "package_size": 16,
-    "total_price": 58.75,
-    "unit_price": 3.67,
-    "cost_per_standard": 2.62,
+    "total_price": 67.5,
+    "unit_price": 4.22,
+    "cost_per_standard": 2.64,
     "online_only": true,
-    "alcohol_tax_cost": 0.59,
+    "alcohol_tax_cost": 0.61,
     "alcohol_tax_percent": 23
   },
   {
