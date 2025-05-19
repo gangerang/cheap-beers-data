@@ -7006,7 +7006,7 @@
     "alcohol_tax_percent": 24
   },
   {
-    "name": "Matso's Nightlife Alcoholic Ginger Beer Cans 330mL",
+    "name": "Matso's Nightlife Alcoholic Ginger Beer Cans 6x4x330mL",
     "name_clean": "Matso's Nightlife Alcoholic Ginger Beer",
     "stockcode": "309590",
     "percentage": 6,
@@ -7023,7 +7023,7 @@
     "alcohol_tax_percent": 13
   },
   {
-    "name": "Matso's Nightlife Alcoholic Ginger Beer Cans 330mL",
+    "name": "Matso's Nightlife Alcoholic Ginger Beer Cans 6x4x330mL",
     "name_clean": "Matso's Nightlife Alcoholic Ginger Beer",
     "stockcode": "309590",
     "percentage": 6,
@@ -7040,7 +7040,7 @@
     "alcohol_tax_percent": 18
   },
   {
-    "name": "Matso's Nightlife Alcoholic Ginger Beer Cans 330mL",
+    "name": "Matso's Nightlife Alcoholic Ginger Beer Cans 6x4x330mL",
     "name_clean": "Matso's Nightlife Alcoholic Ginger Beer",
     "stockcode": "309590",
     "percentage": 6,
@@ -7057,7 +7057,7 @@
     "alcohol_tax_percent": 14
   },
   {
-    "name": "Matso's Nightlife Alcoholic Ginger Beer Cans 330mL",
+    "name": "Matso's Nightlife Alcoholic Ginger Beer Cans 6x4x330mL",
     "name_clean": "Matso's Nightlife Alcoholic Ginger Beer",
     "stockcode": "309590",
     "percentage": 6,
@@ -7219,12 +7219,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 58.95,
-    "unit_price": 2.46,
-    "cost_per_standard": 2.24,
+    "total_price": 55.95,
+    "unit_price": 2.33,
+    "cost_per_standard": 2.12,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 25
+    "alcohol_tax_percent": 26
   },
   {
     "name": "Balter Cerveza Bottles 355mL",
@@ -7397,8 +7397,8 @@
     "alcohol_tax_percent": 16
   },
   {
-    "name": "James Squire Stride Pale Ale Bottles 6x330mL",
-    "name_clean": "James Squire Stride Pale Ale",
+    "name": "James Squire Low Carb Pale Ale Bottles 6x330mL",
+    "name_clean": "James Squire Low Carb Pale Ale",
     "stockcode": "314034",
     "percentage": 4.2,
     "size": 330,
@@ -7414,8 +7414,8 @@
     "alcohol_tax_percent": 10
   },
   {
-    "name": "James Squire Stride Pale Ale Bottles 6x330mL",
-    "name_clean": "James Squire Stride Pale Ale",
+    "name": "James Squire Low Carb Pale Ale Bottles 6x330mL",
+    "name_clean": "James Squire Low Carb Pale Ale",
     "stockcode": "314034",
     "percentage": 4.2,
     "size": 330,
@@ -7431,8 +7431,8 @@
     "alcohol_tax_percent": 15
   },
   {
-    "name": "James Squire Stride Pale Ale Bottles 6x330mL",
-    "name_clean": "James Squire Stride Pale Ale",
+    "name": "James Squire Low Carb Pale Ale Bottles 6x330mL",
+    "name_clean": "James Squire Low Carb Pale Ale",
     "stockcode": "314034",
     "percentage": 4.2,
     "size": 330,
@@ -7448,8 +7448,8 @@
     "alcohol_tax_percent": 26
   },
   {
-    "name": "James Squire Stride Pale Ale Bottles 6x330mL",
-    "name_clean": "James Squire Stride Pale Ale",
+    "name": "James Squire Low Carb Pale Ale Bottles 6x330mL",
+    "name_clean": "James Squire Low Carb Pale Ale",
     "stockcode": "314034",
     "percentage": 4.2,
     "size": 330,
@@ -8968,12 +8968,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 57.9,
-    "unit_price": 2.41,
-    "cost_per_standard": 1.61,
+    "total_price": 60.95,
+    "unit_price": 2.54,
+    "cost_per_standard": 1.69,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.59,
-    "alcohol_tax_percent": 37
+    "alcohol_tax_percent": 35
   },
   {
     "name": "Crown Lager Bottles 375mL",
@@ -11596,12 +11596,12 @@
     "special": true,
     "package": "pack",
     "package_size": 6,
-    "total_price": 28.95,
-    "unit_price": 4.83,
-    "cost_per_standard": 4.64,
+    "total_price": 26.95,
+    "unit_price": 4.49,
+    "cost_per_standard": 4.32,
     "vessel": "can",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 12
+    "alcohol_tax_percent": 13
   },
   {
     "name": "Brookvale Union Ginger Beer Cans 330mL",
@@ -19712,12 +19712,12 @@
     "special": true,
     "package": "pack",
     "package_size": 6,
-    "total_price": 18,
-    "unit_price": 3,
-    "cost_per_standard": 2.31,
+    "total_price": 15,
+    "unit_price": 2.5,
+    "cost_per_standard": 1.92,
     "vessel": "can",
     "alcohol_tax_cost": 0.6,
-    "alcohol_tax_percent": 26
+    "alcohol_tax_percent": 31
   },
   {
     "name": "Wakachangi Premium Lager Cans 330mL",
@@ -19862,29 +19862,12 @@
     "percentage": 3.8,
     "size": 330,
     "standard_drinks": 1,
-    "special": true,
-    "package": "case",
-    "package_size": 24,
-    "total_price": 49.9,
-    "unit_price": 2.08,
-    "cost_per_standard": 2.08,
-    "vessel": "bottle",
-    "alcohol_tax_cost": 0.54,
-    "alcohol_tax_percent": 26
-  },
-  {
-    "name": "XXXX Ultra Zero Carb Bottles 6X330mL",
-    "name_clean": "XXXX Ultra Zero Carb",
-    "stockcode": "910435",
-    "percentage": 3.8,
-    "size": 330,
-    "standard_drinks": 1,
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 49.99,
-    "unit_price": 2.08,
-    "cost_per_standard": 2.08,
+    "total_price": 48.95,
+    "unit_price": 2.04,
+    "cost_per_standard": 2.04,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.54,
     "alcohol_tax_percent": 26
@@ -25911,40 +25894,6 @@
     "alcohol_tax_percent": 29
   },
   {
-    "name": "Yoyogi Beer Yoyogi Pale Ale 375ml",
-    "name_clean": "Yoyogi Beer Yoyogi Pale Ale",
-    "stockcode": "ER_1000007466_51302",
-    "percentage": 4.8,
-    "size": 375,
-    "standard_drinks": 1.4,
-    "special": false,
-    "package": "pack",
-    "package_size": 6,
-    "total_price": 32,
-    "unit_price": 5.33,
-    "cost_per_standard": 3.81,
-    "online_only": true,
-    "alcohol_tax_cost": 0.59,
-    "alcohol_tax_percent": 15
-  },
-  {
-    "name": "Yoyogi Beer Yoyogi Pale Ale 375ml",
-    "name_clean": "Yoyogi Beer Yoyogi Pale Ale",
-    "stockcode": "ER_1000007466_51302",
-    "percentage": 4.8,
-    "size": 375,
-    "standard_drinks": 1.4,
-    "special": false,
-    "package": "case",
-    "package_size": 24,
-    "total_price": 122,
-    "unit_price": 5.08,
-    "cost_per_standard": 3.63,
-    "online_only": true,
-    "alcohol_tax_cost": 0.59,
-    "alcohol_tax_percent": 16
-  },
-  {
     "name": "The Craft & Co Tropical Hazy Pale Ale 375mL",
     "name_clean": "The Craft & Co Tropical Hazy Pale Ale",
     "stockcode": "ER_1000007498_TCACHAZYPALE",
@@ -28750,40 +28699,6 @@
     "online_only": true,
     "alcohol_tax_cost": 0.6,
     "alcohol_tax_percent": 24
-  },
-  {
-    "name": "Cubby Haus Brewing Brain Freeze NEIPA 375mL",
-    "name_clean": "Cubby Haus Brewing Brain Freeze NEIPA",
-    "stockcode": "ER_2000003418_BF-375-C24",
-    "percentage": 6,
-    "size": 375,
-    "standard_drinks": 1.8,
-    "special": false,
-    "package": "single",
-    "package_size": 1,
-    "total_price": 4.63,
-    "unit_price": 4.63,
-    "cost_per_standard": 2.57,
-    "online_only": true,
-    "alcohol_tax_cost": 0.63,
-    "alcohol_tax_percent": 25
-  },
-  {
-    "name": "Cubby Haus Brewing Brain Freeze NEIPA 375mL",
-    "name_clean": "Cubby Haus Brewing Brain Freeze NEIPA",
-    "stockcode": "ER_2000003418_BF-375-C24",
-    "percentage": 6,
-    "size": 375,
-    "standard_drinks": 1.8,
-    "special": false,
-    "package": "case",
-    "package_size": 24,
-    "total_price": 111.12,
-    "unit_price": 4.63,
-    "cost_per_standard": 2.57,
-    "online_only": true,
-    "alcohol_tax_cost": 0.63,
-    "alcohol_tax_percent": 25
   },
   {
     "name": "Cubby Haus Brewing American Brown Ale 5.5% 375mL",
@@ -31615,40 +31530,6 @@
     "online_only": true,
     "alcohol_tax_cost": 0.41,
     "alcohol_tax_percent": 10
-  },
-  {
-    "name": "Harbin Beer traditional Beer 330mL",
-    "name_clean": "Harbin Beer traditional Beer",
-    "stockcode": "ER_2000004147_HBT01",
-    "percentage": 5.5,
-    "size": 330,
-    "standard_drinks": 1.4,
-    "special": false,
-    "package": "single",
-    "package_size": 1,
-    "total_price": 2.83,
-    "unit_price": 2.83,
-    "cost_per_standard": 2.02,
-    "online_only": true,
-    "alcohol_tax_cost": 0.61,
-    "alcohol_tax_percent": 30
-  },
-  {
-    "name": "Harbin Beer traditional Beer 330mL",
-    "name_clean": "Harbin Beer traditional Beer",
-    "stockcode": "ER_2000004147_HBT01",
-    "percentage": 5.5,
-    "size": 330,
-    "standard_drinks": 1.4,
-    "special": false,
-    "package": "case",
-    "package_size": 24,
-    "total_price": 68,
-    "unit_price": 2.83,
-    "cost_per_standard": 2.02,
-    "online_only": true,
-    "alcohol_tax_cost": 0.61,
-    "alcohol_tax_percent": 30
   },
   {
     "name": "The Eleventh Order Pallidus Pale Ale 375mL x 16 Cans",
