@@ -1255,12 +1255,12 @@
     "special": true,
     "package": "pack",
     "package_size": 4,
-    "total_price": 22,
-    "unit_price": 5.5,
-    "cost_per_standard": 3.06,
+    "total_price": 20,
+    "unit_price": 5,
+    "cost_per_standard": 2.78,
     "vessel": "can",
     "alcohol_tax_cost": 0.63,
-    "alcohol_tax_percent": 21
+    "alcohol_tax_percent": 23
   },
   {
     "name": "Colossal Brewing Mind Harvest East Coast IPA Cans 375mL",
@@ -4681,12 +4681,12 @@
     "special": true,
     "package": "single",
     "package_size": 1,
-    "total_price": 54.9,
-    "unit_price": 54.9,
-    "cost_per_standard": 54.9,
+    "total_price": 151,
+    "unit_price": 151,
+    "cost_per_standard": 151,
     "vessel": "can",
     "alcohol_tax_cost": 0.52,
-    "alcohol_tax_percent": 1
+    "alcohol_tax_percent": 0
   },
   {
     "name": "XXXX Gold Mid Strength Lager Beer Cans 30 Block 375mL",
@@ -7650,12 +7650,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 99,
-    "unit_price": 4.13,
-    "cost_per_standard": 3.75,
+    "total_price": 55.9,
+    "unit_price": 2.33,
+    "cost_per_standard": 2.12,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.56,
-    "alcohol_tax_percent": 15
+    "alcohol_tax_percent": 26
   },
   {
     "name": "James Squire Low Carb Pale Ale Bottles 6x330mL",
@@ -8700,12 +8700,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 55.9,
-    "unit_price": 2.33,
-    "cost_per_standard": 1.66,
+    "total_price": 104,
+    "unit_price": 4.33,
+    "cost_per_standard": 3.09,
     "vessel": "can",
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 35
+    "alcohol_tax_percent": 19
   },
   {
     "name": "Hahn SuperDry Can 375mL",
@@ -8979,9 +8979,9 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 80,
-    "unit_price": 3.33,
-    "cost_per_standard": 3.03,
+    "total_price": 80.9,
+    "unit_price": 3.37,
+    "cost_per_standard": 3.06,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.57,
     "alcohol_tax_percent": 19
@@ -9127,12 +9127,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 60.95,
-    "unit_price": 2.54,
-    "cost_per_standard": 1.69,
+    "total_price": 57.9,
+    "unit_price": 2.41,
+    "cost_per_standard": 1.61,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.59,
-    "alcohol_tax_percent": 35
+    "alcohol_tax_percent": 37
   },
   {
     "name": "Crown Lager Bottles 375mL",
@@ -14082,12 +14082,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 47.9,
-    "unit_price": 2,
-    "cost_per_standard": 1.67,
+    "total_price": 132,
+    "unit_price": 5.5,
+    "cost_per_standard": 4.58,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.57,
-    "alcohol_tax_percent": 34
+    "alcohol_tax_percent": 12
   },
   {
     "name": "Tooheys Extra Dry Bottles 6x345mL",
@@ -32063,40 +32063,6 @@
     "online_only": true,
     "alcohol_tax_cost": 0.55,
     "alcohol_tax_percent": 12
-  },
-  {
-    "name": "NATURAL FARM ALE",
-    "name_clean": "NATURAL FARM ALE",
-    "stockcode": "ER_2000004003_93510530000655",
-    "percentage": 5.2,
-    "size": 390,
-    "standard_drinks": 1.6,
-    "special": false,
-    "package": "single",
-    "package_size": 1,
-    "total_price": 89,
-    "unit_price": 89,
-    "cost_per_standard": 55.63,
-    "online_only": true,
-    "alcohol_tax_cost": 0.61,
-    "alcohol_tax_percent": 1
-  },
-  {
-    "name": "NATURAL FARM ALE",
-    "name_clean": "NATURAL FARM ALE",
-    "stockcode": "ER_2000004003_93510530000655",
-    "percentage": 5.2,
-    "size": 390,
-    "standard_drinks": 1.6,
-    "special": false,
-    "package": "case",
-    "package_size": 16,
-    "total_price": 89,
-    "unit_price": 5.56,
-    "cost_per_standard": 3.47,
-    "online_only": true,
-    "alcohol_tax_cost": 0.61,
-    "alcohol_tax_percent": 18
   },
   {
     "name": "Dark Daze Norwegian Farmhouse Ale",
