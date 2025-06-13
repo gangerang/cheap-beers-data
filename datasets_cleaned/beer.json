@@ -2402,12 +2402,12 @@
         "alcohol_tax_percent": 26
       },
       "case_special": {
-        "total_price": 95,
+        "total_price": 49.9,
         "units": 24,
-        "unit_price": 3.96,
-        "cost_per_standard": 3.96,
+        "unit_price": 2.08,
+        "cost_per_standard": 2.08,
         "alcohol_tax_cost": 0.54,
-        "alcohol_tax_percent": 14
+        "alcohol_tax_percent": 26
       },
       "pack": {
         "total_price": 18.85,
@@ -2778,12 +2778,12 @@
     },
     "pricing": {
       "case": {
-        "total_price": 47.95,
+        "total_price": 45.95,
         "units": 24,
-        "unit_price": 2,
-        "cost_per_standard": 2.22,
+        "unit_price": 1.91,
+        "cost_per_standard": 2.12,
         "alcohol_tax_cost": 0.53,
-        "alcohol_tax_percent": 24
+        "alcohol_tax_percent": 25
       },
       "pack": {
         "total_price": 19.49,
@@ -3755,6 +3755,50 @@
     }
   },
   {
+    "stockcode": "116508",
+    "properties": {
+      "name": "Capital Summit Session Ale Can375ml",
+      "name_clean": "Capital Summit Session Ale",
+      "brand": "Capital Brewing Co.",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 3.5,
+      "standard_drinks_raw": 1,
+      "standard_drinks_clean": 1,
+      "vessel": "can",
+      "image_url": "116508-1.png",
+      "rating": null,
+      "ibu": 25,
+      "beer_style": "Ale"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 55.99,
+        "units": 16,
+        "unit_price": 3.5,
+        "cost_per_standard": 3.5,
+        "alcohol_tax_cost": 0.54,
+        "alcohol_tax_percent": 15
+      },
+      "pack": {
+        "total_price": 19.99,
+        "units": 4,
+        "unit_price": 5,
+        "cost_per_standard": 5,
+        "alcohol_tax_cost": 0.54,
+        "alcohol_tax_percent": 11
+      },
+      "single": {
+        "total_price": 5.49,
+        "units": 1,
+        "unit_price": 5.49,
+        "cost_per_standard": 5.49,
+        "alcohol_tax_cost": 0.54,
+        "alcohol_tax_percent": 10
+      }
+    }
+  },
+  {
     "stockcode": "190066",
     "properties": {
       "name": "Jervis Bay Brewing Co Point Pert Pilsner Can 375mL",
@@ -3839,50 +3883,6 @@
         "cost_per_standard": 4.99,
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 12
-      }
-    }
-  },
-  {
-    "stockcode": "116508",
-    "properties": {
-      "name": "Capital Summit Session Ale Can375ml",
-      "name_clean": "Capital Summit Session Ale",
-      "brand": "Capital Brewing Co.",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 3.5,
-      "standard_drinks_raw": 1,
-      "standard_drinks_clean": 1,
-      "vessel": "can",
-      "image_url": "116508-1.png",
-      "rating": null,
-      "ibu": 25,
-      "beer_style": "Ale"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 55.99,
-        "units": 16,
-        "unit_price": 3.5,
-        "cost_per_standard": 3.5,
-        "alcohol_tax_cost": 0.54,
-        "alcohol_tax_percent": 15
-      },
-      "pack": {
-        "total_price": 19.99,
-        "units": 4,
-        "unit_price": 5,
-        "cost_per_standard": 5,
-        "alcohol_tax_cost": 0.54,
-        "alcohol_tax_percent": 11
-      },
-      "single": {
-        "total_price": 5.49,
-        "units": 1,
-        "unit_price": 5.49,
-        "cost_per_standard": 5.49,
-        "alcohol_tax_cost": 0.54,
-        "alcohol_tax_percent": 10
       }
     }
   },
@@ -4019,6 +4019,50 @@
     }
   },
   {
+    "stockcode": "470949",
+    "properties": {
+      "name": "Young Henrys Classic Premium Lager Can 6x375mL",
+      "name_clean": "Young Henrys Classic Premium Lager",
+      "brand": "Young Henrys",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 4.2,
+      "standard_drinks_raw": 1.2,
+      "standard_drinks_clean": 1.2,
+      "vessel": "can",
+      "image_url": "470949-1.png",
+      "rating": 4.6,
+      "ibu": null,
+      "beer_style": null
+    },
+    "pricing": {
+      "case": {
+        "total_price": 67.99,
+        "units": 24,
+        "unit_price": 2.83,
+        "cost_per_standard": 2.36,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 25
+      },
+      "pack": {
+        "total_price": 20,
+        "units": 6,
+        "unit_price": 3.33,
+        "cost_per_standard": 2.78,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 21
+      },
+      "single": {
+        "total_price": 4.99,
+        "units": 1,
+        "unit_price": 4.99,
+        "cost_per_standard": 4.16,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 14
+      }
+    }
+  },
+  {
     "stockcode": "885481",
     "properties": {
       "name": "Victoria Malaga Lager Cans 6X330mL",
@@ -4147,6 +4191,14 @@
         "cost_per_standard": 3.41,
         "alcohol_tax_cost": 0.54,
         "alcohol_tax_percent": 16
+      },
+      "pack_special": {
+        "total_price": 18,
+        "units": 6,
+        "unit_price": 3,
+        "cost_per_standard": 3,
+        "alcohol_tax_cost": 0.54,
+        "alcohol_tax_percent": 18
       },
       "single": {
         "total_price": 4.99,
@@ -4509,12 +4561,12 @@
         "alcohol_tax_percent": 26
       },
       "case_special": {
-        "total_price": 54.9,
-        "units": 24,
-        "unit_price": 2.29,
-        "cost_per_standard": 2.08,
+        "total_price": 104,
+        "units": 48,
+        "unit_price": 2.17,
+        "cost_per_standard": 1.97,
         "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 27
+        "alcohol_tax_percent": 28
       },
       "pack": {
         "total_price": 20.65,
@@ -5677,12 +5729,12 @@
         "alcohol_tax_percent": 31
       },
       "case_special": {
-        "total_price": 53,
+        "total_price": 57.9,
         "units": 24,
-        "unit_price": 2.21,
-        "cost_per_standard": 1.7,
+        "unit_price": 2.41,
+        "cost_per_standard": 1.85,
         "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 35
+        "alcohol_tax_percent": 32
       },
       "pack": {
         "total_price": 22.29,
@@ -6534,58 +6586,6 @@
     }
   },
   {
-    "stockcode": "470949",
-    "properties": {
-      "name": "Young Henrys Classic Premium Lager Can 6x375mL",
-      "name_clean": "Young Henrys Classic Premium Lager",
-      "brand": "Young Henrys",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 4.2,
-      "standard_drinks_raw": 1.2,
-      "standard_drinks_clean": 1.2,
-      "vessel": "can",
-      "image_url": "470949-1.png",
-      "rating": 4.6,
-      "ibu": null,
-      "beer_style": null
-    },
-    "pricing": {
-      "case": {
-        "total_price": 67.99,
-        "units": 24,
-        "unit_price": 2.83,
-        "cost_per_standard": 2.36,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 25
-      },
-      "pack": {
-        "total_price": 23.49,
-        "units": 6,
-        "unit_price": 3.91,
-        "cost_per_standard": 3.26,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 18
-      },
-      "pack_special": {
-        "total_price": 21,
-        "units": 6,
-        "unit_price": 3.5,
-        "cost_per_standard": 2.92,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 20
-      },
-      "single": {
-        "total_price": 4.99,
-        "units": 1,
-        "unit_price": 4.99,
-        "cost_per_standard": 4.16,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 14
-      }
-    }
-  },
-  {
     "stockcode": "190026",
     "properties": {
       "name": "Ekim Brewing Co After Battle Pale Ale",
@@ -7410,50 +7410,6 @@
     }
   },
   {
-    "stockcode": "132857",
-    "properties": {
-      "name": "Bondi Thicc Hazy IPA Cans 4X4X375ml",
-      "name_clean": "Bondi Thicc Hazy IPA",
-      "brand": "Bondi Brewing Co.",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 6,
-      "standard_drinks_raw": 1.8,
-      "standard_drinks_clean": 1.8,
-      "vessel": "can",
-      "image_url": "132857-1.png",
-      "rating": null,
-      "ibu": 20,
-      "beer_style": null
-    },
-    "pricing": {
-      "case": {
-        "total_price": 79.99,
-        "units": 16,
-        "unit_price": 5,
-        "cost_per_standard": 2.78,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 22
-      },
-      "pack": {
-        "total_price": 25.49,
-        "units": 4,
-        "unit_price": 6.37,
-        "cost_per_standard": 3.54,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 18
-      },
-      "single": {
-        "total_price": 7.49,
-        "units": 1,
-        "unit_price": 7.49,
-        "cost_per_standard": 4.16,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 15
-      }
-    }
-  },
-  {
     "stockcode": "250183",
     "properties": {
       "name": "Mnt Culture Cult IPACan 4x4x355ml",
@@ -7976,12 +7932,12 @@
         "alcohol_tax_percent": 15
       },
       "case_special": {
-        "total_price": 165,
-        "units": 48,
-        "unit_price": 3.44,
-        "cost_per_standard": 3.44,
+        "total_price": 87.9,
+        "units": 24,
+        "unit_price": 3.66,
+        "cost_per_standard": 3.66,
         "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 17
+        "alcohol_tax_percent": 16
       },
       "pack": {
         "total_price": 26.5,
@@ -9202,7 +9158,7 @@
       "standard_drinks_clean": 0.9,
       "vessel": "bottle",
       "image_url": "322455-1.png",
-      "rating": null,
+      "rating": 3.8,
       "ibu": 15,
       "beer_style": "Lager"
     },
@@ -9972,12 +9928,12 @@
         "alcohol_tax_percent": 34
       },
       "case_special": {
-        "total_price": 104,
-        "units": 48,
-        "unit_price": 2.17,
-        "cost_per_standard": 1.55,
+        "total_price": 55.9,
+        "units": 24,
+        "unit_price": 2.33,
+        "cost_per_standard": 1.66,
         "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 37
+        "alcohol_tax_percent": 34
       },
       "pack": {
         "total_price": 20.65,
@@ -10258,6 +10214,14 @@
         "cost_per_standard": 2.18,
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 27
+      },
+      "case_special": {
+        "total_price": 58,
+        "units": 24,
+        "unit_price": 2.42,
+        "cost_per_standard": 2.02,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 29
       },
       "pack": {
         "total_price": 25.49,
@@ -10880,6 +10844,14 @@
     },
     "pricing": {
       "case": {
+        "total_price": 48.95,
+        "units": 24,
+        "unit_price": 2.04,
+        "cost_per_standard": 2.04,
+        "alcohol_tax_cost": 0.48,
+        "alcohol_tax_percent": 24
+      },
+      "case_special": {
         "total_price": 45,
         "units": 24,
         "unit_price": 1.88,
@@ -11588,12 +11560,12 @@
         "alcohol_tax_percent": 11
       },
       "case_special": {
-        "total_price": 45.85,
+        "total_price": 52.9,
         "units": 24,
-        "unit_price": 1.91,
-        "cost_per_standard": 2.73,
+        "unit_price": 2.2,
+        "cost_per_standard": 3.14,
         "alcohol_tax_cost": 0.35,
-        "alcohol_tax_percent": 13
+        "alcohol_tax_percent": 11
       },
       "pack": {
         "total_price": 19.39,
@@ -11648,10 +11620,10 @@
         "alcohol_tax_percent": 25
       },
       "pack_special": {
-        "total_price": 66,
+        "total_price": 64.95,
         "units": 12,
-        "unit_price": 5.5,
-        "cost_per_standard": 4.23,
+        "unit_price": 5.41,
+        "cost_per_standard": 4.16,
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 13
       }
@@ -11928,12 +11900,12 @@
         "alcohol_tax_percent": 20
       },
       "case_special": {
-        "total_price": 145,
-        "units": 72,
-        "unit_price": 2.01,
-        "cost_per_standard": 2.23,
+        "total_price": 53.9,
+        "units": 24,
+        "unit_price": 2.25,
+        "cost_per_standard": 2.5,
         "alcohol_tax_cost": 0.53,
-        "alcohol_tax_percent": 24
+        "alcohol_tax_percent": 21
       },
       "pack": {
         "total_price": 18.85,
@@ -13264,12 +13236,12 @@
         "alcohol_tax_percent": 25
       },
       "case_special": {
-        "total_price": 99,
-        "units": 48,
-        "unit_price": 2.06,
-        "cost_per_standard": 1.87,
+        "total_price": 54.9,
+        "units": 24,
+        "unit_price": 2.29,
+        "cost_per_standard": 2.08,
         "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 30
+        "alcohol_tax_percent": 27
       },
       "pack": {
         "total_price": 17.95,
@@ -13956,12 +13928,12 @@
         "alcohol_tax_percent": 39
       },
       "pack_special": {
-        "total_price": 60.9,
+        "total_price": 166,
         "units": 30,
-        "unit_price": 2.03,
-        "cost_per_standard": 1.45,
+        "unit_price": 5.53,
+        "cost_per_standard": 3.95,
         "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 39
+        "alcohol_tax_percent": 14
       }
     }
   },
@@ -13992,12 +13964,12 @@
         "alcohol_tax_percent": 32
       },
       "case_special": {
-        "total_price": 60.95,
+        "total_price": 57,
         "units": 24,
-        "unit_price": 2.54,
-        "cost_per_standard": 1.81,
+        "unit_price": 2.38,
+        "cost_per_standard": 1.7,
         "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 34
+        "alcohol_tax_percent": 36
       },
       "pack": {
         "total_price": 24.99,
@@ -14050,6 +14022,14 @@
         "cost_per_standard": 3.4,
         "alcohol_tax_cost": 0.6,
         "alcohol_tax_percent": 18
+      },
+      "pack_special": {
+        "total_price": 24,
+        "units": 6,
+        "unit_price": 4,
+        "cost_per_standard": 3.08,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 19
       },
       "single": {
         "total_price": 5.99,
@@ -14862,6 +14842,42 @@
     }
   },
   {
+    "stockcode": "78876",
+    "properties": {
+      "name": "Dab German Beer Cans 6X500mL",
+      "name_clean": "Dab German Beer",
+      "brand": "Dab",
+      "size_ml": 500,
+      "size_clean": 500,
+      "percentage_raw": 5,
+      "standard_drinks_raw": 2,
+      "standard_drinks_clean": 2,
+      "vessel": "can",
+      "image_url": "78876-1.png",
+      "rating": 4.5,
+      "ibu": null,
+      "beer_style": null
+    },
+    "pricing": {
+      "case": {
+        "total_price": 75.99,
+        "units": 24,
+        "unit_price": 3.17,
+        "cost_per_standard": 1.59,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 37
+      },
+      "single": {
+        "total_price": 5.99,
+        "units": 1,
+        "unit_price": 5.99,
+        "cost_per_standard": 3,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 20
+      }
+    }
+  },
+  {
     "stockcode": "21904",
     "properties": {
       "name": "Hawke's Brewing Co. Lager Cans 375mL",
@@ -14918,42 +14934,6 @@
         "cost_per_standard": 3.74,
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 16
-      }
-    }
-  },
-  {
-    "stockcode": "78876",
-    "properties": {
-      "name": "Dab German Beer Cans 6X500mL",
-      "name_clean": "Dab German Beer",
-      "brand": "Dab",
-      "size_ml": 500,
-      "size_clean": 500,
-      "percentage_raw": 5,
-      "standard_drinks_raw": 2,
-      "standard_drinks_clean": 2,
-      "vessel": "can",
-      "image_url": "78876-1.png",
-      "rating": 4.5,
-      "ibu": null,
-      "beer_style": null
-    },
-    "pricing": {
-      "case": {
-        "total_price": 75.99,
-        "units": 24,
-        "unit_price": 3.17,
-        "cost_per_standard": 1.59,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 37
-      },
-      "single": {
-        "total_price": 5.99,
-        "units": 1,
-        "unit_price": 5.99,
-        "cost_per_standard": 3,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 20
       }
     }
   },
@@ -15936,10 +15916,10 @@
         "alcohol_tax_percent": 22
       },
       "case_special": {
-        "total_price": 75,
+        "total_price": 74,
         "units": 16,
-        "unit_price": 4.69,
-        "cost_per_standard": 2.61,
+        "unit_price": 4.63,
+        "cost_per_standard": 2.57,
         "alcohol_tax_cost": 0.62,
         "alcohol_tax_percent": 24
       },
@@ -17362,50 +17342,6 @@
     }
   },
   {
-    "stockcode": "18495",
-    "properties": {
-      "name": "Two Bays Brewing Co. Gluten Free Pale Ale 375mL",
-      "name_clean": "Two Bays Brewing Co. Gluten Free Pale Ale",
-      "brand": "Two Bays Brewing Co.",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 4.5,
-      "standard_drinks_raw": 1.3,
-      "standard_drinks_clean": 1.3,
-      "vessel": "can",
-      "image_url": "18495-1.png",
-      "rating": 3.9,
-      "ibu": 20,
-      "beer_style": "Pale Ale"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 85.99,
-        "units": 16,
-        "unit_price": 5.37,
-        "cost_per_standard": 4.13,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 14
-      },
-      "pack": {
-        "total_price": 28.49,
-        "units": 4,
-        "unit_price": 7.12,
-        "cost_per_standard": 5.48,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 11
-      },
-      "single": {
-        "total_price": 7.49,
-        "units": 1,
-        "unit_price": 7.49,
-        "cost_per_standard": 5.76,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 10
-      }
-    }
-  },
-  {
     "stockcode": "87867",
     "properties": {
       "name": "Hawkes Patio Pale Ale Can 375mL",
@@ -17454,6 +17390,50 @@
         "cost_per_standard": 4.22,
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 14
+      }
+    }
+  },
+  {
+    "stockcode": "18495",
+    "properties": {
+      "name": "Two Bays Brewing Co. Gluten Free Pale Ale 375mL",
+      "name_clean": "Two Bays Brewing Co. Gluten Free Pale Ale",
+      "brand": "Two Bays Brewing Co.",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 4.5,
+      "standard_drinks_raw": 1.3,
+      "standard_drinks_clean": 1.3,
+      "vessel": "can",
+      "image_url": "18495-1.png",
+      "rating": 3.9,
+      "ibu": 20,
+      "beer_style": "Pale Ale"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 85.99,
+        "units": 16,
+        "unit_price": 5.37,
+        "cost_per_standard": 4.13,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 14
+      },
+      "pack": {
+        "total_price": 28.49,
+        "units": 4,
+        "unit_price": 7.12,
+        "cost_per_standard": 5.48,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 11
+      },
+      "single": {
+        "total_price": 7.49,
+        "units": 1,
+        "unit_price": 7.49,
+        "cost_per_standard": 5.76,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 10
       }
     }
   },
