@@ -1276,50 +1276,6 @@
     }
   },
   {
-    "stockcode": "972315",
-    "properties": {
-      "name": "Green Beacon Beddy Rays - Beddy Hayze Hazy Pale Cans 6x4x375mL",
-      "name_clean": "Green Beacon Beddy Rays - Beddy Hayze Hazy Pale",
-      "brand": "Green Beacon",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 4,
-      "standard_drinks_raw": 1.2,
-      "standard_drinks_clean": 1.2,
-      "vessel": "can",
-      "image_url": "972315-1.png",
-      "rating": 5,
-      "ibu": null,
-      "beer_style": "Pale Ale"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 64.5,
-        "units": 24,
-        "unit_price": 2.69,
-        "cost_per_standard": 2.24,
-        "alcohol_tax_cost": 0.55,
-        "alcohol_tax_percent": 25
-      },
-      "pack": {
-        "total_price": 11.55,
-        "units": 4,
-        "unit_price": 2.89,
-        "cost_per_standard": 2.41,
-        "alcohol_tax_cost": 0.55,
-        "alcohol_tax_percent": 23
-      },
-      "single": {
-        "total_price": 3.9,
-        "units": 1,
-        "unit_price": 3.9,
-        "cost_per_standard": 3.25,
-        "alcohol_tax_cost": 0.55,
-        "alcohol_tax_percent": 17
-      }
-    }
-  },
-  {
     "stockcode": "331515",
     "properties": {
       "name": "Amigos Tequila Flavoured Beer Bottles 6x4x330mL",
@@ -1996,6 +1952,50 @@
     }
   },
   {
+    "stockcode": "256955",
+    "properties": {
+      "name": "Hawkesbury Brewing Co Pale Ale Cans 375mL",
+      "name_clean": "Hawkesbury Brewing Co Pale Ale",
+      "brand": "Hawkesbury Brewing Co",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 4.2,
+      "standard_drinks_raw": 1.2,
+      "standard_drinks_clean": 1.2,
+      "vessel": "can",
+      "image_url": "256955-1.jpg",
+      "rating": null,
+      "ibu": 30,
+      "beer_style": "Pale Ale"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 82.99,
+        "units": 24,
+        "unit_price": 3.46,
+        "cost_per_standard": 2.88,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 20
+      },
+      "pack": {
+        "total_price": 16.99,
+        "units": 4,
+        "unit_price": 4.25,
+        "cost_per_standard": 3.54,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 16
+      },
+      "single": {
+        "total_price": 5.99,
+        "units": 1,
+        "unit_price": 5.99,
+        "cost_per_standard": 4.99,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 12
+      }
+    }
+  },
+  {
     "stockcode": "314401",
     "properties": {
       "name": "Philter Super Cool Lager Can 4x4x375mL",
@@ -2044,50 +2044,6 @@
         "cost_per_standard": 4.58,
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 13
-      }
-    }
-  },
-  {
-    "stockcode": "256955",
-    "properties": {
-      "name": "Hawkesbury Brewing Co Pale Ale Cans 375mL",
-      "name_clean": "Hawkesbury Brewing Co Pale Ale",
-      "brand": "Hawkesbury Brewing Co",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 4.2,
-      "standard_drinks_raw": 1.2,
-      "standard_drinks_clean": 1.2,
-      "vessel": "can",
-      "image_url": "256955-1.jpg",
-      "rating": null,
-      "ibu": 30,
-      "beer_style": "Pale Ale"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 82.99,
-        "units": 24,
-        "unit_price": 3.46,
-        "cost_per_standard": 2.88,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 20
-      },
-      "pack": {
-        "total_price": 16.99,
-        "units": 4,
-        "unit_price": 4.25,
-        "cost_per_standard": 3.54,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 16
-      },
-      "single": {
-        "total_price": 5.99,
-        "units": 1,
-        "unit_price": 5.99,
-        "cost_per_standard": 4.99,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 12
       }
     }
   },
@@ -3997,10 +3953,18 @@
     },
     "pricing": {
       "case": {
-        "total_price": 48.95,
+        "total_price": 50.99,
         "units": 24,
-        "unit_price": 2.04,
-        "cost_per_standard": 2.04,
+        "unit_price": 2.12,
+        "cost_per_standard": 2.12,
+        "alcohol_tax_cost": 0.54,
+        "alcohol_tax_percent": 25
+      },
+      "case_special": {
+        "total_price": 49.9,
+        "units": 24,
+        "unit_price": 2.08,
+        "cost_per_standard": 2.08,
         "alcohol_tax_cost": 0.54,
         "alcohol_tax_percent": 26
       },
@@ -6998,58 +6962,6 @@
     }
   },
   {
-    "stockcode": "314034",
-    "properties": {
-      "name": "James Squire Low Carb Pale Ale Bottles 6x330mL",
-      "name_clean": "James Squire Low Carb Pale Ale",
-      "brand": "James Squire",
-      "size_ml": 330,
-      "size_clean": 330,
-      "percentage_raw": 4.2,
-      "standard_drinks_raw": 1.1,
-      "standard_drinks_clean": 1.1,
-      "vessel": "bottle",
-      "image_url": "314034-1.png",
-      "rating": 4.4,
-      "ibu": 52,
-      "beer_style": "Pale Ale"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 57.99,
-        "units": 24,
-        "unit_price": 2.42,
-        "cost_per_standard": 2.2,
-        "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 25
-      },
-      "case_special": {
-        "total_price": 55.9,
-        "units": 24,
-        "unit_price": 2.33,
-        "cost_per_standard": 2.12,
-        "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 26
-      },
-      "pack": {
-        "total_price": 24.49,
-        "units": 6,
-        "unit_price": 4.08,
-        "cost_per_standard": 3.71,
-        "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 15
-      },
-      "single": {
-        "total_price": 5.99,
-        "units": 1,
-        "unit_price": 5.99,
-        "cost_per_standard": 5.45,
-        "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 10
-      }
-    }
-  },
-  {
     "stockcode": "910427",
     "properties": {
       "name": "Coopers Dry 3.5 Lager Cans 6X375mL",
@@ -7098,6 +7010,58 @@
         "cost_per_standard": 4.59,
         "alcohol_tax_cost": 0.54,
         "alcohol_tax_percent": 12
+      }
+    }
+  },
+  {
+    "stockcode": "314034",
+    "properties": {
+      "name": "James Squire Low Carb Pale Ale Bottles 6x330mL",
+      "name_clean": "James Squire Low Carb Pale Ale",
+      "brand": "James Squire",
+      "size_ml": 330,
+      "size_clean": 330,
+      "percentage_raw": 4.2,
+      "standard_drinks_raw": 1.1,
+      "standard_drinks_clean": 1.1,
+      "vessel": "bottle",
+      "image_url": "314034-1.png",
+      "rating": 4.4,
+      "ibu": 52,
+      "beer_style": "Pale Ale"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 57.99,
+        "units": 24,
+        "unit_price": 2.42,
+        "cost_per_standard": 2.2,
+        "alcohol_tax_cost": 0.56,
+        "alcohol_tax_percent": 25
+      },
+      "case_special": {
+        "total_price": 55.9,
+        "units": 24,
+        "unit_price": 2.33,
+        "cost_per_standard": 2.12,
+        "alcohol_tax_cost": 0.56,
+        "alcohol_tax_percent": 26
+      },
+      "pack": {
+        "total_price": 24.49,
+        "units": 6,
+        "unit_price": 4.08,
+        "cost_per_standard": 3.71,
+        "alcohol_tax_cost": 0.56,
+        "alcohol_tax_percent": 15
+      },
+      "single": {
+        "total_price": 5.99,
+        "units": 1,
+        "unit_price": 5.99,
+        "cost_per_standard": 5.45,
+        "alcohol_tax_cost": 0.56,
+        "alcohol_tax_percent": 10
       }
     }
   },
@@ -7486,50 +7450,6 @@
     }
   },
   {
-    "stockcode": "250183",
-    "properties": {
-      "name": "Mnt Culture Cult IPACan 4x4x355ml",
-      "name_clean": "Mnt Culture Cult IPA",
-      "brand": "Mountain Culture",
-      "size_ml": 355,
-      "size_clean": 355,
-      "percentage_raw": 6.2,
-      "standard_drinks_raw": 1.7,
-      "standard_drinks_clean": 1.7,
-      "vessel": "can",
-      "image_url": "250183-1.png",
-      "rating": 4.4,
-      "ibu": 40,
-      "beer_style": "IPA"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 88.99,
-        "units": 16,
-        "unit_price": 5.56,
-        "cost_per_standard": 3.27,
-        "alcohol_tax_cost": 0.65,
-        "alcohol_tax_percent": 20
-      },
-      "pack": {
-        "total_price": 25.99,
-        "units": 4,
-        "unit_price": 6.5,
-        "cost_per_standard": 3.82,
-        "alcohol_tax_cost": 0.65,
-        "alcohol_tax_percent": 17
-      },
-      "single": {
-        "total_price": 8.49,
-        "units": 1,
-        "unit_price": 8.49,
-        "cost_per_standard": 4.99,
-        "alcohol_tax_cost": 0.65,
-        "alcohol_tax_percent": 13
-      }
-    }
-  },
-  {
     "stockcode": "202894",
     "properties": {
       "name": "Better Beer Ginger Beer Cans 355mL",
@@ -7638,6 +7558,50 @@
         "cost_per_standard": 6.1,
         "alcohol_tax_cost": 0.53,
         "alcohol_tax_percent": 9
+      }
+    }
+  },
+  {
+    "stockcode": "250183",
+    "properties": {
+      "name": "Mnt Culture Cult IPACan 4x4x355ml",
+      "name_clean": "Mnt Culture Cult IPA",
+      "brand": "Mountain Culture",
+      "size_ml": 355,
+      "size_clean": 355,
+      "percentage_raw": 6.2,
+      "standard_drinks_raw": 1.7,
+      "standard_drinks_clean": 1.7,
+      "vessel": "can",
+      "image_url": "250183-1.png",
+      "rating": 4.4,
+      "ibu": 40,
+      "beer_style": "IPA"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 88.99,
+        "units": 16,
+        "unit_price": 5.56,
+        "cost_per_standard": 3.27,
+        "alcohol_tax_cost": 0.65,
+        "alcohol_tax_percent": 20
+      },
+      "pack": {
+        "total_price": 25.99,
+        "units": 4,
+        "unit_price": 6.5,
+        "cost_per_standard": 3.82,
+        "alcohol_tax_cost": 0.65,
+        "alcohol_tax_percent": 17
+      },
+      "single": {
+        "total_price": 8.49,
+        "units": 1,
+        "unit_price": 8.49,
+        "cost_per_standard": 4.99,
+        "alcohol_tax_cost": 0.65,
+        "alcohol_tax_percent": 13
       }
     }
   },
@@ -11677,11 +11641,11 @@
       },
       "pack_special": {
         "total_price": 66,
-        "units": 24,
-        "unit_price": 2.75,
-        "cost_per_standard": 2.12,
+        "units": 12,
+        "unit_price": 5.5,
+        "cost_per_standard": 4.23,
         "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 26
+        "alcohol_tax_percent": 13
       }
     }
   },
@@ -11902,14 +11866,6 @@
         "cost_per_standard": 1.73,
         "alcohol_tax_cost": 0.6,
         "alcohol_tax_percent": 35
-      },
-      "case_special": {
-        "total_price": 50,
-        "units": 24,
-        "unit_price": 2.08,
-        "cost_per_standard": 1.6,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 37
       },
       "pack": {
         "total_price": 23.99,
@@ -13885,11 +13841,11 @@
       },
       "case_special": {
         "total_price": 99.9,
-        "units": 48,
-        "unit_price": 2.08,
-        "cost_per_standard": 1.49,
+        "units": 24,
+        "unit_price": 4.16,
+        "cost_per_standard": 2.97,
         "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 42
+        "alcohol_tax_percent": 21
       },
       "pack": {
         "total_price": 21.49,
