@@ -1,56 +1,5 @@
 [
   {
-    "name": "Ginger Resistance Original Ginger Beer 330mL Can",
-    "name_clean": "Ginger Resistance Original Ginger Beer",
-    "stockcode": "103763",
-    "percentage": 4,
-    "size": 330,
-    "standard_drinks": 1,
-    "special": false,
-    "package": "single",
-    "package_size": 1,
-    "total_price": 3.05,
-    "unit_price": 3.05,
-    "cost_per_standard": 3.05,
-    "vessel": "can",
-    "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 18
-  },
-  {
-    "name": "Ginger Resistance Original Ginger Beer 330mL Can",
-    "name_clean": "Ginger Resistance Original Ginger Beer",
-    "stockcode": "103763",
-    "percentage": 4,
-    "size": 330,
-    "standard_drinks": 1,
-    "special": false,
-    "package": "pack",
-    "package_size": 6,
-    "total_price": 18.2,
-    "unit_price": 3.03,
-    "cost_per_standard": 3.03,
-    "vessel": "can",
-    "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 18
-  },
-  {
-    "name": "Ginger Resistance Original Ginger Beer 330mL Can",
-    "name_clean": "Ginger Resistance Original Ginger Beer",
-    "stockcode": "103763",
-    "percentage": 4,
-    "size": 330,
-    "standard_drinks": 1,
-    "special": false,
-    "package": "case",
-    "package_size": 24,
-    "total_price": 63,
-    "unit_price": 2.63,
-    "cost_per_standard": 2.63,
-    "vessel": "can",
-    "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 21
-  },
-  {
     "name": "Tooheys New Cans 6x375mL",
     "name_clean": "Tooheys New",
     "stockcode": "10462",
@@ -1549,54 +1498,6 @@
     "alcohol_tax_percent": 19
   },
   {
-    "name": "Capital Hang Loose Juice NEIPA 4X375ml",
-    "name_clean": "Capital Hang Loose Juice NEIPA",
-    "stockcode": "150065",
-    "percentage": 6,
-    "size": 375,
-    "standard_drinks": 1.8,
-    "special": false,
-    "package": "single",
-    "package_size": 1,
-    "total_price": 7.49,
-    "unit_price": 7.49,
-    "cost_per_standard": 4.16,
-    "alcohol_tax_cost": 0.63,
-    "alcohol_tax_percent": 15
-  },
-  {
-    "name": "Capital Hang Loose Juice NEIPA 4X375ml",
-    "name_clean": "Capital Hang Loose Juice NEIPA",
-    "stockcode": "150065",
-    "percentage": 6,
-    "size": 375,
-    "standard_drinks": 1.8,
-    "special": false,
-    "package": "pack",
-    "package_size": 4,
-    "total_price": 26.49,
-    "unit_price": 6.62,
-    "cost_per_standard": 3.68,
-    "alcohol_tax_cost": 0.63,
-    "alcohol_tax_percent": 17
-  },
-  {
-    "name": "Capital Hang Loose Juice NEIPA 4X375ml",
-    "name_clean": "Capital Hang Loose Juice NEIPA",
-    "stockcode": "150065",
-    "percentage": 6,
-    "size": 375,
-    "standard_drinks": 1.8,
-    "special": false,
-    "package": "case",
-    "package_size": 16,
-    "total_price": 77.99,
-    "unit_price": 4.87,
-    "cost_per_standard": 2.71,
-    "alcohol_tax_cost": 0.63,
-    "alcohol_tax_percent": 23
-  },
-  {
     "name": "The Grifter Brewing Co The Omen Oatmeal Stout Can 6x4x375mL",
     "name_clean": "The Grifter Brewing Co The Omen Oatmeal Stout",
     "stockcode": "151664",
@@ -2408,7 +2309,7 @@
     "alcohol_tax_percent": 14
   },
   {
-    "name": "Better Beer Zero Carb Lager Can 355ml",
+    "name": "Better Beer Zero Carb Lager Can 6x355mL",
     "name_clean": "Better Beer Zero Carb Lager",
     "stockcode": "182464",
     "percentage": 4.2,
@@ -2425,7 +2326,7 @@
     "alcohol_tax_percent": 13
   },
   {
-    "name": "Better Beer Zero Carb Lager Can 355ml",
+    "name": "Better Beer Zero Carb Lager Can 6x355mL",
     "name_clean": "Better Beer Zero Carb Lager",
     "stockcode": "182464",
     "percentage": 4.2,
@@ -2442,7 +2343,7 @@
     "alcohol_tax_percent": 18
   },
   {
-    "name": "Better Beer Zero Carb Lager Can 355ml",
+    "name": "Better Beer Zero Carb Lager Can 6x355mL",
     "name_clean": "Better Beer Zero Carb Lager",
     "stockcode": "182464",
     "percentage": 4.2,
@@ -4343,6 +4244,22 @@
     "vessel": "can",
     "alcohol_tax_cost": 0.6,
     "alcohol_tax_percent": 38
+  },
+  {
+    "name": "Vasto Cerveza Bttle 6x330ml",
+    "name_clean": "Vasto Cerveza Bttle",
+    "stockcode": "232656",
+    "percentage": 4.5,
+    "size": 330,
+    "standard_drinks": 1.2,
+    "special": true,
+    "package": "single",
+    "package_size": 1,
+    "total_price": 16,
+    "unit_price": 16,
+    "cost_per_standard": 13.33,
+    "alcohol_tax_cost": 0.58,
+    "alcohol_tax_percent": 4
   },
   {
     "name": "Vasto Cerveza Bttle 6x330ml",
@@ -6354,12 +6271,12 @@
     "special": false,
     "package": "single",
     "package_size": 1,
-    "total_price": 6.49,
-    "unit_price": 6.49,
-    "cost_per_standard": 5.41,
+    "total_price": 5.99,
+    "unit_price": 5.99,
+    "cost_per_standard": 4.99,
     "vessel": "can",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 10
+    "alcohol_tax_percent": 11
   },
   {
     "name": "Brown Snake Ginger Beer Cans 4x4x375mL",
@@ -6388,9 +6305,9 @@
     "special": false,
     "package": "pack",
     "package_size": 4,
-    "total_price": 21.49,
-    "unit_price": 5.37,
-    "cost_per_standard": 4.48,
+    "total_price": 22.49,
+    "unit_price": 5.62,
+    "cost_per_standard": 4.68,
     "vessel": "can",
     "alcohol_tax_cost": 0.55,
     "alcohol_tax_percent": 12
@@ -9859,12 +9776,12 @@
     "special": true,
     "package": "case",
     "package_size": 30,
-    "total_price": 55.95,
-    "unit_price": 1.87,
-    "cost_per_standard": 1.87,
+    "total_price": 57.95,
+    "unit_price": 1.93,
+    "cost_per_standard": 1.93,
     "vessel": "can",
     "alcohol_tax_cost": 0.52,
-    "alcohol_tax_percent": 28
+    "alcohol_tax_percent": 27
   },
   {
     "name": "Hahn SuperDry 3.5% Cans 30 Block 375mL",
@@ -11719,6 +11636,40 @@
     "alcohol_tax_percent": 31
   },
   {
+    "name": "XXXX Summer Bright Lager Cans 375mL",
+    "name_clean": "XXXX Summer Bright Lager",
+    "stockcode": "500041",
+    "percentage": 4,
+    "size": 375,
+    "standard_drinks": 1.2,
+    "special": false,
+    "package": "single",
+    "package_size": 1,
+    "total_price": 3.5,
+    "unit_price": 3.5,
+    "cost_per_standard": 2.92,
+    "vessel": "can",
+    "alcohol_tax_cost": 0.55,
+    "alcohol_tax_percent": 19
+  },
+  {
+    "name": "XXXX Summer Bright Lager Cans 375mL",
+    "name_clean": "XXXX Summer Bright Lager",
+    "stockcode": "500041",
+    "percentage": 4,
+    "size": 375,
+    "standard_drinks": 1.2,
+    "special": false,
+    "package": "case",
+    "package_size": 30,
+    "total_price": 54.95,
+    "unit_price": 1.83,
+    "cost_per_standard": 1.53,
+    "vessel": "can",
+    "alcohol_tax_cost": 0.55,
+    "alcohol_tax_percent": 36
+  },
+  {
     "name": "Shepherd Neame Spitfire Golden Ale 500mL",
     "name_clean": "Shepherd Neame Spitfire Golden Ale",
     "stockcode": "501502",
@@ -11929,12 +11880,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 55.9,
-    "unit_price": 2.33,
-    "cost_per_standard": 2.12,
+    "total_price": 52,
+    "unit_price": 2.17,
+    "cost_per_standard": 1.97,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.56,
-    "alcohol_tax_percent": 26
+    "alcohol_tax_percent": 28
   },
   {
     "name": "Pure Blonde Ultra Low Carb Bottles 6x330mL",
@@ -16239,7 +16190,7 @@
     "alcohol_tax_percent": 28
   },
   {
-    "name": "Carlton Dry 700mL",
+    "name": "Carlton Dry Bottle 700mL",
     "name_clean": "Carlton Dry",
     "stockcode": "768242",
     "percentage": 4.5,
@@ -16251,11 +16202,12 @@
     "total_price": 8.99,
     "unit_price": 8.99,
     "cost_per_standard": 3.6,
+    "vessel": "bottle",
     "alcohol_tax_cost": 0.58,
     "alcohol_tax_percent": 16
   },
   {
-    "name": "Carlton Dry 700mL",
+    "name": "Carlton Dry Bottle 700mL",
     "name_clean": "Carlton Dry",
     "stockcode": "768242",
     "percentage": 4.5,
@@ -16267,11 +16219,12 @@
     "total_price": 21.99,
     "unit_price": 7.33,
     "cost_per_standard": 2.93,
+    "vessel": "bottle",
     "alcohol_tax_cost": 0.58,
     "alcohol_tax_percent": 20
   },
   {
-    "name": "Carlton Dry 700mL",
+    "name": "Carlton Dry Bottle 700mL",
     "name_clean": "Carlton Dry",
     "stockcode": "768242",
     "percentage": 4.5,
@@ -16283,6 +16236,7 @@
     "total_price": 82.99,
     "unit_price": 6.92,
     "cost_per_standard": 2.77,
+    "vessel": "bottle",
     "alcohol_tax_cost": 0.58,
     "alcohol_tax_percent": 21
   },
@@ -20524,7 +20478,7 @@
     "alcohol_tax_percent": 23
   },
   {
-    "name": "Matsos Lower Sugar Ginger Beer Bottles  6X330mL",
+    "name": "Matsos Lower Sugar Ginger Beer Bottles 6X330mL",
     "name_clean": "Matsos Lower Sugar Ginger Beer",
     "stockcode": "910446",
     "percentage": 3.5,
@@ -20541,7 +20495,7 @@
     "alcohol_tax_percent": 8
   },
   {
-    "name": "Matsos Lower Sugar Ginger Beer Bottles  6X330mL",
+    "name": "Matsos Lower Sugar Ginger Beer Bottles 6X330mL",
     "name_clean": "Matsos Lower Sugar Ginger Beer",
     "stockcode": "910446",
     "percentage": 3.5,
@@ -20558,7 +20512,7 @@
     "alcohol_tax_percent": 9
   },
   {
-    "name": "Matsos Lower Sugar Ginger Beer Bottles  6X330mL",
+    "name": "Matsos Lower Sugar Ginger Beer Bottles 6X330mL",
     "name_clean": "Matsos Lower Sugar Ginger Beer",
     "stockcode": "910446",
     "percentage": 3.5,
@@ -20635,9 +20589,9 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 83.95,
-    "unit_price": 3.5,
-    "cost_per_standard": 2.19,
+    "total_price": 83,
+    "unit_price": 3.46,
+    "cost_per_standard": 2.16,
     "vessel": "can",
     "alcohol_tax_cost": 0.56,
     "alcohol_tax_percent": 26
@@ -25458,12 +25412,12 @@
     "special": false,
     "package": "single",
     "package_size": 1,
-    "total_price": 3,
-    "unit_price": 3,
-    "cost_per_standard": 2.5,
+    "total_price": 3.12,
+    "unit_price": 3.12,
+    "cost_per_standard": 2.6,
     "online_only": true,
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 23
+    "alcohol_tax_percent": 22
   },
   {
     "name": "Cass Fresh Lger Beer 330mL",
@@ -25475,12 +25429,12 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 72,
-    "unit_price": 3,
-    "cost_per_standard": 2.5,
+    "total_price": 75,
+    "unit_price": 3.13,
+    "cost_per_standard": 2.61,
     "online_only": true,
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 23
+    "alcohol_tax_percent": 22
   },
   {
     "name": "Rodenbach Alexander Bottles 330mL",
@@ -34897,8 +34851,8 @@
     "alcohol_tax_percent": 17
   },
   {
-    "name": "Rocky Ridge Brewing Co Ace IPA 375mL",
-    "name_clean": "Rocky Ridge Brewing Co Ace IPA",
+    "name": "ACE IPA Cans 375mL",
+    "name_clean": "ACE IPA",
     "stockcode": "ER_2000004861_ROCKACE68016375001",
     "percentage": 6.8,
     "size": 375,
@@ -34910,12 +34864,13 @@
     "unit_price": 7,
     "cost_per_standard": 3.5,
     "online_only": true,
+    "vessel": "can",
     "alcohol_tax_cost": 0.65,
     "alcohol_tax_percent": 19
   },
   {
-    "name": "Rocky Ridge Brewing Co Ace IPA 375mL",
-    "name_clean": "Rocky Ridge Brewing Co Ace IPA",
+    "name": "ACE IPA Cans 375mL",
+    "name_clean": "ACE IPA",
     "stockcode": "ER_2000004861_ROCKACE68016375001",
     "percentage": 6.8,
     "size": 375,
@@ -34927,6 +34882,7 @@
     "unit_price": 4.94,
     "cost_per_standard": 2.47,
     "online_only": true,
+    "vessel": "can",
     "alcohol_tax_cost": 0.65,
     "alcohol_tax_percent": 26
   },
@@ -35037,7 +34993,7 @@
     "alcohol_tax_percent": 24
   },
   {
-    "name": "Rocky Ridge Brewing Co. Crisp Mid 4x4x375mL",
+    "name": "Rocky Ridge Brewing Co. Crisp Mid 375mL",
     "name_clean": "Rocky Ridge Brewing Co. Crisp Mid",
     "stockcode": "ER_2000004861_ROCKIPL34016375001",
     "percentage": 3.4,
@@ -35054,7 +35010,7 @@
     "alcohol_tax_percent": 10
   },
   {
-    "name": "Rocky Ridge Brewing Co. Crisp Mid 4x4x375mL",
+    "name": "Rocky Ridge Brewing Co. Crisp Mid 375mL",
     "name_clean": "Rocky Ridge Brewing Co. Crisp Mid",
     "stockcode": "ER_2000004861_ROCKIPL34016375001",
     "percentage": 3.4,
@@ -37079,34 +37035,34 @@
     "name": "Wildpoint Hard Lemon",
     "name_clean": "Wildpoint Hard Lemon",
     "stockcode": "ER_2000005332_001",
-    "percentage": 2.4,
-    "size": 4223,
-    "standard_drinks": 8,
+    "percentage": 8,
+    "size": 380,
+    "standard_drinks": 2.4,
     "special": false,
     "package": "pack",
     "package_size": 4,
     "total_price": 25,
     "unit_price": 6.25,
-    "cost_per_standard": 0.78,
+    "cost_per_standard": 2.6,
     "online_only": true,
-    "alcohol_tax_cost": 0.35,
-    "alcohol_tax_percent": 45
+    "alcohol_tax_cost": 0.67,
+    "alcohol_tax_percent": 26
   },
   {
     "name": "Wildpoint Hard Lemon",
     "name_clean": "Wildpoint Hard Lemon",
     "stockcode": "ER_2000005332_001",
-    "percentage": 2.4,
-    "size": 4223,
-    "standard_drinks": 8,
+    "percentage": 8,
+    "size": 380,
+    "standard_drinks": 2.4,
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 109,
-    "unit_price": 4.54,
-    "cost_per_standard": 0.57,
+    "total_price": 120,
+    "unit_price": 5,
+    "cost_per_standard": 2.08,
     "online_only": true,
-    "alcohol_tax_cost": 0.35,
-    "alcohol_tax_percent": 61
+    "alcohol_tax_cost": 0.67,
+    "alcohol_tax_percent": 32
   }
 ]
