@@ -3619,12 +3619,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 58.9,
-    "unit_price": 2.45,
-    "cost_per_standard": 1.88,
+    "total_price": 57,
+    "unit_price": 2.38,
+    "cost_per_standard": 1.83,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.6,
-    "alcohol_tax_percent": 32
+    "alcohol_tax_percent": 33
   },
   {
     "name": "Kirin Ichiban Bottle 330mL",
@@ -3846,6 +3846,23 @@
     "vessel": "bottle",
     "alcohol_tax_cost": 0.6,
     "alcohol_tax_percent": 26
+  },
+  {
+    "name": "Peroni Nastro Azzurro Bottles 330mL",
+    "name_clean": "Peroni Nastro Azzurro",
+    "stockcode": "225756",
+    "percentage": 5,
+    "size": 330,
+    "standard_drinks": 1.3,
+    "special": true,
+    "package": "case",
+    "package_size": 24,
+    "total_price": 59.95,
+    "unit_price": 2.5,
+    "cost_per_standard": 1.92,
+    "vessel": "bottle",
+    "alcohol_tax_cost": 0.6,
+    "alcohol_tax_percent": 31
   },
   {
     "name": "Peroni Nastro Azzurro Bottles 330mL",
@@ -11013,12 +11030,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 59.9,
-    "unit_price": 2.5,
-    "cost_per_standard": 1.92,
+    "total_price": 58,
+    "unit_price": 2.42,
+    "cost_per_standard": 1.86,
     "vessel": "can",
     "alcohol_tax_cost": 0.57,
-    "alcohol_tax_percent": 30
+    "alcohol_tax_percent": 31
   },
   {
     "name": "Mountain Goat Tasty Pale Ale Can 375mL",
@@ -13041,12 +13058,12 @@
     "special": true,
     "package": "pack",
     "package_size": 4,
-    "total_price": 18,
-    "unit_price": 4.5,
-    "cost_per_standard": 3.21,
+    "total_price": 15,
+    "unit_price": 3.75,
+    "cost_per_standard": 2.68,
     "vessel": "can",
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 18
+    "alcohol_tax_percent": 22
   },
   {
     "name": "Little Creatures Juicy XPA Cans 375mL",
@@ -13279,12 +13296,12 @@
     "special": true,
     "package": "pack",
     "package_size": 4,
-    "total_price": 17,
-    "unit_price": 4.25,
-    "cost_per_standard": 4.25,
+    "total_price": 15,
+    "unit_price": 3.75,
+    "cost_per_standard": 3.75,
     "vessel": "can",
     "alcohol_tax_cost": 0.52,
-    "alcohol_tax_percent": 12
+    "alcohol_tax_percent": 14
   },
   {
     "name": "Stone & Wood Easy Pale Ale Cans 4x4x375mL",
@@ -14050,6 +14067,54 @@
     "vessel": "bottle",
     "alcohol_tax_cost": 0.55,
     "alcohol_tax_percent": 24
+  },
+  {
+    "name": "Fosters Light Ice Btl 330mL",
+    "name_clean": "Fosters Light Ice Btl",
+    "stockcode": "6027339",
+    "percentage": 2,
+    "size": 330,
+    "standard_drinks": 0.5,
+    "special": false,
+    "package": "single",
+    "package_size": 1,
+    "total_price": 4.49,
+    "unit_price": 4.49,
+    "cost_per_standard": 8.98,
+    "alcohol_tax_cost": 0.28,
+    "alcohol_tax_percent": 3
+  },
+  {
+    "name": "Fosters Light Ice Btl 330mL",
+    "name_clean": "Fosters Light Ice Btl",
+    "stockcode": "6027339",
+    "percentage": 2,
+    "size": 330,
+    "standard_drinks": 0.5,
+    "special": false,
+    "package": "pack",
+    "package_size": 6,
+    "total_price": 16.99,
+    "unit_price": 2.83,
+    "cost_per_standard": 5.66,
+    "alcohol_tax_cost": 0.28,
+    "alcohol_tax_percent": 5
+  },
+  {
+    "name": "Fosters Light Ice Btl 330mL",
+    "name_clean": "Fosters Light Ice Btl",
+    "stockcode": "6027339",
+    "percentage": 2,
+    "size": 330,
+    "standard_drinks": 0.5,
+    "special": false,
+    "package": "case",
+    "package_size": 24,
+    "total_price": 47.99,
+    "unit_price": 2,
+    "cost_per_standard": 4,
+    "alcohol_tax_cost": 0.28,
+    "alcohol_tax_percent": 7
   },
   {
     "name": "The Grifter Brewing Co XPA Cans 6x4x375mL",
@@ -16333,11 +16398,11 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 63.99,
-    "unit_price": 2.67,
-    "cost_per_standard": 1.41,
+    "total_price": 69.99,
+    "unit_price": 2.92,
+    "cost_per_standard": 1.54,
     "alcohol_tax_cost": 0.59,
-    "alcohol_tax_percent": 42
+    "alcohol_tax_percent": 38
   },
   {
     "name": "Pabst Blue Ribbon Premium Lager 473mL",
@@ -18725,9 +18790,9 @@
     "special": true,
     "package": "case",
     "package_size": 16,
-    "total_price": 66.9,
-    "unit_price": 4.18,
-    "cost_per_standard": 3.22,
+    "total_price": 65,
+    "unit_price": 4.06,
+    "cost_per_standard": 3.12,
     "vessel": "can",
     "alcohol_tax_cost": 0.57,
     "alcohol_tax_percent": 18

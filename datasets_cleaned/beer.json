@@ -984,10 +984,10 @@
     }
   },
   {
-    "stockcode": "197773",
+    "stockcode": "671939",
     "properties": {
-      "name": "Rugged Thumb Ginger Beer Bottle 500mL",
-      "name_clean": "Rugged Thumb Ginger Beer",
+      "name": "Rugged Thumb Sugar Free Ginger Bottles 500mL",
+      "name_clean": "Rugged Thumb Sugar Free Ginger",
       "brand": "Rugged Thumb",
       "size_ml": 500,
       "size_clean": 500,
@@ -995,10 +995,10 @@
       "standard_drinks_raw": 1.6,
       "standard_drinks_clean": 1.6,
       "vessel": "bottle",
-      "image_url": "197773-1.png",
-      "rating": 4.3,
+      "image_url": "671939-1.png",
+      "rating": 4.9,
       "ibu": null,
-      "beer_style": "Ginger Beer"
+      "beer_style": null
     },
     "pricing": {
       "case": {
@@ -1028,10 +1028,10 @@
     }
   },
   {
-    "stockcode": "671939",
+    "stockcode": "197773",
     "properties": {
-      "name": "Rugged Thumb Sugar Free Ginger Bottles 500mL",
-      "name_clean": "Rugged Thumb Sugar Free Ginger",
+      "name": "Rugged Thumb Ginger Beer Bottle 500mL",
+      "name_clean": "Rugged Thumb Ginger Beer",
       "brand": "Rugged Thumb",
       "size_ml": 500,
       "size_clean": 500,
@@ -1039,10 +1039,10 @@
       "standard_drinks_raw": 1.6,
       "standard_drinks_clean": 1.6,
       "vessel": "bottle",
-      "image_url": "671939-1.png",
-      "rating": 4.9,
+      "image_url": "197773-1.png",
+      "rating": 4.3,
       "ibu": null,
-      "beer_style": null
+      "beer_style": "Ginger Beer"
     },
     "pricing": {
       "case": {
@@ -2144,6 +2144,50 @@
     }
   },
   {
+    "stockcode": "6027339",
+    "properties": {
+      "name": "Fosters Light Ice Btl 330mL",
+      "name_clean": "Fosters Light Ice Btl",
+      "brand": "Foster's",
+      "size_ml": 330,
+      "size_clean": 330,
+      "percentage_raw": 2,
+      "standard_drinks_raw": 0.5,
+      "standard_drinks_clean": 0.5,
+      "vessel": null,
+      "image_url": "6027339-1.png",
+      "rating": null,
+      "ibu": null,
+      "beer_style": null
+    },
+    "pricing": {
+      "case": {
+        "total_price": 47.99,
+        "units": 24,
+        "unit_price": 2,
+        "cost_per_standard": 4,
+        "alcohol_tax_cost": 0.3,
+        "alcohol_tax_percent": 8
+      },
+      "pack": {
+        "total_price": 16.99,
+        "units": 6,
+        "unit_price": 2.83,
+        "cost_per_standard": 5.66,
+        "alcohol_tax_cost": 0.3,
+        "alcohol_tax_percent": 5
+      },
+      "single": {
+        "total_price": 4.49,
+        "units": 1,
+        "unit_price": 4.49,
+        "cost_per_standard": 8.98,
+        "alcohol_tax_cost": 0.3,
+        "alcohol_tax_percent": 3
+      }
+    }
+  },
+  {
     "stockcode": "331515",
     "properties": {
       "name": "Amigos Tequila Flavoured Beer Bottles 6x4x330mL",
@@ -2354,12 +2398,12 @@
         "alcohol_tax_percent": 12
       },
       "pack_special": {
-        "total_price": 17,
+        "total_price": 15,
         "units": 4,
-        "unit_price": 4.25,
-        "cost_per_standard": 4.25,
+        "unit_price": 3.75,
+        "cost_per_standard": 3.75,
         "alcohol_tax_cost": 0.54,
-        "alcohol_tax_percent": 13
+        "alcohol_tax_percent": 14
       },
       "single": {
         "total_price": 5.99,
@@ -3026,12 +3070,12 @@
         "alcohol_tax_percent": 17
       },
       "pack_special": {
-        "total_price": 18,
+        "total_price": 15,
         "units": 4,
-        "unit_price": 4.5,
-        "cost_per_standard": 3.21,
+        "unit_price": 3.75,
+        "cost_per_standard": 2.68,
         "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 18
+        "alcohol_tax_percent": 21
       },
       "single": {
         "total_price": 5.99,
@@ -5686,12 +5730,12 @@
         "alcohol_tax_percent": 28
       },
       "case_special": {
-        "total_price": 59.9,
+        "total_price": 58,
         "units": 24,
-        "unit_price": 2.5,
-        "cost_per_standard": 1.92,
+        "unit_price": 2.42,
+        "cost_per_standard": 1.86,
         "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 30
+        "alcohol_tax_percent": 31
       },
       "pack": {
         "total_price": 22.49,
@@ -5746,12 +5790,12 @@
         "alcohol_tax_percent": 31
       },
       "case_special": {
-        "total_price": 58.9,
+        "total_price": 57,
         "units": 24,
-        "unit_price": 2.45,
-        "cost_per_standard": 1.88,
+        "unit_price": 2.38,
+        "cost_per_standard": 1.83,
         "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 32
+        "alcohol_tax_percent": 33
       },
       "pack": {
         "total_price": 22.99,
@@ -13309,6 +13353,14 @@
         "alcohol_tax_cost": 0.6,
         "alcohol_tax_percent": 31
       },
+      "case_special": {
+        "total_price": 59.95,
+        "units": 24,
+        "unit_price": 2.5,
+        "cost_per_standard": 1.92,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 31
+      },
       "pack": {
         "total_price": 17.95,
         "units": 6,
@@ -13554,12 +13606,12 @@
     },
     "pricing": {
       "case": {
-        "total_price": 63.99,
+        "total_price": 69.99,
         "units": 24,
-        "unit_price": 2.67,
-        "cost_per_standard": 1.41,
+        "unit_price": 2.92,
+        "cost_per_standard": 1.54,
         "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 40
+        "alcohol_tax_percent": 37
       },
       "pack": {
         "total_price": 17.99,
@@ -14454,10 +14506,10 @@
         "alcohol_tax_percent": 18
       },
       "case_special": {
-        "total_price": 66.9,
+        "total_price": 65,
         "units": 16,
-        "unit_price": 4.18,
-        "cost_per_standard": 3.22,
+        "unit_price": 4.06,
+        "cost_per_standard": 3.12,
         "alcohol_tax_cost": 0.57,
         "alcohol_tax_percent": 18
       },
@@ -17876,7 +17928,7 @@
       "standard_drinks_clean": 1.8,
       "vessel": null,
       "image_url": "19559-1.png",
-      "rating": null,
+      "rating": 3.7,
       "ibu": 47,
       "beer_style": "Stout"
     },
