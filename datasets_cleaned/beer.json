@@ -5558,12 +5558,12 @@
         "alcohol_tax_percent": 28
       },
       "case_special": {
-        "total_price": 58,
+        "total_price": 59.9,
         "units": 24,
-        "unit_price": 2.42,
-        "cost_per_standard": 1.86,
+        "unit_price": 2.5,
+        "cost_per_standard": 1.92,
         "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 31
+        "alcohol_tax_percent": 30
       },
       "pack": {
         "total_price": 22.49,
@@ -5618,12 +5618,12 @@
         "alcohol_tax_percent": 31
       },
       "case_special": {
-        "total_price": 57,
+        "total_price": 58.9,
         "units": 24,
-        "unit_price": 2.38,
-        "cost_per_standard": 1.83,
+        "unit_price": 2.45,
+        "cost_per_standard": 1.88,
         "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 33
+        "alcohol_tax_percent": 32
       },
       "pack": {
         "total_price": 22.99,
@@ -5976,7 +5976,7 @@
       "standard_drinks_clean": 1.4,
       "vessel": "can",
       "image_url": "235761-1.png",
-      "rating": 3.6,
+      "rating": 3.7,
       "ibu": 20,
       "beer_style": "Lager"
     },
@@ -6322,10 +6322,10 @@
         "alcohol_tax_percent": 25
       },
       "case_special": {
-        "total_price": 53,
+        "total_price": 52.9,
         "units": 24,
-        "unit_price": 2.21,
-        "cost_per_standard": 2.21,
+        "unit_price": 2.2,
+        "cost_per_standard": 2.2,
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 26
       },
@@ -6862,12 +6862,12 @@
         "alcohol_tax_percent": 13
       },
       "pack_special": {
-        "total_price": 24.49,
+        "total_price": 48.98,
         "units": 6,
-        "unit_price": 4.08,
-        "cost_per_standard": 4.08,
+        "unit_price": 8.16,
+        "cost_per_standard": 8.16,
         "alcohol_tax_cost": 0.54,
-        "alcohol_tax_percent": 13
+        "alcohol_tax_percent": 7
       },
       "single": {
         "total_price": 4.69,
@@ -9082,12 +9082,12 @@
         "alcohol_tax_percent": 12
       },
       "pack_special": {
-        "total_price": 26,
+        "total_price": 23,
         "units": 6,
-        "unit_price": 4.33,
-        "cost_per_standard": 4.33,
+        "unit_price": 3.83,
+        "cost_per_standard": 3.83,
         "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 13
+        "alcohol_tax_percent": 15
       },
       "single": {
         "total_price": 6.19,
@@ -12180,7 +12180,7 @@
       "standard_drinks_clean": 1.3,
       "vessel": "bottle",
       "image_url": "377553-1.png",
-      "rating": 3.6,
+      "rating": 3.7,
       "ibu": null,
       "beer_style": "Lager"
     },
@@ -12202,12 +12202,12 @@
         "alcohol_tax_percent": 25
       },
       "pack_special": {
-        "total_price": 66,
+        "total_price": 62.95,
         "units": 12,
-        "unit_price": 5.5,
-        "cost_per_standard": 4.23,
+        "unit_price": 5.25,
+        "cost_per_standard": 4.04,
         "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 13
+        "alcohol_tax_percent": 14
       }
     }
   },
@@ -13320,6 +13320,58 @@
     }
   },
   {
+    "stockcode": "768302",
+    "properties": {
+      "name": "Carlton Dry Cans 6x375mL",
+      "name_clean": "Carlton Dry",
+      "brand": "Carlton Dry",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 4.5,
+      "standard_drinks_raw": 1.3,
+      "standard_drinks_clean": 1.3,
+      "vessel": "can",
+      "image_url": "768302-1.png",
+      "rating": 4.5,
+      "ibu": 12,
+      "beer_style": "Lager"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 57.99,
+        "units": 24,
+        "unit_price": 2.42,
+        "cost_per_standard": 1.86,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 32
+      },
+      "case_special": {
+        "total_price": 55.95,
+        "units": 24,
+        "unit_price": 2.33,
+        "cost_per_standard": 1.79,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 33
+      },
+      "pack": {
+        "total_price": 22.49,
+        "units": 6,
+        "unit_price": 3.75,
+        "cost_per_standard": 2.88,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 20
+      },
+      "single": {
+        "total_price": 6.49,
+        "units": 1,
+        "unit_price": 6.49,
+        "cost_per_standard": 4.99,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 12
+      }
+    }
+  },
+  {
     "stockcode": "809797",
     "properties": {
       "name": "Carlton Dry Lager Bottles 6x330mL",
@@ -13412,58 +13464,6 @@
         "cost_per_standard": 4.61,
         "alcohol_tax_cost": 0.6,
         "alcohol_tax_percent": 13
-      }
-    }
-  },
-  {
-    "stockcode": "768302",
-    "properties": {
-      "name": "Carlton Dry Cans 6x375mL",
-      "name_clean": "Carlton Dry",
-      "brand": "Carlton Dry",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 4.5,
-      "standard_drinks_raw": 1.3,
-      "standard_drinks_clean": 1.3,
-      "vessel": "can",
-      "image_url": "768302-1.png",
-      "rating": 4.5,
-      "ibu": 12,
-      "beer_style": "Lager"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 57.99,
-        "units": 24,
-        "unit_price": 2.42,
-        "cost_per_standard": 1.86,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 32
-      },
-      "case_special": {
-        "total_price": 55.95,
-        "units": 24,
-        "unit_price": 2.33,
-        "cost_per_standard": 1.79,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 33
-      },
-      "pack": {
-        "total_price": 22.49,
-        "units": 6,
-        "unit_price": 3.75,
-        "cost_per_standard": 2.88,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 20
-      },
-      "single": {
-        "total_price": 6.49,
-        "units": 1,
-        "unit_price": 6.49,
-        "cost_per_standard": 4.99,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 12
       }
     }
   },
@@ -13916,50 +13916,6 @@
     }
   },
   {
-    "stockcode": "904076",
-    "properties": {
-      "name": "Weihenstephaner Hefe Weissbier Bottles 500mL",
-      "name_clean": "Weihenstephaner Hefe Weissbier",
-      "brand": "Weihenstephaner",
-      "size_ml": 500,
-      "size_clean": 500,
-      "percentage_raw": 5.4,
-      "standard_drinks_raw": 2.1,
-      "standard_drinks_clean": 2.1,
-      "vessel": "bottle",
-      "image_url": "904076-1.png",
-      "rating": 4.9,
-      "ibu": 14,
-      "beer_style": "Wheat Beer"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 71.99,
-        "units": 12,
-        "unit_price": 6,
-        "cost_per_standard": 2.86,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 22
-      },
-      "single": {
-        "total_price": 8.59,
-        "units": 1,
-        "unit_price": 8.59,
-        "cost_per_standard": 4.09,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 15
-      },
-      "single_special": {
-        "total_price": 21,
-        "units": 3,
-        "unit_price": 7,
-        "cost_per_standard": 3.33,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 19
-      }
-    }
-  },
-  {
     "stockcode": "767720",
     "properties": {
       "name": "Budweiser Lager Beer Bottle 330mL",
@@ -14260,6 +14216,50 @@
         "cost_per_standard": 4.45,
         "alcohol_tax_cost": 0.61,
         "alcohol_tax_percent": 14
+      }
+    }
+  },
+  {
+    "stockcode": "904076",
+    "properties": {
+      "name": "Weihenstephaner Hefe Weissbier Bottles 500mL",
+      "name_clean": "Weihenstephaner Hefe Weissbier",
+      "brand": "Weihenstephaner",
+      "size_ml": 500,
+      "size_clean": 500,
+      "percentage_raw": 5.4,
+      "standard_drinks_raw": 2.1,
+      "standard_drinks_clean": 2.1,
+      "vessel": "bottle",
+      "image_url": "904076-1.png",
+      "rating": 4.9,
+      "ibu": 14,
+      "beer_style": "Wheat Beer"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 71.99,
+        "units": 12,
+        "unit_price": 6,
+        "cost_per_standard": 2.86,
+        "alcohol_tax_cost": 0.62,
+        "alcohol_tax_percent": 22
+      },
+      "single": {
+        "total_price": 8.59,
+        "units": 1,
+        "unit_price": 8.59,
+        "cost_per_standard": 4.09,
+        "alcohol_tax_cost": 0.62,
+        "alcohol_tax_percent": 15
+      },
+      "single_special": {
+        "total_price": 21,
+        "units": 3,
+        "unit_price": 7,
+        "cost_per_standard": 3.33,
+        "alcohol_tax_cost": 0.62,
+        "alcohol_tax_percent": 19
       }
     }
   },
@@ -14586,12 +14586,12 @@
         "alcohol_tax_percent": 32
       },
       "case_special": {
-        "total_price": 58,
+        "total_price": 58.9,
         "units": 24,
-        "unit_price": 2.42,
-        "cost_per_standard": 1.73,
+        "unit_price": 2.45,
+        "cost_per_standard": 1.75,
         "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 36
+        "alcohol_tax_percent": 35
       },
       "pack": {
         "total_price": 25.49,
@@ -14945,6 +14945,14 @@
         "alcohol_tax_cost": 0.57,
         "alcohol_tax_percent": 30
       },
+      "case_special": {
+        "total_price": 58.95,
+        "units": 24,
+        "unit_price": 2.46,
+        "cost_per_standard": 1.76,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 32
+      },
       "pack": {
         "total_price": 16.95,
         "units": 6,
@@ -15200,42 +15208,6 @@
     }
   },
   {
-    "stockcode": "84736",
-    "properties": {
-      "name": "Victoria Bitter 30 Block Cans 375mL",
-      "name_clean": "Victoria Bitter VB",
-      "brand": "Victoria Bitter",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 4.9,
-      "standard_drinks_raw": 1.45,
-      "standard_drinks_clean": 1.45,
-      "vessel": "can",
-      "image_url": "84736-1.png",
-      "rating": 4.6,
-      "ibu": 25,
-      "beer_style": "Lager"
-    },
-    "pricing": {
-      "pack": {
-        "total_price": 66.99,
-        "units": 30,
-        "unit_price": 2.23,
-        "cost_per_standard": 1.54,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 38
-      },
-      "pack_special": {
-        "total_price": 63.9,
-        "units": 30,
-        "unit_price": 2.13,
-        "cost_per_standard": 1.47,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 40
-      }
-    }
-  },
-  {
     "stockcode": "751451",
     "properties": {
       "name": "Coopers Original Pale Ale Cans 6x375mL",
@@ -15276,6 +15248,42 @@
         "cost_per_standard": 4.22,
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 14
+      }
+    }
+  },
+  {
+    "stockcode": "84736",
+    "properties": {
+      "name": "Victoria Bitter 30 Block Cans 375mL",
+      "name_clean": "Victoria Bitter VB",
+      "brand": "Victoria Bitter",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 4.9,
+      "standard_drinks_raw": 1.45,
+      "standard_drinks_clean": 1.45,
+      "vessel": "can",
+      "image_url": "84736-1.png",
+      "rating": 4.6,
+      "ibu": 25,
+      "beer_style": "Lager"
+    },
+    "pricing": {
+      "pack": {
+        "total_price": 66.99,
+        "units": 30,
+        "unit_price": 2.23,
+        "cost_per_standard": 1.54,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 38
+      },
+      "pack_special": {
+        "total_price": 129.9,
+        "units": 30,
+        "unit_price": 4.33,
+        "cost_per_standard": 2.99,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 20
       }
     }
   },
@@ -16516,6 +16524,42 @@
     }
   },
   {
+    "stockcode": "43580",
+    "properties": {
+      "name": "Coopers Sparkling Ale 750mL",
+      "name_clean": "Coopers Sparkling Ale",
+      "brand": "Coopers",
+      "size_ml": 750,
+      "size_clean": 750,
+      "percentage_raw": 5.8,
+      "standard_drinks_raw": 3.4,
+      "standard_drinks_clean": 3.4,
+      "vessel": null,
+      "image_url": "43580-1.png",
+      "rating": 4.9,
+      "ibu": 30,
+      "beer_style": "Ale"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 75.99,
+        "units": 12,
+        "unit_price": 6.33,
+        "cost_per_standard": 1.86,
+        "alcohol_tax_cost": 0.63,
+        "alcohol_tax_percent": 34
+      },
+      "single": {
+        "total_price": 9.69,
+        "units": 1,
+        "unit_price": 9.69,
+        "cost_per_standard": 2.85,
+        "alcohol_tax_cost": 0.63,
+        "alcohol_tax_percent": 22
+      }
+    }
+  },
+  {
     "stockcode": "908534",
     "properties": {
       "name": "Menabrea Birra Bottle 330mL",
@@ -16704,42 +16748,6 @@
         "cost_per_standard": 4.76,
         "alcohol_tax_cost": 0.63,
         "alcohol_tax_percent": 13
-      }
-    }
-  },
-  {
-    "stockcode": "43580",
-    "properties": {
-      "name": "Coopers Sparkling Ale 750mL",
-      "name_clean": "Coopers Sparkling Ale",
-      "brand": "Coopers",
-      "size_ml": 750,
-      "size_clean": 750,
-      "percentage_raw": 5.8,
-      "standard_drinks_raw": 3.4,
-      "standard_drinks_clean": 3.4,
-      "vessel": null,
-      "image_url": "43580-1.png",
-      "rating": 4.9,
-      "ibu": 30,
-      "beer_style": "Ale"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 75.99,
-        "units": 12,
-        "unit_price": 6.33,
-        "cost_per_standard": 1.86,
-        "alcohol_tax_cost": 0.63,
-        "alcohol_tax_percent": 34
-      },
-      "single": {
-        "total_price": 9.69,
-        "units": 1,
-        "unit_price": 9.69,
-        "cost_per_standard": 2.85,
-        "alcohol_tax_cost": 0.63,
-        "alcohol_tax_percent": 22
       }
     }
   },
@@ -17972,7 +17980,7 @@
       "standard_drinks_clean": 1.3,
       "vessel": "can",
       "image_url": "18495-1.png",
-      "rating": null,
+      "rating": 3.9,
       "ibu": 28,
       "beer_style": "Pale Ale"
     },
