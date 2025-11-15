@@ -7910,8 +7910,8 @@
     "alcohol_tax_percent": 31
   },
   {
-    "name": "Hahn Super Dry Lager 3.5% Bottles 6x330mL",
-    "name_clean": "Hahn Super Dry Lager 3.5%",
+    "name": "Hahn SuperDry Lager 3.5% Bottles 6x330mL",
+    "name_clean": "Hahn SuperDry Lager 3.5%",
     "stockcode": "324139",
     "percentage": 3.5,
     "size": 330,
@@ -7927,8 +7927,8 @@
     "alcohol_tax_percent": 3
   },
   {
-    "name": "Hahn Super Dry Lager 3.5% Bottles 6x330mL",
-    "name_clean": "Hahn Super Dry Lager 3.5%",
+    "name": "Hahn SuperDry Lager 3.5% Bottles 6x330mL",
+    "name_clean": "Hahn SuperDry Lager 3.5%",
     "stockcode": "324139",
     "percentage": 3.5,
     "size": 330,
@@ -7944,8 +7944,8 @@
     "alcohol_tax_percent": 23
   },
   {
-    "name": "Hahn Super Dry Lager 3.5% Bottles 6x330mL",
-    "name_clean": "Hahn Super Dry Lager 3.5%",
+    "name": "Hahn SuperDry Lager 3.5% Bottles 6x330mL",
+    "name_clean": "Hahn SuperDry Lager 3.5%",
     "stockcode": "324139",
     "percentage": 3.5,
     "size": 330,
@@ -9120,9 +9120,9 @@
     "special": true,
     "package": "single",
     "package_size": 1,
-    "total_price": 62.95,
-    "unit_price": 62.95,
-    "cost_per_standard": 48.42,
+    "total_price": 62,
+    "unit_price": 62,
+    "cost_per_standard": 47.69,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.58,
     "alcohol_tax_percent": 1
@@ -9290,12 +9290,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 53,
-    "unit_price": 2.21,
-    "cost_per_standard": 1.47,
+    "total_price": 57.9,
+    "unit_price": 2.41,
+    "cost_per_standard": 1.61,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.59,
-    "alcohol_tax_percent": 40
+    "alcohol_tax_percent": 37
   },
   {
     "name": "Victoria Bitter Lager Bottles 375mLx6",
@@ -12125,6 +12125,57 @@
     "cost_per_standard": 3.08,
     "vessel": "can",
     "alcohol_tax_cost": 0.57,
+    "alcohol_tax_percent": 19
+  },
+  {
+    "name": "Capital Brewing Co. Haze Oasis Hazy Pale Ale Can 4x4x375mL",
+    "name_clean": "Capital Brewing Co. Haze Oasis Hazy Pale Ale",
+    "stockcode": "6000648",
+    "percentage": 4.5,
+    "size": 375,
+    "standard_drinks": 1.3,
+    "special": false,
+    "package": "single",
+    "package_size": 1,
+    "total_price": 5.99,
+    "unit_price": 5.99,
+    "cost_per_standard": 4.61,
+    "vessel": "can",
+    "alcohol_tax_cost": 0.58,
+    "alcohol_tax_percent": 13
+  },
+  {
+    "name": "Capital Brewing Co. Haze Oasis Hazy Pale Ale Can 4x4x375mL",
+    "name_clean": "Capital Brewing Co. Haze Oasis Hazy Pale Ale",
+    "stockcode": "6000648",
+    "percentage": 4.5,
+    "size": 375,
+    "standard_drinks": 1.3,
+    "special": false,
+    "package": "pack",
+    "package_size": 4,
+    "total_price": 20.99,
+    "unit_price": 5.25,
+    "cost_per_standard": 4.04,
+    "vessel": "can",
+    "alcohol_tax_cost": 0.58,
+    "alcohol_tax_percent": 14
+  },
+  {
+    "name": "Capital Brewing Co. Haze Oasis Hazy Pale Ale Can 4x4x375mL",
+    "name_clean": "Capital Brewing Co. Haze Oasis Hazy Pale Ale",
+    "stockcode": "6000648",
+    "percentage": 4.5,
+    "size": 375,
+    "standard_drinks": 1.3,
+    "special": false,
+    "package": "case",
+    "package_size": 16,
+    "total_price": 64.99,
+    "unit_price": 4.06,
+    "cost_per_standard": 3.12,
+    "vessel": "can",
+    "alcohol_tax_cost": 0.58,
     "alcohol_tax_percent": 19
   },
   {
@@ -15581,12 +15632,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 56.9,
-    "unit_price": 2.37,
-    "cost_per_standard": 1.69,
+    "total_price": 54,
+    "unit_price": 2.25,
+    "cost_per_standard": 1.61,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 34
+    "alcohol_tax_percent": 36
   },
   {
     "name": "James Boag's Premium Lager Bottles 375mLx6",
@@ -16577,38 +16628,6 @@
     "vessel": "bottle",
     "alcohol_tax_cost": 0.59,
     "alcohol_tax_percent": 34
-  },
-  {
-    "name": "Weihenstephaner Festbier 500mL",
-    "name_clean": "Weihenstephaner Festbier",
-    "stockcode": "731148",
-    "percentage": 5.8,
-    "size": 500,
-    "standard_drinks": 2.3,
-    "special": false,
-    "package": "single",
-    "package_size": 1,
-    "total_price": 8.39,
-    "unit_price": 8.39,
-    "cost_per_standard": 3.65,
-    "alcohol_tax_cost": 0.62,
-    "alcohol_tax_percent": 17
-  },
-  {
-    "name": "Weihenstephaner Festbier 500mL",
-    "name_clean": "Weihenstephaner Festbier",
-    "stockcode": "731148",
-    "percentage": 5.8,
-    "size": 500,
-    "standard_drinks": 2.3,
-    "special": false,
-    "package": "case",
-    "package_size": 12,
-    "total_price": 75.99,
-    "unit_price": 6.33,
-    "cost_per_standard": 2.75,
-    "alcohol_tax_cost": 0.62,
-    "alcohol_tax_percent": 23
   },
   {
     "name": "Coopers Sparkling Ale Bottles 375mLx6",
@@ -18490,7 +18509,7 @@
     "alcohol_tax_percent": 1
   },
   {
-    "name": "Coors Lager Bottle 6x330mL",
+    "name": "Coors Lager Bottles 6x330mL",
     "name_clean": "Coors Lager",
     "stockcode": "855559",
     "percentage": 4.2,
@@ -18507,7 +18526,7 @@
     "alcohol_tax_percent": 14
   },
   {
-    "name": "Coors Lager Bottle 6x330mL",
+    "name": "Coors Lager Bottles 6x330mL",
     "name_clean": "Coors Lager",
     "stockcode": "855559",
     "percentage": 4.2,
@@ -18524,7 +18543,7 @@
     "alcohol_tax_percent": 21
   },
   {
-    "name": "Coors Lager Bottle 6x330mL",
+    "name": "Coors Lager Bottles 6x330mL",
     "name_clean": "Coors Lager",
     "stockcode": "855559",
     "percentage": 4.2,
@@ -18541,7 +18560,7 @@
     "alcohol_tax_percent": 17
   },
   {
-    "name": "Coors Lager Bottle 6x330mL",
+    "name": "Coors Lager Bottles 6x330mL",
     "name_clean": "Coors Lager",
     "stockcode": "855559",
     "percentage": 4.2,

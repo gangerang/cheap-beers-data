@@ -380,6 +380,42 @@
     }
   },
   {
+    "stockcode": "904073",
+    "properties": {
+      "name": "Weihenstephaner Pilsner Bottle 500mL",
+      "name_clean": "Weihenstephaner Pilsner",
+      "brand": "Weihenstephaner",
+      "size_ml": 500,
+      "size_clean": 500,
+      "percentage_raw": 5.1,
+      "standard_drinks_raw": 2,
+      "standard_drinks_clean": 2,
+      "vessel": "bottle",
+      "image_url": "904073-1.png",
+      "rating": 4.6,
+      "ibu": 32,
+      "beer_style": "Pilsner"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 71.99,
+        "units": 12,
+        "unit_price": 6,
+        "cost_per_standard": 3,
+        "alcohol_tax_cost": 0.61,
+        "alcohol_tax_percent": 20
+      },
+      "single": {
+        "total_price": 8.59,
+        "units": 1,
+        "unit_price": 8.59,
+        "cost_per_standard": 4.3,
+        "alcohol_tax_cost": 0.61,
+        "alcohol_tax_percent": 14
+      }
+    }
+  },
+  {
     "stockcode": "904074",
     "properties": {
       "name": "Weihenstephaner Tradition Bayrisch Dunkel Bottles 500mL",
@@ -412,42 +448,6 @@
         "cost_per_standard": 4.3,
         "alcohol_tax_cost": 0.62,
         "alcohol_tax_percent": 14
-      }
-    }
-  },
-  {
-    "stockcode": "904075",
-    "properties": {
-      "name": "Weihenstephaner Kristall Weissbier Bottles 500mL",
-      "name_clean": "Weihenstephaner Kristall Weissbier",
-      "brand": "Weihenstephaner",
-      "size_ml": 500,
-      "size_clean": 500,
-      "percentage_raw": 5.4,
-      "standard_drinks_raw": 2.1,
-      "standard_drinks_clean": 2.1,
-      "vessel": "bottle",
-      "image_url": "904075-1.png",
-      "rating": 4.9,
-      "ibu": 16,
-      "beer_style": "Wheat Beer"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 71.99,
-        "units": 12,
-        "unit_price": 6,
-        "cost_per_standard": 2.86,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 22
-      },
-      "single": {
-        "total_price": 8.59,
-        "units": 1,
-        "unit_price": 8.59,
-        "cost_per_standard": 4.09,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 15
       }
     }
   },
@@ -496,38 +496,38 @@
     }
   },
   {
-    "stockcode": "904073",
+    "stockcode": "904075",
     "properties": {
-      "name": "Weihenstephaner Pilsner Bottle 500mL",
-      "name_clean": "Weihenstephaner Pilsner",
+      "name": "Weihenstephaner Kristall Weissbier Bottles 500mL",
+      "name_clean": "Weihenstephaner Kristall Weissbier",
       "brand": "Weihenstephaner",
       "size_ml": 500,
       "size_clean": 500,
-      "percentage_raw": 5.1,
-      "standard_drinks_raw": 2,
-      "standard_drinks_clean": 2,
+      "percentage_raw": 5.4,
+      "standard_drinks_raw": 2.1,
+      "standard_drinks_clean": 2.1,
       "vessel": "bottle",
-      "image_url": "904073-1.png",
-      "rating": 4.6,
-      "ibu": 32,
-      "beer_style": "Pilsner"
+      "image_url": "904075-1.png",
+      "rating": 4.9,
+      "ibu": 16,
+      "beer_style": "Wheat Beer"
     },
     "pricing": {
       "case": {
         "total_price": 71.99,
         "units": 12,
         "unit_price": 6,
-        "cost_per_standard": 3,
-        "alcohol_tax_cost": 0.61,
-        "alcohol_tax_percent": 20
+        "cost_per_standard": 2.86,
+        "alcohol_tax_cost": 0.62,
+        "alcohol_tax_percent": 22
       },
       "single": {
         "total_price": 8.59,
         "units": 1,
         "unit_price": 8.59,
-        "cost_per_standard": 4.3,
-        "alcohol_tax_cost": 0.61,
-        "alcohol_tax_percent": 14
+        "cost_per_standard": 4.09,
+        "alcohol_tax_cost": 0.62,
+        "alcohol_tax_percent": 15
       }
     }
   },
@@ -2232,6 +2232,58 @@
     }
   },
   {
+    "stockcode": "6027313",
+    "properties": {
+      "name": "Mountain Culture Three Fiddy Mid Pale Cans 355mL",
+      "name_clean": "Mountain Culture Three Fiddy Mid Pale",
+      "brand": "Mountain Culture",
+      "size_ml": 355,
+      "size_clean": 355,
+      "percentage_raw": 3.5,
+      "standard_drinks_raw": 1.1,
+      "standard_drinks_clean": 1.1,
+      "vessel": "can",
+      "image_url": "6027313-1.png",
+      "rating": null,
+      "ibu": 12,
+      "beer_style": "Pale Ale"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 54.99,
+        "units": 16,
+        "unit_price": 3.44,
+        "cost_per_standard": 3.13,
+        "alcohol_tax_cost": 0.47,
+        "alcohol_tax_percent": 15
+      },
+      "case_special": {
+        "total_price": 52.99,
+        "units": 16,
+        "unit_price": 3.31,
+        "cost_per_standard": 3.01,
+        "alcohol_tax_cost": 0.47,
+        "alcohol_tax_percent": 16
+      },
+      "pack": {
+        "total_price": 17.99,
+        "units": 4,
+        "unit_price": 4.5,
+        "cost_per_standard": 4.09,
+        "alcohol_tax_cost": 0.47,
+        "alcohol_tax_percent": 11
+      },
+      "single": {
+        "total_price": 4.99,
+        "units": 1,
+        "unit_price": 4.99,
+        "cost_per_standard": 4.54,
+        "alcohol_tax_cost": 0.47,
+        "alcohol_tax_percent": 10
+      }
+    }
+  },
+  {
     "stockcode": "6006103",
     "properties": {
       "name": "Sobah Tropical Lager Cans 6x4x375mL",
@@ -2316,58 +2368,6 @@
         "cost_per_standard": 7.98,
         "alcohol_tax_cost": 0.26,
         "alcohol_tax_percent": 3
-      }
-    }
-  },
-  {
-    "stockcode": "6027313",
-    "properties": {
-      "name": "Mountain Culture Three Fiddy Mid Pale Cans 355mL",
-      "name_clean": "Mountain Culture Three Fiddy Mid Pale",
-      "brand": "Mountain Culture",
-      "size_ml": 355,
-      "size_clean": 355,
-      "percentage_raw": 3.5,
-      "standard_drinks_raw": 1.1,
-      "standard_drinks_clean": 1.1,
-      "vessel": "can",
-      "image_url": "6027313-1.png",
-      "rating": null,
-      "ibu": 12,
-      "beer_style": "Pale Ale"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 54.99,
-        "units": 16,
-        "unit_price": 3.44,
-        "cost_per_standard": 3.13,
-        "alcohol_tax_cost": 0.47,
-        "alcohol_tax_percent": 15
-      },
-      "case_special": {
-        "total_price": 52.99,
-        "units": 16,
-        "unit_price": 3.31,
-        "cost_per_standard": 3.01,
-        "alcohol_tax_cost": 0.47,
-        "alcohol_tax_percent": 16
-      },
-      "pack": {
-        "total_price": 17.99,
-        "units": 4,
-        "unit_price": 4.5,
-        "cost_per_standard": 4.09,
-        "alcohol_tax_cost": 0.47,
-        "alcohol_tax_percent": 11
-      },
-      "single": {
-        "total_price": 4.99,
-        "units": 1,
-        "unit_price": 4.99,
-        "cost_per_standard": 4.54,
-        "alcohol_tax_cost": 0.47,
-        "alcohol_tax_percent": 10
       }
     }
   },
@@ -3332,7 +3332,7 @@
       "standard_drinks_clean": 1.2,
       "vessel": "bottle",
       "image_url": "232656-1.png",
-      "rating": 3.8,
+      "rating": 3.6,
       "ibu": 12,
       "beer_style": "Lager"
     },
@@ -4136,7 +4136,7 @@
       "standard_drinks_clean": 1,
       "vessel": "bottle",
       "image_url": "6027323-1.png",
-      "rating": 4,
+      "rating": null,
       "ibu": 15,
       "beer_style": "Flavoured Beer"
     },
@@ -4424,6 +4424,50 @@
         "cost_per_standard": 4.99,
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 11
+      }
+    }
+  },
+  {
+    "stockcode": "6000648",
+    "properties": {
+      "name": "Capital Brewing Co. Haze Oasis Hazy Pale Ale Can 4x4x375mL",
+      "name_clean": "Capital Brewing Co. Haze Oasis Hazy Pale Ale",
+      "brand": "Capital Brewing Co.",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 4.5,
+      "standard_drinks_raw": 1.3,
+      "standard_drinks_clean": 1.3,
+      "vessel": "can",
+      "image_url": "6000648-1.png",
+      "rating": null,
+      "ibu": null,
+      "beer_style": null
+    },
+    "pricing": {
+      "case": {
+        "total_price": 64.99,
+        "units": 16,
+        "unit_price": 4.06,
+        "cost_per_standard": 3.12,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 19
+      },
+      "pack": {
+        "total_price": 20.99,
+        "units": 4,
+        "unit_price": 5.25,
+        "cost_per_standard": 4.04,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 15
+      },
+      "single": {
+        "total_price": 5.99,
+        "units": 1,
+        "unit_price": 5.99,
+        "cost_per_standard": 4.61,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 13
       }
     }
   },
@@ -5472,7 +5516,7 @@
       "standard_drinks_clean": 1.1,
       "vessel": "can",
       "image_url": "6003995-1.png",
-      "rating": 3.3,
+      "rating": 3.6,
       "ibu": null,
       "beer_style": "Lager"
     },
@@ -5664,6 +5708,58 @@
         "cost_per_standard": 3.84,
         "alcohol_tax_cost": 0.6,
         "alcohol_tax_percent": 16
+      }
+    }
+  },
+  {
+    "stockcode": "6005426",
+    "properties": {
+      "name": "Birra Moretti Lager Bottles 6x330mL",
+      "name_clean": "Birra Moretti Lager",
+      "brand": "Birra Moretti",
+      "size_ml": 330,
+      "size_clean": 330,
+      "percentage_raw": 4.6,
+      "standard_drinks_raw": 1.2,
+      "standard_drinks_clean": 1.2,
+      "vessel": "bottle",
+      "image_url": "6005426-1.png",
+      "rating": 4.9,
+      "ibu": 35,
+      "beer_style": "Lager"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 64.99,
+        "units": 24,
+        "unit_price": 2.71,
+        "cost_per_standard": 2.26,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 26
+      },
+      "pack": {
+        "total_price": 22.99,
+        "units": 6,
+        "unit_price": 3.83,
+        "cost_per_standard": 3.19,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 18
+      },
+      "pack_special": {
+        "total_price": 21,
+        "units": 6,
+        "unit_price": 3.5,
+        "cost_per_standard": 2.92,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 20
+      },
+      "single": {
+        "total_price": 5.99,
+        "units": 1,
+        "unit_price": 5.99,
+        "cost_per_standard": 4.99,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 12
       }
     }
   },
@@ -6176,58 +6272,6 @@
     }
   },
   {
-    "stockcode": "6005426",
-    "properties": {
-      "name": "Birra Moretti Lager Bottles 6x330mL",
-      "name_clean": "Birra Moretti Lager",
-      "brand": "Birra Moretti",
-      "size_ml": 330,
-      "size_clean": 330,
-      "percentage_raw": 4.6,
-      "standard_drinks_raw": 1.2,
-      "standard_drinks_clean": 1.2,
-      "vessel": "bottle",
-      "image_url": "6005426-1.png",
-      "rating": 4.9,
-      "ibu": 35,
-      "beer_style": "Lager"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 64.99,
-        "units": 24,
-        "unit_price": 2.71,
-        "cost_per_standard": 2.26,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 26
-      },
-      "pack": {
-        "total_price": 22.99,
-        "units": 6,
-        "unit_price": 3.83,
-        "cost_per_standard": 3.19,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 18
-      },
-      "pack_special": {
-        "total_price": 21,
-        "units": 6,
-        "unit_price": 3.5,
-        "cost_per_standard": 2.92,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 20
-      },
-      "single": {
-        "total_price": 5.99,
-        "units": 1,
-        "unit_price": 5.99,
-        "cost_per_standard": 4.99,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 12
-      }
-    }
-  },
-  {
     "stockcode": "911712",
     "properties": {
       "name": "Heineken Lager Silver Bottles  330mL",
@@ -6424,7 +6468,7 @@
       "standard_drinks_clean": 2,
       "vessel": "can",
       "image_url": "6027307-1.png",
-      "rating": 5,
+      "rating": 4.8,
       "ibu": 20,
       "beer_style": "Lager"
     },
@@ -6744,50 +6788,6 @@
     }
   },
   {
-    "stockcode": "288469",
-    "properties": {
-      "name": "Mountain Goat       GOAT Can 6x500mL",
-      "name_clean": "Mountain Goat Very Enjoyable Beer",
-      "brand": "Mountain Goat",
-      "size_ml": 500,
-      "size_clean": 500,
-      "percentage_raw": 4.2,
-      "standard_drinks_raw": 1.6,
-      "standard_drinks_clean": 1.6,
-      "vessel": "can",
-      "image_url": "288469-1.png",
-      "rating": 4.3,
-      "ibu": 22,
-      "beer_style": "Lager"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 70.99,
-        "units": 24,
-        "unit_price": 2.96,
-        "cost_per_standard": 1.85,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 31
-      },
-      "pack": {
-        "total_price": 24.49,
-        "units": 6,
-        "unit_price": 4.08,
-        "cost_per_standard": 2.55,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 23
-      },
-      "single": {
-        "total_price": 6.49,
-        "units": 1,
-        "unit_price": 6.49,
-        "cost_per_standard": 4.06,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 14
-      }
-    }
-  },
-  {
     "stockcode": "910427",
     "properties": {
       "name": "Coopers Dry 3.5% Cans 6X375mL",
@@ -6836,6 +6836,50 @@
         "cost_per_standard": 4.69,
         "alcohol_tax_cost": 0.54,
         "alcohol_tax_percent": 12
+      }
+    }
+  },
+  {
+    "stockcode": "288469",
+    "properties": {
+      "name": "Mountain Goat       GOAT Can 6x500mL",
+      "name_clean": "Mountain Goat Very Enjoyable Beer",
+      "brand": "Mountain Goat",
+      "size_ml": 500,
+      "size_clean": 500,
+      "percentage_raw": 4.2,
+      "standard_drinks_raw": 1.6,
+      "standard_drinks_clean": 1.6,
+      "vessel": "can",
+      "image_url": "288469-1.png",
+      "rating": 4.3,
+      "ibu": 22,
+      "beer_style": "Lager"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 70.99,
+        "units": 24,
+        "unit_price": 2.96,
+        "cost_per_standard": 1.85,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 31
+      },
+      "pack": {
+        "total_price": 24.49,
+        "units": 6,
+        "unit_price": 4.08,
+        "cost_per_standard": 2.55,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 23
+      },
+      "single": {
+        "total_price": 6.49,
+        "units": 1,
+        "unit_price": 6.49,
+        "cost_per_standard": 4.06,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 14
       }
     }
   },
@@ -7744,7 +7788,7 @@
       "standard_drinks_clean": 1.4,
       "vessel": "can",
       "image_url": "411193-1.png",
-      "rating": null,
+      "rating": 4.3,
       "ibu": 19,
       "beer_style": "Lager"
     },
@@ -9607,7 +9651,7 @@
       "standard_drinks_clean": 0.86,
       "vessel": "can",
       "image_url": "460726-1.png",
-      "rating": null,
+      "rating": 4.4,
       "ibu": 16,
       "beer_style": "Lager"
     },
@@ -11293,7 +11337,7 @@
   {
     "stockcode": "855559",
     "properties": {
-      "name": "Coors Lager Bottle 6x330mL",
+      "name": "Coors Lager Bottles 6x330mL",
       "name_clean": "Coors Lager",
       "brand": "Coors",
       "size_ml": 330,
@@ -11303,7 +11347,7 @@
       "standard_drinks_clean": 1.1,
       "vessel": "bottle",
       "image_url": "855559-1.png",
-      "rating": 4.2,
+      "rating": null,
       "ibu": 10,
       "beer_style": "Lager"
     },
@@ -12237,10 +12281,10 @@
         "alcohol_tax_percent": 22
       },
       "pack_special": {
-        "total_price": 62.95,
+        "total_price": 62,
         "units": 12,
-        "unit_price": 5.25,
-        "cost_per_standard": 4.04,
+        "unit_price": 5.17,
+        "cost_per_standard": 3.98,
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 14
       }
@@ -12545,8 +12589,8 @@
   {
     "stockcode": "324139",
     "properties": {
-      "name": "Hahn Super Dry Lager 3.5% Bottles 6x330mL",
-      "name_clean": "Hahn Super Dry Lager 3.5%",
+      "name": "Hahn SuperDry Lager 3.5% Bottles 6x330mL",
+      "name_clean": "Hahn SuperDry Lager 3.5%",
       "brand": "Hahn",
       "size_ml": 330,
       "size_clean": 330,
@@ -13409,12 +13453,12 @@
         "alcohol_tax_percent": 32
       },
       "case_special": {
-        "total_price": 56.9,
+        "total_price": 54,
         "units": 24,
-        "unit_price": 2.37,
-        "cost_per_standard": 1.69,
+        "unit_price": 2.25,
+        "cost_per_standard": 1.61,
         "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 34
+        "alcohol_tax_percent": 35
       },
       "pack": {
         "total_price": 17.95,
@@ -14003,6 +14047,42 @@
     }
   },
   {
+    "stockcode": "904076",
+    "properties": {
+      "name": "Weihenstephaner Hefe Weissbier Bottles 500mL",
+      "name_clean": "Weihenstephaner Hefe Weissbier",
+      "brand": "Weihenstephaner",
+      "size_ml": 500,
+      "size_clean": 500,
+      "percentage_raw": 5.4,
+      "standard_drinks_raw": 2.1,
+      "standard_drinks_clean": 2.1,
+      "vessel": "bottle",
+      "image_url": "904076-1.png",
+      "rating": 4.9,
+      "ibu": 14,
+      "beer_style": "Wheat Beer"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 71.99,
+        "units": 12,
+        "unit_price": 6,
+        "cost_per_standard": 2.86,
+        "alcohol_tax_cost": 0.62,
+        "alcohol_tax_percent": 22
+      },
+      "single": {
+        "total_price": 8.59,
+        "units": 1,
+        "unit_price": 8.59,
+        "cost_per_standard": 4.09,
+        "alcohol_tax_cost": 0.62,
+        "alcohol_tax_percent": 15
+      }
+    }
+  },
+  {
     "stockcode": "96447",
     "properties": {
       "name": "Coopers Dark Ale Bottles 6x375mL",
@@ -14131,42 +14211,6 @@
         "cost_per_standard": 4.45,
         "alcohol_tax_cost": 0.61,
         "alcohol_tax_percent": 14
-      }
-    }
-  },
-  {
-    "stockcode": "904076",
-    "properties": {
-      "name": "Weihenstephaner Hefe Weissbier Bottles 500mL",
-      "name_clean": "Weihenstephaner Hefe Weissbier",
-      "brand": "Weihenstephaner",
-      "size_ml": 500,
-      "size_clean": 500,
-      "percentage_raw": 5.4,
-      "standard_drinks_raw": 2.1,
-      "standard_drinks_clean": 2.1,
-      "vessel": "bottle",
-      "image_url": "904076-1.png",
-      "rating": 4.9,
-      "ibu": 14,
-      "beer_style": "Wheat Beer"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 71.99,
-        "units": 12,
-        "unit_price": 6,
-        "cost_per_standard": 2.86,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 22
-      },
-      "single": {
-        "total_price": 8.59,
-        "units": 1,
-        "unit_price": 8.59,
-        "cost_per_standard": 4.09,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 15
       }
     }
   },
@@ -14329,12 +14373,12 @@
         "alcohol_tax_percent": 35
       },
       "case_special": {
-        "total_price": 53,
+        "total_price": 57.9,
         "units": 24,
-        "unit_price": 2.21,
-        "cost_per_standard": 1.58,
+        "unit_price": 2.41,
+        "cost_per_standard": 1.72,
         "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 39
+        "alcohol_tax_percent": 36
       },
       "pack": {
         "total_price": 21.95,
@@ -15791,42 +15835,6 @@
     }
   },
   {
-    "stockcode": "731148",
-    "properties": {
-      "name": "Weihenstephaner Festbier 500mL",
-      "name_clean": "Weihenstephaner Festbier",
-      "brand": "Weihenstephaner",
-      "size_ml": 500,
-      "size_clean": 500,
-      "percentage_raw": 5.8,
-      "standard_drinks_raw": 2.3,
-      "standard_drinks_clean": 2.3,
-      "vessel": null,
-      "image_url": "731148-1.png",
-      "rating": 4.8,
-      "ibu": 26,
-      "beer_style": "Lager"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 75.99,
-        "units": 12,
-        "unit_price": 6.33,
-        "cost_per_standard": 2.75,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 23
-      },
-      "single": {
-        "total_price": 8.39,
-        "units": 1,
-        "unit_price": 8.39,
-        "cost_per_standard": 3.65,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 17
-      }
-    }
-  },
-  {
     "stockcode": "901651",
     "properties": {
       "name": "Little Creatures Pale Ale Bottle 6x330mL",
@@ -17127,50 +17135,6 @@
     }
   },
   {
-    "stockcode": "811008",
-    "properties": {
-      "name": "Wayward Brewing Co Pilsner Can 375mL",
-      "name_clean": "Wayward Brewing Co Pilsner",
-      "brand": "Wayward Brewing Co",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 4.2,
-      "standard_drinks_raw": 1.2,
-      "standard_drinks_clean": 1.2,
-      "vessel": "can",
-      "image_url": "811008-1.png",
-      "rating": null,
-      "ibu": 25,
-      "beer_style": "Lager"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 75.99,
-        "units": 24,
-        "unit_price": 3.17,
-        "cost_per_standard": 2.64,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 22
-      },
-      "pack": {
-        "total_price": 22.99,
-        "units": 6,
-        "unit_price": 3.83,
-        "cost_per_standard": 3.19,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 18
-      },
-      "single": {
-        "total_price": 4.49,
-        "units": 1,
-        "unit_price": 4.49,
-        "cost_per_standard": 3.74,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 16
-      }
-    }
-  },
-  {
     "stockcode": "25500",
     "properties": {
       "name": "Coopers Best Extra Stout Longneck 750mL",
@@ -17211,6 +17175,50 @@
         "cost_per_standard": 1.89,
         "alcohol_tax_cost": 0.64,
         "alcohol_tax_percent": 34
+      }
+    }
+  },
+  {
+    "stockcode": "811008",
+    "properties": {
+      "name": "Wayward Brewing Co Pilsner Can 375mL",
+      "name_clean": "Wayward Brewing Co Pilsner",
+      "brand": "Wayward Brewing Co",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 4.2,
+      "standard_drinks_raw": 1.2,
+      "standard_drinks_clean": 1.2,
+      "vessel": "can",
+      "image_url": "811008-1.png",
+      "rating": null,
+      "ibu": 25,
+      "beer_style": "Lager"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 75.99,
+        "units": 24,
+        "unit_price": 3.17,
+        "cost_per_standard": 2.64,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 22
+      },
+      "pack": {
+        "total_price": 22.99,
+        "units": 6,
+        "unit_price": 3.83,
+        "cost_per_standard": 3.19,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 18
+      },
+      "single": {
+        "total_price": 4.49,
+        "units": 1,
+        "unit_price": 4.49,
+        "cost_per_standard": 3.74,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 16
       }
     }
   },
