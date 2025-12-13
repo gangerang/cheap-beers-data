@@ -3764,12 +3764,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 87,
-    "unit_price": 3.63,
-    "cost_per_standard": 3.63,
+    "total_price": 83,
+    "unit_price": 3.46,
+    "cost_per_standard": 3.46,
     "vessel": "can",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 15
+    "alcohol_tax_percent": 16
   },
   {
     "name": "Brookvale Union Ginger Beer Low Sugar Cans 6x330mL",
@@ -5698,12 +5698,12 @@
     "special": true,
     "package": "case",
     "package_size": 18,
-    "total_price": 55,
-    "unit_price": 3.06,
-    "cost_per_standard": 2.04,
+    "total_price": 52,
+    "unit_price": 2.89,
+    "cost_per_standard": 1.93,
     "vessel": "can",
     "alcohol_tax_cost": 0.6,
-    "alcohol_tax_percent": 29
+    "alcohol_tax_percent": 31
   },
   {
     "name": "4 Pines Pale Ale Can 6X375ml",
@@ -6204,12 +6204,12 @@
     "special": true,
     "package": "case",
     "package_size": 18,
-    "total_price": 49,
-    "unit_price": 2.72,
-    "cost_per_standard": 2.09,
+    "total_price": 49.9,
+    "unit_price": 2.77,
+    "cost_per_standard": 2.13,
     "vessel": "can",
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 28
+    "alcohol_tax_percent": 27
   },
   {
     "name": "4 Pines Japanese Lager Cans 375mL",
@@ -6357,12 +6357,12 @@
     "special": true,
     "package": "pack",
     "package_size": 4,
-    "total_price": 27,
-    "unit_price": 6.75,
-    "cost_per_standard": 4.22,
+    "total_price": 45,
+    "unit_price": 11.25,
+    "cost_per_standard": 7.03,
     "vessel": "can",
     "alcohol_tax_cost": 0.63,
-    "alcohol_tax_percent": 15
+    "alcohol_tax_percent": 9
   },
   {
     "name": "Brookvale Union Ginger Beer 6% Can 330mL",
@@ -36226,5 +36226,39 @@
     "online_only": true,
     "alcohol_tax_cost": 0.58,
     "alcohol_tax_percent": 30
+  },
+  {
+    "name": "Wingman 4.2 Lager",
+    "name_clean": "Wingman 4.2 Lager",
+    "stockcode": "ER_2000005398_WB0042",
+    "percentage": 4.2,
+    "size": 362,
+    "standard_drinks": 1.2,
+    "special": false,
+    "package": "pack",
+    "package_size": 6,
+    "total_price": 16.99,
+    "unit_price": 2.83,
+    "cost_per_standard": 2.36,
+    "online_only": true,
+    "alcohol_tax_cost": 0.56,
+    "alcohol_tax_percent": 24
+  },
+  {
+    "name": "Wingman 4.2 Lager",
+    "name_clean": "Wingman 4.2 Lager",
+    "stockcode": "ER_2000005398_WB0042",
+    "percentage": 4.2,
+    "size": 362,
+    "standard_drinks": 1.2,
+    "special": false,
+    "package": "case",
+    "package_size": 24,
+    "total_price": 59.5,
+    "unit_price": 2.48,
+    "cost_per_standard": 2.07,
+    "online_only": true,
+    "alcohol_tax_cost": 0.56,
+    "alcohol_tax_percent": 27
   }
 ]
