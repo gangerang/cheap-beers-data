@@ -1560,7 +1560,7 @@
       "standard_drinks_clean": 0.9,
       "vessel": "bottle",
       "image_url": "962206-1.png",
-      "rating": 4.5,
+      "rating": 4.4,
       "ibu": 0,
       "beer_style": "Lager"
     },
@@ -6192,7 +6192,7 @@
       "standard_drinks_clean": 1.5,
       "vessel": "can",
       "image_url": "271392-1.png",
-      "rating": 4.5,
+      "rating": 4.6,
       "ibu": 10,
       "beer_style": "Pale Ale"
     },
@@ -8214,12 +8214,12 @@
         "alcohol_tax_percent": 18
       },
       "pack_special": {
-        "total_price": 27,
+        "total_price": 26,
         "units": 4,
-        "unit_price": 6.75,
-        "cost_per_standard": 3.38,
+        "unit_price": 6.5,
+        "cost_per_standard": 3.25,
         "alcohol_tax_cost": 0.64,
-        "alcohol_tax_percent": 19
+        "alcohol_tax_percent": 20
       },
       "single": {
         "total_price": 7.49,
@@ -11369,12 +11369,20 @@
     },
     "pricing": {
       "case": {
-        "total_price": 44.05,
+        "total_price": 52.99,
         "units": 24,
-        "unit_price": 1.84,
-        "cost_per_standard": 1.84,
+        "unit_price": 2.21,
+        "cost_per_standard": 2.21,
         "alcohol_tax_cost": 0.54,
-        "alcohol_tax_percent": 29
+        "alcohol_tax_percent": 24
+      },
+      "case_special": {
+        "total_price": 46.95,
+        "units": 24,
+        "unit_price": 1.96,
+        "cost_per_standard": 1.96,
+        "alcohol_tax_cost": 0.54,
+        "alcohol_tax_percent": 28
       },
       "pack": {
         "total_price": 20.99,
@@ -11973,12 +11981,56 @@
         "alcohol_tax_percent": 22
       },
       "pack_special": {
-        "total_price": 66,
+        "total_price": 61,
         "units": 12,
-        "unit_price": 5.5,
-        "cost_per_standard": 4.23,
+        "unit_price": 5.08,
+        "cost_per_standard": 3.91,
         "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 13
+        "alcohol_tax_percent": 14
+      }
+    }
+  },
+  {
+    "stockcode": "709123",
+    "properties": {
+      "name": "Sapporo Premium Lager Bottles 6x355mL",
+      "name_clean": "Sapporo Premium Lager",
+      "brand": "Sapporo",
+      "size_ml": 355,
+      "size_clean": 355,
+      "percentage_raw": 5,
+      "standard_drinks_raw": 1.4,
+      "standard_drinks_clean": 1.4,
+      "vessel": "bottle",
+      "image_url": "709123-1.png",
+      "rating": 4.1,
+      "ibu": 24,
+      "beer_style": "Lager"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 57.95,
+        "units": 24,
+        "unit_price": 2.41,
+        "cost_per_standard": 1.72,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 35
+      },
+      "pack": {
+        "total_price": 19.95,
+        "units": 6,
+        "unit_price": 3.33,
+        "cost_per_standard": 2.38,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 25
+      },
+      "single": {
+        "total_price": 4.49,
+        "units": 1,
+        "unit_price": 4.49,
+        "cost_per_standard": 3.21,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 19
       }
     }
   },
@@ -12031,50 +12083,6 @@
         "cost_per_standard": 5.84,
         "alcohol_tax_cost": 0.35,
         "alcohol_tax_percent": 6
-      }
-    }
-  },
-  {
-    "stockcode": "709123",
-    "properties": {
-      "name": "Sapporo Premium Lager Bottles 6x355mL",
-      "name_clean": "Sapporo Premium Lager",
-      "brand": "Sapporo",
-      "size_ml": 355,
-      "size_clean": 355,
-      "percentage_raw": 5,
-      "standard_drinks_raw": 1.4,
-      "standard_drinks_clean": 1.4,
-      "vessel": "bottle",
-      "image_url": "709123-1.png",
-      "rating": 4.1,
-      "ibu": 24,
-      "beer_style": "Lager"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 57.95,
-        "units": 24,
-        "unit_price": 2.41,
-        "cost_per_standard": 1.72,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 35
-      },
-      "pack": {
-        "total_price": 19.95,
-        "units": 6,
-        "unit_price": 3.33,
-        "cost_per_standard": 2.38,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 25
-      },
-      "single": {
-        "total_price": 4.49,
-        "units": 1,
-        "unit_price": 4.49,
-        "cost_per_standard": 3.21,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 19
       }
     }
   },
@@ -13521,9 +13529,9 @@
     },
     "pricing": {
       "case": {
-        "total_price": 56.95,
+        "total_price": 56.7,
         "units": 24,
-        "unit_price": 2.37,
+        "unit_price": 2.36,
         "cost_per_standard": 2.15,
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 26
@@ -14211,50 +14219,6 @@
     }
   },
   {
-    "stockcode": "6225",
-    "properties": {
-      "name": "Tooheys New Cans 30x375mL",
-      "name_clean": "Tooheys New",
-      "brand": "Tooheys",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 4.6,
-      "standard_drinks_raw": 1.4,
-      "standard_drinks_clean": 1.4,
-      "vessel": "can",
-      "image_url": "6225-1.png",
-      "rating": 4.7,
-      "ibu": 17,
-      "beer_style": "Lager"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 0,
-        "units": 30,
-        "unit_price": 0,
-        "cost_per_standard": 0,
-        "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 0
-      },
-      "pack": {
-        "total_price": 63.99,
-        "units": 30,
-        "unit_price": 2.13,
-        "cost_per_standard": 1.52,
-        "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 37
-      },
-      "pack_special": {
-        "total_price": 56.95,
-        "units": 30,
-        "unit_price": 1.9,
-        "cost_per_standard": 1.36,
-        "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 42
-      }
-    }
-  },
-  {
     "stockcode": "901691",
     "properties": {
       "name": "Singha Lager Beer 330mL",
@@ -14303,6 +14267,50 @@
         "cost_per_standard": 4.76,
         "alcohol_tax_cost": 0.6,
         "alcohol_tax_percent": 13
+      }
+    }
+  },
+  {
+    "stockcode": "6225",
+    "properties": {
+      "name": "Tooheys New Cans 30x375mL",
+      "name_clean": "Tooheys New",
+      "brand": "Tooheys",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 4.6,
+      "standard_drinks_raw": 1.4,
+      "standard_drinks_clean": 1.4,
+      "vessel": "can",
+      "image_url": "6225-1.png",
+      "rating": 4.7,
+      "ibu": 17,
+      "beer_style": "Lager"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 0,
+        "units": 30,
+        "unit_price": 0,
+        "cost_per_standard": 0,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 0
+      },
+      "pack": {
+        "total_price": 63.99,
+        "units": 30,
+        "unit_price": 2.13,
+        "cost_per_standard": 1.52,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 37
+      },
+      "pack_special": {
+        "total_price": 56.95,
+        "units": 30,
+        "unit_price": 1.9,
+        "cost_per_standard": 1.36,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 42
       }
     }
   },
@@ -15063,7 +15071,7 @@
       "standard_drinks_clean": 2,
       "vessel": "can",
       "image_url": "78876-1.png",
-      "rating": 4.6,
+      "rating": 4.5,
       "ibu": null,
       "beer_style": "Lager"
     },
@@ -18437,12 +18445,12 @@
         "alcohol_tax_percent": 11
       },
       "pack_special": {
-        "total_price": 37.95,
+        "total_price": 22,
         "units": 4,
-        "unit_price": 9.49,
-        "cost_per_standard": 7.91,
+        "unit_price": 5.5,
+        "cost_per_standard": 4.58,
         "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 7
+        "alcohol_tax_percent": 12
       },
       "single": {
         "total_price": 6.99,
