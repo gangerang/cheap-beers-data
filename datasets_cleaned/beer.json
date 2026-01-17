@@ -7934,12 +7934,12 @@
         "alcohol_tax_percent": 10
       },
       "pack_special": {
-        "total_price": 21,
+        "total_price": 40,
         "units": 4,
-        "unit_price": 5.25,
-        "cost_per_standard": 4.38,
+        "unit_price": 10,
+        "cost_per_standard": 8.33,
         "alcohol_tax_cost": 0.55,
-        "alcohol_tax_percent": 13
+        "alcohol_tax_percent": 7
       },
       "single": {
         "total_price": 7.49,
@@ -11837,7 +11837,7 @@
         "alcohol_tax_percent": 22
       },
       "pack_special": {
-        "total_price": 66,
+        "total_price": 65.95,
         "units": 24,
         "unit_price": 2.75,
         "cost_per_standard": 2.12,
@@ -13531,6 +13531,42 @@
     }
   },
   {
+    "stockcode": "904076",
+    "properties": {
+      "name": "Weihenstephaner Hefe Weissbier Bottles 500mL",
+      "name_clean": "Weihenstephaner Hefe Weissbier",
+      "brand": "Weihenstephaner",
+      "size_ml": 500,
+      "size_clean": 500,
+      "percentage_raw": 5.4,
+      "standard_drinks_raw": 2.1,
+      "standard_drinks_clean": 2.1,
+      "vessel": "bottle",
+      "image_url": "904076-1.png",
+      "rating": 4.9,
+      "ibu": 14,
+      "beer_style": "Wheat Beer"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 71.99,
+        "units": 12,
+        "unit_price": 6,
+        "cost_per_standard": 2.86,
+        "alcohol_tax_cost": 0.62,
+        "alcohol_tax_percent": 22
+      },
+      "single": {
+        "total_price": 8.59,
+        "units": 1,
+        "unit_price": 8.59,
+        "cost_per_standard": 4.09,
+        "alcohol_tax_cost": 0.62,
+        "alcohol_tax_percent": 15
+      }
+    }
+  },
+  {
     "stockcode": "38281",
     "properties": {
       "name": "Victoria Bitter Cans 6X375mL",
@@ -13571,42 +13607,6 @@
         "cost_per_standard": 4.13,
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 14
-      }
-    }
-  },
-  {
-    "stockcode": "904076",
-    "properties": {
-      "name": "Weihenstephaner Hefe Weissbier Bottles 500mL",
-      "name_clean": "Weihenstephaner Hefe Weissbier",
-      "brand": "Weihenstephaner",
-      "size_ml": 500,
-      "size_clean": 500,
-      "percentage_raw": 5.4,
-      "standard_drinks_raw": 2.1,
-      "standard_drinks_clean": 2.1,
-      "vessel": "bottle",
-      "image_url": "904076-1.png",
-      "rating": 4.9,
-      "ibu": 14,
-      "beer_style": "Wheat Beer"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 71.99,
-        "units": 12,
-        "unit_price": 6,
-        "cost_per_standard": 2.86,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 22
-      },
-      "single": {
-        "total_price": 8.59,
-        "units": 1,
-        "unit_price": 8.59,
-        "cost_per_standard": 4.09,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 15
       }
     }
   },
@@ -13867,7 +13867,7 @@
       "standard_drinks_clean": 1.9,
       "vessel": "bottle",
       "image_url": "639041-1.png",
-      "rating": null,
+      "rating": 4.2,
       "ibu": 11,
       "beer_style": "Lager"
     },
@@ -13939,6 +13939,50 @@
         "cost_per_standard": 4.33,
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 14
+      }
+    }
+  },
+  {
+    "stockcode": "13470",
+    "properties": {
+      "name": "Carlton Draught Cans 375mL",
+      "name_clean": "Carlton Draught",
+      "brand": "Carlton Draught",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 4.6,
+      "standard_drinks_raw": 1.4,
+      "standard_drinks_clean": 1.4,
+      "vessel": "can",
+      "image_url": "13470-1.png",
+      "rating": 4.5,
+      "ibu": 26,
+      "beer_style": "Lager"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 62.99,
+        "units": 24,
+        "unit_price": 2.62,
+        "cost_per_standard": 1.87,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 30
+      },
+      "pack": {
+        "total_price": 22.99,
+        "units": 6,
+        "unit_price": 3.83,
+        "cost_per_standard": 2.74,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 21
+      },
+      "single": {
+        "total_price": 4.99,
+        "units": 1,
+        "unit_price": 4.99,
+        "cost_per_standard": 3.56,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 16
       }
     }
   },
@@ -14051,50 +14095,6 @@
         "cost_per_standard": 4.99,
         "alcohol_tax_cost": 0.57,
         "alcohol_tax_percent": 11
-      }
-    }
-  },
-  {
-    "stockcode": "13470",
-    "properties": {
-      "name": "Carlton Draught Cans 375mL",
-      "name_clean": "Carlton Draught",
-      "brand": "Carlton Draught",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 4.6,
-      "standard_drinks_raw": 1.4,
-      "standard_drinks_clean": 1.4,
-      "vessel": "can",
-      "image_url": "13470-1.png",
-      "rating": 4.5,
-      "ibu": 26,
-      "beer_style": "Lager"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 62.99,
-        "units": 24,
-        "unit_price": 2.62,
-        "cost_per_standard": 1.87,
-        "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 30
-      },
-      "pack": {
-        "total_price": 22.99,
-        "units": 6,
-        "unit_price": 3.83,
-        "cost_per_standard": 2.74,
-        "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 21
-      },
-      "single": {
-        "total_price": 4.99,
-        "units": 1,
-        "unit_price": 4.99,
-        "cost_per_standard": 3.56,
-        "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 16
       }
     }
   },
@@ -14667,42 +14667,6 @@
     }
   },
   {
-    "stockcode": "84736",
-    "properties": {
-      "name": "Victoria Bitter 30 Block Cans 375mL",
-      "name_clean": "Victoria Bitter VB",
-      "brand": "Victoria Bitter",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 4.9,
-      "standard_drinks_raw": 1.45,
-      "standard_drinks_clean": 1.45,
-      "vessel": "can",
-      "image_url": "84736-1.png",
-      "rating": 4.7,
-      "ibu": 25,
-      "beer_style": "Lager"
-    },
-    "pricing": {
-      "pack": {
-        "total_price": 66.99,
-        "units": 30,
-        "unit_price": 2.23,
-        "cost_per_standard": 1.54,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 38
-      },
-      "pack_special": {
-        "total_price": 63.9,
-        "units": 30,
-        "unit_price": 2.13,
-        "cost_per_standard": 1.47,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 40
-      }
-    }
-  },
-  {
     "stockcode": "751451",
     "properties": {
       "name": "Coopers Original Pale Ale Cans 6x375mL",
@@ -14751,6 +14715,42 @@
         "cost_per_standard": 3.45,
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 17
+      }
+    }
+  },
+  {
+    "stockcode": "84736",
+    "properties": {
+      "name": "Victoria Bitter 30 Block Cans 375mL",
+      "name_clean": "Victoria Bitter VB",
+      "brand": "Victoria Bitter",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 4.9,
+      "standard_drinks_raw": 1.45,
+      "standard_drinks_clean": 1.45,
+      "vessel": "can",
+      "image_url": "84736-1.png",
+      "rating": 4.7,
+      "ibu": 25,
+      "beer_style": "Lager"
+    },
+    "pricing": {
+      "pack": {
+        "total_price": 66.99,
+        "units": 30,
+        "unit_price": 2.23,
+        "cost_per_standard": 1.54,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 38
+      },
+      "pack_special": {
+        "total_price": 129.9,
+        "units": 30,
+        "unit_price": 4.33,
+        "cost_per_standard": 2.99,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 20
       }
     }
   },
@@ -18163,50 +18163,6 @@
     }
   },
   {
-    "stockcode": "197101",
-    "properties": {
-      "name": "Brookvale Union Ginger Beer Cans 10x3x330mL",
-      "name_clean": "Brookvale Union Ginger Beer",
-      "brand": "Brookvale Union",
-      "size_ml": 330,
-      "size_clean": 330,
-      "percentage_raw": 4,
-      "standard_drinks_raw": 1,
-      "standard_drinks_clean": 1,
-      "vessel": "can",
-      "image_url": "197101-1.png",
-      "rating": 4.6,
-      "ibu": null,
-      "beer_style": "Ginger Beer"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 136.99,
-        "units": 3,
-        "unit_price": 45.66,
-        "cost_per_standard": 45.66,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 1
-      },
-      "single": {
-        "total_price": 44.99,
-        "units": 1,
-        "unit_price": 44.99,
-        "cost_per_standard": 44.99,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 1
-      },
-      "single_special": {
-        "total_price": 40,
-        "units": 1,
-        "unit_price": 40,
-        "cost_per_standard": 40,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 1
-      }
-    }
-  },
-  {
     "stockcode": "151668",
     "properties": {
       "name": "The Grifter Brewing Co. Serpents Kiss Watermelon Pilsner Cans 375mL",
@@ -18255,6 +18211,50 @@
         "cost_per_standard": 4.28,
         "alcohol_tax_cost": 0.62,
         "alcohol_tax_percent": 14
+      }
+    }
+  },
+  {
+    "stockcode": "197101",
+    "properties": {
+      "name": "Brookvale Union Ginger Beer Cans 10x3x330mL",
+      "name_clean": "Brookvale Union Ginger Beer",
+      "brand": "Brookvale Union",
+      "size_ml": 330,
+      "size_clean": 330,
+      "percentage_raw": 4,
+      "standard_drinks_raw": 1,
+      "standard_drinks_clean": 1,
+      "vessel": "can",
+      "image_url": "197101-1.png",
+      "rating": 4.6,
+      "ibu": null,
+      "beer_style": "Ginger Beer"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 136.99,
+        "units": 3,
+        "unit_price": 45.66,
+        "cost_per_standard": 45.66,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 1
+      },
+      "single": {
+        "total_price": 44.99,
+        "units": 1,
+        "unit_price": 44.99,
+        "cost_per_standard": 44.99,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 1
+      },
+      "single_special": {
+        "total_price": 40,
+        "units": 1,
+        "unit_price": 40,
+        "cost_per_standard": 40,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 1
       }
     }
   },
