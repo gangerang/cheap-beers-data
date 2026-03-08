@@ -4165,9 +4165,9 @@
     "special": true,
     "package": "single",
     "package_size": 1,
-    "total_price": 109.9,
-    "unit_price": 109.9,
-    "cost_per_standard": 109.9,
+    "total_price": 111.9,
+    "unit_price": 111.9,
+    "cost_per_standard": 111.9,
     "vessel": "can",
     "alcohol_tax_cost": 0.52,
     "alcohol_tax_percent": 0
@@ -5598,7 +5598,7 @@
     "special": true,
     "package": "case",
     "package_size": 18,
-    "total_price": 50.9,
+    "total_price": 51,
     "unit_price": 2.83,
     "cost_per_standard": 2.18,
     "vessel": "can",
@@ -7261,12 +7261,12 @@
     "special": true,
     "package": "pack",
     "package_size": 6,
-    "total_price": 12,
-    "unit_price": 2,
-    "cost_per_standard": 1.9,
+    "total_price": 15,
+    "unit_price": 2.5,
+    "cost_per_standard": 2.38,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 29
+    "alcohol_tax_percent": 23
   },
   {
     "name": "XXXX Summer Bright Lager Bottles 6x330ml",
@@ -9170,23 +9170,6 @@
     "percentage": 4.2,
     "size": 330,
     "standard_drinks": 1.1,
-    "special": true,
-    "package": "pack",
-    "package_size": 6,
-    "total_price": 18.95,
-    "unit_price": 3.16,
-    "cost_per_standard": 2.87,
-    "vessel": "bottle",
-    "alcohol_tax_cost": 0.56,
-    "alcohol_tax_percent": 20
-  },
-  {
-    "name": "Modus Cerveza Bottles 6x4x330mL",
-    "name_clean": "Modus Cerveza",
-    "stockcode": "464768",
-    "percentage": 4.2,
-    "size": 330,
-    "standard_drinks": 1.1,
     "special": false,
     "package": "pack",
     "package_size": 6,
@@ -9628,12 +9611,12 @@
     "special": false,
     "package": "pack",
     "package_size": 6,
-    "total_price": 18.95,
-    "unit_price": 3.16,
-    "cost_per_standard": 2.43,
+    "total_price": 24.49,
+    "unit_price": 4.08,
+    "cost_per_standard": 3.14,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.6,
-    "alcohol_tax_percent": 25
+    "alcohol_tax_percent": 19
   },
   {
     "name": "Heineken Lager Bottles 330mLx6",
@@ -9867,23 +9850,6 @@
     "vessel": "can",
     "alcohol_tax_cost": 0.56,
     "alcohol_tax_percent": 11
-  },
-  {
-    "name": "Yulli's Brews Seabass Mediterranean Lager Cans 6x4x375mL",
-    "name_clean": "Yulli's Brews Seabass Mediterranean Lager",
-    "stockcode": "544362",
-    "percentage": 4.2,
-    "size": 375,
-    "standard_drinks": 1.2,
-    "special": true,
-    "package": "pack",
-    "package_size": 6,
-    "total_price": 23.95,
-    "unit_price": 3.99,
-    "cost_per_standard": 3.33,
-    "vessel": "can",
-    "alcohol_tax_cost": 0.56,
-    "alcohol_tax_percent": 17
   },
   {
     "name": "Yulli's Brews Seabass Mediterranean Lager Cans 6x4x375mL",
@@ -12113,12 +12079,12 @@
     "special": false,
     "package": "pack",
     "package_size": 4,
-    "total_price": 14.95,
-    "unit_price": 3.74,
-    "cost_per_standard": 3.74,
+    "total_price": 18.99,
+    "unit_price": 4.75,
+    "cost_per_standard": 4.75,
     "vessel": "can",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 15
+    "alcohol_tax_percent": 12
   },
   {
     "name": "Stone & Wood Radler Citrus Cans 4x4x330mL",
@@ -13604,12 +13570,12 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 61.95,
-    "unit_price": 2.58,
-    "cost_per_standard": 1.84,
+    "total_price": 63.95,
+    "unit_price": 2.66,
+    "cost_per_standard": 1.9,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 32
+    "alcohol_tax_percent": 31
   },
   {
     "name": "Melbourne Bitter Longneck 750mL",
@@ -14426,23 +14392,6 @@
     "vessel": "can",
     "alcohol_tax_cost": 0.56,
     "alcohol_tax_percent": 15
-  },
-  {
-    "name": "Six String Tropical Pale Can 4X4X375ml",
-    "name_clean": "Six String Tropical Pale",
-    "stockcode": "665889",
-    "percentage": 4.2,
-    "size": 375,
-    "standard_drinks": 1.25,
-    "special": true,
-    "package": "pack",
-    "package_size": 4,
-    "total_price": 13.95,
-    "unit_price": 3.49,
-    "cost_per_standard": 2.79,
-    "vessel": "can",
-    "alcohol_tax_cost": 0.56,
-    "alcohol_tax_percent": 20
   },
   {
     "name": "Six String Tropical Pale Can 4X4X375ml",
@@ -16235,12 +16184,12 @@
     "special": true,
     "package": "pack",
     "package_size": 6,
-    "total_price": 12,
-    "unit_price": 2,
-    "cost_per_standard": 1.92,
+    "total_price": 15,
+    "unit_price": 2.5,
+    "cost_per_standard": 2.4,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 29
+    "alcohol_tax_percent": 23
   },
   {
     "name": "XXXX Summer Bright Lager with Natural Lime Bottles 330mL",
@@ -16898,9 +16847,9 @@
     "special": true,
     "package": "pack",
     "package_size": 6,
-    "total_price": 21.9,
-    "unit_price": 3.65,
-    "cost_per_standard": 3.04,
+    "total_price": 22,
+    "unit_price": 3.67,
+    "cost_per_standard": 3.06,
     "vessel": "can",
     "alcohol_tax_cost": 0.56,
     "alcohol_tax_percent": 18
@@ -17289,12 +17238,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 50,
-    "unit_price": 2.08,
-    "cost_per_standard": 2.08,
+    "total_price": 52.9,
+    "unit_price": 2.2,
+    "cost_per_standard": 2.2,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.52,
-    "alcohol_tax_percent": 25
+    "alcohol_tax_percent": 24
   },
   {
     "name": "Great Northern Brewing Co. Super Crisp Lager Bottles 330mLx6",
