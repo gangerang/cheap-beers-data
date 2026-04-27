@@ -3961,7 +3961,7 @@
     },
     "pricing": {
       "case": {
-        "total_price": 56.99,
+        "total_price": 56.95,
         "units": 24,
         "unit_price": 2.37,
         "cost_per_standard": 1.98,
@@ -11661,8 +11661,8 @@
   {
     "stockcode": "662227",
     "properties": {
-      "name": "James Squire 150 Lashes Pale Ale Can 355mL",
-      "name_clean": "James Squire 150 Lashes Pale Ale",
+      "name": "James Squire One Fifty Lashes Pale Ale Cans 355mLx6",
+      "name_clean": "James Squire One Fifty Lashes Pale Ale Cans 355mLx6",
       "brand": "James Squire",
       "size_ml": 355,
       "size_clean": 355,
@@ -11671,7 +11671,7 @@
       "standard_drinks_clean": 1.2,
       "vessel": "can",
       "image_url": "662227-1.png",
-      "rating": 3.7,
+      "rating": null,
       "ibu": 19.6,
       "beer_style": "Pale Ale"
     },
@@ -12265,12 +12265,12 @@
         "alcohol_tax_percent": 21
       },
       "case_special": {
-        "total_price": 53.9,
+        "total_price": 53,
         "units": 24,
-        "unit_price": 2.25,
-        "cost_per_standard": 2.5,
+        "unit_price": 2.21,
+        "cost_per_standard": 2.46,
         "alcohol_tax_cost": 0.53,
-        "alcohol_tax_percent": 21
+        "alcohol_tax_percent": 22
       },
       "pack": {
         "total_price": 20.99,
@@ -12669,12 +12669,12 @@
         "alcohol_tax_percent": 28
       },
       "case_special": {
-        "total_price": 53.95,
+        "total_price": 107.9,
         "units": 24,
-        "unit_price": 2.25,
-        "cost_per_standard": 1.88,
+        "unit_price": 4.5,
+        "cost_per_standard": 3.75,
         "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 31
+        "alcohol_tax_percent": 15
       },
       "pack": {
         "total_price": 22.49,
@@ -14169,12 +14169,12 @@
         "alcohol_tax_percent": 39
       },
       "pack_special": {
-        "total_price": 59,
+        "total_price": 61.9,
         "units": 30,
-        "unit_price": 1.97,
-        "cost_per_standard": 1.41,
+        "unit_price": 2.06,
+        "cost_per_standard": 1.47,
         "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 40
+        "alcohol_tax_percent": 39
       }
     }
   },
@@ -14631,6 +14631,22 @@
         "cost_per_standard": 0,
         "alcohol_tax_cost": 0.54,
         "alcohol_tax_percent": 0
+      },
+      "single": {
+        "total_price": 55.95,
+        "units": 1,
+        "unit_price": 55.95,
+        "cost_per_standard": 55.95,
+        "alcohol_tax_cost": 0.54,
+        "alcohol_tax_percent": 1
+      },
+      "single_special": {
+        "total_price": 99.9,
+        "units": 2,
+        "unit_price": 49.95,
+        "cost_per_standard": 49.95,
+        "alcohol_tax_cost": 0.54,
+        "alcohol_tax_percent": 1
       }
     }
   },
@@ -15247,50 +15263,6 @@
     }
   },
   {
-    "stockcode": "810685",
-    "properties": {
-      "name": "Brick Lane One Love Pale Ale Cans 355mLx6",
-      "name_clean": "Brick Lane One Love Pale Ale Cans 355mLx6",
-      "brand": "Brick Lane",
-      "size_ml": 355,
-      "size_clean": 355,
-      "percentage_raw": 4.4,
-      "standard_drinks_raw": 1.2,
-      "standard_drinks_clean": 1.2,
-      "vessel": "can",
-      "image_url": "810685-1.png",
-      "rating": 4.1,
-      "ibu": 23,
-      "beer_style": "Pale Ale"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 72.99,
-        "units": 24,
-        "unit_price": 3.04,
-        "cost_per_standard": 2.53,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 23
-      },
-      "pack": {
-        "total_price": 24.99,
-        "units": 6,
-        "unit_price": 4.17,
-        "cost_per_standard": 3.48,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 17
-      },
-      "single": {
-        "total_price": 4.99,
-        "units": 1,
-        "unit_price": 4.99,
-        "cost_per_standard": 4.16,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 14
-      }
-    }
-  },
-  {
     "stockcode": "405090",
     "properties": {
       "name": "Young Henrys Natural Lager Cans 375mL",
@@ -15347,6 +15319,50 @@
         "cost_per_standard": 4.58,
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 13
+      }
+    }
+  },
+  {
+    "stockcode": "810685",
+    "properties": {
+      "name": "Brick Lane One Love Pale Ale Cans 355mLx6",
+      "name_clean": "Brick Lane One Love Pale Ale Cans 355mLx6",
+      "brand": "Brick Lane",
+      "size_ml": 355,
+      "size_clean": 355,
+      "percentage_raw": 4.4,
+      "standard_drinks_raw": 1.2,
+      "standard_drinks_clean": 1.2,
+      "vessel": "can",
+      "image_url": "810685-1.png",
+      "rating": 4.1,
+      "ibu": 23,
+      "beer_style": "Pale Ale"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 72.99,
+        "units": 24,
+        "unit_price": 3.04,
+        "cost_per_standard": 2.53,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 23
+      },
+      "pack": {
+        "total_price": 24.99,
+        "units": 6,
+        "unit_price": 4.17,
+        "cost_per_standard": 3.48,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 17
+      },
+      "single": {
+        "total_price": 4.99,
+        "units": 1,
+        "unit_price": 4.99,
+        "cost_per_standard": 4.16,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 14
       }
     }
   },
@@ -16039,6 +16055,42 @@
     }
   },
   {
+    "stockcode": "43580",
+    "properties": {
+      "name": "Coopers Sparkling Ale Longneck 750mL",
+      "name_clean": "Coopers Sparkling Ale",
+      "brand": "Coopers",
+      "size_ml": 750,
+      "size_clean": 750,
+      "percentage_raw": 5.8,
+      "standard_drinks_raw": 3.4,
+      "standard_drinks_clean": 3.4,
+      "vessel": "longneck",
+      "image_url": "43580-1.png",
+      "rating": 4.9,
+      "ibu": 30,
+      "beer_style": "Ale"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 76.99,
+        "units": 12,
+        "unit_price": 6.42,
+        "cost_per_standard": 1.89,
+        "alcohol_tax_cost": 0.63,
+        "alcohol_tax_percent": 33
+      },
+      "single": {
+        "total_price": 9.99,
+        "units": 1,
+        "unit_price": 9.99,
+        "cost_per_standard": 2.94,
+        "alcohol_tax_cost": 0.63,
+        "alcohol_tax_percent": 21
+      }
+    }
+  },
+  {
     "stockcode": "456509",
     "properties": {
       "name": "Young Henrys Ntwnr Ple Ale Bt 4X6X330ml",
@@ -16183,42 +16235,6 @@
         "cost_per_standard": 4.16,
         "alcohol_tax_cost": 0.62,
         "alcohol_tax_percent": 15
-      }
-    }
-  },
-  {
-    "stockcode": "43580",
-    "properties": {
-      "name": "Coopers Sparkling Ale Longneck 750mL",
-      "name_clean": "Coopers Sparkling Ale",
-      "brand": "Coopers",
-      "size_ml": 750,
-      "size_clean": 750,
-      "percentage_raw": 5.8,
-      "standard_drinks_raw": 3.4,
-      "standard_drinks_clean": 3.4,
-      "vessel": "longneck",
-      "image_url": "43580-1.png",
-      "rating": 4.9,
-      "ibu": 30,
-      "beer_style": "Ale"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 76.99,
-        "units": 12,
-        "unit_price": 6.42,
-        "cost_per_standard": 1.89,
-        "alcohol_tax_cost": 0.63,
-        "alcohol_tax_percent": 33
-      },
-      "single": {
-        "total_price": 9.99,
-        "units": 1,
-        "unit_price": 9.99,
-        "cost_per_standard": 2.94,
-        "alcohol_tax_cost": 0.63,
-        "alcohol_tax_percent": 21
       }
     }
   },
