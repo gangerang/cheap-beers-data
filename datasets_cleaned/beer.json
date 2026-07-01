@@ -25,14 +25,6 @@
         "alcohol_tax_cost": 0.54,
         "alcohol_tax_percent": 25
       },
-      "case_special": {
-        "total_price": 110,
-        "units": 60,
-        "unit_price": 1.83,
-        "cost_per_standard": 1.83,
-        "alcohol_tax_cost": 0.54,
-        "alcohol_tax_percent": 30
-      },
       "single": {
         "total_price": 4.99,
         "units": 1,
@@ -62,12 +54,12 @@
     },
     "pricing": {
       "case": {
-        "total_price": 58.99,
+        "total_price": 57.95,
         "units": 30,
-        "unit_price": 1.97,
-        "cost_per_standard": 1.97,
+        "unit_price": 1.93,
+        "cost_per_standard": 1.93,
         "alcohol_tax_cost": 0.54,
-        "alcohol_tax_percent": 27
+        "alcohol_tax_percent": 28
       },
       "single": {
         "total_price": 4.99,
@@ -98,12 +90,12 @@
     },
     "pricing": {
       "case": {
-        "total_price": 49,
+        "total_price": 54.99,
         "units": 30,
-        "unit_price": 1.63,
-        "cost_per_standard": 1.5,
+        "unit_price": 1.83,
+        "cost_per_standard": 1.68,
         "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 38
+        "alcohol_tax_percent": 34
       },
       "single": {
         "total_price": 4.99,
@@ -134,12 +126,12 @@
     },
     "pricing": {
       "case": {
-        "total_price": 54.99,
+        "total_price": 55.99,
         "units": 30,
-        "unit_price": 1.83,
-        "cost_per_standard": 1.66,
+        "unit_price": 1.87,
+        "cost_per_standard": 1.7,
         "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 34
+        "alcohol_tax_percent": 33
       },
       "single": {
         "total_price": 4.99,
@@ -208,18 +200,18 @@
       "standard_drinks_clean": 1.4,
       "vessel": "can",
       "image_url": "6076018-1.png",
-      "rating": 5,
+      "rating": null,
       "ibu": null,
       "beer_style": null
     },
     "pricing": {
       "case": {
-        "total_price": 63.99,
+        "total_price": 59.95,
         "units": 30,
-        "unit_price": 2.13,
-        "cost_per_standard": 1.52,
+        "unit_price": 2,
+        "cost_per_standard": 1.43,
         "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 37
+        "alcohol_tax_percent": 40
       },
       "single": {
         "total_price": 5.49,
@@ -227,50 +219,6 @@
         "unit_price": 5.49,
         "cost_per_standard": 3.92,
         "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 15
-      }
-    }
-  },
-  {
-    "stockcode": "712652",
-    "properties": {
-      "name": "Hook Norton Old Hooky Ale 500mL",
-      "name_clean": "Hook Norton Old Hooky Ale",
-      "brand": "Hook Norton",
-      "size_ml": 500,
-      "size_clean": 500,
-      "percentage_raw": 4.6,
-      "standard_drinks_raw": 1.8,
-      "standard_drinks_clean": 1.8,
-      "vessel": null,
-      "image_url": "712652-1.png",
-      "rating": 4.3,
-      "ibu": 37,
-      "beer_style": "Ale"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 63.99,
-        "units": 12,
-        "unit_price": 5.33,
-        "cost_per_standard": 2.96,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 20
-      },
-      "single": {
-        "total_price": 8.99,
-        "units": 1,
-        "unit_price": 8.99,
-        "cost_per_standard": 4.99,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 12
-      },
-      "single_special": {
-        "total_price": 21,
-        "units": 3,
-        "unit_price": 7,
-        "cost_per_standard": 3.89,
-        "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 15
       }
     }
@@ -316,6 +264,50 @@
         "cost_per_standard": 3.18,
         "alcohol_tax_cost": 0.61,
         "alcohol_tax_percent": 19
+      }
+    }
+  },
+  {
+    "stockcode": "712652",
+    "properties": {
+      "name": "Hook Norton Old Hooky Ale 500mL",
+      "name_clean": "Hook Norton Old Hooky Ale",
+      "brand": "Hook Norton",
+      "size_ml": 500,
+      "size_clean": 500,
+      "percentage_raw": 4.6,
+      "standard_drinks_raw": 1.8,
+      "standard_drinks_clean": 1.8,
+      "vessel": null,
+      "image_url": "712652-1.png",
+      "rating": 4.3,
+      "ibu": 37,
+      "beer_style": "Ale"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 63.99,
+        "units": 12,
+        "unit_price": 5.33,
+        "cost_per_standard": 2.96,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 20
+      },
+      "single": {
+        "total_price": 8.99,
+        "units": 1,
+        "unit_price": 8.99,
+        "cost_per_standard": 4.99,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 12
+      },
+      "single_special": {
+        "total_price": 21,
+        "units": 3,
+        "unit_price": 7,
+        "cost_per_standard": 3.89,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 15
       }
     }
   },
@@ -564,14 +556,6 @@
         "cost_per_standard": 4.5,
         "alcohol_tax_cost": 0.62,
         "alcohol_tax_percent": 14
-      },
-      "single_special": {
-        "total_price": 23,
-        "units": 3,
-        "unit_price": 7.67,
-        "cost_per_standard": 3.84,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 16
       }
     }
   },
@@ -608,14 +592,6 @@
         "cost_per_standard": 4.28,
         "alcohol_tax_cost": 0.62,
         "alcohol_tax_percent": 14
-      },
-      "single_special": {
-        "total_price": 23,
-        "units": 3,
-        "unit_price": 7.67,
-        "cost_per_standard": 3.65,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 17
       }
     }
   },
@@ -652,14 +628,6 @@
         "cost_per_standard": 4.5,
         "alcohol_tax_cost": 0.61,
         "alcohol_tax_percent": 14
-      },
-      "single_special": {
-        "total_price": 23,
-        "units": 3,
-        "unit_price": 7.67,
-        "cost_per_standard": 3.84,
-        "alcohol_tax_cost": 0.61,
-        "alcohol_tax_percent": 16
       }
     }
   },
@@ -742,12 +710,12 @@
         "alcohol_tax_percent": 11
       },
       "single_special": {
-        "total_price": 32,
+        "total_price": 30,
         "units": 3,
-        "unit_price": 10.67,
-        "cost_per_standard": 5.08,
+        "unit_price": 10,
+        "cost_per_standard": 4.76,
         "alcohol_tax_cost": 0.61,
-        "alcohol_tax_percent": 12
+        "alcohol_tax_percent": 13
       }
     }
   },
@@ -786,12 +754,12 @@
         "alcohol_tax_percent": 12
       },
       "single_special": {
-        "total_price": 29.5,
+        "total_price": 27,
         "units": 3,
-        "unit_price": 9.83,
-        "cost_per_standard": 4.68,
+        "unit_price": 9,
+        "cost_per_standard": 4.29,
         "alcohol_tax_cost": 0.61,
-        "alcohol_tax_percent": 13
+        "alcohol_tax_percent": 14
       }
     }
   },
@@ -830,12 +798,12 @@
         "alcohol_tax_percent": 14
       },
       "single_special": {
-        "total_price": 10,
-        "units": 2,
-        "unit_price": 5,
-        "cost_per_standard": 2.38,
+        "total_price": 21,
+        "units": 3,
+        "unit_price": 7,
+        "cost_per_standard": 3.33,
         "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 25
+        "alcohol_tax_percent": 18
       }
     }
   },
@@ -928,50 +896,6 @@
     }
   },
   {
-    "stockcode": "884167",
-    "properties": {
-      "name": "Tiger Asian Lager Bottles 640mLx12",
-      "name_clean": "Tiger Asian Lager Bottles 640mLx12",
-      "brand": "Tiger",
-      "size_ml": 640,
-      "size_clean": 640,
-      "percentage_raw": 5,
-      "standard_drinks_raw": 2.5,
-      "standard_drinks_clean": 2.5,
-      "vessel": "bottle",
-      "image_url": "884167-1.png",
-      "rating": 4.9,
-      "ibu": null,
-      "beer_style": null
-    },
-    "pricing": {
-      "case": {
-        "total_price": 66.99,
-        "units": 12,
-        "unit_price": 5.58,
-        "cost_per_standard": 2.23,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 27
-      },
-      "single": {
-        "total_price": 7.49,
-        "units": 1,
-        "unit_price": 7.49,
-        "cost_per_standard": 3,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 20
-      },
-      "single_special": {
-        "total_price": 17,
-        "units": 3,
-        "unit_price": 5.67,
-        "cost_per_standard": 2.27,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 26
-      }
-    }
-  },
-  {
     "stockcode": "291177",
     "properties": {
       "name": "Shepherd Neame Bishop's Finger Ale Bottles 500mLx12",
@@ -1004,6 +928,50 @@
         "cost_per_standard": 3.8,
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 16
+      }
+    }
+  },
+  {
+    "stockcode": "884167",
+    "properties": {
+      "name": "Tiger Asian Lager Bottles 640mLx12",
+      "name_clean": "Tiger Asian Lager Bottles 640mLx12",
+      "brand": "Tiger",
+      "size_ml": 640,
+      "size_clean": 640,
+      "percentage_raw": 5,
+      "standard_drinks_raw": 2.5,
+      "standard_drinks_clean": 2.5,
+      "vessel": "bottle",
+      "image_url": "884167-1.png",
+      "rating": 4.9,
+      "ibu": null,
+      "beer_style": null
+    },
+    "pricing": {
+      "case": {
+        "total_price": 62,
+        "units": 12,
+        "unit_price": 5.17,
+        "cost_per_standard": 2.07,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 29
+      },
+      "single": {
+        "total_price": 7.99,
+        "units": 1,
+        "unit_price": 7.99,
+        "cost_per_standard": 3.2,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 19
+      },
+      "single_special": {
+        "total_price": 19,
+        "units": 3,
+        "unit_price": 6.33,
+        "cost_per_standard": 2.53,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 24
       }
     }
   },
@@ -1202,12 +1170,12 @@
         "alcohol_tax_percent": 10
       },
       "single_special": {
-        "total_price": 13,
-        "units": 2,
-        "unit_price": 6.5,
-        "cost_per_standard": 4.06,
+        "total_price": 21,
+        "units": 3,
+        "unit_price": 7,
+        "cost_per_standard": 4.38,
         "alcohol_tax_cost": 0.55,
-        "alcohol_tax_percent": 14
+        "alcohol_tax_percent": 13
       }
     }
   },
@@ -1246,10 +1214,10 @@
         "alcohol_tax_percent": 10
       },
       "single_special": {
-        "total_price": 13,
-        "units": 2,
-        "unit_price": 6.5,
-        "cost_per_standard": 4.06,
+        "total_price": 19,
+        "units": 3,
+        "unit_price": 6.33,
+        "cost_per_standard": 3.96,
         "alcohol_tax_cost": 0.55,
         "alcohol_tax_percent": 14
       }
@@ -1707,46 +1675,46 @@
     }
   },
   {
-    "stockcode": "962206",
+    "stockcode": "95946",
     "properties": {
-      "name": "Carlton Dry Mid 3.5% Bottles 330mLx6",
-      "name_clean": "Carlton Dry Mid 3.5% Bottles 330mLx6",
-      "brand": "Carlton Dry",
-      "size_ml": 330,
-      "size_clean": 330,
-      "percentage_raw": 3.5,
-      "standard_drinks_raw": 0.9,
-      "standard_drinks_clean": 0.9,
-      "vessel": "bottle",
-      "image_url": "962206-1.png",
-      "rating": 4.5,
-      "ibu": 8,
-      "beer_style": "Lager"
+      "name": "Jervis Bay Brewing Co Bright Idea XPA Cans 375mLx4",
+      "name_clean": "Jervis Bay Brewing Co Bright Idea XPA Cans 375mLx4",
+      "brand": "Jervis Bay Brewing Co",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 5,
+      "standard_drinks_raw": 1.5,
+      "standard_drinks_clean": 1.5,
+      "vessel": "can",
+      "image_url": "95946-1.png",
+      "rating": 5,
+      "ibu": 35,
+      "beer_style": "XPA"
     },
     "pricing": {
       "case": {
-        "total_price": 41.25,
-        "units": 24,
-        "unit_price": 1.72,
+        "total_price": 45.75,
+        "units": 16,
+        "unit_price": 2.86,
         "cost_per_standard": 1.91,
-        "alcohol_tax_cost": 0.53,
-        "alcohol_tax_percent": 28
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 31
       },
       "pack": {
         "total_price": 14,
-        "units": 6,
-        "unit_price": 2.33,
-        "cost_per_standard": 2.59,
-        "alcohol_tax_cost": 0.53,
-        "alcohol_tax_percent": 20
+        "units": 4,
+        "unit_price": 3.5,
+        "cost_per_standard": 2.33,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 25
       },
       "single": {
-        "total_price": 2.25,
+        "total_price": 4.55,
         "units": 1,
-        "unit_price": 2.25,
-        "cost_per_standard": 2.5,
-        "alcohol_tax_cost": 0.53,
-        "alcohol_tax_percent": 21
+        "unit_price": 4.55,
+        "cost_per_standard": 3.03,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 19
       }
     }
   },
@@ -2004,14 +1972,6 @@
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 17
       },
-      "pack_special": {
-        "total_price": 13,
-        "units": 4,
-        "unit_price": 3.25,
-        "cost_per_standard": 2.71,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 21
-      },
       "single": {
         "total_price": 5.99,
         "units": 1,
@@ -2063,50 +2023,6 @@
         "cost_per_standard": 5.2,
         "alcohol_tax_cost": 0.54,
         "alcohol_tax_percent": 10
-      }
-    }
-  },
-  {
-    "stockcode": "910436",
-    "properties": {
-      "name": "Byron Bay Ultra Zero Carb Bottles 6X330mL",
-      "name_clean": "Byron Bay Ultra Zero Carb",
-      "brand": "Byron Bay Brewery",
-      "size_ml": 330,
-      "size_clean": 330,
-      "percentage_raw": 3.5,
-      "standard_drinks_raw": 0.9,
-      "standard_drinks_clean": 0.9,
-      "vessel": "bottle",
-      "image_url": "910436-1.png",
-      "rating": 3.8,
-      "ibu": null,
-      "beer_style": null
-    },
-    "pricing": {
-      "case": {
-        "total_price": 44.25,
-        "units": 24,
-        "unit_price": 1.84,
-        "cost_per_standard": 2.04,
-        "alcohol_tax_cost": 0.53,
-        "alcohol_tax_percent": 26
-      },
-      "pack": {
-        "total_price": 16.1,
-        "units": 6,
-        "unit_price": 2.68,
-        "cost_per_standard": 2.98,
-        "alcohol_tax_cost": 0.53,
-        "alcohol_tax_percent": 18
-      },
-      "single": {
-        "total_price": 3.15,
-        "units": 1,
-        "unit_price": 3.15,
-        "cost_per_standard": 3.5,
-        "alcohol_tax_cost": 0.53,
-        "alcohol_tax_percent": 15
       }
     }
   },
@@ -2189,12 +2105,56 @@
         "alcohol_tax_percent": 28
       },
       "single": {
-        "total_price": 3.85,
+        "total_price": 2.75,
         "units": 1,
-        "unit_price": 3.85,
-        "cost_per_standard": 3.21,
+        "unit_price": 2.75,
+        "cost_per_standard": 2.29,
         "alcohol_tax_cost": 0.64,
-        "alcohol_tax_percent": 20
+        "alcohol_tax_percent": 28
+      }
+    }
+  },
+  {
+    "stockcode": "235761",
+    "properties": {
+      "name": "OBrien Lager Can 6x375mL",
+      "name_clean": "OBrien Lager",
+      "brand": "Obrien Brewing",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 4.5,
+      "standard_drinks_raw": 1.4,
+      "standard_drinks_clean": 1.4,
+      "vessel": "can",
+      "image_url": "235761-1.png",
+      "rating": 3.9,
+      "ibu": 20,
+      "beer_style": "Lager"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 58.4,
+        "units": 24,
+        "unit_price": 2.43,
+        "cost_per_standard": 1.74,
+        "alcohol_tax_cost": 0.55,
+        "alcohol_tax_percent": 32
+      },
+      "pack": {
+        "total_price": 16.8,
+        "units": 6,
+        "unit_price": 2.8,
+        "cost_per_standard": 2,
+        "alcohol_tax_cost": 0.55,
+        "alcohol_tax_percent": 28
+      },
+      "single": {
+        "total_price": 3.6,
+        "units": 1,
+        "unit_price": 3.6,
+        "cost_per_standard": 2.57,
+        "alcohol_tax_cost": 0.55,
+        "alcohol_tax_percent": 21
       }
     }
   },
@@ -2232,14 +2192,6 @@
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 25
       },
-      "pack_special": {
-        "total_price": 15,
-        "units": 6,
-        "unit_price": 2.5,
-        "cost_per_standard": 2.08,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 28
-      },
       "single": {
         "total_price": 2.5,
         "units": 1,
@@ -2247,6 +2199,50 @@
         "cost_per_standard": 2.08,
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 28
+      }
+    }
+  },
+  {
+    "stockcode": "6035716",
+    "properties": {
+      "name": "Mountain Goat Full Flower Moon Band Beer Cans 375mLx6",
+      "name_clean": "Mountain Goat Full Flower Moon Band Beer Cans 375mLx6",
+      "brand": "Mountain Goat",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 4.4,
+      "standard_drinks_raw": 1.3,
+      "standard_drinks_clean": 1.3,
+      "vessel": "can",
+      "image_url": "6035716-1.png",
+      "rating": 3,
+      "ibu": null,
+      "beer_style": "Ale"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 48.75,
+        "units": 18,
+        "unit_price": 2.71,
+        "cost_per_standard": 2.08,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 27
+      },
+      "pack": {
+        "total_price": 16.8,
+        "units": 6,
+        "unit_price": 2.8,
+        "cost_per_standard": 2.15,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 27
+      },
+      "single": {
+        "total_price": 4.2,
+        "units": 1,
+        "unit_price": 4.2,
+        "cost_per_standard": 3.23,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 18
       }
     }
   },
@@ -2283,6 +2279,14 @@
         "cost_per_standard": 3.2,
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 18
+      },
+      "pack_special": {
+        "total_price": 15,
+        "units": 4,
+        "unit_price": 3.75,
+        "cost_per_standard": 2.82,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 21
       },
       "single": {
         "total_price": 5.49,
@@ -2337,12 +2341,12 @@
         "alcohol_tax_percent": 6
       },
       "pack_special": {
-        "total_price": 14,
+        "total_price": 12,
         "units": 6,
-        "unit_price": 2.33,
-        "cost_per_standard": 3.88,
+        "unit_price": 2,
+        "cost_per_standard": 3.33,
         "alcohol_tax_cost": 0.3,
-        "alcohol_tax_percent": 8
+        "alcohol_tax_percent": 9
       },
       "single": {
         "total_price": 3.99,
@@ -2351,94 +2355,6 @@
         "cost_per_standard": 6.65,
         "alcohol_tax_cost": 0.3,
         "alcohol_tax_percent": 5
-      }
-    }
-  },
-  {
-    "stockcode": "6055003",
-    "properties": {
-      "name": "Hurricane Head Ginger Beer Tropical Can 6x4x375mL",
-      "name_clean": "Hurricane Head Ginger Beer Tropical",
-      "brand": "Hurricane Head",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 4,
-      "standard_drinks_raw": 1.2,
-      "standard_drinks_clean": 1.2,
-      "vessel": "can",
-      "image_url": "6055003-1.png",
-      "rating": 4,
-      "ibu": null,
-      "beer_style": null
-    },
-    "pricing": {
-      "case": {
-        "total_price": 95,
-        "units": 24,
-        "unit_price": 3.96,
-        "cost_per_standard": 3.3,
-        "alcohol_tax_cost": 0.55,
-        "alcohol_tax_percent": 17
-      },
-      "pack": {
-        "total_price": 17,
-        "units": 4,
-        "unit_price": 4.25,
-        "cost_per_standard": 3.54,
-        "alcohol_tax_cost": 0.55,
-        "alcohol_tax_percent": 16
-      },
-      "single": {
-        "total_price": 5.99,
-        "units": 1,
-        "unit_price": 5.99,
-        "cost_per_standard": 4.99,
-        "alcohol_tax_cost": 0.55,
-        "alcohol_tax_percent": 11
-      }
-    }
-  },
-  {
-    "stockcode": "6054976",
-    "properties": {
-      "name": "Hurricane Head Ginger Beer Mango Can 6x4x375ml",
-      "name_clean": "Hurricane Head Ginger Beer Mango",
-      "brand": "Hurricane Head",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 4,
-      "standard_drinks_raw": 1.2,
-      "standard_drinks_clean": 1.2,
-      "vessel": "can",
-      "image_url": "6054976-1.png",
-      "rating": 5,
-      "ibu": null,
-      "beer_style": "Ginger Beer"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 95,
-        "units": 24,
-        "unit_price": 3.96,
-        "cost_per_standard": 3.3,
-        "alcohol_tax_cost": 0.55,
-        "alcohol_tax_percent": 17
-      },
-      "pack": {
-        "total_price": 17,
-        "units": 4,
-        "unit_price": 4.25,
-        "cost_per_standard": 3.54,
-        "alcohol_tax_cost": 0.55,
-        "alcohol_tax_percent": 16
-      },
-      "single": {
-        "total_price": 5.99,
-        "units": 1,
-        "unit_price": 5.99,
-        "cost_per_standard": 4.99,
-        "alcohol_tax_cost": 0.55,
-        "alcohol_tax_percent": 11
       }
     }
   },
@@ -2529,12 +2445,12 @@
         "alcohol_tax_percent": 16
       },
       "single_special": {
-        "total_price": 26,
+        "total_price": 25,
         "units": 2,
-        "unit_price": 13,
-        "cost_per_standard": 2.77,
+        "unit_price": 12.5,
+        "cost_per_standard": 2.66,
         "alcohol_tax_cost": 0.67,
-        "alcohol_tax_percent": 24
+        "alcohol_tax_percent": 25
       }
     }
   },
@@ -2573,12 +2489,12 @@
         "alcohol_tax_percent": 24
       },
       "pack_special": {
-        "total_price": 16.49,
+        "total_price": 16,
         "units": 6,
-        "unit_price": 2.75,
-        "cost_per_standard": 2.29,
+        "unit_price": 2.67,
+        "cost_per_standard": 2.23,
         "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 25
+        "alcohol_tax_percent": 26
       },
       "single": {
         "total_price": 3.6,
@@ -2660,6 +2576,14 @@
         "alcohol_tax_cost": 0.6,
         "alcohol_tax_percent": 24
       },
+      "case_special": {
+        "total_price": 53,
+        "units": 16,
+        "unit_price": 3.31,
+        "cost_per_standard": 2.36,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 25
+      },
       "pack": {
         "total_price": 17.99,
         "units": 4,
@@ -2667,14 +2591,6 @@
         "cost_per_standard": 3.21,
         "alcohol_tax_cost": 0.6,
         "alcohol_tax_percent": 19
-      },
-      "pack_special": {
-        "total_price": 15,
-        "units": 4,
-        "unit_price": 3.75,
-        "cost_per_standard": 2.68,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 22
       },
       "single": {
         "total_price": 5.49,
@@ -2720,14 +2636,6 @@
         "alcohol_tax_cost": 0.54,
         "alcohol_tax_percent": 12
       },
-      "pack_special": {
-        "total_price": 16,
-        "units": 4,
-        "unit_price": 4,
-        "cost_per_standard": 4,
-        "alcohol_tax_cost": 0.54,
-        "alcohol_tax_percent": 14
-      },
       "single": {
         "total_price": 5.99,
         "units": 1,
@@ -2763,6 +2671,14 @@
         "cost_per_standard": 3.22,
         "alcohol_tax_cost": 0.52,
         "alcohol_tax_percent": 16
+      },
+      "case_special": {
+        "total_price": 46,
+        "units": 16,
+        "unit_price": 2.88,
+        "cost_per_standard": 2.94,
+        "alcohol_tax_cost": 0.52,
+        "alcohol_tax_percent": 18
       },
       "pack": {
         "total_price": 17.99,
@@ -2808,14 +2724,6 @@
         "alcohol_tax_cost": 0.47,
         "alcohol_tax_percent": 15
       },
-      "case_special": {
-        "total_price": 53,
-        "units": 16,
-        "unit_price": 3.31,
-        "cost_per_standard": 3.01,
-        "alcohol_tax_cost": 0.47,
-        "alcohol_tax_percent": 16
-      },
       "pack": {
         "total_price": 17.99,
         "units": 4,
@@ -2831,50 +2739,6 @@
         "cost_per_standard": 4.54,
         "alcohol_tax_cost": 0.47,
         "alcohol_tax_percent": 10
-      }
-    }
-  },
-  {
-    "stockcode": "316833",
-    "properties": {
-      "name": "Hawke's Brewing Co. Half XPA Cans 375mLx6",
-      "name_clean": "Hawke's Brewing Co. Half XPA Cans 375mLx6",
-      "brand": "Hawke's Brewing Co.",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 1.75,
-      "standard_drinks_raw": 0.5,
-      "standard_drinks_clean": 0.5,
-      "vessel": "can",
-      "image_url": "316833-1.png",
-      "rating": 4.9,
-      "ibu": 20,
-      "beer_style": "XPA"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 52.99,
-        "units": 24,
-        "unit_price": 2.21,
-        "cost_per_standard": 4.42,
-        "alcohol_tax_cost": 0.24,
-        "alcohol_tax_percent": 5
-      },
-      "pack": {
-        "total_price": 17.99,
-        "units": 6,
-        "unit_price": 3,
-        "cost_per_standard": 6,
-        "alcohol_tax_cost": 0.24,
-        "alcohol_tax_percent": 4
-      },
-      "single": {
-        "total_price": 3.99,
-        "units": 1,
-        "unit_price": 3.99,
-        "cost_per_standard": 7.98,
-        "alcohol_tax_cost": 0.24,
-        "alcohol_tax_percent": 3
       }
     }
   },
@@ -2923,6 +2787,58 @@
     }
   },
   {
+    "stockcode": "316833",
+    "properties": {
+      "name": "Hawke's Brewing Co. Half XPA Cans 375mLx6",
+      "name_clean": "Hawke's Brewing Co. Half XPA Cans 375mLx6",
+      "brand": "Hawke's Brewing Co.",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 1.75,
+      "standard_drinks_raw": 0.5,
+      "standard_drinks_clean": 0.5,
+      "vessel": "can",
+      "image_url": "316833-1.png",
+      "rating": 4.9,
+      "ibu": 20,
+      "beer_style": "XPA"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 52.99,
+        "units": 24,
+        "unit_price": 2.21,
+        "cost_per_standard": 4.42,
+        "alcohol_tax_cost": 0.24,
+        "alcohol_tax_percent": 5
+      },
+      "case_special": {
+        "total_price": 45,
+        "units": 24,
+        "unit_price": 1.88,
+        "cost_per_standard": 3.76,
+        "alcohol_tax_cost": 0.24,
+        "alcohol_tax_percent": 6
+      },
+      "pack": {
+        "total_price": 17.99,
+        "units": 6,
+        "unit_price": 3,
+        "cost_per_standard": 6,
+        "alcohol_tax_cost": 0.24,
+        "alcohol_tax_percent": 4
+      },
+      "single": {
+        "total_price": 3.99,
+        "units": 1,
+        "unit_price": 3.99,
+        "cost_per_standard": 7.98,
+        "alcohol_tax_cost": 0.24,
+        "alcohol_tax_percent": 3
+      }
+    }
+  },
+  {
     "stockcode": "6027348",
     "properties": {
       "name": "The Grifter Brewing Co XPA Cans 6x4x375mL",
@@ -2947,6 +2863,14 @@
         "cost_per_standard": 2.5,
         "alcohol_tax_cost": 0.57,
         "alcohol_tax_percent": 23
+      },
+      "case_special": {
+        "total_price": 75,
+        "units": 24,
+        "unit_price": 3.13,
+        "cost_per_standard": 2.41,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 24
       },
       "pack": {
         "total_price": 17.99,
@@ -3000,6 +2924,14 @@
         "alcohol_tax_cost": 0.6,
         "alcohol_tax_percent": 19
       },
+      "pack_special": {
+        "total_price": 16.5,
+        "units": 4,
+        "unit_price": 4.13,
+        "cost_per_standard": 2.95,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 20
+      },
       "single": {
         "total_price": 4.99,
         "units": 1,
@@ -3035,6 +2967,14 @@
         "cost_per_standard": 4.42,
         "alcohol_tax_cost": 0.26,
         "alcohol_tax_percent": 6
+      },
+      "case_special": {
+        "total_price": 45,
+        "units": 24,
+        "unit_price": 1.88,
+        "cost_per_standard": 3.76,
+        "alcohol_tax_cost": 0.26,
+        "alcohol_tax_percent": 7
       },
       "pack": {
         "total_price": 17.99,
@@ -3213,18 +3153,18 @@
     },
     "pricing": {
       "case": {
-        "total_price": 53.99,
-        "units": 24,
-        "unit_price": 2.25,
-        "cost_per_standard": 2.81,
-        "alcohol_tax_cost": 0.43,
-        "alcohol_tax_percent": 15
-      },
-      "case_special": {
-        "total_price": 50,
+        "total_price": 49.95,
         "units": 24,
         "unit_price": 2.08,
         "cost_per_standard": 2.6,
+        "alcohol_tax_cost": 0.43,
+        "alcohol_tax_percent": 17
+      },
+      "case_special": {
+        "total_price": 48,
+        "units": 24,
+        "unit_price": 2,
+        "cost_per_standard": 2.5,
         "alcohol_tax_cost": 0.43,
         "alcohol_tax_percent": 17
       },
@@ -3287,14 +3227,6 @@
         "cost_per_standard": 4.75,
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 12
-      },
-      "pack_special": {
-        "total_price": 17,
-        "units": 4,
-        "unit_price": 4.25,
-        "cost_per_standard": 4.25,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 14
       },
       "single": {
         "total_price": 5.49,
@@ -3376,14 +3308,6 @@
         "alcohol_tax_cost": 0.54,
         "alcohol_tax_percent": 24
       },
-      "case_special": {
-        "total_price": 50,
-        "units": 24,
-        "unit_price": 2.08,
-        "cost_per_standard": 2.08,
-        "alcohol_tax_cost": 0.54,
-        "alcohol_tax_percent": 26
-      },
       "pack": {
         "total_price": 18.99,
         "units": 6,
@@ -3443,50 +3367,6 @@
         "cost_per_standard": 4.58,
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 13
-      }
-    }
-  },
-  {
-    "stockcode": "235761",
-    "properties": {
-      "name": "OBrien Lager Can 6x375mL",
-      "name_clean": "OBrien Lager",
-      "brand": "Obrien Brewing",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 4.5,
-      "standard_drinks_raw": 1.4,
-      "standard_drinks_clean": 1.4,
-      "vessel": "can",
-      "image_url": "235761-1.png",
-      "rating": 3.9,
-      "ibu": 20,
-      "beer_style": "Lager"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 58.4,
-        "units": 24,
-        "unit_price": 2.43,
-        "cost_per_standard": 1.74,
-        "alcohol_tax_cost": 0.55,
-        "alcohol_tax_percent": 32
-      },
-      "pack": {
-        "total_price": 19.2,
-        "units": 6,
-        "unit_price": 3.2,
-        "cost_per_standard": 2.29,
-        "alcohol_tax_cost": 0.55,
-        "alcohol_tax_percent": 24
-      },
-      "single": {
-        "total_price": 3.6,
-        "units": 1,
-        "unit_price": 3.6,
-        "cost_per_standard": 2.57,
-        "alcohol_tax_cost": 0.55,
-        "alcohol_tax_percent": 21
       }
     }
   },
@@ -3568,6 +3448,14 @@
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 23
       },
+      "pack_special": {
+        "total_price": 19,
+        "units": 3,
+        "unit_price": 6.33,
+        "cost_per_standard": 2.18,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 27
+      },
       "single": {
         "total_price": 7.99,
         "units": 1,
@@ -3604,6 +3492,14 @@
         "alcohol_tax_cost": 0.62,
         "alcohol_tax_percent": 22
       },
+      "case_special": {
+        "total_price": 70,
+        "units": 24,
+        "unit_price": 2.92,
+        "cost_per_standard": 2.43,
+        "alcohol_tax_cost": 0.62,
+        "alcohol_tax_percent": 26
+      },
       "pack": {
         "total_price": 21.99,
         "units": 6,
@@ -3619,6 +3515,58 @@
         "cost_per_standard": 3.49,
         "alcohol_tax_cost": 0.62,
         "alcohol_tax_percent": 18
+      }
+    }
+  },
+  {
+    "stockcode": "277554",
+    "properties": {
+      "name": "4 Pines Japanese Lager Cans 375mL",
+      "name_clean": "4 Pines Japanese Lager",
+      "brand": "4 Pines",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 4.5,
+      "standard_drinks_raw": 1.2,
+      "standard_drinks_clean": 1.2,
+      "vessel": "can",
+      "image_url": "277554-1.png",
+      "rating": 4.4,
+      "ibu": 15,
+      "beer_style": "Lager"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 53.99,
+        "units": 18,
+        "unit_price": 3,
+        "cost_per_standard": 2.5,
+        "alcohol_tax_cost": 0.64,
+        "alcohol_tax_percent": 26
+      },
+      "case_special": {
+        "total_price": 51,
+        "units": 18,
+        "unit_price": 2.83,
+        "cost_per_standard": 2.36,
+        "alcohol_tax_cost": 0.64,
+        "alcohol_tax_percent": 27
+      },
+      "pack": {
+        "total_price": 19.95,
+        "units": 6,
+        "unit_price": 3.33,
+        "cost_per_standard": 2.78,
+        "alcohol_tax_cost": 0.64,
+        "alcohol_tax_percent": 23
+      },
+      "single": {
+        "total_price": 4.99,
+        "units": 1,
+        "unit_price": 4.99,
+        "cost_per_standard": 4.16,
+        "alcohol_tax_cost": 0.64,
+        "alcohol_tax_percent": 15
       }
     }
   },
@@ -3788,6 +3736,14 @@
         "alcohol_tax_cost": 0.54,
         "alcohol_tax_percent": 16
       },
+      "pack_special": {
+        "total_price": 18,
+        "units": 6,
+        "unit_price": 3,
+        "cost_per_standard": 3,
+        "alcohol_tax_cost": 0.54,
+        "alcohol_tax_percent": 18
+      },
       "single": {
         "total_price": 4.99,
         "units": 1,
@@ -3831,14 +3787,6 @@
         "cost_per_standard": 3.03,
         "alcohol_tax_cost": 0.55,
         "alcohol_tax_percent": 18
-      },
-      "pack_special": {
-        "total_price": 18,
-        "units": 6,
-        "unit_price": 3,
-        "cost_per_standard": 2.73,
-        "alcohol_tax_cost": 0.55,
-        "alcohol_tax_percent": 20
       },
       "single": {
         "total_price": 4.99,
@@ -3920,14 +3868,6 @@
         "alcohol_tax_cost": 0.26,
         "alcohol_tax_percent": 6
       },
-      "case_special": {
-        "total_price": 48,
-        "units": 24,
-        "unit_price": 2,
-        "cost_per_standard": 4,
-        "alcohol_tax_cost": 0.26,
-        "alcohol_tax_percent": 7
-      },
       "pack": {
         "total_price": 19.99,
         "units": 6,
@@ -3936,6 +3876,14 @@
         "alcohol_tax_cost": 0.26,
         "alcohol_tax_percent": 4
       },
+      "pack_special": {
+        "total_price": 15,
+        "units": 6,
+        "unit_price": 2.5,
+        "cost_per_standard": 5,
+        "alcohol_tax_cost": 0.26,
+        "alcohol_tax_percent": 5
+      },
       "single": {
         "total_price": 4.99,
         "units": 1,
@@ -3943,6 +3891,58 @@
         "cost_per_standard": 9.98,
         "alcohol_tax_cost": 0.26,
         "alcohol_tax_percent": 3
+      }
+    }
+  },
+  {
+    "stockcode": "231424",
+    "properties": {
+      "name": "Sudo Lager Can 350mLx6",
+      "name_clean": "Sudo Lager Can 350mLx6",
+      "brand": "Sudo",
+      "size_ml": 350,
+      "size_clean": 350,
+      "percentage_raw": 5,
+      "standard_drinks_raw": 1.3,
+      "standard_drinks_clean": 1.3,
+      "vessel": "can",
+      "image_url": "231424-1.png",
+      "rating": 3.6,
+      "ibu": null,
+      "beer_style": "Lager"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 59.99,
+        "units": 24,
+        "unit_price": 2.5,
+        "cost_per_standard": 1.92,
+        "alcohol_tax_cost": 0.64,
+        "alcohol_tax_percent": 33
+      },
+      "pack": {
+        "total_price": 19.99,
+        "units": 6,
+        "unit_price": 3.33,
+        "cost_per_standard": 2.56,
+        "alcohol_tax_cost": 0.64,
+        "alcohol_tax_percent": 25
+      },
+      "pack_special": {
+        "total_price": 14,
+        "units": 6,
+        "unit_price": 2.33,
+        "cost_per_standard": 1.79,
+        "alcohol_tax_cost": 0.64,
+        "alcohol_tax_percent": 36
+      },
+      "single": {
+        "total_price": 4.99,
+        "units": 1,
+        "unit_price": 4.99,
+        "cost_per_standard": 3.84,
+        "alcohol_tax_cost": 0.64,
+        "alcohol_tax_percent": 17
       }
     }
   },
@@ -4016,14 +4016,6 @@
         "alcohol_tax_cost": 0.62,
         "alcohol_tax_percent": 24
       },
-      "case_special": {
-        "total_price": 59,
-        "units": 16,
-        "unit_price": 3.69,
-        "cost_per_standard": 2.46,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 25
-      },
       "pack": {
         "total_price": 19.99,
         "units": 4,
@@ -4033,12 +4025,12 @@
         "alcohol_tax_percent": 19
       },
       "pack_special": {
-        "total_price": 16,
+        "total_price": 18,
         "units": 4,
-        "unit_price": 4,
-        "cost_per_standard": 2.67,
+        "unit_price": 4.5,
+        "cost_per_standard": 3,
         "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 23
+        "alcohol_tax_percent": 21
       },
       "single": {
         "total_price": 5.49,
@@ -4083,6 +4075,14 @@
         "cost_per_standard": 2.78,
         "alcohol_tax_cost": 0.57,
         "alcohol_tax_percent": 21
+      },
+      "pack_special": {
+        "total_price": 30,
+        "units": 8,
+        "unit_price": 3.75,
+        "cost_per_standard": 2.08,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 27
       },
       "single": {
         "total_price": 5.99,
@@ -4191,46 +4191,46 @@
     }
   },
   {
-    "stockcode": "95946",
+    "stockcode": "962206",
     "properties": {
-      "name": "Jervis Bay Brewing Co Bright Idea XPA Cans 375mLx4",
-      "name_clean": "Jervis Bay Brewing Co Bright Idea XPA Cans 375mLx4",
-      "brand": "Jervis Bay Brewing Co",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 5,
-      "standard_drinks_raw": 1.5,
-      "standard_drinks_clean": 1.5,
-      "vessel": "can",
-      "image_url": "95946-1.png",
-      "rating": 5,
-      "ibu": 35,
-      "beer_style": "XPA"
+      "name": "Carlton Dry Mid 3.5% Bottles 330mLx6",
+      "name_clean": "Carlton Dry Mid 3.5% Bottles 330mLx6",
+      "brand": "Carlton Dry",
+      "size_ml": 330,
+      "size_clean": 330,
+      "percentage_raw": 3.5,
+      "standard_drinks_raw": 0.9,
+      "standard_drinks_clean": 0.9,
+      "vessel": "bottle",
+      "image_url": "962206-1.png",
+      "rating": 4.5,
+      "ibu": 8,
+      "beer_style": "Lager"
     },
     "pricing": {
       "case": {
-        "total_price": 60.99,
-        "units": 16,
-        "unit_price": 3.81,
-        "cost_per_standard": 2.54,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 23
+        "total_price": 46.95,
+        "units": 24,
+        "unit_price": 1.96,
+        "cost_per_standard": 2.18,
+        "alcohol_tax_cost": 0.53,
+        "alcohol_tax_percent": 24
       },
       "pack": {
         "total_price": 19.99,
-        "units": 4,
-        "unit_price": 5,
-        "cost_per_standard": 3.33,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 18
+        "units": 6,
+        "unit_price": 3.33,
+        "cost_per_standard": 3.7,
+        "alcohol_tax_cost": 0.53,
+        "alcohol_tax_percent": 14
       },
       "single": {
-        "total_price": 6.49,
+        "total_price": 4.49,
         "units": 1,
-        "unit_price": 6.49,
-        "cost_per_standard": 4.33,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 14
+        "unit_price": 4.49,
+        "cost_per_standard": 4.99,
+        "alcohol_tax_cost": 0.53,
+        "alcohol_tax_percent": 11
       }
     }
   },
@@ -4348,6 +4348,14 @@
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 30
       },
+      "case_special": {
+        "total_price": 55,
+        "units": 24,
+        "unit_price": 2.29,
+        "cost_per_standard": 1.64,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 36
+      },
       "pack": {
         "total_price": 23.99,
         "units": 6,
@@ -4436,14 +4444,6 @@
         "alcohol_tax_cost": 0.55,
         "alcohol_tax_percent": 26
       },
-      "case_special": {
-        "total_price": 57,
-        "units": 24,
-        "unit_price": 2.38,
-        "cost_per_standard": 1.98,
-        "alcohol_tax_cost": 0.55,
-        "alcohol_tax_percent": 28
-      },
       "pack": {
         "total_price": 20.99,
         "units": 6,
@@ -4452,405 +4452,21 @@
         "alcohol_tax_cost": 0.55,
         "alcohol_tax_percent": 19
       },
-      "single": {
-        "total_price": 4.99,
-        "units": 1,
-        "unit_price": 4.99,
-        "cost_per_standard": 4.16,
+      "pack_special": {
+        "total_price": 18,
+        "units": 6,
+        "unit_price": 3,
+        "cost_per_standard": 2.5,
         "alcohol_tax_cost": 0.55,
-        "alcohol_tax_percent": 13
-      }
-    }
-  },
-  {
-    "stockcode": "231424",
-    "properties": {
-      "name": "Sudo Lager Can 350mLx6",
-      "name_clean": "Sudo Lager Can 350mLx6",
-      "brand": "Sudo",
-      "size_ml": 350,
-      "size_clean": 350,
-      "percentage_raw": 5,
-      "standard_drinks_raw": 1.3,
-      "standard_drinks_clean": 1.3,
-      "vessel": "can",
-      "image_url": "231424-1.png",
-      "rating": 3.6,
-      "ibu": null,
-      "beer_style": "Lager"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 59.99,
-        "units": 24,
-        "unit_price": 2.5,
-        "cost_per_standard": 1.92,
-        "alcohol_tax_cost": 0.64,
-        "alcohol_tax_percent": 33
-      },
-      "case_special": {
-        "total_price": 54,
-        "units": 24,
-        "unit_price": 2.25,
-        "cost_per_standard": 1.73,
-        "alcohol_tax_cost": 0.64,
-        "alcohol_tax_percent": 37
-      },
-      "pack": {
-        "total_price": 20.99,
-        "units": 6,
-        "unit_price": 3.5,
-        "cost_per_standard": 2.69,
-        "alcohol_tax_cost": 0.64,
-        "alcohol_tax_percent": 24
-      },
-      "single": {
-        "total_price": 4.99,
-        "units": 1,
-        "unit_price": 4.99,
-        "cost_per_standard": 3.84,
-        "alcohol_tax_cost": 0.64,
-        "alcohol_tax_percent": 17
-      }
-    }
-  },
-  {
-    "stockcode": "6027323",
-    "properties": {
-      "name": "Asahi Super Dry Fusions Lemon Yuzu Bottle 330mL 6X330mL",
-      "name_clean": "Asahi Super Dry Fusions Lemon Yuzu Bottle 330mL",
-      "brand": "Asahi",
-      "size_ml": 330,
-      "size_clean": 330,
-      "percentage_raw": 4,
-      "standard_drinks_raw": 1,
-      "standard_drinks_clean": 1,
-      "vessel": "bottle",
-      "image_url": "6027323-1.png",
-      "rating": 4,
-      "ibu": 15,
-      "beer_style": "Flavoured Beer"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 56.99,
-        "units": 24,
-        "unit_price": 2.37,
-        "cost_per_standard": 2.37,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 24
-      },
-      "pack": {
-        "total_price": 20.99,
-        "units": 6,
-        "unit_price": 3.5,
-        "cost_per_standard": 3.5,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 17
-      },
-      "single": {
-        "total_price": 4.49,
-        "units": 1,
-        "unit_price": 4.49,
-        "cost_per_standard": 4.49,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 13
-      }
-    }
-  },
-  {
-    "stockcode": "273939",
-    "properties": {
-      "name": "Capital Brewing Co. Coast Ale Can 4x4x375mL",
-      "name_clean": "Capital Brewing Co. Coast Ale",
-      "brand": "Capital Brewing Co.",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 4.3,
-      "standard_drinks_raw": 1.3,
-      "standard_drinks_clean": 1.3,
-      "vessel": "can",
-      "image_url": "273939-1.png",
-      "rating": 4.5,
-      "ibu": 20,
-      "beer_style": "Ale"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 59.99,
-        "units": 16,
-        "unit_price": 3.75,
-        "cost_per_standard": 2.88,
-        "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 19
-      },
-      "case_special": {
-        "total_price": 53,
-        "units": 16,
-        "unit_price": 3.31,
-        "cost_per_standard": 2.55,
-        "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 22
       },
-      "pack": {
-        "total_price": 20.99,
-        "units": 4,
-        "unit_price": 5.25,
-        "cost_per_standard": 4.04,
-        "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 14
-      },
-      "pack_special": {
-        "total_price": 16,
-        "units": 4,
-        "unit_price": 4,
-        "cost_per_standard": 3.08,
-        "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 18
-      },
-      "single": {
-        "total_price": 6.49,
-        "units": 1,
-        "unit_price": 6.49,
-        "cost_per_standard": 4.99,
-        "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 11
-      }
-    }
-  },
-  {
-    "stockcode": "6069376",
-    "properties": {
-      "name": "Green Beacon Allpress Honeycomb Mcha Flavoured Stout 375mL",
-      "name_clean": "Green Beacon Allpress Honeycomb Mcha Flavoured Stout",
-      "brand": "Green Beacon",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 5.5,
-      "standard_drinks_raw": 1.6,
-      "standard_drinks_clean": 1.6,
-      "vessel": null,
-      "image_url": "6069376-1.png",
-      "rating": null,
-      "ibu": null,
-      "beer_style": "Flavoured Beer"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 92.99,
-        "units": 24,
-        "unit_price": 3.87,
-        "cost_per_standard": 2.42,
-        "alcohol_tax_cost": 0.63,
-        "alcohol_tax_percent": 26
-      },
-      "pack": {
-        "total_price": 20.99,
-        "units": 4,
-        "unit_price": 5.25,
-        "cost_per_standard": 3.28,
-        "alcohol_tax_cost": 0.63,
-        "alcohol_tax_percent": 19
-      },
-      "single": {
-        "total_price": 6.49,
-        "units": 1,
-        "unit_price": 6.49,
-        "cost_per_standard": 4.06,
-        "alcohol_tax_cost": 0.63,
-        "alcohol_tax_percent": 16
-      }
-    }
-  },
-  {
-    "stockcode": "6003995",
-    "properties": {
-      "name": "Mountain Goat Low Carb Lager Can 6x375mL",
-      "name_clean": "Mountain Goat Low Carb Lager",
-      "brand": "Mountain Goat",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 4,
-      "standard_drinks_raw": 1.1,
-      "standard_drinks_clean": 1.1,
-      "vessel": "can",
-      "image_url": "6003995-1.png",
-      "rating": 3.9,
-      "ibu": null,
-      "beer_style": "Lager"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 59.99,
-        "units": 24,
-        "unit_price": 2.5,
-        "cost_per_standard": 2.27,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 26
-      },
-      "case_special": {
-        "total_price": 54,
-        "units": 24,
-        "unit_price": 2.25,
-        "cost_per_standard": 2.05,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 29
-      },
-      "pack": {
-        "total_price": 20.99,
-        "units": 6,
-        "unit_price": 3.5,
-        "cost_per_standard": 3.18,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 19
-      },
-      "single": {
-        "total_price": 4.99,
-        "units": 1,
-        "unit_price": 4.99,
-        "cost_per_standard": 4.54,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 13
-      }
-    }
-  },
-  {
-    "stockcode": "190052",
-    "properties": {
-      "name": "Ekim Brewing Co Longboat Lager Can 375mL",
-      "name_clean": "Ekim Brewing Co Longboat Lager",
-      "brand": "Ekim Brewing Co",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 4.8,
-      "standard_drinks_raw": 1.4,
-      "standard_drinks_clean": 1.4,
-      "vessel": "can",
-      "image_url": "190052-1.png",
-      "rating": null,
-      "ibu": 20,
-      "beer_style": "Lager"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 55.99,
-        "units": 16,
-        "unit_price": 3.5,
-        "cost_per_standard": 2.5,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 24
-      },
-      "pack": {
-        "total_price": 20.99,
-        "units": 4,
-        "unit_price": 5.25,
-        "cost_per_standard": 3.75,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 16
-      },
-      "single": {
-        "total_price": 5.49,
-        "units": 1,
-        "unit_price": 5.49,
-        "cost_per_standard": 3.92,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 15
-      }
-    }
-  },
-  {
-    "stockcode": "6000648",
-    "properties": {
-      "name": "Capital Brewing Co. Haze Oasis Hazy Pale Ale Can 4x4x375mL",
-      "name_clean": "Capital Brewing Co. Haze Oasis Hazy Pale Ale",
-      "brand": "Capital Brewing Co.",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 4.5,
-      "standard_drinks_raw": 1.3,
-      "standard_drinks_clean": 1.3,
-      "vessel": "can",
-      "image_url": "6000648-1.png",
-      "rating": null,
-      "ibu": null,
-      "beer_style": null
-    },
-    "pricing": {
-      "case": {
-        "total_price": 64.99,
-        "units": 16,
-        "unit_price": 4.06,
-        "cost_per_standard": 3.12,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 19
-      },
-      "pack": {
-        "total_price": 20.99,
-        "units": 4,
-        "unit_price": 5.25,
-        "cost_per_standard": 4.04,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 15
-      },
-      "single": {
-        "total_price": 5.99,
-        "units": 1,
-        "unit_price": 5.99,
-        "cost_per_standard": 4.61,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 13
-      }
-    }
-  },
-  {
-    "stockcode": "885481",
-    "properties": {
-      "name": "Victoria Malaga Malaga Lager Cans 330mLx6",
-      "name_clean": "Victoria Malaga Malaga Lager Cans 330mLx6",
-      "brand": "Victoria Malaga",
-      "size_ml": 330,
-      "size_clean": 330,
-      "percentage_raw": 4.8,
-      "standard_drinks_raw": 1.2,
-      "standard_drinks_clean": 1.2,
-      "vessel": "can",
-      "image_url": "885481-1.png",
-      "rating": 4.9,
-      "ibu": null,
-      "beer_style": "Lager"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 59.99,
-        "units": 24,
-        "unit_price": 2.5,
-        "cost_per_standard": 2.08,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 30
-      },
-      "pack": {
-        "total_price": 20.99,
-        "units": 6,
-        "unit_price": 3.5,
-        "cost_per_standard": 2.92,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 21
-      },
-      "pack_special": {
-        "total_price": 13,
-        "units": 6,
-        "unit_price": 2.17,
-        "cost_per_standard": 1.81,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 34
-      },
       "single": {
         "total_price": 4.99,
         "units": 1,
         "unit_price": 4.99,
         "cost_per_standard": 4.16,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 15
+        "alcohol_tax_cost": 0.55,
+        "alcohol_tax_percent": 13
       }
     }
   },
@@ -4940,6 +4556,14 @@
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 20
       },
+      "pack_special": {
+        "total_price": 19,
+        "units": 6,
+        "unit_price": 3.17,
+        "cost_per_standard": 2.64,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 22
+      },
       "single": {
         "total_price": 4.99,
         "units": 1,
@@ -4947,6 +4571,346 @@
         "cost_per_standard": 4.16,
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 14
+      }
+    }
+  },
+  {
+    "stockcode": "6027323",
+    "properties": {
+      "name": "Asahi Super Dry Fusions Lemon Yuzu Bottle 330mL 6X330mL",
+      "name_clean": "Asahi Super Dry Fusions Lemon Yuzu Bottle 330mL",
+      "brand": "Asahi",
+      "size_ml": 330,
+      "size_clean": 330,
+      "percentage_raw": 4,
+      "standard_drinks_raw": 1,
+      "standard_drinks_clean": 1,
+      "vessel": "bottle",
+      "image_url": "6027323-1.png",
+      "rating": 4,
+      "ibu": 15,
+      "beer_style": "Flavoured Beer"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 56.99,
+        "units": 24,
+        "unit_price": 2.37,
+        "cost_per_standard": 2.37,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 24
+      },
+      "case_special": {
+        "total_price": 53,
+        "units": 24,
+        "unit_price": 2.21,
+        "cost_per_standard": 2.21,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 26
+      },
+      "pack": {
+        "total_price": 20.99,
+        "units": 6,
+        "unit_price": 3.5,
+        "cost_per_standard": 3.5,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 17
+      },
+      "single": {
+        "total_price": 4.49,
+        "units": 1,
+        "unit_price": 4.49,
+        "cost_per_standard": 4.49,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 13
+      }
+    }
+  },
+  {
+    "stockcode": "6069376",
+    "properties": {
+      "name": "Green Beacon Allpress Honeycomb Mcha Flavoured Stout 375mL",
+      "name_clean": "Green Beacon Allpress Honeycomb Mcha Flavoured Stout",
+      "brand": "Green Beacon",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 5.5,
+      "standard_drinks_raw": 1.6,
+      "standard_drinks_clean": 1.6,
+      "vessel": null,
+      "image_url": "6069376-1.png",
+      "rating": null,
+      "ibu": null,
+      "beer_style": "Flavoured Beer"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 92.99,
+        "units": 24,
+        "unit_price": 3.87,
+        "cost_per_standard": 2.42,
+        "alcohol_tax_cost": 0.63,
+        "alcohol_tax_percent": 26
+      },
+      "pack": {
+        "total_price": 20.99,
+        "units": 4,
+        "unit_price": 5.25,
+        "cost_per_standard": 3.28,
+        "alcohol_tax_cost": 0.63,
+        "alcohol_tax_percent": 19
+      },
+      "single": {
+        "total_price": 6.49,
+        "units": 1,
+        "unit_price": 6.49,
+        "cost_per_standard": 4.06,
+        "alcohol_tax_cost": 0.63,
+        "alcohol_tax_percent": 16
+      }
+    }
+  },
+  {
+    "stockcode": "273939",
+    "properties": {
+      "name": "Capital Brewing Co. Coast Ale Can 4x4x375mL",
+      "name_clean": "Capital Brewing Co. Coast Ale",
+      "brand": "Capital Brewing Co.",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 4.3,
+      "standard_drinks_raw": 1.3,
+      "standard_drinks_clean": 1.3,
+      "vessel": "can",
+      "image_url": "273939-1.png",
+      "rating": 4.5,
+      "ibu": 20,
+      "beer_style": "Ale"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 59.99,
+        "units": 16,
+        "unit_price": 3.75,
+        "cost_per_standard": 2.88,
+        "alcohol_tax_cost": 0.56,
+        "alcohol_tax_percent": 19
+      },
+      "pack": {
+        "total_price": 20.99,
+        "units": 4,
+        "unit_price": 5.25,
+        "cost_per_standard": 4.04,
+        "alcohol_tax_cost": 0.56,
+        "alcohol_tax_percent": 14
+      },
+      "single": {
+        "total_price": 6.49,
+        "units": 1,
+        "unit_price": 6.49,
+        "cost_per_standard": 4.99,
+        "alcohol_tax_cost": 0.56,
+        "alcohol_tax_percent": 11
+      }
+    }
+  },
+  {
+    "stockcode": "6003995",
+    "properties": {
+      "name": "Mountain Goat Low Carb Lager Can 6x375mL",
+      "name_clean": "Mountain Goat Low Carb Lager",
+      "brand": "Mountain Goat",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 4,
+      "standard_drinks_raw": 1.1,
+      "standard_drinks_clean": 1.1,
+      "vessel": "can",
+      "image_url": "6003995-1.png",
+      "rating": 3.9,
+      "ibu": null,
+      "beer_style": "Lager"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 59.99,
+        "units": 24,
+        "unit_price": 2.5,
+        "cost_per_standard": 2.27,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 26
+      },
+      "pack": {
+        "total_price": 20.99,
+        "units": 6,
+        "unit_price": 3.5,
+        "cost_per_standard": 3.18,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 19
+      },
+      "pack_special": {
+        "total_price": 17,
+        "units": 6,
+        "unit_price": 2.83,
+        "cost_per_standard": 2.57,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 23
+      },
+      "single": {
+        "total_price": 4.99,
+        "units": 1,
+        "unit_price": 4.99,
+        "cost_per_standard": 4.54,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 13
+      }
+    }
+  },
+  {
+    "stockcode": "190052",
+    "properties": {
+      "name": "Ekim Brewing Co Longboat Lager Can 375mL",
+      "name_clean": "Ekim Brewing Co Longboat Lager",
+      "brand": "Ekim Brewing Co",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 4.8,
+      "standard_drinks_raw": 1.4,
+      "standard_drinks_clean": 1.4,
+      "vessel": "can",
+      "image_url": "190052-1.png",
+      "rating": null,
+      "ibu": 20,
+      "beer_style": "Lager"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 55.99,
+        "units": 16,
+        "unit_price": 3.5,
+        "cost_per_standard": 2.5,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 24
+      },
+      "pack": {
+        "total_price": 20.99,
+        "units": 4,
+        "unit_price": 5.25,
+        "cost_per_standard": 3.75,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 16
+      },
+      "single": {
+        "total_price": 5.49,
+        "units": 1,
+        "unit_price": 5.49,
+        "cost_per_standard": 3.92,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 15
+      }
+    }
+  },
+  {
+    "stockcode": "6000648",
+    "properties": {
+      "name": "Capital Brewing Co. Haze Oasis Hazy Pale Ale Can 4x4x375mL",
+      "name_clean": "Capital Brewing Co. Haze Oasis Hazy Pale Ale",
+      "brand": "Capital Brewing Co.",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 4.5,
+      "standard_drinks_raw": 1.3,
+      "standard_drinks_clean": 1.3,
+      "vessel": "can",
+      "image_url": "6000648-1.png",
+      "rating": null,
+      "ibu": null,
+      "beer_style": null
+    },
+    "pricing": {
+      "case": {
+        "total_price": 64.99,
+        "units": 16,
+        "unit_price": 4.06,
+        "cost_per_standard": 3.12,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 19
+      },
+      "pack": {
+        "total_price": 20.99,
+        "units": 4,
+        "unit_price": 5.25,
+        "cost_per_standard": 4.04,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 15
+      },
+      "pack_special": {
+        "total_price": 19,
+        "units": 4,
+        "unit_price": 4.75,
+        "cost_per_standard": 3.65,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 16
+      },
+      "single": {
+        "total_price": 5.99,
+        "units": 1,
+        "unit_price": 5.99,
+        "cost_per_standard": 4.61,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 13
+      }
+    }
+  },
+  {
+    "stockcode": "885481",
+    "properties": {
+      "name": "Victoria Malaga Malaga Lager Cans 330mLx6",
+      "name_clean": "Victoria Malaga Malaga Lager Cans 330mLx6",
+      "brand": "Victoria Malaga",
+      "size_ml": 330,
+      "size_clean": 330,
+      "percentage_raw": 4.8,
+      "standard_drinks_raw": 1.2,
+      "standard_drinks_clean": 1.2,
+      "vessel": "can",
+      "image_url": "885481-1.png",
+      "rating": 4.9,
+      "ibu": null,
+      "beer_style": "Lager"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 59.99,
+        "units": 24,
+        "unit_price": 2.5,
+        "cost_per_standard": 2.08,
+        "alcohol_tax_cost": 0.62,
+        "alcohol_tax_percent": 30
+      },
+      "case_special": {
+        "total_price": 56,
+        "units": 24,
+        "unit_price": 2.33,
+        "cost_per_standard": 1.94,
+        "alcohol_tax_cost": 0.62,
+        "alcohol_tax_percent": 32
+      },
+      "pack": {
+        "total_price": 20.99,
+        "units": 6,
+        "unit_price": 3.5,
+        "cost_per_standard": 2.92,
+        "alcohol_tax_cost": 0.62,
+        "alcohol_tax_percent": 21
+      },
+      "single": {
+        "total_price": 4.99,
+        "units": 1,
+        "unit_price": 4.99,
+        "cost_per_standard": 4.16,
+        "alcohol_tax_cost": 0.62,
+        "alcohol_tax_percent": 15
       }
     }
   },
@@ -4976,6 +4940,14 @@
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 27
       },
+      "case_special": {
+        "total_price": 62,
+        "units": 24,
+        "unit_price": 2.58,
+        "cost_per_standard": 2.15,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 27
+      },
       "pack": {
         "total_price": 20.99,
         "units": 6,
@@ -4989,6 +4961,50 @@
         "units": 1,
         "unit_price": 4.49,
         "cost_per_standard": 3.74,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 16
+      }
+    }
+  },
+  {
+    "stockcode": "6004342",
+    "properties": {
+      "name": "James Squire Lower Sugar Alcoholic Ginger Beer with Lemon Cans 4X6X330mL",
+      "name_clean": "James Squire Lower Sugar Alcoholic Ginger Beer with Lemon",
+      "brand": "James Squire",
+      "size_ml": 330,
+      "size_clean": 330,
+      "percentage_raw": 4,
+      "standard_drinks_raw": 1,
+      "standard_drinks_clean": 1,
+      "vessel": "can",
+      "image_url": "6004342-1.png",
+      "rating": 4.5,
+      "ibu": null,
+      "beer_style": "Ginger Beer"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 68.25,
+        "units": 24,
+        "unit_price": 2.84,
+        "cost_per_standard": 2.84,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 20
+      },
+      "pack": {
+        "total_price": 21,
+        "units": 6,
+        "unit_price": 3.5,
+        "cost_per_standard": 3.5,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 17
+      },
+      "single": {
+        "total_price": 3.6,
+        "units": 1,
+        "unit_price": 3.6,
+        "cost_per_standard": 3.6,
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 16
       }
@@ -5063,14 +5079,6 @@
         "cost_per_standard": 3.69,
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 15
-      },
-      "case_special": {
-        "total_price": 53,
-        "units": 16,
-        "unit_price": 3.31,
-        "cost_per_standard": 3.01,
-        "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 19
       },
       "pack": {
         "total_price": 21.59,
@@ -5256,6 +5264,14 @@
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 28
       },
+      "case_special": {
+        "total_price": 55,
+        "units": 24,
+        "unit_price": 2.29,
+        "cost_per_standard": 1.64,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 36
+      },
       "pack": {
         "total_price": 21.99,
         "units": 6,
@@ -5307,14 +5323,6 @@
         "cost_per_standard": 3.05,
         "alcohol_tax_cost": 0.55,
         "alcohol_tax_percent": 18
-      },
-      "pack_special": {
-        "total_price": 19,
-        "units": 6,
-        "unit_price": 3.17,
-        "cost_per_standard": 2.64,
-        "alcohol_tax_cost": 0.55,
-        "alcohol_tax_percent": 21
       },
       "single": {
         "total_price": 5.99,
@@ -5415,6 +5423,58 @@
     }
   },
   {
+    "stockcode": "299034",
+    "properties": {
+      "name": "Colossal Brewing Hextra Terrestrial Hazy XPA Can 375mLx4",
+      "name_clean": "Colossal Brewing Hextra Terrestrial Hazy XPA Can 375mLx4",
+      "brand": "Colossal Brewing",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 5,
+      "standard_drinks_raw": 1.5,
+      "standard_drinks_clean": 1.5,
+      "vessel": "can",
+      "image_url": "299034-1.png",
+      "rating": 3.4,
+      "ibu": 14,
+      "beer_style": "XPA"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 64.99,
+        "units": 16,
+        "unit_price": 4.06,
+        "cost_per_standard": 2.71,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 22
+      },
+      "pack": {
+        "total_price": 21.99,
+        "units": 4,
+        "unit_price": 5.5,
+        "cost_per_standard": 3.67,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 16
+      },
+      "pack_special": {
+        "total_price": 36,
+        "units": 8,
+        "unit_price": 4.5,
+        "cost_per_standard": 3,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 20
+      },
+      "single": {
+        "total_price": 6.99,
+        "units": 1,
+        "unit_price": 6.99,
+        "cost_per_standard": 4.66,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 13
+      }
+    }
+  },
+  {
     "stockcode": "6076010",
     "properties": {
       "name": "XXXX Gold Lager Longneck 750mLx3",
@@ -5459,58 +5519,6 @@
     }
   },
   {
-    "stockcode": "910067",
-    "properties": {
-      "name": "Wakachangi Premium Lager Cans 6x330mL",
-      "name_clean": "Wakachangi Premium Lager",
-      "brand": "Wakachangi",
-      "size_ml": 330,
-      "size_clean": 330,
-      "percentage_raw": 5,
-      "standard_drinks_raw": 1.3,
-      "standard_drinks_clean": 1.3,
-      "vessel": "can",
-      "image_url": "910067-1.png",
-      "rating": 3.3,
-      "ibu": null,
-      "beer_style": "Lager"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 60.99,
-        "units": 24,
-        "unit_price": 2.54,
-        "cost_per_standard": 1.95,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 31
-      },
-      "case_special": {
-        "total_price": 54,
-        "units": 24,
-        "unit_price": 2.25,
-        "cost_per_standard": 1.73,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 35
-      },
-      "pack": {
-        "total_price": 21.99,
-        "units": 6,
-        "unit_price": 3.66,
-        "cost_per_standard": 2.82,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 21
-      },
-      "single": {
-        "total_price": 4.99,
-        "units": 1,
-        "unit_price": 4.99,
-        "cost_per_standard": 3.84,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 16
-      }
-    }
-  },
-  {
     "stockcode": "6076017",
     "properties": {
       "name": "Tooheys New Cans 375mLx6",
@@ -5523,7 +5531,7 @@
       "standard_drinks_clean": 1.4,
       "vessel": "can",
       "image_url": "6076017-1.png",
-      "rating": 5,
+      "rating": null,
       "ibu": null,
       "beer_style": null
     },
@@ -5551,6 +5559,178 @@
         "cost_per_standard": 3.56,
         "alcohol_tax_cost": 0.57,
         "alcohol_tax_percent": 16
+      }
+    }
+  },
+  {
+    "stockcode": "910067",
+    "properties": {
+      "name": "Wakachangi Premium Lager Cans 6x330mL",
+      "name_clean": "Wakachangi Premium Lager",
+      "brand": "Wakachangi",
+      "size_ml": 330,
+      "size_clean": 330,
+      "percentage_raw": 5,
+      "standard_drinks_raw": 1.3,
+      "standard_drinks_clean": 1.3,
+      "vessel": "can",
+      "image_url": "910067-1.png",
+      "rating": 3.3,
+      "ibu": null,
+      "beer_style": "Lager"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 60.99,
+        "units": 24,
+        "unit_price": 2.54,
+        "cost_per_standard": 1.95,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 31
+      },
+      "pack": {
+        "total_price": 21.99,
+        "units": 6,
+        "unit_price": 3.66,
+        "cost_per_standard": 2.82,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 21
+      },
+      "pack_special": {
+        "total_price": 30,
+        "units": 12,
+        "unit_price": 2.5,
+        "cost_per_standard": 1.92,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 31
+      },
+      "single": {
+        "total_price": 4.99,
+        "units": 1,
+        "unit_price": 4.99,
+        "cost_per_standard": 3.84,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 16
+      }
+    }
+  },
+  {
+    "stockcode": "6055003",
+    "properties": {
+      "name": "Hurricane Head Ginger Beer Tropical Can 6x4x375mL",
+      "name_clean": "Hurricane Head Ginger Beer Tropical",
+      "brand": "Hurricane Head",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 4,
+      "standard_drinks_raw": 1.2,
+      "standard_drinks_clean": 1.2,
+      "vessel": "can",
+      "image_url": "6055003-1.png",
+      "rating": 4,
+      "ibu": null,
+      "beer_style": null
+    },
+    "pricing": {
+      "case": {
+        "total_price": 95,
+        "units": 24,
+        "unit_price": 3.96,
+        "cost_per_standard": 3.3,
+        "alcohol_tax_cost": 0.55,
+        "alcohol_tax_percent": 17
+      },
+      "case_special": {
+        "total_price": 89,
+        "units": 24,
+        "unit_price": 3.71,
+        "cost_per_standard": 3.09,
+        "alcohol_tax_cost": 0.55,
+        "alcohol_tax_percent": 18
+      },
+      "pack": {
+        "total_price": 21.99,
+        "units": 4,
+        "unit_price": 5.5,
+        "cost_per_standard": 4.58,
+        "alcohol_tax_cost": 0.55,
+        "alcohol_tax_percent": 12
+      },
+      "pack_special": {
+        "total_price": 16,
+        "units": 4,
+        "unit_price": 4,
+        "cost_per_standard": 3.33,
+        "alcohol_tax_cost": 0.55,
+        "alcohol_tax_percent": 17
+      },
+      "single": {
+        "total_price": 5.99,
+        "units": 1,
+        "unit_price": 5.99,
+        "cost_per_standard": 4.99,
+        "alcohol_tax_cost": 0.55,
+        "alcohol_tax_percent": 11
+      }
+    }
+  },
+  {
+    "stockcode": "6054976",
+    "properties": {
+      "name": "Hurricane Head Ginger Beer Mango Can 6x4x375ml",
+      "name_clean": "Hurricane Head Ginger Beer Mango",
+      "brand": "Hurricane Head",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 4,
+      "standard_drinks_raw": 1.2,
+      "standard_drinks_clean": 1.2,
+      "vessel": "can",
+      "image_url": "6054976-1.png",
+      "rating": 5,
+      "ibu": null,
+      "beer_style": "Ginger Beer"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 95,
+        "units": 24,
+        "unit_price": 3.96,
+        "cost_per_standard": 3.3,
+        "alcohol_tax_cost": 0.55,
+        "alcohol_tax_percent": 17
+      },
+      "case_special": {
+        "total_price": 89,
+        "units": 24,
+        "unit_price": 3.71,
+        "cost_per_standard": 3.09,
+        "alcohol_tax_cost": 0.55,
+        "alcohol_tax_percent": 18
+      },
+      "pack": {
+        "total_price": 21.99,
+        "units": 4,
+        "unit_price": 5.5,
+        "cost_per_standard": 4.58,
+        "alcohol_tax_cost": 0.55,
+        "alcohol_tax_percent": 12
+      },
+      "pack_special": {
+        "total_price": 16,
+        "units": 4,
+        "unit_price": 4,
+        "cost_per_standard": 3.33,
+        "alcohol_tax_cost": 0.55,
+        "alcohol_tax_percent": 17
+      },
+      "single": {
+        "total_price": 5.99,
+        "units": 1,
+        "unit_price": 5.99,
+        "cost_per_standard": 4.99,
+        "alcohol_tax_cost": 0.55,
+        "alcohol_tax_percent": 11
       }
     }
   },
@@ -5675,6 +5855,14 @@
         "cost_per_standard": 4.01,
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 15
+      },
+      "pack_special": {
+        "total_price": 18,
+        "units": 4,
+        "unit_price": 4.5,
+        "cost_per_standard": 3.21,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 18
       },
       "single": {
         "total_price": 6.49,
@@ -5876,6 +6064,14 @@
         "alcohol_tax_cost": 0.57,
         "alcohol_tax_percent": 19
       },
+      "pack_special": {
+        "total_price": 18,
+        "units": 6,
+        "unit_price": 3,
+        "cost_per_standard": 2.31,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 25
+      },
       "single": {
         "total_price": 4.99,
         "units": 1,
@@ -5905,20 +6101,12 @@
     },
     "pricing": {
       "case": {
-        "total_price": 50.99,
+        "total_price": 48.95,
         "units": 18,
-        "unit_price": 2.83,
-        "cost_per_standard": 2.72,
+        "unit_price": 2.72,
+        "cost_per_standard": 2.62,
         "alcohol_tax_cost": 0.52,
-        "alcohol_tax_percent": 19
-      },
-      "case_special": {
-        "total_price": 47,
-        "units": 18,
-        "unit_price": 2.61,
-        "cost_per_standard": 2.51,
-        "alcohol_tax_cost": 0.52,
-        "alcohol_tax_percent": 21
+        "alcohol_tax_percent": 20
       },
       "pack": {
         "total_price": 22.99,
@@ -5964,14 +6152,6 @@
         "alcohol_tax_cost": 0.66,
         "alcohol_tax_percent": 57
       },
-      "case_special": {
-        "total_price": 60,
-        "units": 24,
-        "unit_price": 2.5,
-        "cost_per_standard": 1,
-        "alcohol_tax_cost": 0.66,
-        "alcohol_tax_percent": 66
-      },
       "pack": {
         "total_price": 22.99,
         "units": 6,
@@ -5981,12 +6161,12 @@
         "alcohol_tax_percent": 43
       },
       "pack_special": {
-        "total_price": 19,
-        "units": 6,
-        "unit_price": 3.17,
-        "cost_per_standard": 1.27,
+        "total_price": 34,
+        "units": 12,
+        "unit_price": 2.83,
+        "cost_per_standard": 1.13,
         "alcohol_tax_cost": 0.66,
-        "alcohol_tax_percent": 52
+        "alcohol_tax_percent": 58
       },
       "single": {
         "total_price": 4.99,
@@ -6032,14 +6212,6 @@
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 18
       },
-      "pack_special": {
-        "total_price": 18,
-        "units": 6,
-        "unit_price": 3,
-        "cost_per_standard": 2.5,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 23
-      },
       "single": {
         "total_price": 4.99,
         "units": 1,
@@ -6047,6 +6219,50 @@
         "cost_per_standard": 4.16,
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 14
+      }
+    }
+  },
+  {
+    "stockcode": "910436",
+    "properties": {
+      "name": "Byron Bay Ultra Zero Carb Bottles 6X330mL",
+      "name_clean": "Byron Bay Ultra Zero Carb",
+      "brand": "Byron Bay Brewery",
+      "size_ml": 330,
+      "size_clean": 330,
+      "percentage_raw": 3.5,
+      "standard_drinks_raw": 0.9,
+      "standard_drinks_clean": 0.9,
+      "vessel": "bottle",
+      "image_url": "910436-1.png",
+      "rating": 3.8,
+      "ibu": null,
+      "beer_style": null
+    },
+    "pricing": {
+      "case": {
+        "total_price": 58.99,
+        "units": 24,
+        "unit_price": 2.46,
+        "cost_per_standard": 2.73,
+        "alcohol_tax_cost": 0.53,
+        "alcohol_tax_percent": 19
+      },
+      "pack": {
+        "total_price": 22.99,
+        "units": 6,
+        "unit_price": 3.83,
+        "cost_per_standard": 4.26,
+        "alcohol_tax_cost": 0.53,
+        "alcohol_tax_percent": 12
+      },
+      "single": {
+        "total_price": 4.49,
+        "units": 1,
+        "unit_price": 4.49,
+        "cost_per_standard": 4.99,
+        "alcohol_tax_cost": 0.53,
+        "alcohol_tax_percent": 11
       }
     }
   },
@@ -6076,14 +6292,6 @@
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 26
       },
-      "case_special": {
-        "total_price": 54,
-        "units": 24,
-        "unit_price": 2.25,
-        "cost_per_standard": 2.05,
-        "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 27
-      },
       "pack": {
         "total_price": 22.99,
         "units": 6,
@@ -6092,6 +6300,14 @@
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 16
       },
+      "pack_special": {
+        "total_price": 20,
+        "units": 6,
+        "unit_price": 3.33,
+        "cost_per_standard": 3.03,
+        "alcohol_tax_cost": 0.56,
+        "alcohol_tax_percent": 18
+      },
       "single": {
         "total_price": 4.99,
         "units": 1,
@@ -6099,58 +6315,6 @@
         "cost_per_standard": 4.54,
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 12
-      }
-    }
-  },
-  {
-    "stockcode": "299034",
-    "properties": {
-      "name": "Colossal Brewing Hextra Terrestrial Hazy XPA Can 375mLx4",
-      "name_clean": "Colossal Brewing Hextra Terrestrial Hazy XPA Can 375mLx4",
-      "brand": "Colossal Brewing",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 5,
-      "standard_drinks_raw": 1.5,
-      "standard_drinks_clean": 1.5,
-      "vessel": "can",
-      "image_url": "299034-1.png",
-      "rating": 3.4,
-      "ibu": 14,
-      "beer_style": "XPA"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 64.99,
-        "units": 16,
-        "unit_price": 4.06,
-        "cost_per_standard": 2.71,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 22
-      },
-      "pack": {
-        "total_price": 22.99,
-        "units": 4,
-        "unit_price": 5.75,
-        "cost_per_standard": 3.83,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 15
-      },
-      "pack_special": {
-        "total_price": 17,
-        "units": 4,
-        "unit_price": 4.25,
-        "cost_per_standard": 2.83,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 21
-      },
-      "single": {
-        "total_price": 6.99,
-        "units": 1,
-        "unit_price": 6.99,
-        "cost_per_standard": 4.66,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 13
       }
     }
   },
@@ -6187,6 +6351,14 @@
         "cost_per_standard": 3.38,
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 17
+      },
+      "pack_special": {
+        "total_price": 20,
+        "units": 4,
+        "unit_price": 5,
+        "cost_per_standard": 2.94,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 20
       },
       "single": {
         "total_price": 6.49,
@@ -6268,6 +6440,14 @@
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 25
       },
+      "case_special": {
+        "total_price": 60,
+        "units": 24,
+        "unit_price": 2.5,
+        "cost_per_standard": 2.08,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 28
+      },
       "pack": {
         "total_price": 23.48,
         "units": 6,
@@ -6312,14 +6492,6 @@
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 19
       },
-      "case_special": {
-        "total_price": 65,
-        "units": 16,
-        "unit_price": 4.06,
-        "cost_per_standard": 2.71,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 22
-      },
       "pack": {
         "total_price": 23.49,
         "units": 4,
@@ -6327,6 +6499,14 @@
         "cost_per_standard": 3.91,
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 15
+      },
+      "pack_special": {
+        "total_price": 20,
+        "units": 4,
+        "unit_price": 5,
+        "cost_per_standard": 3.33,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 18
       },
       "single": {
         "total_price": 5.99,
@@ -6365,12 +6545,12 @@
         "alcohol_tax_percent": 25
       },
       "case_special": {
-        "total_price": 64,
+        "total_price": 67,
         "units": 24,
-        "unit_price": 2.67,
-        "cost_per_standard": 2.05,
+        "unit_price": 2.79,
+        "cost_per_standard": 2.15,
         "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 28
+        "alcohol_tax_percent": 27
       },
       "pack": {
         "total_price": 23.49,
@@ -6487,66 +6667,6 @@
     }
   },
   {
-    "stockcode": "277554",
-    "properties": {
-      "name": "4 Pines Japanese Lager Cans 375mL",
-      "name_clean": "4 Pines Japanese Lager",
-      "brand": "4 Pines",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 4.5,
-      "standard_drinks_raw": 1.2,
-      "standard_drinks_clean": 1.2,
-      "vessel": "can",
-      "image_url": "277554-1.png",
-      "rating": 4.4,
-      "ibu": 15,
-      "beer_style": "Lager"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 53.99,
-        "units": 18,
-        "unit_price": 3,
-        "cost_per_standard": 2.5,
-        "alcohol_tax_cost": 0.64,
-        "alcohol_tax_percent": 26
-      },
-      "case_special": {
-        "total_price": 49.5,
-        "units": 18,
-        "unit_price": 2.75,
-        "cost_per_standard": 2.29,
-        "alcohol_tax_cost": 0.64,
-        "alcohol_tax_percent": 28
-      },
-      "pack": {
-        "total_price": 23.99,
-        "units": 6,
-        "unit_price": 4,
-        "cost_per_standard": 3.33,
-        "alcohol_tax_cost": 0.64,
-        "alcohol_tax_percent": 19
-      },
-      "pack_special": {
-        "total_price": 18,
-        "units": 6,
-        "unit_price": 3,
-        "cost_per_standard": 2.5,
-        "alcohol_tax_cost": 0.64,
-        "alcohol_tax_percent": 26
-      },
-      "single": {
-        "total_price": 4.99,
-        "units": 1,
-        "unit_price": 4.99,
-        "cost_per_standard": 4.16,
-        "alcohol_tax_cost": 0.64,
-        "alcohol_tax_percent": 15
-      }
-    }
-  },
-  {
     "stockcode": "205776",
     "properties": {
       "name": "Kirin Ichiban Bottle 330mL",
@@ -6573,12 +6693,12 @@
         "alcohol_tax_percent": 31
       },
       "case_special": {
-        "total_price": 58.95,
+        "total_price": 56,
         "units": 24,
-        "unit_price": 2.46,
-        "cost_per_standard": 1.89,
+        "unit_price": 2.33,
+        "cost_per_standard": 1.79,
         "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 32
+        "alcohol_tax_percent": 34
       },
       "pack": {
         "total_price": 23.99,
@@ -6587,14 +6707,6 @@
         "cost_per_standard": 3.08,
         "alcohol_tax_cost": 0.6,
         "alcohol_tax_percent": 19
-      },
-      "pack_special": {
-        "total_price": 19,
-        "units": 6,
-        "unit_price": 3.17,
-        "cost_per_standard": 2.44,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 25
       },
       "single": {
         "total_price": 4.99,
@@ -6639,14 +6751,6 @@
         "cost_per_standard": 3,
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 20
-      },
-      "pack_special": {
-        "total_price": 20,
-        "units": 4,
-        "unit_price": 5,
-        "cost_per_standard": 2.5,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 24
       },
       "single": {
         "total_price": 6.49,
@@ -6703,6 +6807,58 @@
     }
   },
   {
+    "stockcode": "277770",
+    "properties": {
+      "name": "4 Pines Hazy Pale Ale Cans 375mL",
+      "name_clean": "4 Pines Hazy Pale Ale",
+      "brand": "4 Pines",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 6,
+      "standard_drinks_raw": 1.8,
+      "standard_drinks_clean": 1.8,
+      "vessel": "can",
+      "image_url": "277770-1.png",
+      "rating": 4.4,
+      "ibu": 35,
+      "beer_style": "Pale Ale"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 92.99,
+        "units": 24,
+        "unit_price": 3.87,
+        "cost_per_standard": 2.15,
+        "alcohol_tax_cost": 0.62,
+        "alcohol_tax_percent": 29
+      },
+      "pack": {
+        "total_price": 23.99,
+        "units": 4,
+        "unit_price": 6,
+        "cost_per_standard": 3.33,
+        "alcohol_tax_cost": 0.62,
+        "alcohol_tax_percent": 19
+      },
+      "pack_special": {
+        "total_price": 17,
+        "units": 4,
+        "unit_price": 4.25,
+        "cost_per_standard": 2.36,
+        "alcohol_tax_cost": 0.62,
+        "alcohol_tax_percent": 26
+      },
+      "single": {
+        "total_price": 6.49,
+        "units": 1,
+        "unit_price": 6.49,
+        "cost_per_standard": 3.61,
+        "alcohol_tax_cost": 0.62,
+        "alcohol_tax_percent": 17
+      }
+    }
+  },
+  {
     "stockcode": "204819",
     "properties": {
       "name": "Pirate Life Brewing California Pale Ale 355mL Cans",
@@ -6747,50 +6903,6 @@
     }
   },
   {
-    "stockcode": "277770",
-    "properties": {
-      "name": "4 Pines Hazy Pale Ale Cans 375mL",
-      "name_clean": "4 Pines Hazy Pale Ale",
-      "brand": "4 Pines",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 6,
-      "standard_drinks_raw": 1.8,
-      "standard_drinks_clean": 1.8,
-      "vessel": "can",
-      "image_url": "277770-1.png",
-      "rating": 4.4,
-      "ibu": 35,
-      "beer_style": "Pale Ale"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 92.99,
-        "units": 24,
-        "unit_price": 3.87,
-        "cost_per_standard": 2.15,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 29
-      },
-      "pack": {
-        "total_price": 23.99,
-        "units": 4,
-        "unit_price": 6,
-        "cost_per_standard": 3.33,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 19
-      },
-      "single": {
-        "total_price": 6.49,
-        "units": 1,
-        "unit_price": 6.49,
-        "cost_per_standard": 3.61,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 17
-      }
-    }
-  },
-  {
     "stockcode": "918416",
     "properties": {
       "name": "Stone and Wood Stone  Beer 6Percent Cans 4x375mL",
@@ -6831,50 +6943,6 @@
         "cost_per_standard": 3.88,
         "alcohol_tax_cost": 0.62,
         "alcohol_tax_percent": 16
-      }
-    }
-  },
-  {
-    "stockcode": "6035716",
-    "properties": {
-      "name": "Mountain Goat Full Flower Moon Band Beer Cans 375mLx6",
-      "name_clean": "Mountain Goat Full Flower Moon Band Beer Cans 375mLx6",
-      "brand": "Mountain Goat",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 4.4,
-      "standard_drinks_raw": 1.3,
-      "standard_drinks_clean": 1.3,
-      "vessel": "can",
-      "image_url": "6035716-1.png",
-      "rating": 3,
-      "ibu": null,
-      "beer_style": "Ale"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 64.99,
-        "units": 18,
-        "unit_price": 3.61,
-        "cost_per_standard": 2.78,
-        "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 21
-      },
-      "pack": {
-        "total_price": 23.99,
-        "units": 6,
-        "unit_price": 4,
-        "cost_per_standard": 3.08,
-        "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 19
-      },
-      "single": {
-        "total_price": 5.99,
-        "units": 1,
-        "unit_price": 5.99,
-        "cost_per_standard": 4.61,
-        "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 12
       }
     }
   },
@@ -6967,50 +7035,6 @@
     }
   },
   {
-    "stockcode": "6004342",
-    "properties": {
-      "name": "James Squire Lower Sugar Alcoholic Ginger Beer with Lemon Cans 4X6X330mL",
-      "name_clean": "James Squire Lower Sugar Alcoholic Ginger Beer with Lemon",
-      "brand": "James Squire",
-      "size_ml": 330,
-      "size_clean": 330,
-      "percentage_raw": 4,
-      "standard_drinks_raw": 1,
-      "standard_drinks_clean": 1,
-      "vessel": "can",
-      "image_url": "6004342-1.png",
-      "rating": 4.5,
-      "ibu": null,
-      "beer_style": "Ginger Beer"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 72.8,
-        "units": 24,
-        "unit_price": 3.03,
-        "cost_per_standard": 3.03,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 19
-      },
-      "pack": {
-        "total_price": 24,
-        "units": 6,
-        "unit_price": 4,
-        "cost_per_standard": 4,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 14
-      },
-      "single": {
-        "total_price": 4.8,
-        "units": 1,
-        "unit_price": 4.8,
-        "cost_per_standard": 4.8,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 12
-      }
-    }
-  },
-  {
     "stockcode": "6076015",
     "properties": {
       "name": "Heineken Lager Bottles 330mLx6",
@@ -7029,12 +7053,12 @@
     },
     "pricing": {
       "case": {
-        "total_price": 54.99,
+        "total_price": 53.95,
         "units": 24,
-        "unit_price": 2.29,
-        "cost_per_standard": 1.76,
+        "unit_price": 2.25,
+        "cost_per_standard": 1.73,
         "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 34
+        "alcohol_tax_percent": 35
       },
       "pack": {
         "total_price": 24.49,
@@ -7080,14 +7104,6 @@
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 25
       },
-      "case_special": {
-        "total_price": 58,
-        "units": 24,
-        "unit_price": 2.42,
-        "cost_per_standard": 2.02,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 29
-      },
       "pack": {
         "total_price": 24.99,
         "units": 6,
@@ -7095,6 +7111,14 @@
         "cost_per_standard": 3.48,
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 17
+      },
+      "pack_special": {
+        "total_price": 20,
+        "units": 6,
+        "unit_price": 3.33,
+        "cost_per_standard": 2.78,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 21
       },
       "single": {
         "total_price": 5.99,
@@ -7132,14 +7156,6 @@
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 25
       },
-      "case_special": {
-        "total_price": 51,
-        "units": 24,
-        "unit_price": 2.13,
-        "cost_per_standard": 2.13,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 27
-      },
       "pack": {
         "total_price": 24.99,
         "units": 6,
@@ -7147,6 +7163,14 @@
         "cost_per_standard": 4.17,
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 14
+      },
+      "pack_special": {
+        "total_price": 19,
+        "units": 6,
+        "unit_price": 3.17,
+        "cost_per_standard": 3.17,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 18
       },
       "single": {
         "total_price": 4.99,
@@ -7183,14 +7207,6 @@
         "cost_per_standard": 2.25,
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 26
-      },
-      "case_special": {
-        "total_price": 60,
-        "units": 24,
-        "unit_price": 2.5,
-        "cost_per_standard": 1.92,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 31
       },
       "pack": {
         "total_price": 24.99,
@@ -7244,14 +7260,6 @@
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 15
       },
-      "pack_special": {
-        "total_price": 19,
-        "units": 6,
-        "unit_price": 3.17,
-        "cost_per_standard": 2.88,
-        "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 19
-      },
       "single": {
         "total_price": 5.99,
         "units": 1,
@@ -7295,6 +7303,14 @@
         "cost_per_standard": 4.17,
         "alcohol_tax_cost": 0.54,
         "alcohol_tax_percent": 13
+      },
+      "pack_special": {
+        "total_price": 18,
+        "units": 6,
+        "unit_price": 3,
+        "cost_per_standard": 3,
+        "alcohol_tax_cost": 0.54,
+        "alcohol_tax_percent": 18
       },
       "single": {
         "total_price": 4.99,
@@ -7376,6 +7392,14 @@
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 29
       },
+      "case_special": {
+        "total_price": 59,
+        "units": 24,
+        "unit_price": 2.46,
+        "cost_per_standard": 1.76,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 34
+      },
       "pack": {
         "total_price": 24.99,
         "units": 6,
@@ -7391,50 +7415,6 @@
         "cost_per_standard": 4.28,
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 14
-      }
-    }
-  },
-  {
-    "stockcode": "363840",
-    "properties": {
-      "name": "Stone and Wood HintrlandBig Pale4X4X375mL",
-      "name_clean": "Stone and Wood HintrlandBig Pale",
-      "brand": "Stone & Wood",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 5.6,
-      "standard_drinks_raw": 1.7,
-      "standard_drinks_clean": 1.7,
-      "vessel": "can",
-      "image_url": "363840-1.png",
-      "rating": null,
-      "ibu": 10,
-      "beer_style": "Pale Ale"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 69.99,
-        "units": 16,
-        "unit_price": 4.37,
-        "cost_per_standard": 2.57,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 23
-      },
-      "pack": {
-        "total_price": 24.99,
-        "units": 4,
-        "unit_price": 6.25,
-        "cost_per_standard": 3.68,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 16
-      },
-      "single": {
-        "total_price": 6.99,
-        "units": 1,
-        "unit_price": 6.99,
-        "cost_per_standard": 4.11,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 15
       }
     }
   },
@@ -7479,6 +7459,50 @@
         "cost_per_standard": 4.99,
         "alcohol_tax_cost": 0.62,
         "alcohol_tax_percent": 12
+      }
+    }
+  },
+  {
+    "stockcode": "363840",
+    "properties": {
+      "name": "Stone and Wood HintrlandBig Pale4X4X375mL",
+      "name_clean": "Stone and Wood HintrlandBig Pale",
+      "brand": "Stone & Wood",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 5.6,
+      "standard_drinks_raw": 1.7,
+      "standard_drinks_clean": 1.7,
+      "vessel": "can",
+      "image_url": "363840-1.png",
+      "rating": 4.3,
+      "ibu": 10,
+      "beer_style": "Pale Ale"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 69.99,
+        "units": 16,
+        "unit_price": 4.37,
+        "cost_per_standard": 2.57,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 23
+      },
+      "pack": {
+        "total_price": 24.99,
+        "units": 4,
+        "unit_price": 6.25,
+        "cost_per_standard": 3.68,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 16
+      },
+      "single": {
+        "total_price": 6.99,
+        "units": 1,
+        "unit_price": 6.99,
+        "cost_per_standard": 4.11,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 15
       }
     }
   },
@@ -7736,14 +7760,6 @@
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 9
       },
-      "pack_special": {
-        "total_price": 21,
-        "units": 4,
-        "unit_price": 5.25,
-        "cost_per_standard": 5.25,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 11
-      },
       "single": {
         "total_price": 7.49,
         "units": 1,
@@ -7912,6 +7928,14 @@
         "alcohol_tax_cost": 0.55,
         "alcohol_tax_percent": 17
       },
+      "case_special": {
+        "total_price": 89,
+        "units": 24,
+        "unit_price": 3.71,
+        "cost_per_standard": 3.09,
+        "alcohol_tax_cost": 0.55,
+        "alcohol_tax_percent": 18
+      },
       "pack": {
         "total_price": 26.49,
         "units": 6,
@@ -7956,6 +7980,14 @@
         "alcohol_tax_cost": 0.55,
         "alcohol_tax_percent": 17
       },
+      "case_special": {
+        "total_price": 89,
+        "units": 24,
+        "unit_price": 3.71,
+        "cost_per_standard": 3.09,
+        "alcohol_tax_cost": 0.55,
+        "alcohol_tax_percent": 18
+      },
       "pack": {
         "total_price": 26.49,
         "units": 6,
@@ -7971,6 +8003,66 @@
         "cost_per_standard": 4.99,
         "alcohol_tax_cost": 0.55,
         "alcohol_tax_percent": 11
+      }
+    }
+  },
+  {
+    "stockcode": "6016656",
+    "properties": {
+      "name": "Desperados Mojito Beer Bottles 330mLx6",
+      "name_clean": "Desperados Mojito Beer Bottles 330mLx6",
+      "brand": "Desperados",
+      "size_ml": 330,
+      "size_clean": 330,
+      "percentage_raw": 5.9,
+      "standard_drinks_raw": 1.5,
+      "standard_drinks_clean": 1.5,
+      "vessel": "bottle",
+      "image_url": "6016656-1.png",
+      "rating": 3.7,
+      "ibu": null,
+      "beer_style": "Flavoured Beer"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 79,
+        "units": 24,
+        "unit_price": 3.29,
+        "cost_per_standard": 2.19,
+        "alcohol_tax_cost": 0.64,
+        "alcohol_tax_percent": 29
+      },
+      "case_special": {
+        "total_price": 74,
+        "units": 24,
+        "unit_price": 3.08,
+        "cost_per_standard": 2.05,
+        "alcohol_tax_cost": 0.64,
+        "alcohol_tax_percent": 31
+      },
+      "pack": {
+        "total_price": 26.49,
+        "units": 6,
+        "unit_price": 4.42,
+        "cost_per_standard": 2.95,
+        "alcohol_tax_cost": 0.64,
+        "alcohol_tax_percent": 22
+      },
+      "pack_special": {
+        "total_price": 24.5,
+        "units": 6,
+        "unit_price": 4.08,
+        "cost_per_standard": 2.72,
+        "alcohol_tax_cost": 0.64,
+        "alcohol_tax_percent": 24
+      },
+      "single": {
+        "total_price": 6.99,
+        "units": 1,
+        "unit_price": 6.99,
+        "cost_per_standard": 4.66,
+        "alcohol_tax_cost": 0.64,
+        "alcohol_tax_percent": 14
       }
     }
   },
@@ -8009,10 +8101,10 @@
         "alcohol_tax_percent": 16
       },
       "pack_special": {
-        "total_price": 24,
+        "total_price": 23,
         "units": 6,
-        "unit_price": 4,
-        "cost_per_standard": 3.08,
+        "unit_price": 3.83,
+        "cost_per_standard": 2.95,
         "alcohol_tax_cost": 0.54,
         "alcohol_tax_percent": 18
       },
@@ -8052,6 +8144,14 @@
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 36
       },
+      "case_special": {
+        "total_price": 75,
+        "units": 24,
+        "unit_price": 3.13,
+        "cost_per_standard": 1.57,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 38
+      },
       "pack": {
         "total_price": 26.99,
         "units": 6,
@@ -8059,14 +8159,6 @@
         "cost_per_standard": 2.25,
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 26
-      },
-      "pack_special": {
-        "total_price": 23,
-        "units": 6,
-        "unit_price": 3.83,
-        "cost_per_standard": 1.92,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 31
       },
       "single": {
         "total_price": 6.99,
@@ -8111,6 +8203,14 @@
         "cost_per_standard": 5,
         "alcohol_tax_cost": 0.53,
         "alcohol_tax_percent": 11
+      },
+      "pack_special": {
+        "total_price": 24,
+        "units": 6,
+        "unit_price": 4,
+        "cost_per_standard": 4.44,
+        "alcohol_tax_cost": 0.53,
+        "alcohol_tax_percent": 12
       },
       "single": {
         "total_price": 4.99,
@@ -8157,12 +8257,12 @@
         "alcohol_tax_percent": 10
       },
       "pack_special": {
-        "total_price": 21,
+        "total_price": 24,
         "units": 4,
-        "unit_price": 5.25,
-        "cost_per_standard": 4.38,
+        "unit_price": 6,
+        "cost_per_standard": 5,
         "alcohol_tax_cost": 0.55,
-        "alcohol_tax_percent": 13
+        "alcohol_tax_percent": 11
       },
       "single": {
         "total_price": 7.49,
@@ -8193,12 +8293,12 @@
     },
     "pricing": {
       "case": {
-        "total_price": 124.99,
+        "total_price": 109,
         "units": 24,
-        "unit_price": 5.21,
-        "cost_per_standard": 2.89,
+        "unit_price": 4.54,
+        "cost_per_standard": 2.52,
         "alcohol_tax_cost": 0.65,
-        "alcohol_tax_percent": 22
+        "alcohol_tax_percent": 26
       },
       "pack": {
         "total_price": 27.99,
@@ -8207,14 +8307,6 @@
         "cost_per_standard": 3.89,
         "alcohol_tax_cost": 0.65,
         "alcohol_tax_percent": 17
-      },
-      "pack_special": {
-        "total_price": 19,
-        "units": 4,
-        "unit_price": 4.75,
-        "cost_per_standard": 2.64,
-        "alcohol_tax_cost": 0.65,
-        "alcohol_tax_percent": 25
       },
       "single": {
         "total_price": 7.99,
@@ -8252,6 +8344,14 @@
         "alcohol_tax_cost": 0.65,
         "alcohol_tax_percent": 22
       },
+      "case_special": {
+        "total_price": 109,
+        "units": 24,
+        "unit_price": 4.54,
+        "cost_per_standard": 2.52,
+        "alcohol_tax_cost": 0.65,
+        "alcohol_tax_percent": 26
+      },
       "pack": {
         "total_price": 27.99,
         "units": 4,
@@ -8259,14 +8359,6 @@
         "cost_per_standard": 3.89,
         "alcohol_tax_cost": 0.65,
         "alcohol_tax_percent": 17
-      },
-      "pack_special": {
-        "total_price": 19,
-        "units": 4,
-        "unit_price": 4.75,
-        "cost_per_standard": 2.64,
-        "alcohol_tax_cost": 0.65,
-        "alcohol_tax_percent": 25
       },
       "single": {
         "total_price": 7.99,
@@ -8331,58 +8423,6 @@
     }
   },
   {
-    "stockcode": "6016656",
-    "properties": {
-      "name": "Desperados Mojito Beer Bottles 330mLx6",
-      "name_clean": "Desperados Mojito Beer Bottles 330mLx6",
-      "brand": "Desperados",
-      "size_ml": 330,
-      "size_clean": 330,
-      "percentage_raw": 5.9,
-      "standard_drinks_raw": 1.5,
-      "standard_drinks_clean": 1.5,
-      "vessel": "bottle",
-      "image_url": "6016656-1.png",
-      "rating": 3.7,
-      "ibu": null,
-      "beer_style": "Flavoured Beer"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 91.99,
-        "units": 24,
-        "unit_price": 3.83,
-        "cost_per_standard": 2.55,
-        "alcohol_tax_cost": 0.64,
-        "alcohol_tax_percent": 25
-      },
-      "pack": {
-        "total_price": 27.99,
-        "units": 6,
-        "unit_price": 4.67,
-        "cost_per_standard": 3.11,
-        "alcohol_tax_cost": 0.64,
-        "alcohol_tax_percent": 21
-      },
-      "pack_special": {
-        "total_price": 19,
-        "units": 6,
-        "unit_price": 3.17,
-        "cost_per_standard": 2.11,
-        "alcohol_tax_cost": 0.64,
-        "alcohol_tax_percent": 30
-      },
-      "single": {
-        "total_price": 5.99,
-        "units": 1,
-        "unit_price": 5.99,
-        "cost_per_standard": 3.99,
-        "alcohol_tax_cost": 0.64,
-        "alcohol_tax_percent": 16
-      }
-    }
-  },
-  {
     "stockcode": "906086",
     "properties": {
       "name": "Amplys Ginger Beer Firestorm Can 375mLx4",
@@ -8408,6 +8448,14 @@
         "alcohol_tax_cost": 0.62,
         "alcohol_tax_percent": 21
       },
+      "case_special": {
+        "total_price": 109,
+        "units": 24,
+        "unit_price": 4.54,
+        "cost_per_standard": 2.52,
+        "alcohol_tax_cost": 0.62,
+        "alcohol_tax_percent": 25
+      },
       "pack": {
         "total_price": 27.99,
         "units": 4,
@@ -8415,14 +8463,6 @@
         "cost_per_standard": 3.89,
         "alcohol_tax_cost": 0.62,
         "alcohol_tax_percent": 16
-      },
-      "pack_special": {
-        "total_price": 19,
-        "units": 4,
-        "unit_price": 4.75,
-        "cost_per_standard": 2.64,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 23
       },
       "single": {
         "total_price": 7.99,
@@ -8717,12 +8757,12 @@
     },
     "pricing": {
       "case": {
-        "total_price": 41.89,
+        "total_price": 39.89,
         "units": 30,
-        "unit_price": 1.4,
-        "cost_per_standard": 2,
+        "unit_price": 1.33,
+        "cost_per_standard": 1.9,
         "alcohol_tax_cost": 0.38,
-        "alcohol_tax_percent": 19
+        "alcohol_tax_percent": 20
       },
       "single": {
         "total_price": 3.99,
@@ -8900,6 +8940,14 @@
         "alcohol_tax_cost": 0.65,
         "alcohol_tax_percent": 15
       },
+      "pack_special": {
+        "total_price": 26,
+        "units": 4,
+        "unit_price": 6.5,
+        "cost_per_standard": 3.82,
+        "alcohol_tax_cost": 0.65,
+        "alcohol_tax_percent": 17
+      },
       "single": {
         "total_price": 7.99,
         "units": 1,
@@ -8943,6 +8991,14 @@
         "cost_per_standard": 5,
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 12
+      },
+      "pack_special": {
+        "total_price": 26,
+        "units": 6,
+        "unit_price": 4.33,
+        "cost_per_standard": 4.33,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 13
       },
       "single": {
         "total_price": 5.99,
@@ -9181,10 +9237,10 @@
         "alcohol_tax_percent": 14
       },
       "case_special": {
-        "total_price": 91,
+        "total_price": 93,
         "units": 24,
-        "unit_price": 3.79,
-        "cost_per_standard": 3.79,
+        "unit_price": 3.88,
+        "cost_per_standard": 3.88,
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 15
       },
@@ -9239,14 +9295,6 @@
         "cost_per_standard": 5,
         "alcohol_tax_cost": 0.61,
         "alcohol_tax_percent": 12
-      },
-      "pack_special": {
-        "total_price": 27,
-        "units": 4,
-        "unit_price": 6.75,
-        "cost_per_standard": 4.22,
-        "alcohol_tax_cost": 0.61,
-        "alcohol_tax_percent": 14
       },
       "single": {
         "total_price": 8.49,
@@ -9401,12 +9449,12 @@
     },
     "pricing": {
       "case": {
-        "total_price": 46.89,
+        "total_price": 47.89,
         "units": 30,
-        "unit_price": 1.56,
-        "cost_per_standard": 1.56,
+        "unit_price": 1.6,
+        "cost_per_standard": 1.6,
         "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 37
+        "alcohol_tax_percent": 36
       },
       "single": {
         "total_price": 4.99,
@@ -9444,6 +9492,14 @@
         "alcohol_tax_cost": 0.57,
         "alcohol_tax_percent": 30
       },
+      "case_special": {
+        "total_price": 45.99,
+        "units": 24,
+        "unit_price": 1.92,
+        "cost_per_standard": 1.76,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 32
+      },
       "pack": {
         "total_price": 17.99,
         "units": 6,
@@ -9451,14 +9507,6 @@
         "cost_per_standard": 2.75,
         "alcohol_tax_cost": 0.57,
         "alcohol_tax_percent": 21
-      },
-      "pack_special": {
-        "total_price": 13,
-        "units": 6,
-        "unit_price": 2.17,
-        "cost_per_standard": 1.99,
-        "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 29
       },
       "single": {
         "total_price": 4.99,
@@ -9512,6 +9560,14 @@
         "alcohol_tax_cost": 0.6,
         "alcohol_tax_percent": 22
       },
+      "pack_special": {
+        "total_price": 16,
+        "units": 6,
+        "unit_price": 2.67,
+        "cost_per_standard": 2.23,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 27
+      },
       "single": {
         "total_price": 4.49,
         "units": 1,
@@ -9548,6 +9604,14 @@
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 30
       },
+      "case_special": {
+        "total_price": 45.99,
+        "units": 24,
+        "unit_price": 1.92,
+        "cost_per_standard": 1.75,
+        "alcohol_tax_cost": 0.56,
+        "alcohol_tax_percent": 32
+      },
       "pack": {
         "total_price": 17.99,
         "units": 6,
@@ -9555,14 +9619,6 @@
         "cost_per_standard": 2.73,
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 21
-      },
-      "pack_special": {
-        "total_price": 13,
-        "units": 6,
-        "unit_price": 2.17,
-        "cost_per_standard": 1.97,
-        "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 28
       },
       "single": {
         "total_price": 4.99,
@@ -9651,14 +9707,6 @@
         "cost_per_standard": 2.29,
         "alcohol_tax_cost": 0.65,
         "alcohol_tax_percent": 28
-      },
-      "pack_special": {
-        "total_price": 40,
-        "units": 10,
-        "unit_price": 4,
-        "cost_per_standard": 2.22,
-        "alcohol_tax_cost": 0.65,
-        "alcohol_tax_percent": 29
       }
     }
   },
@@ -9687,14 +9735,6 @@
         "cost_per_standard": 2.63,
         "alcohol_tax_cost": 0.53,
         "alcohol_tax_percent": 20
-      },
-      "case_special": {
-        "total_price": 52,
-        "units": 24,
-        "unit_price": 2.17,
-        "cost_per_standard": 2.41,
-        "alcohol_tax_cost": 0.53,
-        "alcohol_tax_percent": 22
       },
       "pack": {
         "total_price": 19.99,
@@ -9733,12 +9773,12 @@
     },
     "pricing": {
       "case": {
-        "total_price": 54.89,
+        "total_price": 53.99,
         "units": 30,
-        "unit_price": 1.83,
-        "cost_per_standard": 1.41,
+        "unit_price": 1.8,
+        "cost_per_standard": 1.38,
         "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 41
+        "alcohol_tax_percent": 42
       },
       "single": {
         "total_price": 4.99,
@@ -9769,44 +9809,36 @@
     },
     "pricing": {
       "case": {
-        "total_price": 60.99,
+        "total_price": 57,
         "units": 24,
-        "unit_price": 2.54,
-        "cost_per_standard": 2.54,
+        "unit_price": 2.38,
+        "cost_per_standard": 2.38,
         "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 23
+        "alcohol_tax_percent": 24
       },
       "case_special": {
-        "total_price": 53.9,
+        "total_price": 53,
         "units": 24,
-        "unit_price": 2.25,
-        "cost_per_standard": 2.25,
+        "unit_price": 2.21,
+        "cost_per_standard": 2.21,
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 26
       },
       "pack": {
-        "total_price": 22.99,
+        "total_price": 21,
         "units": 6,
-        "unit_price": 3.83,
-        "cost_per_standard": 3.83,
+        "unit_price": 3.5,
+        "cost_per_standard": 3.5,
         "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 15
-      },
-      "pack_special": {
-        "total_price": 16.9,
-        "units": 6,
-        "unit_price": 2.82,
-        "cost_per_standard": 2.82,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 21
+        "alcohol_tax_percent": 17
       },
       "single": {
-        "total_price": 5.99,
+        "total_price": 6.99,
         "units": 1,
-        "unit_price": 5.99,
-        "cost_per_standard": 5.99,
+        "unit_price": 6.99,
+        "cost_per_standard": 6.99,
         "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 10
+        "alcohol_tax_percent": 8
       }
     }
   },
@@ -9996,6 +10028,14 @@
         "alcohol_tax_cost": 0.55,
         "alcohol_tax_percent": 28
       },
+      "case_special": {
+        "total_price": 59,
+        "units": 24,
+        "unit_price": 2.46,
+        "cost_per_standard": 1.89,
+        "alcohol_tax_cost": 0.55,
+        "alcohol_tax_percent": 29
+      },
       "pack": {
         "total_price": 21.99,
         "units": 6,
@@ -10077,44 +10117,36 @@
     },
     "pricing": {
       "case": {
-        "total_price": 64.99,
+        "total_price": 55,
         "units": 24,
-        "unit_price": 2.71,
-        "cost_per_standard": 2.46,
+        "unit_price": 2.29,
+        "cost_per_standard": 2.08,
         "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 23
-      },
-      "case_special": {
-        "total_price": 51.9,
-        "units": 24,
-        "unit_price": 2.16,
-        "cost_per_standard": 1.96,
-        "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 29
+        "alcohol_tax_percent": 27
       },
       "pack": {
-        "total_price": 23.99,
+        "total_price": 20.49,
         "units": 6,
-        "unit_price": 4,
-        "cost_per_standard": 3.64,
+        "unit_price": 3.41,
+        "cost_per_standard": 3.1,
         "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 15
+        "alcohol_tax_percent": 18
       },
       "pack_special": {
-        "total_price": 18.9,
+        "total_price": 18.5,
         "units": 6,
-        "unit_price": 3.15,
-        "cost_per_standard": 2.86,
+        "unit_price": 3.08,
+        "cost_per_standard": 2.8,
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 20
       },
       "single": {
-        "total_price": 5.99,
+        "total_price": 6.99,
         "units": 1,
-        "unit_price": 5.99,
-        "cost_per_standard": 5.45,
+        "unit_price": 6.99,
+        "cost_per_standard": 6.35,
         "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 10
+        "alcohol_tax_percent": 9
       }
     }
   },
@@ -10144,14 +10176,6 @@
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 26
       },
-      "case_special": {
-        "total_price": 51,
-        "units": 24,
-        "unit_price": 2.13,
-        "cost_per_standard": 1.94,
-        "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 29
-      },
       "pack": {
         "total_price": 21.49,
         "units": 6,
@@ -10159,6 +10183,14 @@
         "cost_per_standard": 3.25,
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 17
+      },
+      "pack_special": {
+        "total_price": 17,
+        "units": 6,
+        "unit_price": 2.83,
+        "cost_per_standard": 2.57,
+        "alcohol_tax_cost": 0.56,
+        "alcohol_tax_percent": 22
       },
       "single": {
         "total_price": 5.99,
@@ -10196,21 +10228,21 @@
         "alcohol_tax_cost": 0.57,
         "alcohol_tax_percent": 27
       },
-      "case_special": {
-        "total_price": 51,
-        "units": 24,
-        "unit_price": 2.13,
-        "cost_per_standard": 1.95,
-        "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 29
-      },
       "pack": {
-        "total_price": 21.49,
+        "total_price": 20.99,
         "units": 6,
-        "unit_price": 3.58,
-        "cost_per_standard": 3.28,
+        "unit_price": 3.5,
+        "cost_per_standard": 3.21,
         "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 17
+        "alcohol_tax_percent": 18
+      },
+      "pack_special": {
+        "total_price": 17,
+        "units": 6,
+        "unit_price": 2.83,
+        "cost_per_standard": 2.6,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 22
       },
       "single": {
         "total_price": 5.99,
@@ -10284,14 +10316,6 @@
         "alcohol_tax_cost": 0.54,
         "alcohol_tax_percent": 23
       },
-      "case_special": {
-        "total_price": 50,
-        "units": 24,
-        "unit_price": 2.08,
-        "cost_per_standard": 2.08,
-        "alcohol_tax_cost": 0.54,
-        "alcohol_tax_percent": 26
-      },
       "pack": {
         "total_price": 20.99,
         "units": 6,
@@ -10299,6 +10323,14 @@
         "cost_per_standard": 3.5,
         "alcohol_tax_cost": 0.54,
         "alcohol_tax_percent": 15
+      },
+      "pack_special": {
+        "total_price": 18,
+        "units": 6,
+        "unit_price": 3,
+        "cost_per_standard": 3,
+        "alcohol_tax_cost": 0.54,
+        "alcohol_tax_percent": 18
       },
       "single": {
         "total_price": 4.99,
@@ -10388,14 +10420,6 @@
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 25
       },
-      "pack_special": {
-        "total_price": 12,
-        "units": 6,
-        "unit_price": 2,
-        "cost_per_standard": 1.82,
-        "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 31
-      },
       "single": {
         "total_price": 3,
         "units": 1,
@@ -10425,12 +10449,12 @@
     },
     "pricing": {
       "case": {
-        "total_price": 59.99,
+        "total_price": 56.95,
         "units": 24,
-        "unit_price": 2.5,
-        "cost_per_standard": 1.79,
+        "unit_price": 2.37,
+        "cost_per_standard": 1.69,
         "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 32
+        "alcohol_tax_percent": 34
       },
       "pack": {
         "total_price": 22.49,
@@ -10476,14 +10500,6 @@
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 27
       },
-      "case_special": {
-        "total_price": 53,
-        "units": 24,
-        "unit_price": 2.21,
-        "cost_per_standard": 1.84,
-        "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 30
-      },
       "pack": {
         "total_price": 19.99,
         "units": 6,
@@ -10491,6 +10507,14 @@
         "cost_per_standard": 2.78,
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 20
+      },
+      "pack_special": {
+        "total_price": 19,
+        "units": 6,
+        "unit_price": 3.17,
+        "cost_per_standard": 2.64,
+        "alcohol_tax_cost": 0.56,
+        "alcohol_tax_percent": 21
       },
       "single": {
         "total_price": 5.49,
@@ -10528,14 +10552,6 @@
         "alcohol_tax_cost": 0.4,
         "alcohol_tax_percent": 14
       },
-      "case_special": {
-        "total_price": 53,
-        "units": 24,
-        "unit_price": 2.21,
-        "cost_per_standard": 2.76,
-        "alcohol_tax_cost": 0.4,
-        "alcohol_tax_percent": 14
-      },
       "pack": {
         "total_price": 20.99,
         "units": 6,
@@ -10543,6 +10559,14 @@
         "cost_per_standard": 4.38,
         "alcohol_tax_cost": 0.4,
         "alcohol_tax_percent": 9
+      },
+      "pack_special": {
+        "total_price": 17,
+        "units": 6,
+        "unit_price": 2.83,
+        "cost_per_standard": 3.54,
+        "alcohol_tax_cost": 0.4,
+        "alcohol_tax_percent": 11
       },
       "single": {
         "total_price": 4.99,
@@ -10595,50 +10619,6 @@
         "cost_per_standard": 3.84,
         "alcohol_tax_cost": 0.57,
         "alcohol_tax_percent": 15
-      }
-    }
-  },
-  {
-    "stockcode": "901042",
-    "properties": {
-      "name": "Hahn Premium Light 375mL",
-      "name_clean": "Hahn Premium Light",
-      "brand": "Hahn",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 2.2,
-      "standard_drinks_raw": 0.7,
-      "standard_drinks_clean": 0.7,
-      "vessel": null,
-      "image_url": "901042-1.png",
-      "rating": 4.3,
-      "ibu": 10,
-      "beer_style": "Lager"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 52.99,
-        "units": 24,
-        "unit_price": 2.21,
-        "cost_per_standard": 3.16,
-        "alcohol_tax_cost": 0.3,
-        "alcohol_tax_percent": 9
-      },
-      "pack": {
-        "total_price": 19.99,
-        "units": 6,
-        "unit_price": 3.33,
-        "cost_per_standard": 4.76,
-        "alcohol_tax_cost": 0.3,
-        "alcohol_tax_percent": 6
-      },
-      "single": {
-        "total_price": 4.49,
-        "units": 1,
-        "unit_price": 4.49,
-        "cost_per_standard": 6.41,
-        "alcohol_tax_cost": 0.3,
-        "alcohol_tax_percent": 5
       }
     }
   },
@@ -10703,6 +10683,50 @@
     }
   },
   {
+    "stockcode": "901042",
+    "properties": {
+      "name": "Hahn Premium Light 375mL",
+      "name_clean": "Hahn Premium Light",
+      "brand": "Hahn",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 2.2,
+      "standard_drinks_raw": 0.7,
+      "standard_drinks_clean": 0.7,
+      "vessel": null,
+      "image_url": "901042-1.png",
+      "rating": 4.3,
+      "ibu": 10,
+      "beer_style": "Lager"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 52.99,
+        "units": 24,
+        "unit_price": 2.21,
+        "cost_per_standard": 3.16,
+        "alcohol_tax_cost": 0.3,
+        "alcohol_tax_percent": 9
+      },
+      "pack": {
+        "total_price": 19.99,
+        "units": 6,
+        "unit_price": 3.33,
+        "cost_per_standard": 4.76,
+        "alcohol_tax_cost": 0.3,
+        "alcohol_tax_percent": 6
+      },
+      "single": {
+        "total_price": 4.49,
+        "units": 1,
+        "unit_price": 4.49,
+        "cost_per_standard": 6.41,
+        "alcohol_tax_cost": 0.3,
+        "alcohol_tax_percent": 5
+      }
+    }
+  },
+  {
     "stockcode": "804073",
     "properties": {
       "name": "Coopers Dry 4.2% Lager Cans 6x375mL",
@@ -10736,6 +10760,14 @@
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 19
       },
+      "pack_special": {
+        "total_price": 20,
+        "units": 6,
+        "unit_price": 3.33,
+        "cost_per_standard": 2.78,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 21
+      },
       "single": {
         "total_price": 4.99,
         "units": 1,
@@ -10765,12 +10797,12 @@
     },
     "pricing": {
       "case": {
-        "total_price": 59.99,
+        "total_price": 54.95,
         "units": 24,
-        "unit_price": 2.5,
-        "cost_per_standard": 2.08,
+        "unit_price": 2.29,
+        "cost_per_standard": 1.91,
         "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 30
+        "alcohol_tax_percent": 32
       },
       "pack": {
         "total_price": 22.49,
@@ -10824,14 +10856,6 @@
         "alcohol_tax_cost": 0.62,
         "alcohol_tax_percent": 32
       },
-      "case_special": {
-        "total_price": 52,
-        "units": 24,
-        "unit_price": 2.17,
-        "cost_per_standard": 1.81,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 34
-      },
       "pack": {
         "total_price": 23.99,
         "units": 6,
@@ -10839,6 +10863,14 @@
         "cost_per_standard": 3.33,
         "alcohol_tax_cost": 0.62,
         "alcohol_tax_percent": 19
+      },
+      "pack_special": {
+        "total_price": 18,
+        "units": 6,
+        "unit_price": 3,
+        "cost_per_standard": 2.5,
+        "alcohol_tax_cost": 0.62,
+        "alcohol_tax_percent": 25
       },
       "single": {
         "total_price": 5.99,
@@ -10884,6 +10916,14 @@
         "alcohol_tax_cost": 0.55,
         "alcohol_tax_percent": 13
       },
+      "pack_special": {
+        "total_price": 15.99,
+        "units": 4,
+        "unit_price": 4,
+        "cost_per_standard": 3.33,
+        "alcohol_tax_cost": 0.55,
+        "alcohol_tax_percent": 17
+      },
       "single": {
         "total_price": 5.49,
         "units": 1,
@@ -10919,6 +10959,14 @@
         "cost_per_standard": 2.24,
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 25
+      },
+      "case_special": {
+        "total_price": 56,
+        "units": 24,
+        "unit_price": 2.33,
+        "cost_per_standard": 2.12,
+        "alcohol_tax_cost": 0.56,
+        "alcohol_tax_percent": 26
       },
       "pack": {
         "total_price": 21.99,
@@ -11017,12 +11065,12 @@
         "alcohol_tax_percent": 26
       },
       "pack_special": {
-        "total_price": 13,
-        "units": 6,
-        "unit_price": 2.17,
-        "cost_per_standard": 1.81,
+        "total_price": 25,
+        "units": 12,
+        "unit_price": 2.08,
+        "cost_per_standard": 1.73,
         "alcohol_tax_cost": 0.55,
-        "alcohol_tax_percent": 30
+        "alcohol_tax_percent": 32
       },
       "single": {
         "total_price": 4.2,
@@ -11053,10 +11101,10 @@
     },
     "pricing": {
       "case": {
-        "total_price": 55.95,
+        "total_price": 54.95,
         "units": 24,
-        "unit_price": 2.33,
-        "cost_per_standard": 2.33,
+        "unit_price": 2.29,
+        "cost_per_standard": 2.29,
         "alcohol_tax_cost": 0.48,
         "alcohol_tax_percent": 21
       },
@@ -11193,44 +11241,36 @@
     },
     "pricing": {
       "case": {
-        "total_price": 65.99,
+        "total_price": 58,
         "units": 24,
-        "unit_price": 2.75,
-        "cost_per_standard": 2.12,
+        "unit_price": 2.42,
+        "cost_per_standard": 1.86,
         "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 28
+        "alcohol_tax_percent": 32
       },
       "case_special": {
-        "total_price": 53.9,
+        "total_price": 56,
         "units": 24,
-        "unit_price": 2.25,
-        "cost_per_standard": 1.73,
+        "unit_price": 2.33,
+        "cost_per_standard": 1.79,
         "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 35
+        "alcohol_tax_percent": 34
       },
       "pack": {
-        "total_price": 24.49,
+        "total_price": 22.49,
         "units": 6,
-        "unit_price": 4.08,
-        "cost_per_standard": 3.14,
+        "unit_price": 3.75,
+        "cost_per_standard": 2.88,
         "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 19
-      },
-      "pack_special": {
-        "total_price": 19,
-        "units": 6,
-        "unit_price": 3.17,
-        "cost_per_standard": 2.44,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 25
+        "alcohol_tax_percent": 21
       },
       "single": {
-        "total_price": 5.99,
+        "total_price": 6.99,
         "units": 1,
-        "unit_price": 5.99,
-        "cost_per_standard": 4.61,
+        "unit_price": 6.99,
+        "cost_per_standard": 5.38,
         "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 13
+        "alcohol_tax_percent": 11
       }
     }
   },
@@ -11260,14 +11300,6 @@
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 20
       },
-      "case_special": {
-        "total_price": 48,
-        "units": 16,
-        "unit_price": 3,
-        "cost_per_standard": 2.5,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 24
-      },
       "pack": {
         "total_price": 16.99,
         "units": 4,
@@ -11275,6 +11307,14 @@
         "cost_per_standard": 3.54,
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 17
+      },
+      "pack_special": {
+        "total_price": 14,
+        "units": 4,
+        "unit_price": 3.5,
+        "cost_per_standard": 2.92,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 20
       },
       "single": {
         "total_price": 5.49,
@@ -11320,6 +11360,14 @@
         "alcohol_tax_cost": 0.6,
         "alcohol_tax_percent": 21
       },
+      "pack_special": {
+        "total_price": 20,
+        "units": 6,
+        "unit_price": 3.33,
+        "cost_per_standard": 2.56,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 23
+      },
       "single": {
         "total_price": 5.49,
         "units": 1,
@@ -11363,6 +11411,14 @@
         "cost_per_standard": 5,
         "alcohol_tax_cost": 0.54,
         "alcohol_tax_percent": 11
+      },
+      "pack_special": {
+        "total_price": 34,
+        "units": 8,
+        "unit_price": 4.25,
+        "cost_per_standard": 4.25,
+        "alcohol_tax_cost": 0.54,
+        "alcohol_tax_percent": 13
       },
       "single": {
         "total_price": 5.49,
@@ -11408,6 +11464,14 @@
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 21
       },
+      "pack_special": {
+        "total_price": 20,
+        "units": 6,
+        "unit_price": 3.33,
+        "cost_per_standard": 2.38,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 25
+      },
       "single": {
         "total_price": 5.49,
         "units": 1,
@@ -11437,12 +11501,12 @@
     },
     "pricing": {
       "case": {
-        "total_price": 59.95,
+        "total_price": 55.95,
         "units": 24,
-        "unit_price": 2.5,
-        "cost_per_standard": 2.38,
+        "unit_price": 2.33,
+        "cost_per_standard": 2.22,
         "alcohol_tax_cost": 0.55,
-        "alcohol_tax_percent": 23
+        "alcohol_tax_percent": 25
       },
       "pack": {
         "total_price": 20.99,
@@ -11693,20 +11757,12 @@
     },
     "pricing": {
       "case": {
-        "total_price": 55.95,
+        "total_price": 54.95,
         "units": 24,
-        "unit_price": 2.33,
-        "cost_per_standard": 2.33,
+        "unit_price": 2.29,
+        "cost_per_standard": 2.29,
         "alcohol_tax_cost": 0.54,
-        "alcohol_tax_percent": 23
-      },
-      "case_special": {
-        "total_price": 50,
-        "units": 24,
-        "unit_price": 2.08,
-        "cost_per_standard": 2.08,
-        "alcohol_tax_cost": 0.54,
-        "alcohol_tax_percent": 26
+        "alcohol_tax_percent": 24
       },
       "pack": {
         "total_price": 20.99,
@@ -11715,6 +11771,14 @@
         "cost_per_standard": 3.5,
         "alcohol_tax_cost": 0.54,
         "alcohol_tax_percent": 15
+      },
+      "pack_special": {
+        "total_price": 18,
+        "units": 6,
+        "unit_price": 3,
+        "cost_per_standard": 3,
+        "alcohol_tax_cost": 0.54,
+        "alcohol_tax_percent": 18
       },
       "single": {
         "total_price": 4.99,
@@ -11745,20 +11809,12 @@
     },
     "pricing": {
       "pack": {
-        "total_price": 40.99,
+        "total_price": 31.95,
         "units": 12,
-        "unit_price": 3.42,
-        "cost_per_standard": 2.63,
+        "unit_price": 2.66,
+        "cost_per_standard": 2.05,
         "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 21
-      },
-      "pack_special": {
-        "total_price": 33.9,
-        "units": 12,
-        "unit_price": 2.83,
-        "cost_per_standard": 2.18,
-        "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 26
+        "alcohol_tax_percent": 27
       }
     }
   },
@@ -11848,6 +11904,14 @@
         "alcohol_tax_cost": 0.6,
         "alcohol_tax_percent": 20
       },
+      "pack_special": {
+        "total_price": 20,
+        "units": 6,
+        "unit_price": 3.33,
+        "cost_per_standard": 2.38,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 25
+      },
       "single": {
         "total_price": 4.49,
         "units": 1,
@@ -11883,14 +11947,6 @@
         "cost_per_standard": 1.53,
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 39
-      },
-      "case_special": {
-        "total_price": 62,
-        "units": 24,
-        "unit_price": 2.58,
-        "cost_per_standard": 1.39,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 42
       },
       "pack": {
         "total_price": 28.49,
@@ -11981,10 +12037,10 @@
         "alcohol_tax_percent": 21
       },
       "case_special": {
-        "total_price": 53,
+        "total_price": 51.95,
         "units": 24,
-        "unit_price": 2.21,
-        "cost_per_standard": 2.46,
+        "unit_price": 2.16,
+        "cost_per_standard": 2.4,
         "alcohol_tax_cost": 0.53,
         "alcohol_tax_percent": 22
       },
@@ -12076,14 +12132,6 @@
         "alcohol_tax_cost": 0.6,
         "alcohol_tax_percent": 28
       },
-      "case_special": {
-        "total_price": 65,
-        "units": 24,
-        "unit_price": 2.71,
-        "cost_per_standard": 2.08,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 29
-      },
       "pack": {
         "total_price": 23.49,
         "units": 6,
@@ -12121,20 +12169,12 @@
     },
     "pricing": {
       "case": {
-        "total_price": 67.99,
+        "total_price": 65.95,
         "units": 24,
-        "unit_price": 2.83,
-        "cost_per_standard": 2.18,
+        "unit_price": 2.75,
+        "cost_per_standard": 2.12,
         "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 26
-      },
-      "case_special": {
-        "total_price": 62,
-        "units": 24,
-        "unit_price": 2.58,
-        "cost_per_standard": 1.98,
-        "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 29
+        "alcohol_tax_percent": 27
       },
       "pack": {
         "total_price": 22.99,
@@ -12181,12 +12221,12 @@
         "alcohol_tax_percent": 31
       },
       "pack": {
-        "total_price": 22.49,
+        "total_price": 19.95,
         "units": 6,
-        "unit_price": 3.75,
-        "cost_per_standard": 2.88,
+        "unit_price": 3.33,
+        "cost_per_standard": 2.56,
         "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 21
+        "alcohol_tax_percent": 23
       },
       "single": {
         "total_price": 5.49,
@@ -12223,6 +12263,14 @@
         "cost_per_standard": 1.93,
         "alcohol_tax_cost": 0.54,
         "alcohol_tax_percent": 28
+      },
+      "pack_special": {
+        "total_price": 113.9,
+        "units": 30,
+        "unit_price": 3.8,
+        "cost_per_standard": 3.8,
+        "alcohol_tax_cost": 0.54,
+        "alcohol_tax_percent": 14
       }
     }
   },
@@ -12340,6 +12388,14 @@
         "alcohol_tax_cost": 0.6,
         "alcohol_tax_percent": 31
       },
+      "case_special": {
+        "total_price": 55,
+        "units": 24,
+        "unit_price": 2.29,
+        "cost_per_standard": 1.76,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 34
+      },
       "pack": {
         "total_price": 21.49,
         "units": 6,
@@ -12347,6 +12403,14 @@
         "cost_per_standard": 2.75,
         "alcohol_tax_cost": 0.6,
         "alcohol_tax_percent": 22
+      },
+      "pack_special": {
+        "total_price": 14,
+        "units": 6,
+        "unit_price": 2.33,
+        "cost_per_standard": 1.79,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 34
       },
       "single": {
         "total_price": 4.89,
@@ -12384,6 +12448,14 @@
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 28
       },
+      "case_special": {
+        "total_price": 57,
+        "units": 24,
+        "unit_price": 2.38,
+        "cost_per_standard": 1.83,
+        "alcohol_tax_cost": 0.56,
+        "alcohol_tax_percent": 31
+      },
       "pack": {
         "total_price": 21.99,
         "units": 6,
@@ -12391,14 +12463,6 @@
         "cost_per_standard": 2.82,
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 20
-      },
-      "pack_special": {
-        "total_price": 18,
-        "units": 6,
-        "unit_price": 3,
-        "cost_per_standard": 2.31,
-        "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 24
       },
       "single": {
         "total_price": 4.99,
@@ -12445,12 +12509,12 @@
         "alcohol_tax_percent": 18
       },
       "pack_special": {
-        "total_price": 17,
-        "units": 4,
-        "unit_price": 4.25,
-        "cost_per_standard": 2.36,
+        "total_price": 36,
+        "units": 8,
+        "unit_price": 4.5,
+        "cost_per_standard": 2.5,
         "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 26
+        "alcohol_tax_percent": 25
       },
       "single": {
         "total_price": 6.99,
@@ -12716,14 +12780,6 @@
         "alcohol_tax_cost": 0.6,
         "alcohol_tax_percent": 29
       },
-      "case_special": {
-        "total_price": 55,
-        "units": 24,
-        "unit_price": 2.29,
-        "cost_per_standard": 1.91,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 31
-      },
       "pack": {
         "total_price": 21.99,
         "units": 6,
@@ -12768,6 +12824,14 @@
         "alcohol_tax_cost": 0.57,
         "alcohol_tax_percent": 36
       },
+      "case_special": {
+        "total_price": 67,
+        "units": 24,
+        "unit_price": 2.79,
+        "cost_per_standard": 1.47,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 39
+      },
       "pack": {
         "total_price": 18.99,
         "units": 4,
@@ -12777,12 +12841,12 @@
         "alcohol_tax_percent": 23
       },
       "pack_special": {
-        "total_price": 14,
+        "total_price": 30,
         "units": 4,
-        "unit_price": 3.5,
-        "cost_per_standard": 1.84,
+        "unit_price": 7.5,
+        "cost_per_standard": 3.95,
         "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 31
+        "alcohol_tax_percent": 14
       },
       "single": {
         "total_price": 6.99,
@@ -12813,20 +12877,28 @@
     },
     "pricing": {
       "case": {
-        "total_price": 57.99,
+        "total_price": 53.95,
         "units": 24,
-        "unit_price": 2.42,
-        "cost_per_standard": 2.02,
+        "unit_price": 2.25,
+        "cost_per_standard": 1.88,
         "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 28
+        "alcohol_tax_percent": 30
+      },
+      "case_special": {
+        "total_price": 99.9,
+        "units": 48,
+        "unit_price": 2.08,
+        "cost_per_standard": 1.73,
+        "alcohol_tax_cost": 0.56,
+        "alcohol_tax_percent": 32
       },
       "pack": {
-        "total_price": 21.99,
+        "total_price": 18.95,
         "units": 6,
-        "unit_price": 3.66,
-        "cost_per_standard": 3.05,
+        "unit_price": 3.16,
+        "cost_per_standard": 2.63,
         "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 18
+        "alcohol_tax_percent": 21
       },
       "single": {
         "total_price": 5.99,
@@ -12857,12 +12929,20 @@
     },
     "pricing": {
       "case": {
-        "total_price": 58.99,
+        "total_price": 53.95,
         "units": 24,
-        "unit_price": 2.46,
-        "cost_per_standard": 1.89,
+        "unit_price": 2.25,
+        "cost_per_standard": 1.73,
         "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 31
+        "alcohol_tax_percent": 34
+      },
+      "case_special": {
+        "total_price": 99.9,
+        "units": 48,
+        "unit_price": 2.08,
+        "cost_per_standard": 1.6,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 37
       },
       "pack": {
         "total_price": 21.99,
@@ -12997,12 +13077,12 @@
     },
     "pricing": {
       "case": {
-        "total_price": 61.99,
+        "total_price": 57.95,
         "units": 24,
-        "unit_price": 2.58,
-        "cost_per_standard": 2.15,
+        "unit_price": 2.41,
+        "cost_per_standard": 2.01,
         "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 27
+        "alcohol_tax_percent": 29
       },
       "case_special": {
         "total_price": 55.9,
@@ -13021,12 +13101,12 @@
         "alcohol_tax_percent": 20
       },
       "pack_special": {
-        "total_price": 17,
+        "total_price": 18,
         "units": 6,
-        "unit_price": 2.83,
-        "cost_per_standard": 2.36,
+        "unit_price": 3,
+        "cost_per_standard": 2.5,
         "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 25
+        "alcohol_tax_percent": 23
       },
       "single": {
         "total_price": 4.49,
@@ -13072,6 +13152,14 @@
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 17
       },
+      "pack_special": {
+        "total_price": 18,
+        "units": 4,
+        "unit_price": 4.5,
+        "cost_per_standard": 3,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 20
+      },
       "single": {
         "total_price": 5.49,
         "units": 1,
@@ -13079,6 +13167,50 @@
         "cost_per_standard": 3.66,
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 16
+      }
+    }
+  },
+  {
+    "stockcode": "117012",
+    "properties": {
+      "name": "James Boag's Draught Bottles 375mLx6",
+      "name_clean": "James Boag's Draught Bottles 375mLx6",
+      "brand": "James Boag's",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 4.6,
+      "standard_drinks_raw": 1.4,
+      "standard_drinks_clean": 1.4,
+      "vessel": "bottle",
+      "image_url": "117012-1.png",
+      "rating": 4.6,
+      "ibu": 22.1,
+      "beer_style": "Lager"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 58.99,
+        "units": 24,
+        "unit_price": 2.46,
+        "cost_per_standard": 1.76,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 32
+      },
+      "pack": {
+        "total_price": 20.99,
+        "units": 6,
+        "unit_price": 3.5,
+        "cost_per_standard": 2.5,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 23
+      },
+      "single": {
+        "total_price": 5.49,
+        "units": 1,
+        "unit_price": 5.49,
+        "cost_per_standard": 3.92,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 15
       }
     }
   },
@@ -13108,14 +13240,6 @@
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 30
       },
-      "case_special": {
-        "total_price": 59,
-        "units": 24,
-        "unit_price": 2.46,
-        "cost_per_standard": 1.89,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 31
-      },
       "pack": {
         "total_price": 24.99,
         "units": 6,
@@ -13123,6 +13247,14 @@
         "cost_per_standard": 3.21,
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 18
+      },
+      "pack_special": {
+        "total_price": 20,
+        "units": 6,
+        "unit_price": 3.33,
+        "cost_per_standard": 2.56,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 23
       },
       "single": {
         "total_price": 5.49,
@@ -13212,6 +13344,14 @@
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 24
       },
+      "case_special": {
+        "total_price": 62,
+        "units": 24,
+        "unit_price": 2.58,
+        "cost_per_standard": 2.15,
+        "alcohol_tax_cost": 0.56,
+        "alcohol_tax_percent": 26
+      },
       "pack": {
         "total_price": 22.99,
         "units": 6,
@@ -13219,14 +13359,6 @@
         "cost_per_standard": 3.19,
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 18
-      },
-      "pack_special": {
-        "total_price": 21,
-        "units": 6,
-        "unit_price": 3.5,
-        "cost_per_standard": 2.92,
-        "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 19
       },
       "single": {
         "total_price": 4.99,
@@ -13271,14 +13403,6 @@
         "cost_per_standard": 4.28,
         "alcohol_tax_cost": 0.62,
         "alcohol_tax_percent": 14
-      },
-      "single_special": {
-        "total_price": 23,
-        "units": 3,
-        "unit_price": 7.67,
-        "cost_per_standard": 3.65,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 17
       }
     }
   },
@@ -13381,12 +13505,12 @@
     },
     "pricing": {
       "case": {
-        "total_price": 62.99,
+        "total_price": 59.95,
         "units": 24,
-        "unit_price": 2.62,
-        "cost_per_standard": 2.38,
+        "unit_price": 2.5,
+        "cost_per_standard": 2.27,
         "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 24
+        "alcohol_tax_percent": 25
       },
       "pack": {
         "total_price": 21.99,
@@ -13565,12 +13689,12 @@
     },
     "pricing": {
       "case": {
-        "total_price": 67.99,
+        "total_price": 63.95,
         "units": 16,
-        "unit_price": 4.25,
-        "cost_per_standard": 2.83,
+        "unit_price": 4,
+        "cost_per_standard": 2.67,
         "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 21
+        "alcohol_tax_percent": 22
       },
       "pack": {
         "total_price": 23.99,
@@ -13579,6 +13703,14 @@
         "cost_per_standard": 4,
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 15
+      },
+      "pack_special": {
+        "total_price": 35,
+        "units": 8,
+        "unit_price": 4.38,
+        "cost_per_standard": 2.92,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 20
       },
       "single": {
         "total_price": 6.49,
@@ -13625,12 +13757,12 @@
         "alcohol_tax_percent": 35
       },
       "pack": {
-        "total_price": 20.99,
+        "total_price": 19.95,
         "units": 6,
-        "unit_price": 3.5,
-        "cost_per_standard": 2.5,
+        "unit_price": 3.33,
+        "cost_per_standard": 2.38,
         "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 25
+        "alcohol_tax_percent": 26
       },
       "single": {
         "total_price": 4.99,
@@ -13669,10 +13801,10 @@
         "alcohol_tax_percent": 17
       },
       "case_special": {
-        "total_price": 63,
+        "total_price": 63.95,
         "units": 16,
-        "unit_price": 3.94,
-        "cost_per_standard": 3.03,
+        "unit_price": 4,
+        "cost_per_standard": 3.08,
         "alcohol_tax_cost": 0.57,
         "alcohol_tax_percent": 19
       },
@@ -13835,58 +13967,6 @@
     }
   },
   {
-    "stockcode": "717160",
-    "properties": {
-      "name": "Pabst Blue Ribbon Premium Lager Cans 473mLx6",
-      "name_clean": "Pabst Blue Ribbon Premium Lager Cans 473mLx6",
-      "brand": "Pabst Blue Ribbon",
-      "size_ml": 473,
-      "size_clean": 473,
-      "percentage_raw": 4.7,
-      "standard_drinks_raw": 1.8,
-      "standard_drinks_clean": 1.8,
-      "vessel": "can",
-      "image_url": "717160-1.png",
-      "rating": 4,
-      "ibu": 12,
-      "beer_style": "Lager"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 77.99,
-        "units": 24,
-        "unit_price": 3.25,
-        "cost_per_standard": 1.81,
-        "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 31
-      },
-      "pack": {
-        "total_price": 24.99,
-        "units": 6,
-        "unit_price": 4.17,
-        "cost_per_standard": 2.32,
-        "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 25
-      },
-      "pack_special": {
-        "total_price": 22,
-        "units": 6,
-        "unit_price": 3.67,
-        "cost_per_standard": 2.04,
-        "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 28
-      },
-      "single": {
-        "total_price": 4.99,
-        "units": 1,
-        "unit_price": 4.99,
-        "cost_per_standard": 2.77,
-        "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 21
-      }
-    }
-  },
-  {
     "stockcode": "901691",
     "properties": {
       "name": "Singha Lager Beer 330mL",
@@ -13912,14 +13992,6 @@
         "alcohol_tax_cost": 0.6,
         "alcohol_tax_percent": 21
       },
-      "case_special": {
-        "total_price": 73,
-        "units": 24,
-        "unit_price": 3.04,
-        "cost_per_standard": 2.34,
-        "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 26
-      },
       "pack": {
         "total_price": 29.99,
         "units": 6,
@@ -13935,6 +14007,66 @@
         "cost_per_standard": 5.38,
         "alcohol_tax_cost": 0.6,
         "alcohol_tax_percent": 11
+      }
+    }
+  },
+  {
+    "stockcode": "717160",
+    "properties": {
+      "name": "Pabst Blue Ribbon Premium Lager Cans 473mLx6",
+      "name_clean": "Pabst Blue Ribbon Premium Lager Cans 473mLx6",
+      "brand": "Pabst Blue Ribbon",
+      "size_ml": 473,
+      "size_clean": 473,
+      "percentage_raw": 4.7,
+      "standard_drinks_raw": 1.8,
+      "standard_drinks_clean": 1.8,
+      "vessel": "can",
+      "image_url": "717160-1.png",
+      "rating": 4,
+      "ibu": 12,
+      "beer_style": "Lager"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 77.99,
+        "units": 24,
+        "unit_price": 3.25,
+        "cost_per_standard": 1.81,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 31
+      },
+      "case_special": {
+        "total_price": 74,
+        "units": 24,
+        "unit_price": 3.08,
+        "cost_per_standard": 1.71,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 33
+      },
+      "pack": {
+        "total_price": 25.99,
+        "units": 6,
+        "unit_price": 4.33,
+        "cost_per_standard": 2.41,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 24
+      },
+      "pack_special": {
+        "total_price": 44,
+        "units": 6,
+        "unit_price": 7.33,
+        "cost_per_standard": 4.07,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 14
+      },
+      "single": {
+        "total_price": 4.99,
+        "units": 1,
+        "unit_price": 4.99,
+        "cost_per_standard": 2.77,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 21
       }
     }
   },
@@ -13973,12 +14105,12 @@
         "alcohol_tax_percent": 21
       },
       "pack_special": {
-        "total_price": 17,
-        "units": 4,
-        "unit_price": 4.25,
-        "cost_per_standard": 2.02,
+        "total_price": 36,
+        "units": 8,
+        "unit_price": 4.5,
+        "cost_per_standard": 2.14,
         "alcohol_tax_cost": 0.64,
-        "alcohol_tax_percent": 32
+        "alcohol_tax_percent": 30
       },
       "single": {
         "total_price": 6.99,
@@ -14089,12 +14221,12 @@
     },
     "pricing": {
       "case": {
-        "total_price": 62.99,
+        "total_price": 59.95,
         "units": 24,
-        "unit_price": 2.62,
-        "cost_per_standard": 2.18,
+        "unit_price": 2.5,
+        "cost_per_standard": 2.08,
         "alcohol_tax_cost": 0.55,
-        "alcohol_tax_percent": 25
+        "alcohol_tax_percent": 26
       },
       "pack": {
         "total_price": 21.99,
@@ -14119,58 +14251,6 @@
         "cost_per_standard": 4.16,
         "alcohol_tax_cost": 0.55,
         "alcohol_tax_percent": 13
-      }
-    }
-  },
-  {
-    "stockcode": "137938",
-    "properties": {
-      "name": "Algorithm Brewing Pale Ale Cans 375mLx6",
-      "name_clean": "Algorithm Brewing Pale Ale Cans 375mLx6",
-      "brand": "Algorithm",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 5,
-      "standard_drinks_raw": 1.5,
-      "standard_drinks_clean": 1.5,
-      "vessel": "can",
-      "image_url": "137938-1.png",
-      "rating": 4.6,
-      "ibu": 30,
-      "beer_style": "Pale Ale"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 74.99,
-        "units": 24,
-        "unit_price": 3.12,
-        "cost_per_standard": 2.08,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 28
-      },
-      "case_special": {
-        "total_price": 63,
-        "units": 24,
-        "unit_price": 2.63,
-        "cost_per_standard": 1.75,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 34
-      },
-      "pack": {
-        "total_price": 26.99,
-        "units": 6,
-        "unit_price": 4.5,
-        "cost_per_standard": 3,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 20
-      },
-      "single": {
-        "total_price": 5.99,
-        "units": 1,
-        "unit_price": 5.99,
-        "cost_per_standard": 3.99,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 15
       }
     }
   },
@@ -14200,6 +14280,14 @@
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 18
       },
+      "case_special": {
+        "total_price": 60,
+        "units": 16,
+        "unit_price": 3.75,
+        "cost_per_standard": 2.88,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 20
+      },
       "pack": {
         "total_price": 23.99,
         "units": 4,
@@ -14215,6 +14303,58 @@
         "cost_per_standard": 5.38,
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 11
+      }
+    }
+  },
+  {
+    "stockcode": "137938",
+    "properties": {
+      "name": "Algorithm Brewing Pale Ale Cans 375mLx6",
+      "name_clean": "Algorithm Brewing Pale Ale Cans 375mLx6",
+      "brand": "Algorithm",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 5,
+      "standard_drinks_raw": 1.5,
+      "standard_drinks_clean": 1.5,
+      "vessel": "can",
+      "image_url": "137938-1.png",
+      "rating": 4.6,
+      "ibu": 30,
+      "beer_style": "Pale Ale"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 74.99,
+        "units": 24,
+        "unit_price": 3.12,
+        "cost_per_standard": 2.08,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 28
+      },
+      "pack": {
+        "total_price": 26.99,
+        "units": 6,
+        "unit_price": 4.5,
+        "cost_per_standard": 3,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 20
+      },
+      "pack_special": {
+        "total_price": 21,
+        "units": 6,
+        "unit_price": 3.5,
+        "cost_per_standard": 2.33,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 25
+      },
+      "single": {
+        "total_price": 5.99,
+        "units": 1,
+        "unit_price": 5.99,
+        "cost_per_standard": 3.99,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 15
       }
     }
   },
@@ -14280,14 +14420,6 @@
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 31
       },
-      "case_special": {
-        "total_price": 59,
-        "units": 24,
-        "unit_price": 2.46,
-        "cost_per_standard": 1.89,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 31
-      },
       "pack": {
         "total_price": 24.99,
         "units": 6,
@@ -14295,6 +14427,14 @@
         "cost_per_standard": 3.21,
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 18
+      },
+      "pack_special": {
+        "total_price": 20,
+        "units": 6,
+        "unit_price": 3.33,
+        "cost_per_standard": 2.56,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 23
       },
       "single": {
         "total_price": 5.49,
@@ -14333,10 +14473,10 @@
         "alcohol_tax_percent": 0
       },
       "single": {
-        "total_price": 62.99,
+        "total_price": 61.95,
         "units": 1,
-        "unit_price": 62.99,
-        "cost_per_standard": 62.99,
+        "unit_price": 61.95,
+        "cost_per_standard": 61.95,
         "alcohol_tax_cost": 0.54,
         "alcohol_tax_percent": 1
       }
@@ -14365,6 +14505,14 @@
         "units": 1,
         "unit_price": 68.95,
         "cost_per_standard": 47.55,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 1
+      },
+      "single_special": {
+        "total_price": 133.9,
+        "units": 2,
+        "unit_price": 66.95,
+        "cost_per_standard": 46.17,
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 1
       }
@@ -14477,12 +14625,12 @@
     },
     "pricing": {
       "case": {
-        "total_price": 67.99,
+        "total_price": 65.95,
         "units": 30,
-        "unit_price": 2.27,
-        "cost_per_standard": 1.89,
+        "unit_price": 2.2,
+        "cost_per_standard": 1.83,
         "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 31
+        "alcohol_tax_percent": 32
       },
       "single": {
         "total_price": 4.99,
@@ -14513,12 +14661,12 @@
     },
     "pricing": {
       "case": {
-        "total_price": 65.99,
+        "total_price": 62.95,
         "units": 24,
-        "unit_price": 2.75,
-        "cost_per_standard": 2.5,
+        "unit_price": 2.62,
+        "cost_per_standard": 2.38,
         "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 22
+        "alcohol_tax_percent": 24
       },
       "case_special": {
         "total_price": 57.9,
@@ -14616,21 +14764,13 @@
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 37
       },
-      "case_special": {
-        "total_price": 68.9,
-        "units": 24,
-        "unit_price": 2.87,
-        "cost_per_standard": 1.44,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 41
-      },
       "pack": {
-        "total_price": 25.99,
+        "total_price": 21,
         "units": 6,
-        "unit_price": 4.33,
-        "cost_per_standard": 2.17,
+        "unit_price": 3.5,
+        "cost_per_standard": 1.75,
         "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 27
+        "alcohol_tax_percent": 34
       },
       "single": {
         "total_price": 5.99,
@@ -14667,14 +14807,6 @@
         "cost_per_standard": 3.52,
         "alcohol_tax_cost": 0.53,
         "alcohol_tax_percent": 15
-      },
-      "case_special": {
-        "total_price": 70,
-        "units": 24,
-        "unit_price": 2.92,
-        "cost_per_standard": 3.24,
-        "alcohol_tax_cost": 0.53,
-        "alcohol_tax_percent": 16
       },
       "pack": {
         "total_price": 25.99,
@@ -14764,14 +14896,6 @@
         "alcohol_tax_cost": 0.57,
         "alcohol_tax_percent": 25
       },
-      "case_special": {
-        "total_price": 64,
-        "units": 24,
-        "unit_price": 2.67,
-        "cost_per_standard": 2.05,
-        "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 28
-      },
       "pack": {
         "total_price": 19.95,
         "units": 6,
@@ -14824,6 +14948,14 @@
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 16
       },
+      "pack_special": {
+        "total_price": 20,
+        "units": 6,
+        "unit_price": 3.33,
+        "cost_per_standard": 2.78,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 21
+      },
       "single": {
         "total_price": 5.49,
         "units": 1,
@@ -14859,6 +14991,14 @@
         "cost_per_standard": 2.5,
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 23
+      },
+      "case_special": {
+        "total_price": 67,
+        "units": 24,
+        "unit_price": 2.79,
+        "cost_per_standard": 2.33,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 25
       },
       "pack": {
         "total_price": 25,
@@ -14949,20 +15089,20 @@
     },
     "pricing": {
       "case": {
-        "total_price": 69.99,
+        "total_price": 59.95,
         "units": 24,
-        "unit_price": 2.92,
-        "cost_per_standard": 2.25,
+        "unit_price": 2.5,
+        "cost_per_standard": 1.92,
         "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 25
+        "alcohol_tax_percent": 29
       },
       "pack": {
-        "total_price": 25.99,
+        "total_price": 24.95,
         "units": 6,
-        "unit_price": 4.33,
-        "cost_per_standard": 3.33,
+        "unit_price": 4.16,
+        "cost_per_standard": 3.2,
         "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 17
+        "alcohol_tax_percent": 18
       },
       "single": {
         "total_price": 5.49,
@@ -15009,12 +15149,12 @@
         "alcohol_tax_percent": 30
       },
       "pack": {
-        "total_price": 24.99,
+        "total_price": 23.95,
         "units": 6,
-        "unit_price": 4.17,
-        "cost_per_standard": 2.98,
+        "unit_price": 3.99,
+        "cost_per_standard": 2.85,
         "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 20
+        "alcohol_tax_percent": 21
       },
       "pack_special": {
         "total_price": 21,
@@ -15097,20 +15237,12 @@
     },
     "pricing": {
       "case": {
-        "total_price": 73.95,
+        "total_price": 70.95,
         "units": 24,
-        "unit_price": 3.08,
-        "cost_per_standard": 1.81,
+        "unit_price": 2.96,
+        "cost_per_standard": 1.74,
         "alcohol_tax_cost": 0.63,
-        "alcohol_tax_percent": 35
-      },
-      "case_special": {
-        "total_price": 65,
-        "units": 24,
-        "unit_price": 2.71,
-        "cost_per_standard": 1.59,
-        "alcohol_tax_cost": 0.63,
-        "alcohol_tax_percent": 40
+        "alcohol_tax_percent": 36
       },
       "pack": {
         "total_price": 27.49,
@@ -15119,6 +15251,14 @@
         "cost_per_standard": 2.69,
         "alcohol_tax_cost": 0.63,
         "alcohol_tax_percent": 23
+      },
+      "pack_special": {
+        "total_price": 20,
+        "units": 6,
+        "unit_price": 3.33,
+        "cost_per_standard": 1.96,
+        "alcohol_tax_cost": 0.63,
+        "alcohol_tax_percent": 32
       },
       "single": {
         "total_price": 5.49,
@@ -15209,8 +15349,8 @@
         "alcohol_tax_percent": 22
       },
       "pack_special": {
-        "total_price": 20,
-        "units": 6,
+        "total_price": 40,
+        "units": 12,
         "unit_price": 3.33,
         "cost_per_standard": 2.08,
         "alcohol_tax_cost": 0.61,
@@ -15297,8 +15437,8 @@
         "alcohol_tax_percent": 20
       },
       "pack_special": {
-        "total_price": 20,
-        "units": 6,
+        "total_price": 40,
+        "units": 12,
         "unit_price": 3.33,
         "cost_per_standard": 2.22,
         "alcohol_tax_cost": 0.59,
@@ -15349,8 +15489,8 @@
         "alcohol_tax_percent": 18
       },
       "pack_special": {
-        "total_price": 20,
-        "units": 6,
+        "total_price": 40,
+        "units": 12,
         "unit_price": 3.33,
         "cost_per_standard": 2.38,
         "alcohol_tax_cost": 0.57,
@@ -15392,14 +15532,6 @@
         "alcohol_tax_cost": 0.63,
         "alcohol_tax_percent": 36
       },
-      "case_special": {
-        "total_price": 65,
-        "units": 24,
-        "unit_price": 2.71,
-        "cost_per_standard": 1.59,
-        "alcohol_tax_cost": 0.63,
-        "alcohol_tax_percent": 40
-      },
       "pack": {
         "total_price": 27.99,
         "units": 6,
@@ -15407,6 +15539,14 @@
         "cost_per_standard": 2.75,
         "alcohol_tax_cost": 0.63,
         "alcohol_tax_percent": 23
+      },
+      "pack_special": {
+        "total_price": 20,
+        "units": 6,
+        "unit_price": 3.33,
+        "cost_per_standard": 1.96,
+        "alcohol_tax_cost": 0.63,
+        "alcohol_tax_percent": 32
       },
       "single": {
         "total_price": 5.49,
@@ -15443,6 +15583,14 @@
         "cost_per_standard": 2.94,
         "alcohol_tax_cost": 0.57,
         "alcohol_tax_percent": 19
+      },
+      "case_special": {
+        "total_price": 74,
+        "units": 24,
+        "unit_price": 3.08,
+        "cost_per_standard": 2.83,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 20
       },
       "pack": {
         "total_price": 25.99,
@@ -15495,14 +15643,6 @@
         "cost_per_standard": 3.28,
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 17
-      },
-      "pack_special": {
-        "total_price": 12,
-        "units": 4,
-        "unit_price": 3,
-        "cost_per_standard": 1.88,
-        "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 30
       },
       "single": {
         "total_price": 5.39,
@@ -15575,14 +15715,6 @@
         "cost_per_standard": 2.92,
         "alcohol_tax_cost": 0.62,
         "alcohol_tax_percent": 21
-      },
-      "case_special": {
-        "total_price": 71,
-        "units": 16,
-        "unit_price": 4.44,
-        "cost_per_standard": 2.47,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 25
       },
       "pack": {
         "total_price": 28.99,
@@ -15769,20 +15901,12 @@
     },
     "pricing": {
       "case": {
-        "total_price": 77.99,
+        "total_price": 70.95,
         "units": 24,
-        "unit_price": 3.25,
-        "cost_per_standard": 2.17,
+        "unit_price": 2.96,
+        "cost_per_standard": 1.97,
         "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 29
-      },
-      "case_special": {
-        "total_price": 65,
-        "units": 24,
-        "unit_price": 2.71,
-        "cost_per_standard": 1.81,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 34
+        "alcohol_tax_percent": 31
       },
       "pack": {
         "total_price": 27.99,
@@ -15791,6 +15915,14 @@
         "cost_per_standard": 3.11,
         "alcohol_tax_cost": 0.62,
         "alcohol_tax_percent": 20
+      },
+      "pack_special": {
+        "total_price": 20,
+        "units": 6,
+        "unit_price": 3.33,
+        "cost_per_standard": 2.22,
+        "alcohol_tax_cost": 0.62,
+        "alcohol_tax_percent": 28
       },
       "single": {
         "total_price": 4.99,
@@ -15881,12 +16013,12 @@
         "alcohol_tax_percent": 27
       },
       "pack_special": {
-        "total_price": 22,
+        "total_price": 24.95,
         "units": 6,
-        "unit_price": 3.67,
-        "cost_per_standard": 1.84,
+        "unit_price": 4.16,
+        "cost_per_standard": 2.08,
         "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 32
+        "alcohol_tax_percent": 28
       },
       "single": {
         "total_price": 5.49,
@@ -15976,6 +16108,14 @@
         "alcohol_tax_cost": 0.62,
         "alcohol_tax_percent": 25
       },
+      "pack_special": {
+        "total_price": 20,
+        "units": 6,
+        "unit_price": 3.33,
+        "cost_per_standard": 1.75,
+        "alcohol_tax_cost": 0.62,
+        "alcohol_tax_percent": 35
+      },
       "single": {
         "total_price": 5.99,
         "units": 1,
@@ -16019,6 +16159,14 @@
         "cost_per_standard": 3.61,
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 16
+      },
+      "pack_special": {
+        "total_price": 23,
+        "units": 6,
+        "unit_price": 3.83,
+        "cost_per_standard": 3.19,
+        "alcohol_tax_cost": 0.56,
+        "alcohol_tax_percent": 18
       },
       "single": {
         "total_price": 6.99,
@@ -16108,6 +16256,14 @@
         "alcohol_tax_cost": 0.62,
         "alcohol_tax_percent": 16
       },
+      "pack_special": {
+        "total_price": 19,
+        "units": 4,
+        "unit_price": 4.75,
+        "cost_per_standard": 2.64,
+        "alcohol_tax_cost": 0.62,
+        "alcohol_tax_percent": 23
+      },
       "single": {
         "total_price": 6.99,
         "units": 1,
@@ -16188,14 +16344,6 @@
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 20
       },
-      "pack_special": {
-        "total_price": 17.95,
-        "units": 6,
-        "unit_price": 2.99,
-        "cost_per_standard": 2.49,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 23
-      },
       "single": {
         "total_price": 4.05,
         "units": 1,
@@ -16231,14 +16379,6 @@
         "cost_per_standard": 1.9,
         "alcohol_tax_cost": 0.62,
         "alcohol_tax_percent": 33
-      },
-      "case_special": {
-        "total_price": 77,
-        "units": 24,
-        "unit_price": 3.21,
-        "cost_per_standard": 1.78,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 35
       },
       "pack": {
         "total_price": 20.99,
@@ -16291,6 +16431,14 @@
         "cost_per_standard": 2.97,
         "alcohol_tax_cost": 0.66,
         "alcohol_tax_percent": 22
+      },
+      "single_special": {
+        "total_price": 18,
+        "units": 3,
+        "unit_price": 6,
+        "cost_per_standard": 1.88,
+        "alcohol_tax_cost": 0.66,
+        "alcohol_tax_percent": 35
       }
     }
   },
@@ -16364,6 +16512,14 @@
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 20
       },
+      "case_special": {
+        "total_price": 50,
+        "units": 16,
+        "unit_price": 3.13,
+        "cost_per_standard": 2.61,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 22
+      },
       "pack": {
         "total_price": 17.99,
         "units": 4,
@@ -16371,14 +16527,6 @@
         "cost_per_standard": 3.75,
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 15
-      },
-      "pack_special": {
-        "total_price": 16.5,
-        "units": 4,
-        "unit_price": 4.13,
-        "cost_per_standard": 3.44,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 17
       },
       "single": {
         "total_price": 5.49,
@@ -16424,6 +16572,14 @@
         "alcohol_tax_cost": 0.62,
         "alcohol_tax_percent": 19
       },
+      "pack_special": {
+        "total_price": 23,
+        "units": 4,
+        "unit_price": 5.75,
+        "cost_per_standard": 2.74,
+        "alcohol_tax_cost": 0.62,
+        "alcohol_tax_percent": 23
+      },
       "single": {
         "total_price": 6.99,
         "units": 1,
@@ -16461,20 +16617,20 @@
         "alcohol_tax_percent": 27
       },
       "pack": {
-        "total_price": 18.4,
+        "total_price": 16.1,
         "units": 6,
-        "unit_price": 3.07,
-        "cost_per_standard": 2.56,
+        "unit_price": 2.68,
+        "cost_per_standard": 2.23,
         "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 23
+        "alcohol_tax_percent": 26
       },
       "single": {
-        "total_price": 4.95,
+        "total_price": 3.3,
         "units": 1,
-        "unit_price": 4.95,
-        "cost_per_standard": 4.13,
+        "unit_price": 3.3,
+        "cost_per_standard": 2.75,
         "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 14
+        "alcohol_tax_percent": 21
       }
     }
   },
@@ -16505,12 +16661,20 @@
         "alcohol_tax_percent": 31
       },
       "pack": {
-        "total_price": 29.99,
+        "total_price": 27.95,
         "units": 6,
-        "unit_price": 5,
-        "cost_per_standard": 2.5,
+        "unit_price": 4.66,
+        "cost_per_standard": 2.33,
         "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 24
+        "alcohol_tax_percent": 25
+      },
+      "pack_special": {
+        "total_price": 26,
+        "units": 6,
+        "unit_price": 4.33,
+        "cost_per_standard": 2.17,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 27
       },
       "single": {
         "total_price": 6.99,
@@ -16644,6 +16808,14 @@
         "alcohol_tax_cost": 0.54,
         "alcohol_tax_percent": 13
       },
+      "pack_special": {
+        "total_price": 21,
+        "units": 6,
+        "unit_price": 3.5,
+        "cost_per_standard": 3.5,
+        "alcohol_tax_cost": 0.54,
+        "alcohol_tax_percent": 15
+      },
       "single": {
         "total_price": 4.49,
         "units": 1,
@@ -16699,50 +16871,6 @@
     }
   },
   {
-    "stockcode": "87867",
-    "properties": {
-      "name": "Hawke's Brewing Co. Patio Pale Ale Can 375mLx6",
-      "name_clean": "Hawke's Brewing Co. Patio Pale Ale Can 375mLx6",
-      "brand": "Hawke's Brewing Co.",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 4.5,
-      "standard_drinks_raw": 1.3,
-      "standard_drinks_clean": 1.3,
-      "vessel": "can",
-      "image_url": "87867-1.png",
-      "rating": 4.2,
-      "ibu": 30,
-      "beer_style": "Pale Ale"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 68.99,
-        "units": 24,
-        "unit_price": 2.87,
-        "cost_per_standard": 2.21,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 27
-      },
-      "pack": {
-        "total_price": 23.99,
-        "units": 6,
-        "unit_price": 4,
-        "cost_per_standard": 3.08,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 19
-      },
-      "single": {
-        "total_price": 5.49,
-        "units": 1,
-        "unit_price": 5.49,
-        "cost_per_standard": 4.22,
-        "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 14
-      }
-    }
-  },
-  {
     "stockcode": "18495",
     "properties": {
       "name": "Two Bays Brewing Co. Gluten Free Pale Ale Cans 4x4x375mL",
@@ -16783,6 +16911,50 @@
         "cost_per_standard": 5.76,
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 10
+      }
+    }
+  },
+  {
+    "stockcode": "87867",
+    "properties": {
+      "name": "Hawke's Brewing Co. Patio Pale Ale Can 375mLx6",
+      "name_clean": "Hawke's Brewing Co. Patio Pale Ale Can 375mLx6",
+      "brand": "Hawke's Brewing Co.",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 4.5,
+      "standard_drinks_raw": 1.3,
+      "standard_drinks_clean": 1.3,
+      "vessel": "can",
+      "image_url": "87867-1.png",
+      "rating": 4.2,
+      "ibu": 30,
+      "beer_style": "Pale Ale"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 68.99,
+        "units": 24,
+        "unit_price": 2.87,
+        "cost_per_standard": 2.21,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 27
+      },
+      "pack": {
+        "total_price": 17.95,
+        "units": 6,
+        "unit_price": 2.99,
+        "cost_per_standard": 2.3,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 26
+      },
+      "single": {
+        "total_price": 5.49,
+        "units": 1,
+        "unit_price": 5.49,
+        "cost_per_standard": 4.22,
+        "alcohol_tax_cost": 0.59,
+        "alcohol_tax_percent": 14
       }
     }
   },
@@ -16952,14 +17124,6 @@
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 14
       },
-      "pack_special": {
-        "total_price": 30,
-        "units": 6,
-        "unit_price": 5,
-        "cost_per_standard": 3.85,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 15
-      },
       "single": {
         "total_price": 6.49,
         "units": 1,
@@ -17005,12 +17169,12 @@
         "alcohol_tax_percent": 14
       },
       "pack_special": {
-        "total_price": 25,
+        "total_price": 22.95,
         "units": 6,
-        "unit_price": 4.17,
-        "cost_per_standard": 3.79,
+        "unit_price": 3.83,
+        "cost_per_standard": 3.48,
         "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 16
+        "alcohol_tax_percent": 17
       },
       "single": {
         "total_price": 5.49,
@@ -17047,6 +17211,14 @@
         "cost_per_standard": 2.7,
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 21
+      },
+      "case_special": {
+        "total_price": 52,
+        "units": 16,
+        "unit_price": 3.25,
+        "cost_per_standard": 2.6,
+        "alcohol_tax_cost": 0.56,
+        "alcohol_tax_percent": 22
       },
       "pack": {
         "total_price": 17.99,
@@ -17093,12 +17265,12 @@
         "alcohol_tax_percent": 23
       },
       "pack": {
-        "total_price": 20.99,
+        "total_price": 18,
         "units": 4,
-        "unit_price": 5.25,
-        "cost_per_standard": 3.5,
+        "unit_price": 4.5,
+        "cost_per_standard": 3,
         "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 17
+        "alcohol_tax_percent": 20
       },
       "single": {
         "total_price": 6.49,
@@ -17143,14 +17315,6 @@
         "cost_per_standard": 2.92,
         "alcohol_tax_cost": 0.62,
         "alcohol_tax_percent": 21
-      },
-      "pack_special": {
-        "total_price": 18,
-        "units": 4,
-        "unit_price": 4.5,
-        "cost_per_standard": 2.5,
-        "alcohol_tax_cost": 0.62,
-        "alcohol_tax_percent": 25
       },
       "single": {
         "total_price": 6.49,
@@ -17240,6 +17404,14 @@
         "alcohol_tax_cost": 0.57,
         "alcohol_tax_percent": 13
       },
+      "pack_special": {
+        "total_price": 20,
+        "units": 4,
+        "unit_price": 5,
+        "cost_per_standard": 3.57,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 16
+      },
       "single": {
         "total_price": 6.99,
         "units": 1,
@@ -17276,6 +17448,14 @@
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 15
       },
+      "case_special": {
+        "total_price": 88.95,
+        "units": 24,
+        "unit_price": 3.71,
+        "cost_per_standard": 3.71,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 16
+      },
       "pack": {
         "total_price": 29.99,
         "units": 6,
@@ -17285,12 +17465,12 @@
         "alcohol_tax_percent": 12
       },
       "pack_special": {
-        "total_price": 25,
+        "total_price": 26,
         "units": 6,
-        "unit_price": 4.17,
-        "cost_per_standard": 4.17,
+        "unit_price": 4.33,
+        "cost_per_standard": 4.33,
         "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 14
+        "alcohol_tax_percent": 13
       },
       "single": {
         "total_price": 6.49,
@@ -17335,14 +17515,6 @@
         "cost_per_standard": 4.83,
         "alcohol_tax_cost": 0.58,
         "alcohol_tax_percent": 12
-      },
-      "pack_special": {
-        "total_price": 25,
-        "units": 6,
-        "unit_price": 4.17,
-        "cost_per_standard": 4.17,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 14
       },
       "single": {
         "total_price": 5.99,
@@ -17432,6 +17604,14 @@
         "alcohol_tax_cost": 0.6,
         "alcohol_tax_percent": 15
       },
+      "pack_special": {
+        "total_price": 19,
+        "units": 4,
+        "unit_price": 4.75,
+        "cost_per_standard": 3.21,
+        "alcohol_tax_cost": 0.6,
+        "alcohol_tax_percent": 19
+      },
       "single": {
         "total_price": 5.99,
         "units": 1,
@@ -17468,6 +17648,14 @@
         "alcohol_tax_cost": 0.53,
         "alcohol_tax_percent": 12
       },
+      "case_special": {
+        "total_price": 88,
+        "units": 24,
+        "unit_price": 3.67,
+        "cost_per_standard": 4.08,
+        "alcohol_tax_cost": 0.53,
+        "alcohol_tax_percent": 13
+      },
       "pack": {
         "total_price": 30.49,
         "units": 6,
@@ -17475,14 +17663,6 @@
         "cost_per_standard": 5.64,
         "alcohol_tax_cost": 0.53,
         "alcohol_tax_percent": 9
-      },
-      "pack_special": {
-        "total_price": 28,
-        "units": 6,
-        "unit_price": 4.67,
-        "cost_per_standard": 5.19,
-        "alcohol_tax_cost": 0.53,
-        "alcohol_tax_percent": 10
       },
       "single": {
         "total_price": 6.49,
@@ -17565,12 +17745,12 @@
         "alcohol_tax_percent": 25
       },
       "pack": {
-        "total_price": 22.99,
+        "total_price": 19.95,
         "units": 4,
-        "unit_price": 5.75,
-        "cost_per_standard": 3.38,
+        "unit_price": 4.99,
+        "cost_per_standard": 2.94,
         "alcohol_tax_cost": 0.63,
-        "alcohol_tax_percent": 19
+        "alcohol_tax_percent": 21
       },
       "single": {
         "total_price": 6.49,
@@ -17695,14 +17875,6 @@
         "cost_per_standard": 5.21,
         "alcohol_tax_cost": 0.56,
         "alcohol_tax_percent": 11
-      },
-      "pack_special": {
-        "total_price": 22.5,
-        "units": 4,
-        "unit_price": 5.63,
-        "cost_per_standard": 4.69,
-        "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 12
       },
       "single": {
         "total_price": 6.99,
@@ -17843,6 +18015,14 @@
         "cost_per_standard": 3.06,
         "alcohol_tax_cost": 0.63,
         "alcohol_tax_percent": 21
+      },
+      "pack_special": {
+        "total_price": 21,
+        "units": 4,
+        "unit_price": 5.25,
+        "cost_per_standard": 2.92,
+        "alcohol_tax_cost": 0.63,
+        "alcohol_tax_percent": 22
       },
       "single": {
         "total_price": 5.99,
@@ -18143,6 +18323,14 @@
         "cost_per_standard": 3.03,
         "alcohol_tax_cost": 0.68,
         "alcohol_tax_percent": 22
+      },
+      "case_special": {
+        "total_price": 140,
+        "units": 24,
+        "unit_price": 5.83,
+        "cost_per_standard": 2.65,
+        "alcohol_tax_cost": 0.68,
+        "alcohol_tax_percent": 26
       },
       "pack": {
         "total_price": 35.99,
