@@ -1802,12 +1802,12 @@
     "special": true,
     "package": "pack",
     "package_size": 6,
-    "total_price": 19,
-    "unit_price": 3.17,
-    "cost_per_standard": 2.64,
+    "total_price": 21,
+    "unit_price": 3.5,
+    "cost_per_standard": 2.92,
     "vessel": "can",
     "alcohol_tax_cost": 0.56,
-    "alcohol_tax_percent": 21
+    "alcohol_tax_percent": 19
   },
   {
     "name": "Better Beer Zero Carb Lager Can 6x355mL",
@@ -2530,12 +2530,12 @@
     "special": true,
     "package": "pack",
     "package_size": 6,
-    "total_price": 19,
-    "unit_price": 3.17,
-    "cost_per_standard": 2.88,
+    "total_price": 21,
+    "unit_price": 3.5,
+    "cost_per_standard": 3.18,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.56,
-    "alcohol_tax_percent": 19
+    "alcohol_tax_percent": 18
   },
   {
     "name": "Better Beer Zero Carb Lager Bottle 6x330ml",
@@ -3309,12 +3309,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 93,
-    "unit_price": 3.88,
-    "cost_per_standard": 3.88,
+    "total_price": 91,
+    "unit_price": 3.79,
+    "cost_per_standard": 3.79,
     "vessel": "can",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 14
+    "alcohol_tax_percent": 15
   },
   {
     "name": "Brookvale Union Ginger Beer Low Sugar Cans 6x330mL",
@@ -6196,12 +6196,12 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 62.95,
-    "unit_price": 2.62,
-    "cost_per_standard": 2.38,
+    "total_price": 64.95,
+    "unit_price": 2.71,
+    "cost_per_standard": 2.46,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 23
+    "alcohol_tax_percent": 22
   },
   {
     "name": "Carlton Dry Mid 3.5% Cans 375mLx30",
@@ -7794,7 +7794,7 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 58.95,
+    "total_price": 58.99,
     "unit_price": 2.46,
     "cost_per_standard": 2.24,
     "vessel": "bottle",
@@ -9823,8 +9823,8 @@
     "alcohol_tax_percent": 22
   },
   {
-    "name": "Beck's Beer 330mL",
-    "name_clean": "Beck's Beer",
+    "name": "Becks Beer Bottles 330mLx6",
+    "name_clean": "Becks Beer Bottles 330mLx6",
     "stockcode": "56169",
     "percentage": 4,
     "size": 330,
@@ -9835,12 +9835,13 @@
     "total_price": 6.99,
     "unit_price": 6.99,
     "cost_per_standard": 6.99,
+    "vessel": "bottle",
     "alcohol_tax_cost": 0.55,
     "alcohol_tax_percent": 8
   },
   {
-    "name": "Beck's Beer 330mL",
-    "name_clean": "Beck's Beer",
+    "name": "Becks Beer Bottles 330mLx6",
+    "name_clean": "Becks Beer Bottles 330mLx6",
     "stockcode": "56169",
     "percentage": 4,
     "size": 330,
@@ -9851,12 +9852,13 @@
     "total_price": 21,
     "unit_price": 3.5,
     "cost_per_standard": 3.5,
+    "vessel": "bottle",
     "alcohol_tax_cost": 0.55,
     "alcohol_tax_percent": 16
   },
   {
-    "name": "Beck's Beer 330mL",
-    "name_clean": "Beck's Beer",
+    "name": "Becks Beer Bottles 330mLx6",
+    "name_clean": "Becks Beer Bottles 330mLx6",
     "stockcode": "56169",
     "percentage": 4,
     "size": 330,
@@ -9867,12 +9869,13 @@
     "total_price": 53,
     "unit_price": 2.21,
     "cost_per_standard": 2.21,
+    "vessel": "bottle",
     "alcohol_tax_cost": 0.55,
     "alcohol_tax_percent": 25
   },
   {
-    "name": "Beck's Beer 330mL",
-    "name_clean": "Beck's Beer",
+    "name": "Becks Beer Bottles 330mLx6",
+    "name_clean": "Becks Beer Bottles 330mLx6",
     "stockcode": "56169",
     "percentage": 4,
     "size": 330,
@@ -9883,6 +9886,7 @@
     "total_price": 57,
     "unit_price": 2.38,
     "cost_per_standard": 2.38,
+    "vessel": "bottle",
     "alcohol_tax_cost": 0.55,
     "alcohol_tax_percent": 23
   },
@@ -12342,12 +12346,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 62.01,
-    "unit_price": 2.58,
-    "cost_per_standard": 1.98,
+    "total_price": 60.9,
+    "unit_price": 2.54,
+    "cost_per_standard": 1.95,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.6,
-    "alcohol_tax_percent": 30
+    "alcohol_tax_percent": 31
   },
   {
     "name": "Budweiser Bottles 330mLx6",
@@ -13758,8 +13762,8 @@
     "alcohol_tax_percent": 33
   },
   {
-    "name": "Tooheys New Cans 375mLx30",
-    "name_clean": "Tooheys New Cans 375mLx30",
+    "name": "Tooheys New Lager Can 375ml",
+    "name_clean": "Tooheys New Lager",
     "stockcode": "6076018",
     "percentage": 4.6,
     "size": 375,
@@ -13775,8 +13779,8 @@
     "alcohol_tax_percent": 15
   },
   {
-    "name": "Tooheys New Cans 375mLx30",
-    "name_clean": "Tooheys New Cans 375mLx30",
+    "name": "Tooheys New Lager Can 375ml",
+    "name_clean": "Tooheys New Lager",
     "stockcode": "6076018",
     "percentage": 4.6,
     "size": 375,
@@ -14152,12 +14156,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 51.95,
-    "unit_price": 2.16,
-    "cost_per_standard": 1.54,
+    "total_price": 53.95,
+    "unit_price": 2.25,
+    "cost_per_standard": 1.61,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 38
+    "alcohol_tax_percent": 36
   },
   {
     "name": "Tooheys New Bottles 375mLx6",
@@ -16856,6 +16860,23 @@
     "percentage": 4.4,
     "size": 375,
     "standard_drinks": 1.3,
+    "special": true,
+    "package": "case",
+    "package_size": 30,
+    "total_price": 59,
+    "unit_price": 1.97,
+    "cost_per_standard": 1.52,
+    "vessel": "can",
+    "alcohol_tax_cost": 0.57,
+    "alcohol_tax_percent": 37
+  },
+  {
+    "name": "Tooheys Extra Dry Cans 30 Block 375mL",
+    "name_clean": "Tooheys Extra Dry Cans 30 Block",
+    "stockcode": "799124",
+    "percentage": 4.4,
+    "size": 375,
+    "standard_drinks": 1.3,
     "special": false,
     "package": "case",
     "package_size": 30,
@@ -17675,9 +17696,9 @@
     "special": false,
     "package": "pack",
     "package_size": 6,
-    "total_price": 21.55,
-    "unit_price": 3.59,
-    "cost_per_standard": 3.59,
+    "total_price": 21.99,
+    "unit_price": 3.66,
+    "cost_per_standard": 3.66,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.52,
     "alcohol_tax_percent": 14
@@ -19322,12 +19343,12 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 56.95,
-    "unit_price": 2.37,
-    "cost_per_standard": 2.37,
+    "total_price": 58.99,
+    "unit_price": 2.46,
+    "cost_per_standard": 2.46,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.52,
-    "alcohol_tax_percent": 22
+    "alcohol_tax_percent": 21
   },
   {
     "name": "Coopers Mild Ale 3.5% Cans 375mLx6",
@@ -19390,12 +19411,12 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 54.95,
-    "unit_price": 2.29,
-    "cost_per_standard": 2.29,
+    "total_price": 59.99,
+    "unit_price": 2.5,
+    "cost_per_standard": 2.5,
     "vessel": "can",
     "alcohol_tax_cost": 0.52,
-    "alcohol_tax_percent": 23
+    "alcohol_tax_percent": 21
   },
   {
     "name": "Amplys Ginger Beer Firestorm Can 375mLx4",
@@ -21082,7 +21103,7 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 61.95,
+    "total_price": 61.99,
     "unit_price": 2.58,
     "cost_per_standard": 2.15,
     "vessel": "can",
@@ -21640,12 +21661,12 @@
     "special": false,
     "package": "pack",
     "package_size": 6,
-    "total_price": 19.95,
-    "unit_price": 3.33,
-    "cost_per_standard": 2.56,
+    "total_price": 20.95,
+    "unit_price": 3.49,
+    "cost_per_standard": 2.68,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.6,
-    "alcohol_tax_percent": 23
+    "alcohol_tax_percent": 22
   },
   {
     "name": "Asahi Super Dry Bottles 330mLx6",
@@ -30612,42 +30633,6 @@
     "online_only": true,
     "alcohol_tax_cost": 0.39,
     "alcohol_tax_percent": 10
-  },
-  {
-    "name": "Small Swell 2.0 Mid Strength Pale Ale Can 375mL",
-    "name_clean": "Small Swell 2.0 Mid Strength Pale Ale",
-    "stockcode": "ER_2000004709_SS",
-    "percentage": 3.4,
-    "size": 375,
-    "standard_drinks": 1,
-    "special": false,
-    "package": "single",
-    "package_size": 1,
-    "total_price": 57,
-    "unit_price": 57,
-    "cost_per_standard": 57,
-    "online_only": true,
-    "vessel": "can",
-    "alcohol_tax_cost": 0.51,
-    "alcohol_tax_percent": 1
-  },
-  {
-    "name": "Small Swell 2.0 Mid Strength Pale Ale Can 375mL",
-    "name_clean": "Small Swell 2.0 Mid Strength Pale Ale",
-    "stockcode": "ER_2000004709_SS",
-    "percentage": 3.4,
-    "size": 375,
-    "standard_drinks": 1,
-    "special": false,
-    "package": "case",
-    "package_size": 16,
-    "total_price": 57,
-    "unit_price": 3.56,
-    "cost_per_standard": 3.56,
-    "online_only": true,
-    "vessel": "can",
-    "alcohol_tax_cost": 0.51,
-    "alcohol_tax_percent": 14
   },
   {
     "name": "27 South Brewing, Parks, American Pale Ale",
