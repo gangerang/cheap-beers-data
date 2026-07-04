@@ -12,7 +12,7 @@
       "standard_drinks_clean": 1,
       "vessel": "can",
       "image_url": "6056279-1.png",
-      "rating": 4.8,
+      "rating": 4.6,
       "ibu": 15,
       "beer_style": "Lager"
     },
@@ -200,7 +200,7 @@
       "standard_drinks_clean": 1.4,
       "vessel": "can",
       "image_url": "6076018-1.png",
-      "rating": null,
+      "rating": 5,
       "ibu": null,
       "beer_style": null
     },
@@ -944,7 +944,7 @@
       "standard_drinks_clean": 2.5,
       "vessel": "bottle",
       "image_url": "884167-1.png",
-      "rating": null,
+      "rating": 4.9,
       "ibu": null,
       "beer_style": null
     },
@@ -2325,12 +2325,12 @@
         "alcohol_tax_percent": 9
       },
       "case_special": {
-        "total_price": 40,
+        "total_price": 42,
         "units": 24,
-        "unit_price": 1.67,
-        "cost_per_standard": 2.78,
+        "unit_price": 1.75,
+        "cost_per_standard": 2.92,
         "alcohol_tax_cost": 0.3,
-        "alcohol_tax_percent": 11
+        "alcohol_tax_percent": 10
       },
       "pack": {
         "total_price": 16.99,
@@ -5435,7 +5435,7 @@
       "standard_drinks_clean": 1.4,
       "vessel": "can",
       "image_url": "6076017-1.png",
-      "rating": null,
+      "rating": 5,
       "ibu": null,
       "beer_style": null
     },
@@ -10111,7 +10111,7 @@
       "standard_drinks_clean": 1.1,
       "vessel": "bottle",
       "image_url": "96151-1.png",
-      "rating": null,
+      "rating": 4,
       "ibu": 10,
       "beer_style": "Lager"
     },
@@ -12989,12 +12989,12 @@
         "alcohol_tax_percent": 28
       },
       "case_special": {
-        "total_price": 55,
+        "total_price": 57.9,
         "units": 24,
-        "unit_price": 2.29,
-        "cost_per_standard": 1.91,
+        "unit_price": 2.41,
+        "cost_per_standard": 2.01,
         "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 30
+        "alcohol_tax_percent": 29
       },
       "pack": {
         "total_price": 22.99,
@@ -13939,50 +13939,6 @@
     }
   },
   {
-    "stockcode": "770382",
-    "properties": {
-      "name": "Mountain Goat Summer Ale Cans 375mL",
-      "name_clean": "Mountain Goat Summer Ale",
-      "brand": "Mountain Goat",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 4.7,
-      "standard_drinks_raw": 1.4,
-      "standard_drinks_clean": 1.4,
-      "vessel": "can",
-      "image_url": "770382-1.png",
-      "rating": 4.1,
-      "ibu": 20,
-      "beer_style": "Summer Ale"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 58.4,
-        "units": 24,
-        "unit_price": 2.43,
-        "cost_per_standard": 1.74,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 33
-      },
-      "pack": {
-        "total_price": 17.5,
-        "units": 6,
-        "unit_price": 2.92,
-        "cost_per_standard": 2.09,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 28
-      },
-      "single": {
-        "total_price": 3.6,
-        "units": 1,
-        "unit_price": 3.6,
-        "cost_per_standard": 2.57,
-        "alcohol_tax_cost": 0.58,
-        "alcohol_tax_percent": 23
-      }
-    }
-  },
-  {
     "stockcode": "36444",
     "properties": {
       "name": "Crown Lager Bottles 375mLx6",
@@ -14127,6 +14083,50 @@
         "cost_per_standard": 3.33,
         "alcohol_tax_cost": 0.64,
         "alcohol_tax_percent": 19
+      }
+    }
+  },
+  {
+    "stockcode": "770382",
+    "properties": {
+      "name": "Mountain Goat Summer Ale Cans 375mL",
+      "name_clean": "Mountain Goat Summer Ale",
+      "brand": "Mountain Goat",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 4.7,
+      "standard_drinks_raw": 1.4,
+      "standard_drinks_clean": 1.4,
+      "vessel": "can",
+      "image_url": "770382-1.png",
+      "rating": 4.1,
+      "ibu": 20,
+      "beer_style": "Summer Ale"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 58.4,
+        "units": 24,
+        "unit_price": 2.43,
+        "cost_per_standard": 1.74,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 33
+      },
+      "pack": {
+        "total_price": 17.5,
+        "units": 6,
+        "unit_price": 2.92,
+        "cost_per_standard": 2.09,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 28
+      },
+      "single": {
+        "total_price": 3.6,
+        "units": 1,
+        "unit_price": 3.6,
+        "cost_per_standard": 2.57,
+        "alcohol_tax_cost": 0.58,
+        "alcohol_tax_percent": 23
       }
     }
   },
@@ -15663,42 +15663,6 @@
     }
   },
   {
-    "stockcode": "43580",
-    "properties": {
-      "name": "Coopers Sparkling Ale Longneck 750mL",
-      "name_clean": "Coopers Sparkling Ale",
-      "brand": "Coopers",
-      "size_ml": 750,
-      "size_clean": 750,
-      "percentage_raw": 5.8,
-      "standard_drinks_raw": 3.4,
-      "standard_drinks_clean": 3.4,
-      "vessel": "longneck",
-      "image_url": "43580-1.png",
-      "rating": 4.9,
-      "ibu": 30,
-      "beer_style": "Ale"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 76.99,
-        "units": 12,
-        "unit_price": 6.42,
-        "cost_per_standard": 1.89,
-        "alcohol_tax_cost": 0.63,
-        "alcohol_tax_percent": 33
-      },
-      "single": {
-        "total_price": 9.99,
-        "units": 1,
-        "unit_price": 9.99,
-        "cost_per_standard": 2.94,
-        "alcohol_tax_cost": 0.63,
-        "alcohol_tax_percent": 21
-      }
-    }
-  },
-  {
     "stockcode": "880430",
     "properties": {
       "name": "Feral Brewing Co. Biggie Juice East Coast IPA 4x375mL",
@@ -15887,6 +15851,42 @@
         "cost_per_standard": 4.16,
         "alcohol_tax_cost": 0.62,
         "alcohol_tax_percent": 15
+      }
+    }
+  },
+  {
+    "stockcode": "43580",
+    "properties": {
+      "name": "Coopers Sparkling Ale Longneck 750mL",
+      "name_clean": "Coopers Sparkling Ale",
+      "brand": "Coopers",
+      "size_ml": 750,
+      "size_clean": 750,
+      "percentage_raw": 5.8,
+      "standard_drinks_raw": 3.4,
+      "standard_drinks_clean": 3.4,
+      "vessel": "longneck",
+      "image_url": "43580-1.png",
+      "rating": 4.9,
+      "ibu": 30,
+      "beer_style": "Ale"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 76.99,
+        "units": 12,
+        "unit_price": 6.42,
+        "cost_per_standard": 1.89,
+        "alcohol_tax_cost": 0.63,
+        "alcohol_tax_percent": 33
+      },
+      "single": {
+        "total_price": 9.99,
+        "units": 1,
+        "unit_price": 9.99,
+        "cost_per_standard": 2.94,
+        "alcohol_tax_cost": 0.63,
+        "alcohol_tax_percent": 21
       }
     }
   },
