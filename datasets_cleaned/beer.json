@@ -38,8 +38,8 @@
   {
     "stockcode": "6076016",
     "properties": {
-      "name": "Hahn Super Dry 3.5% Cans 375mLx30",
-      "name_clean": "Hahn Super Dry 3.5% Cans 375mLx30",
+      "name": "Hahn Super Dry 3.5% Cans 30X375mL",
+      "name_clean": "Hahn Super Dry 3.5%",
       "brand": "Hahn",
       "size_ml": 375,
       "size_clean": 375,
@@ -48,7 +48,7 @@
       "standard_drinks_clean": 1,
       "vessel": "can",
       "image_url": "6076016-1.png",
-      "rating": 5,
+      "rating": null,
       "ibu": 14,
       "beer_style": "Lager"
     },
@@ -120,7 +120,7 @@
       "standard_drinks_clean": 1.1,
       "vessel": "can",
       "image_url": "309808-1.png",
-      "rating": 3.8,
+      "rating": null,
       "ibu": 10,
       "beer_style": "Lager"
     },
@@ -688,7 +688,7 @@
       "standard_drinks_clean": 2.1,
       "vessel": "bottle",
       "image_url": "902895-1.png",
-      "rating": null,
+      "rating": 4.9,
       "ibu": 13,
       "beer_style": "Wheat Beer"
     },
@@ -1146,7 +1146,7 @@
   {
     "stockcode": "248448",
     "properties": {
-      "name": "Belhaven Scottish   Ale 500ml",
+      "name": "Belhaven Scottish Ale 500mLx12",
       "name_clean": "Belhaven Scottish Ale",
       "brand": "Belhaven",
       "size_ml": 500,
@@ -1156,7 +1156,7 @@
       "standard_drinks_clean": 2.1,
       "vessel": null,
       "image_url": "248448-1.PNG",
-      "rating": 4.5,
+      "rating": null,
       "ibu": 28,
       "beer_style": "Ale"
     },
@@ -1467,7 +1467,7 @@
       "standard_drinks_clean": 1.2,
       "vessel": "bottle",
       "image_url": "232656-1.png",
-      "rating": null,
+      "rating": 3.5,
       "ibu": 12,
       "beer_style": "Lager"
     },
@@ -1519,7 +1519,7 @@
       "standard_drinks_clean": 1.2,
       "vessel": "can",
       "image_url": "190066-1.png",
-      "rating": null,
+      "rating": 4,
       "ibu": 25,
       "beer_style": "Pilsner"
     },
@@ -1563,7 +1563,7 @@
       "standard_drinks_clean": 1.24,
       "vessel": "can",
       "image_url": "250220-1.png",
-      "rating": 4,
+      "rating": null,
       "ibu": null,
       "beer_style": "Ale"
     },
@@ -2289,12 +2289,12 @@
         "alcohol_tax_percent": 9
       },
       "case_special": {
-        "total_price": 42,
+        "total_price": 40,
         "units": 24,
-        "unit_price": 1.75,
-        "cost_per_standard": 2.92,
+        "unit_price": 1.67,
+        "cost_per_standard": 2.78,
         "alcohol_tax_cost": 0.3,
-        "alcohol_tax_percent": 10
+        "alcohol_tax_percent": 11
       },
       "pack": {
         "total_price": 16.99,
@@ -2823,7 +2823,7 @@
       "standard_drinks_clean": 1,
       "vessel": "can",
       "image_url": "335912-1.png",
-      "rating": 4.8,
+      "rating": null,
       "ibu": null,
       "beer_style": "Ginger Beer"
     },
@@ -3215,7 +3215,7 @@
       "standard_drinks_clean": 1.2,
       "vessel": "can",
       "image_url": "319531-1.png",
-      "rating": 3,
+      "rating": null,
       "ibu": 7,
       "beer_style": "Ale"
     },
@@ -3895,7 +3895,7 @@
       "standard_drinks_clean": 1.5,
       "vessel": "can",
       "image_url": "233839-1.png",
-      "rating": null,
+      "rating": 3.8,
       "ibu": 11,
       "beer_style": "Pale Ale"
     },
@@ -4523,7 +4523,7 @@
       "standard_drinks_clean": 1.3,
       "vessel": "can",
       "image_url": "273939-1.png",
-      "rating": 4.5,
+      "rating": null,
       "ibu": 20,
       "beer_style": "Ale"
     },
@@ -5267,7 +5267,7 @@
       "standard_drinks_clean": 1.3,
       "vessel": "can",
       "image_url": "910067-1.png",
-      "rating": 3.3,
+      "rating": 3.4,
       "ibu": null,
       "beer_style": "Lager"
     },
@@ -5319,7 +5319,7 @@
       "standard_drinks_clean": 1.5,
       "vessel": "can",
       "image_url": "299034-1.png",
-      "rating": 3.4,
+      "rating": null,
       "ibu": 14,
       "beer_style": "XPA"
     },
@@ -5927,7 +5927,7 @@
       "standard_drinks_clean": 1.2,
       "vessel": "can",
       "image_url": "309539-1.png",
-      "rating": 4.3,
+      "rating": null,
       "ibu": 15,
       "beer_style": null
     },
@@ -6215,7 +6215,7 @@
       "standard_drinks_clean": 1.5,
       "vessel": "can",
       "image_url": "250203-1.png",
-      "rating": 4.6,
+      "rating": null,
       "ibu": 15,
       "beer_style": "Pale Ale"
     },
@@ -6237,12 +6237,12 @@
         "alcohol_tax_percent": 15
       },
       "pack_special": {
-        "total_price": 34.95,
+        "total_price": 19.95,
         "units": 4,
-        "unit_price": 8.74,
-        "cost_per_standard": 5.83,
+        "unit_price": 4.99,
+        "cost_per_standard": 3.33,
         "alcohol_tax_cost": 0.59,
-        "alcohol_tax_percent": 10
+        "alcohol_tax_percent": 18
       },
       "single": {
         "total_price": 5.99,
@@ -6281,12 +6281,12 @@
         "alcohol_tax_percent": 30
       },
       "case_special": {
-        "total_price": 58,
+        "total_price": 62.01,
         "units": 24,
-        "unit_price": 2.42,
-        "cost_per_standard": 1.86,
+        "unit_price": 2.58,
+        "cost_per_standard": 1.98,
         "alcohol_tax_cost": 0.6,
-        "alcohol_tax_percent": 32
+        "alcohol_tax_percent": 30
       },
       "pack": {
         "total_price": 23.49,
@@ -6863,7 +6863,7 @@
       "standard_drinks_clean": 1.2,
       "vessel": "can",
       "image_url": "322705-1.png",
-      "rating": 4.5,
+      "rating": null,
       "ibu": 19,
       "beer_style": "Lager"
     },
@@ -8075,7 +8075,7 @@
       "standard_drinks_clean": 2,
       "vessel": "can",
       "image_url": "228924-1.png",
-      "rating": null,
+      "rating": 4.7,
       "ibu": 19,
       "beer_style": "Lager"
     },
@@ -8607,7 +8607,7 @@
       "standard_drinks_clean": 1.6,
       "vessel": "can",
       "image_url": "309590-1.png",
-      "rating": 4.2,
+      "rating": null,
       "ibu": 1,
       "beer_style": "Ginger Beer"
     },
@@ -9159,7 +9159,7 @@
       "standard_drinks_clean": 1.6,
       "vessel": "can",
       "image_url": "287005-1.png",
-      "rating": 4.7,
+      "rating": null,
       "ibu": null,
       "beer_style": "Ginger Beer"
     },
@@ -9563,7 +9563,7 @@
       "standard_drinks_clean": 0.9,
       "vessel": "bottle",
       "image_url": "322455-1.png",
-      "rating": 3.8,
+      "rating": null,
       "ibu": 15,
       "beer_style": "Lager"
     },
@@ -9973,12 +9973,12 @@
         "alcohol_tax_percent": 18
       },
       "pack_special": {
-        "total_price": 19.5,
+        "total_price": 18.5,
         "units": 6,
-        "unit_price": 3.25,
-        "cost_per_standard": 2.95,
+        "unit_price": 3.08,
+        "cost_per_standard": 2.8,
         "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 19
+        "alcohol_tax_percent": 20
       },
       "single": {
         "total_price": 6.99,
@@ -10281,7 +10281,7 @@
   {
     "stockcode": "338063",
     "properties": {
-      "name": "Hahn Super Dry Lager Cans 6x375mL",
+      "name": "Hahn Super Dry Lager Cans 6x4x375mL",
       "name_clean": "Hahn Super Dry Lager",
       "brand": "Hahn",
       "size_ml": 375,
@@ -10291,7 +10291,7 @@
       "standard_drinks_clean": 1.4,
       "vessel": "can",
       "image_url": "338063-1.png",
-      "rating": 4.7,
+      "rating": null,
       "ibu": 14.7,
       "beer_style": "Lager"
     },
@@ -11343,7 +11343,7 @@
       "standard_drinks_clean": 1.05,
       "vessel": "bottle",
       "image_url": "334651-1.png",
-      "rating": 4.6,
+      "rating": null,
       "ibu": 8,
       "beer_style": "Lager"
     },
@@ -11431,7 +11431,7 @@
       "standard_drinks_clean": 1.1,
       "vessel": "bottle",
       "image_url": "365986-1.png",
-      "rating": 4.4,
+      "rating": null,
       "ibu": 11,
       "beer_style": "Lager"
     },
@@ -11827,7 +11827,7 @@
       "standard_drinks_clean": 1,
       "vessel": "bottle",
       "image_url": "365434-1.png",
-      "rating": 4.4,
+      "rating": null,
       "ibu": 6,
       "beer_style": "Flavoured Beer"
     },
@@ -12091,7 +12091,7 @@
       "standard_drinks_clean": 1,
       "vessel": "can",
       "image_url": "24405-1.png",
-      "rating": 4.6,
+      "rating": null,
       "ibu": 18,
       "beer_style": "Lager"
     },
@@ -12591,7 +12591,7 @@
       "standard_drinks_clean": 1.2,
       "vessel": null,
       "image_url": "365420-1.png",
-      "rating": 4.4,
+      "rating": null,
       "ibu": 7,
       "beer_style": "Lager"
     },
@@ -12851,7 +12851,7 @@
       "standard_drinks_clean": 1.3,
       "vessel": "bottle",
       "image_url": "225756-1.png",
-      "rating": null,
+      "rating": 2.6,
       "ibu": 23,
       "beer_style": "Lager"
     },
@@ -12943,50 +12943,6 @@
     }
   },
   {
-    "stockcode": "117012",
-    "properties": {
-      "name": "James Boag's Draught Bottles 375mLx6",
-      "name_clean": "James Boag's Draught Bottles 375mLx6",
-      "brand": "James Boag's",
-      "size_ml": 375,
-      "size_clean": 375,
-      "percentage_raw": 4.6,
-      "standard_drinks_raw": 1.4,
-      "standard_drinks_clean": 1.4,
-      "vessel": "bottle",
-      "image_url": "117012-1.png",
-      "rating": 4.6,
-      "ibu": 22.1,
-      "beer_style": "Lager"
-    },
-    "pricing": {
-      "case": {
-        "total_price": 58.99,
-        "units": 24,
-        "unit_price": 2.46,
-        "cost_per_standard": 1.76,
-        "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 32
-      },
-      "pack": {
-        "total_price": 20.99,
-        "units": 6,
-        "unit_price": 3.5,
-        "cost_per_standard": 2.5,
-        "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 23
-      },
-      "single": {
-        "total_price": 5.49,
-        "units": 1,
-        "unit_price": 5.49,
-        "cost_per_standard": 3.92,
-        "alcohol_tax_cost": 0.57,
-        "alcohol_tax_percent": 15
-      }
-    }
-  },
-  {
     "stockcode": "117797",
     "properties": {
       "name": "Capital Brewing Co. XPA Cans 375mLx4",
@@ -13035,6 +12991,50 @@
         "cost_per_standard": 3.66,
         "alcohol_tax_cost": 0.59,
         "alcohol_tax_percent": 16
+      }
+    }
+  },
+  {
+    "stockcode": "117012",
+    "properties": {
+      "name": "James Boag's Draught Bottles 375mLx6",
+      "name_clean": "James Boag's Draught Bottles 375mLx6",
+      "brand": "James Boag's",
+      "size_ml": 375,
+      "size_clean": 375,
+      "percentage_raw": 4.6,
+      "standard_drinks_raw": 1.4,
+      "standard_drinks_clean": 1.4,
+      "vessel": "bottle",
+      "image_url": "117012-1.png",
+      "rating": 4.6,
+      "ibu": 22.1,
+      "beer_style": "Lager"
+    },
+    "pricing": {
+      "case": {
+        "total_price": 58.99,
+        "units": 24,
+        "unit_price": 2.46,
+        "cost_per_standard": 1.76,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 32
+      },
+      "pack": {
+        "total_price": 20.99,
+        "units": 6,
+        "unit_price": 3.5,
+        "cost_per_standard": 2.5,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 23
+      },
+      "single": {
+        "total_price": 5.49,
+        "units": 1,
+        "unit_price": 5.49,
+        "cost_per_standard": 3.92,
+        "alcohol_tax_cost": 0.57,
+        "alcohol_tax_percent": 15
       }
     }
   },
@@ -13345,12 +13345,12 @@
         "alcohol_tax_percent": 17
       },
       "pack_special": {
-        "total_price": 19,
+        "total_price": 21,
         "units": 6,
-        "unit_price": 3.17,
-        "cost_per_standard": 2.88,
+        "unit_price": 3.5,
+        "cost_per_standard": 3.18,
         "alcohol_tax_cost": 0.56,
-        "alcohol_tax_percent": 19
+        "alcohol_tax_percent": 18
       },
       "single": {
         "total_price": 4.99,
@@ -14053,12 +14053,12 @@
         "alcohol_tax_percent": 18
       },
       "pack_special": {
-        "total_price": 19,
+        "total_price": 21,
         "units": 6,
-        "unit_price": 3.17,
-        "cost_per_standard": 2.64,
+        "unit_price": 3.5,
+        "cost_per_standard": 2.92,
         "alcohol_tax_cost": 0.55,
-        "alcohol_tax_percent": 21
+        "alcohol_tax_percent": 19
       },
       "single": {
         "total_price": 4.99,
@@ -14383,7 +14383,7 @@
       "standard_drinks_clean": 1.2,
       "vessel": null,
       "image_url": "360581-1.png",
-      "rating": 4.1,
+      "rating": null,
       "ibu": 25,
       "beer_style": "Pale Ale"
     },
@@ -14463,7 +14463,7 @@
       "standard_drinks_clean": 1.1,
       "vessel": "bottle",
       "image_url": "310996-1.png",
-      "rating": 4.3,
+      "rating": null,
       "ibu": null,
       "beer_style": "Lager"
     },
@@ -14891,7 +14891,7 @@
       "standard_drinks_clean": 1.3,
       "vessel": "bottle",
       "image_url": "357480-1.png",
-      "rating": 4.1,
+      "rating": null,
       "ibu": 18,
       "beer_style": "Lager"
     },
@@ -15887,7 +15887,7 @@
       "standard_drinks_clean": 1.9,
       "vessel": "bottle",
       "image_url": "25600-1.png",
-      "rating": 4.6,
+      "rating": null,
       "ibu": 40,
       "beer_style": "Stout"
     },
@@ -16087,7 +16087,7 @@
       "standard_drinks_clean": 3.7,
       "vessel": "longneck",
       "image_url": "25500-1.png",
-      "rating": 4.9,
+      "rating": null,
       "ibu": 40,
       "beer_style": "Stout"
     },
@@ -16211,7 +16211,7 @@
       "standard_drinks_clean": 1.9,
       "vessel": null,
       "image_url": "23100-1.png",
-      "rating": null,
+      "rating": 4.8,
       "ibu": 37,
       "beer_style": "Lager"
     },
@@ -16595,7 +16595,7 @@
       "standard_drinks_clean": 1.8,
       "vessel": "bottle",
       "image_url": "19559-1.png",
-      "rating": null,
+      "rating": 3.8,
       "ibu": 47,
       "beer_style": "Stout"
     },
@@ -16639,7 +16639,7 @@
       "standard_drinks_clean": 1.3,
       "vessel": "can",
       "image_url": "18495-1.png",
-      "rating": null,
+      "rating": 3.9,
       "ibu": 28,
       "beer_style": "Pale Ale"
     },
@@ -16727,7 +16727,7 @@
       "standard_drinks_clean": 1.3,
       "vessel": null,
       "image_url": "333573-1.png",
-      "rating": 4.6,
+      "rating": null,
       "ibu": 27,
       "beer_style": "Dark Beer"
     },
@@ -16815,7 +16815,7 @@
       "standard_drinks_clean": 1.9,
       "vessel": null,
       "image_url": "1517-1.png",
-      "rating": null,
+      "rating": 4.5,
       "ibu": 14,
       "beer_style": "Wheat Beer"
     },
@@ -16859,7 +16859,7 @@
       "standard_drinks_clean": 1.3,
       "vessel": null,
       "image_url": "347116-1.png",
-      "rating": 4.6,
+      "rating": null,
       "ibu": 28,
       "beer_style": "Ale"
     },
@@ -16903,7 +16903,7 @@
       "standard_drinks_clean": 1.1,
       "vessel": "bottle",
       "image_url": "363586-1.png",
-      "rating": 4.3,
+      "rating": null,
       "ibu": 30,
       "beer_style": "Ale"
     },
@@ -17711,6 +17711,14 @@
         "cost_per_standard": 3.7,
         "alcohol_tax_cost": 0.66,
         "alcohol_tax_percent": 18
+      },
+      "pack_special": {
+        "total_price": 31,
+        "units": 4,
+        "unit_price": 7.75,
+        "cost_per_standard": 3.37,
+        "alcohol_tax_cost": 0.66,
+        "alcohol_tax_percent": 20
       },
       "single": {
         "total_price": 9.99,
