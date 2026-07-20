@@ -1836,12 +1836,12 @@
     "special": true,
     "package": "pack",
     "package_size": 6,
-    "total_price": 21,
-    "unit_price": 3.5,
-    "cost_per_standard": 2.92,
+    "total_price": 19,
+    "unit_price": 3.17,
+    "cost_per_standard": 2.64,
     "vessel": "can",
     "alcohol_tax_cost": 0.56,
-    "alcohol_tax_percent": 19
+    "alcohol_tax_percent": 21
   },
   {
     "name": "Better Beer Zero Carb Lager Can 6x355mL",
@@ -9297,9 +9297,9 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 91.9,
-    "unit_price": 3.83,
-    "cost_per_standard": 3.83,
+    "total_price": 93,
+    "unit_price": 3.88,
+    "cost_per_standard": 3.88,
     "vessel": "can",
     "alcohol_tax_cost": 0.55,
     "alcohol_tax_percent": 14
@@ -11943,12 +11943,12 @@
     "special": true,
     "package": "case",
     "package_size": 24,
-    "total_price": 60.9,
-    "unit_price": 2.54,
-    "cost_per_standard": 1.95,
+    "total_price": 62.01,
+    "unit_price": 2.58,
+    "cost_per_standard": 1.98,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.6,
-    "alcohol_tax_percent": 31
+    "alcohol_tax_percent": 30
   },
   {
     "name": "Budweiser Bottles 330mLx6",
@@ -20949,12 +20949,12 @@
     "special": true,
     "package": "pack",
     "package_size": 6,
-    "total_price": 18.5,
-    "unit_price": 3.08,
-    "cost_per_standard": 2.8,
+    "total_price": 19.5,
+    "unit_price": 3.25,
+    "cost_per_standard": 2.95,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.56,
-    "alcohol_tax_percent": 20
+    "alcohol_tax_percent": 19
   },
   {
     "name": "Sol Cerveza Original Bottles 330mLx6",
@@ -23305,40 +23305,6 @@
     "vessel": "can",
     "alcohol_tax_cost": 0.59,
     "alcohol_tax_percent": 2
-  },
-  {
-    "name": "Cass Fresh Lger Beer 330mL",
-    "name_clean": "Cass Fresh Lger Beer",
-    "stockcode": "ER_1000004773_CAC-B-01",
-    "percentage": 4.5,
-    "size": 330,
-    "standard_drinks": 1.2,
-    "special": false,
-    "package": "single",
-    "package_size": 1,
-    "total_price": 3.12,
-    "unit_price": 3.12,
-    "cost_per_standard": 2.6,
-    "online_only": true,
-    "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 22
-  },
-  {
-    "name": "Cass Fresh Lger Beer 330mL",
-    "name_clean": "Cass Fresh Lger Beer",
-    "stockcode": "ER_1000004773_CAC-B-01",
-    "percentage": 4.5,
-    "size": 330,
-    "standard_drinks": 1.2,
-    "special": false,
-    "package": "case",
-    "package_size": 24,
-    "total_price": 75,
-    "unit_price": 3.13,
-    "cost_per_standard": 2.61,
-    "online_only": true,
-    "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 22
   },
   {
     "name": "Coedo Jpa",
@@ -28244,6 +28210,40 @@
     "alcohol_tax_percent": 25
   },
   {
+    "name": "Seasonal Stout 375mL",
+    "name_clean": "Seasonal Stout",
+    "stockcode": "ER_2000004005_STOUT",
+    "percentage": 8,
+    "size": 375,
+    "standard_drinks": 2.4,
+    "special": false,
+    "package": "single",
+    "package_size": 1,
+    "total_price": 8,
+    "unit_price": 8,
+    "cost_per_standard": 3.33,
+    "online_only": true,
+    "alcohol_tax_cost": 0.67,
+    "alcohol_tax_percent": 20
+  },
+  {
+    "name": "Seasonal Stout 375mL",
+    "name_clean": "Seasonal Stout",
+    "stockcode": "ER_2000004005_STOUT",
+    "percentage": 8,
+    "size": 375,
+    "standard_drinks": 2.4,
+    "special": false,
+    "package": "case",
+    "package_size": 24,
+    "total_price": 125,
+    "unit_price": 5.21,
+    "cost_per_standard": 2.17,
+    "online_only": true,
+    "alcohol_tax_cost": 0.67,
+    "alcohol_tax_percent": 31
+  },
+  {
     "name": "Harcourt Valley Brew Ginger Kid Ginger Beer 330mL",
     "name_clean": "Harcourt Valley Brew Ginger Kid Ginger Beer",
     "stockcode": "ER_2000004013_0616639027778",
@@ -28566,13 +28566,13 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 89.99,
-    "unit_price": 3.75,
-    "cost_per_standard": 2.21,
+    "total_price": 94.99,
+    "unit_price": 3.96,
+    "cost_per_standard": 2.33,
     "online_only": true,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.64,
-    "alcohol_tax_percent": 29
+    "alcohol_tax_percent": 27
   },
   {
     "name": "Hawkers Beer Pale Ale Can 375ml",
