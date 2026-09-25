@@ -329,32 +329,15 @@
     "percentage": 4.4,
     "size": 375,
     "standard_drinks": 1.3,
-    "special": true,
-    "package": "case",
-    "package_size": 24,
-    "total_price": 63,
-    "unit_price": 2.63,
-    "cost_per_standard": 2.02,
-    "vessel": "can",
-    "alcohol_tax_cost": 0.57,
-    "alcohol_tax_percent": 28
-  },
-  {
-    "name": "Reschs Pilsener Cans 6x375mL",
-    "name_clean": "Reschs Pilsener",
-    "stockcode": "117609",
-    "percentage": 4.4,
-    "size": 375,
-    "standard_drinks": 1.3,
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 73.99,
-    "unit_price": 3.08,
-    "cost_per_standard": 2.37,
+    "total_price": 54.95,
+    "unit_price": 2.29,
+    "cost_per_standard": 1.76,
     "vessel": "can",
     "alcohol_tax_cost": 0.57,
-    "alcohol_tax_percent": 24
+    "alcohol_tax_percent": 32
   },
   {
     "name": "Capital Brewing Co. XPA Cans 375mLx4",
@@ -692,57 +675,6 @@
     "vessel": "can",
     "alcohol_tax_cost": 0.58,
     "alcohol_tax_percent": 31
-  },
-  {
-    "name": "Bridge Road Brewers Eggster Triple Chocolate Ale Cans 355mLx4",
-    "name_clean": "Bridge Road Brewers Eggster Triple Chocolate Ale Cans 355mLx4",
-    "stockcode": "137921",
-    "percentage": 6,
-    "size": 355,
-    "standard_drinks": 1.7,
-    "special": false,
-    "package": "single",
-    "package_size": 1,
-    "total_price": 8.49,
-    "unit_price": 8.49,
-    "cost_per_standard": 4.99,
-    "vessel": "can",
-    "alcohol_tax_cost": 0.63,
-    "alcohol_tax_percent": 13
-  },
-  {
-    "name": "Bridge Road Brewers Eggster Triple Chocolate Ale Cans 355mLx4",
-    "name_clean": "Bridge Road Brewers Eggster Triple Chocolate Ale Cans 355mLx4",
-    "stockcode": "137921",
-    "percentage": 6,
-    "size": 355,
-    "standard_drinks": 1.7,
-    "special": false,
-    "package": "pack",
-    "package_size": 4,
-    "total_price": 27.99,
-    "unit_price": 7,
-    "cost_per_standard": 4.12,
-    "vessel": "can",
-    "alcohol_tax_cost": 0.63,
-    "alcohol_tax_percent": 15
-  },
-  {
-    "name": "Bridge Road Brewers Eggster Triple Chocolate Ale Cans 355mLx4",
-    "name_clean": "Bridge Road Brewers Eggster Triple Chocolate Ale Cans 355mLx4",
-    "stockcode": "137921",
-    "percentage": 6,
-    "size": 355,
-    "standard_drinks": 1.7,
-    "special": false,
-    "package": "case",
-    "package_size": 24,
-    "total_price": 139.99,
-    "unit_price": 5.83,
-    "cost_per_standard": 3.43,
-    "vessel": "can",
-    "alcohol_tax_cost": 0.63,
-    "alcohol_tax_percent": 18
   },
   {
     "name": "Zytho Brewing Velvet Luxe Stout Cans 375mLx4",
@@ -3526,12 +3458,12 @@
     "special": false,
     "package": "single",
     "package_size": 1,
-    "total_price": 2.3,
-    "unit_price": 2.3,
-    "cost_per_standard": 1.64,
+    "total_price": 4.59,
+    "unit_price": 4.59,
+    "cost_per_standard": 3.28,
     "vessel": "can",
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 35
+    "alcohol_tax_percent": 18
   },
   {
     "name": "OBrien Lager Can 6x375mL",
@@ -3543,12 +3475,12 @@
     "special": false,
     "package": "pack",
     "package_size": 6,
-    "total_price": 16.8,
-    "unit_price": 2.8,
-    "cost_per_standard": 2,
+    "total_price": 24.49,
+    "unit_price": 4.08,
+    "cost_per_standard": 2.91,
     "vessel": "can",
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 29
+    "alcohol_tax_percent": 20
   },
   {
     "name": "OBrien Lager Can 6x375mL",
@@ -3560,12 +3492,12 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 55.5,
-    "unit_price": 2.31,
-    "cost_per_standard": 1.65,
+    "total_price": 73.99,
+    "unit_price": 3.08,
+    "cost_per_standard": 2.2,
     "vessel": "can",
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 35
+    "alcohol_tax_percent": 26
   },
   {
     "name": "OBrien Pale Ale Can 6x375mL",
@@ -4710,12 +4642,12 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 60.99,
-    "unit_price": 2.54,
-    "cost_per_standard": 2.31,
+    "total_price": 57.95,
+    "unit_price": 2.41,
+    "cost_per_standard": 2.19,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.56,
-    "alcohol_tax_percent": 24
+    "alcohol_tax_percent": 26
   },
   {
     "name": "Stone & Wood Hinterland Hazy Pale Can 4x4x375mL",
@@ -5608,12 +5540,12 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 62.95,
-    "unit_price": 2.62,
-    "cost_per_standard": 2.38,
+    "total_price": 59.95,
+    "unit_price": 2.5,
+    "cost_per_standard": 2.27,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 23
+    "alcohol_tax_percent": 24
   },
   {
     "name": "Carlton Dry Mid 3.5% Cans 375mLx30",
@@ -6370,12 +6302,12 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 59.99,
-    "unit_price": 2.5,
-    "cost_per_standard": 2.38,
+    "total_price": 57.85,
+    "unit_price": 2.41,
+    "cost_per_standard": 2.3,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 23
+    "alcohol_tax_percent": 24
   },
   {
     "name": "Hahn Super Dry Lager Cans 6x375mL",
@@ -7071,9 +7003,9 @@
     "special": false,
     "package": "pack",
     "package_size": 6,
-    "total_price": 22.45,
-    "unit_price": 3.74,
-    "cost_per_standard": 2.49,
+    "total_price": 21.95,
+    "unit_price": 3.66,
+    "cost_per_standard": 2.44,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.59,
     "alcohol_tax_percent": 24
@@ -8684,12 +8616,12 @@
     "special": false,
     "package": "pack",
     "package_size": 4,
-    "total_price": 24.99,
-    "unit_price": 6.25,
-    "cost_per_standard": 4.17,
+    "total_price": 21.95,
+    "unit_price": 5.49,
+    "cost_per_standard": 3.66,
     "vessel": "can",
     "alcohol_tax_cost": 0.6,
-    "alcohol_tax_percent": 14
+    "alcohol_tax_percent": 16
   },
   {
     "name": "Balter XPA Cans 375mLx4",
@@ -12435,9 +12367,9 @@
     "special": false,
     "package": "case",
     "package_size": 30,
-    "total_price": 59.95,
-    "unit_price": 2,
-    "cost_per_standard": 1.54,
+    "total_price": 58.95,
+    "unit_price": 1.97,
+    "cost_per_standard": 1.52,
     "vessel": "can",
     "alcohol_tax_cost": 0.57,
     "alcohol_tax_percent": 37
@@ -15077,7 +15009,7 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 61.99,
+    "total_price": 61.95,
     "unit_price": 2.58,
     "cost_per_standard": 1.84,
     "vessel": "bottle",
@@ -16597,9 +16529,9 @@
     "special": false,
     "package": "pack",
     "package_size": 6,
-    "total_price": 30.49,
-    "unit_price": 5.08,
-    "cost_per_standard": 2.54,
+    "total_price": 29.95,
+    "unit_price": 4.99,
+    "cost_per_standard": 2.5,
     "vessel": "can",
     "alcohol_tax_cost": 0.6,
     "alcohol_tax_percent": 24
@@ -18751,12 +18683,12 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 58.99,
-    "unit_price": 2.46,
-    "cost_per_standard": 2.46,
+    "total_price": 57.95,
+    "unit_price": 2.41,
+    "cost_per_standard": 2.41,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.52,
-    "alcohol_tax_percent": 21
+    "alcohol_tax_percent": 22
   },
   {
     "name": "Coopers Mild Ale 3.5% Cans 375mLx6",
@@ -19173,9 +19105,9 @@
     "special": false,
     "package": "single",
     "package_size": 1,
-    "total_price": 10.49,
-    "unit_price": 10.49,
-    "cost_per_standard": 5,
+    "total_price": 10.99,
+    "unit_price": 10.99,
+    "cost_per_standard": 5.23,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.61,
     "alcohol_tax_percent": 12
@@ -19190,12 +19122,12 @@
     "special": false,
     "package": "case",
     "package_size": 12,
-    "total_price": 81.99,
-    "unit_price": 6.83,
-    "cost_per_standard": 3.25,
+    "total_price": 82.99,
+    "unit_price": 6.92,
+    "cost_per_standard": 3.3,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.61,
-    "alcohol_tax_percent": 19
+    "alcohol_tax_percent": 18
   },
   {
     "name": "Wakachangi Premium Lager Cans 330mLx6",
@@ -19564,12 +19496,12 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 93.99,
-    "unit_price": 3.92,
-    "cost_per_standard": 2.45,
+    "total_price": 89.95,
+    "unit_price": 3.75,
+    "cost_per_standard": 2.34,
     "vessel": "can",
     "alcohol_tax_cost": 0.56,
-    "alcohol_tax_percent": 23
+    "alcohol_tax_percent": 24
   },
   {
     "name": "Wrexham Lager 4.0 Bottles 6x330mL",
@@ -20712,12 +20644,12 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 94.99,
-    "unit_price": 3.96,
-    "cost_per_standard": 3.96,
+    "total_price": 89.95,
+    "unit_price": 3.75,
+    "cost_per_standard": 3.75,
     "vessel": "can",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 14
+    "alcohol_tax_percent": 15
   },
   {
     "name": "Asahi Super Dry Bottles 330mLx6",
