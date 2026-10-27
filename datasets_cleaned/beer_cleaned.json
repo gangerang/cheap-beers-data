@@ -1716,12 +1716,12 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 68.99,
-    "unit_price": 2.87,
-    "cost_per_standard": 2.39,
+    "total_price": 64.95,
+    "unit_price": 2.71,
+    "cost_per_standard": 2.26,
     "vessel": "can",
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 24
+    "alcohol_tax_percent": 26
   },
   {
     "name": "Two Bays Brewing Co. Gluten Free Pale Ale Cans 4x4x375mL",
@@ -5415,12 +5415,12 @@
     "special": false,
     "package": "case",
     "package_size": 30,
-    "total_price": 59.95,
-    "unit_price": 2,
-    "cost_per_standard": 2,
+    "total_price": 62.99,
+    "unit_price": 2.1,
+    "cost_per_standard": 2.1,
     "vessel": "can",
     "alcohol_tax_cost": 0.52,
-    "alcohol_tax_percent": 26
+    "alcohol_tax_percent": 25
   },
   {
     "name": "James Squire Low Carb Pale Ale Bottles 6x330mL",
@@ -12041,12 +12041,12 @@
     "special": false,
     "package": "case",
     "package_size": 30,
-    "total_price": 61.95,
-    "unit_price": 2.07,
-    "cost_per_standard": 2.07,
+    "total_price": 58.95,
+    "unit_price": 1.97,
+    "cost_per_standard": 1.97,
     "vessel": "can",
     "alcohol_tax_cost": 0.52,
-    "alcohol_tax_percent": 25
+    "alcohol_tax_percent": 26
   },
   {
     "name": "Tooheys New Lager Cans 375mLx8",
@@ -12415,12 +12415,12 @@
     "special": false,
     "package": "case",
     "package_size": 30,
-    "total_price": 59.95,
-    "unit_price": 2,
-    "cost_per_standard": 2,
+    "total_price": 62.95,
+    "unit_price": 2.1,
+    "cost_per_standard": 2.1,
     "vessel": "can",
     "alcohol_tax_cost": 0.52,
-    "alcohol_tax_percent": 26
+    "alcohol_tax_percent": 25
   },
   {
     "name": "Mountain Culture x Balter Hazy Pale Cans 355mLx4",
@@ -13449,15 +13449,32 @@
     "percentage": 5,
     "size": 375,
     "standard_drinks": 1.5,
+    "special": true,
+    "package": "case",
+    "package_size": 16,
+    "total_price": 49,
+    "unit_price": 3.06,
+    "cost_per_standard": 2.04,
+    "vessel": "can",
+    "alcohol_tax_cost": 0.6,
+    "alcohol_tax_percent": 29
+  },
+  {
+    "name": "Kirin Ichiban Can 375mLx4",
+    "name_clean": "Kirin Ichiban Can 375mLx4",
+    "stockcode": "6079730",
+    "percentage": 5,
+    "size": 375,
+    "standard_drinks": 1.5,
     "special": false,
     "package": "case",
     "package_size": 16,
-    "total_price": 45.95,
-    "unit_price": 2.87,
-    "cost_per_standard": 1.91,
+    "total_price": 49.95,
+    "unit_price": 3.12,
+    "cost_per_standard": 2.08,
     "vessel": "can",
     "alcohol_tax_cost": 0.6,
-    "alcohol_tax_percent": 31
+    "alcohol_tax_percent": 29
   },
   {
     "name": "Better Beer Zero Carb Can 440mLx4",
@@ -18638,12 +18655,12 @@
     "special": false,
     "package": "pack",
     "package_size": 6,
-    "total_price": 16.95,
-    "unit_price": 2.83,
-    "cost_per_standard": 2.83,
+    "total_price": 17.99,
+    "unit_price": 3,
+    "cost_per_standard": 3,
     "vessel": "can",
     "alcohol_tax_cost": 0.52,
-    "alcohol_tax_percent": 18
+    "alcohol_tax_percent": 17
   },
   {
     "name": "Coopers Mild Ale 3.5% Cans 375mLx6",
@@ -19956,9 +19973,9 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 57.95,
-    "unit_price": 2.41,
-    "cost_per_standard": 2.01,
+    "total_price": 56.95,
+    "unit_price": 2.37,
+    "cost_per_standard": 1.98,
     "vessel": "can",
     "alcohol_tax_cost": 0.56,
     "alcohol_tax_percent": 28
