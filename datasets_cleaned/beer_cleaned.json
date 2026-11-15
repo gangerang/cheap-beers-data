@@ -2663,12 +2663,12 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 56.95,
-    "unit_price": 2.37,
-    "cost_per_standard": 1.82,
+    "total_price": 55.95,
+    "unit_price": 2.33,
+    "cost_per_standard": 1.79,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.6,
-    "alcohol_tax_percent": 33
+    "alcohol_tax_percent": 34
   },
   {
     "name": "Nam Nam Alley Lager Can 500mLx4",
@@ -2901,12 +2901,12 @@
     "special": false,
     "package": "pack",
     "package_size": 6,
-    "total_price": 27.95,
-    "unit_price": 4.66,
-    "cost_per_standard": 4.66,
+    "total_price": 32.99,
+    "unit_price": 5.5,
+    "cost_per_standard": 5.5,
     "vessel": "can",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 12
+    "alcohol_tax_percent": 10
   },
   {
     "name": "Brookvale Union Ginger Beer Low Sugar Cans 6x330mL",
@@ -5483,12 +5483,12 @@
     "special": false,
     "package": "case",
     "package_size": 30,
-    "total_price": 68.99,
-    "unit_price": 2.3,
-    "cost_per_standard": 1.64,
+    "total_price": 67.95,
+    "unit_price": 2.27,
+    "cost_per_standard": 1.62,
     "vessel": "can",
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 35
+    "alcohol_tax_percent": 36
   },
   {
     "name": "4 Pines Dark Lager Can 6x4x375mL",
@@ -6188,9 +6188,9 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 81.99,
-    "unit_price": 3.42,
-    "cost_per_standard": 3.11,
+    "total_price": 81.95,
+    "unit_price": 3.41,
+    "cost_per_standard": 3.1,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.57,
     "alcohol_tax_percent": 18
@@ -7940,12 +7940,12 @@
     "special": false,
     "package": "pack",
     "package_size": 6,
-    "total_price": 27.95,
-    "unit_price": 4.66,
-    "cost_per_standard": 4.66,
+    "total_price": 32.99,
+    "unit_price": 5.5,
+    "cost_per_standard": 5.5,
     "vessel": "can",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 12
+    "alcohol_tax_percent": 10
   },
   {
     "name": "Brookvale Union Ginger Beer Cans 330mLx6",
@@ -7974,12 +7974,12 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 91.95,
-    "unit_price": 3.83,
-    "cost_per_standard": 3.83,
+    "total_price": 97.95,
+    "unit_price": 4.08,
+    "cost_per_standard": 4.08,
     "vessel": "can",
     "alcohol_tax_cost": 0.55,
-    "alcohol_tax_percent": 14
+    "alcohol_tax_percent": 13
   },
   {
     "name": "BentSpoke Brewing Co. Barley Griffin Pale Ale 375mL",
@@ -8359,9 +8359,9 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 72.95,
-    "unit_price": 3.04,
-    "cost_per_standard": 1.79,
+    "total_price": 71.95,
+    "unit_price": 3,
+    "cost_per_standard": 1.76,
     "vessel": "can",
     "alcohol_tax_cost": 0.62,
     "alcohol_tax_percent": 35
@@ -12061,9 +12061,9 @@
     "special": false,
     "package": "case",
     "package_size": 30,
-    "total_price": 65.95,
-    "unit_price": 2.2,
-    "cost_per_standard": 1.52,
+    "total_price": 64.95,
+    "unit_price": 2.17,
+    "cost_per_standard": 1.5,
     "vessel": "can",
     "alcohol_tax_cost": 0.59,
     "alcohol_tax_percent": 39
@@ -13200,12 +13200,12 @@
     "special": false,
     "package": "case",
     "package_size": 16,
-    "total_price": 46.95,
-    "unit_price": 2.93,
-    "cost_per_standard": 1.95,
+    "total_price": 49.99,
+    "unit_price": 3.12,
+    "cost_per_standard": 2.08,
     "vessel": "can",
     "alcohol_tax_cost": 0.6,
-    "alcohol_tax_percent": 31
+    "alcohol_tax_percent": 29
   },
   {
     "name": "Better Beer Zero Carb Can 440mLx4",
@@ -13885,12 +13885,12 @@
     "special": false,
     "package": "case",
     "package_size": 24,
-    "total_price": 55.95,
-    "unit_price": 2.33,
-    "cost_per_standard": 1.66,
+    "total_price": 53.95,
+    "unit_price": 2.25,
+    "cost_per_standard": 1.61,
     "vessel": "bottle",
     "alcohol_tax_cost": 0.58,
-    "alcohol_tax_percent": 35
+    "alcohol_tax_percent": 36
   },
   {
     "name": "Tooheys New Bottle 750mL",
@@ -17573,6 +17573,38 @@
     "vessel": "bottle",
     "alcohol_tax_cost": 0.61,
     "alcohol_tax_percent": 18
+  },
+  {
+    "name": "Fuller's London Pride 500mLx12",
+    "name_clean": "Fuller's London Pride 500mLx12",
+    "stockcode": "903313",
+    "percentage": 4.7,
+    "size": 500,
+    "standard_drinks": 1.9,
+    "special": false,
+    "package": "single",
+    "package_size": 1,
+    "total_price": 9.99,
+    "unit_price": 9.99,
+    "cost_per_standard": 5.26,
+    "alcohol_tax_cost": 0.59,
+    "alcohol_tax_percent": 11
+  },
+  {
+    "name": "Fuller's London Pride 500mLx12",
+    "name_clean": "Fuller's London Pride 500mLx12",
+    "stockcode": "903313",
+    "percentage": 4.7,
+    "size": 500,
+    "standard_drinks": 1.9,
+    "special": false,
+    "package": "case",
+    "package_size": 12,
+    "total_price": 81.99,
+    "unit_price": 6.83,
+    "cost_per_standard": 3.59,
+    "alcohol_tax_cost": 0.59,
+    "alcohol_tax_percent": 16
   },
   {
     "name": "Hurricane Head Zero Sugar Ginger Cans 375mLx6",
